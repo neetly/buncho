@@ -1,7 +1,19 @@
 {
   "name": "@buncho/register",
   "private": true,
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git",
+    "directory": "packages/register"
+  },
+  "license": "MIT",
   "main": "./src/index.js",
+  "scripts": {
+    "build": "run pkg:build register",
+    "clean": "run pkg:clean register",
+    "prepack": "run clean && run build"
+  },
   "dependencies": {
     "@babel/register": "^7.12.1",
     "tsconfig-paths": "^3.9.0"

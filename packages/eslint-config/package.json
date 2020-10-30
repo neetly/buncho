@@ -1,7 +1,19 @@
 {
   "name": "@buncho/eslint-config",
   "private": true,
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git",
+    "directory": "packages/eslint-config"
+  },
+  "license": "MIT",
   "main": "./src/eslintrc.json",
+  "scripts": {
+    "build": "run pkg:build eslint-config",
+    "clean": "run pkg:clean eslint-config",
+    "prepack": "run clean && run build"
+  },
   "peerDependencies": {
     "@babel/eslint-parser": "*",
     "@typescript-eslint/eslint-plugin": "*",

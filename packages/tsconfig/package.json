@@ -1,7 +1,19 @@
 {
   "name": "@buncho/tsconfig",
   "private": true,
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git",
+    "directory": "packages/tsconfig"
+  },
+  "license": "MIT",
   "tsconfig": "./src/tsconfig.json",
+  "scripts": {
+    "build": "run pkg:build tsconfig",
+    "clean": "run pkg:clean tsconfig",
+    "prepack": "run clean && run build"
+  },
   "peerDependencies": {
     "typescript": "*"
   }

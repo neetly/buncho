@@ -1,7 +1,19 @@
 {
   "name": "@buncho/webpack-env",
   "private": true,
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git",
+    "directory": "packages/webpack-env"
+  },
+  "license": "MIT",
   "types": "./src/index.d.ts",
+  "scripts": {
+    "build": "run pkg:build webpack-env",
+    "clean": "run pkg:clean webpack-env",
+    "prepack": "run clean && run build"
+  },
   "peerDependencies": {
     "@types/react": "*",
     "@types/react-dom": "*"

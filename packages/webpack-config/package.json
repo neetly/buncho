@@ -1,9 +1,21 @@
 {
   "name": "@buncho/webpack-config",
   "private": true,
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git",
+    "directory": "packages/webpack-config"
+  },
+  "license": "MIT",
   "exports": {
     "./app": "./lib/app/index.js",
     "./storybook": "./lib/storybook/index.js"
+  },
+  "scripts": {
+    "build": "run pkg:build webpack-config",
+    "clean": "run pkg:clean webpack-config",
+    "prepack": "run clean && run build"
   },
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.2",

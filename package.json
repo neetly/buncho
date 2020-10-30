@@ -4,9 +4,17 @@
   "workspaces": [
     "./packages/*"
   ],
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git"
+  },
+  "license": "MIT",
   "scripts": {
-    "build": "./scripts/build.sh",
-    "clean": "./scripts/clean.sh",
+    "build": "yarn workspaces foreach run build",
+    "clean": "yarn workspaces foreach run clean",
+    "pkg:build": "./scripts/build.sh",
+    "pkg:clean": "./scripts/clean.sh",
     "lint": "eslint --max-warnings 0 . && prettier --check .",
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write .",
     "lint:scripts": "(find ./scripts -type f | xargs shellcheck) && shfmt -d ./scripts",

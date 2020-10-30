@@ -1,7 +1,19 @@
 {
   "name": "@buncho/babel-preset",
   "private": true,
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git",
+    "directory": "packages/babel-preset"
+  },
+  "license": "MIT",
   "main": "./src/index.js",
+  "scripts": {
+    "build": "run pkg:build babel-preset",
+    "clean": "run pkg:clean babel-preset",
+    "prepack": "run clean && run build"
+  },
   "dependencies": {
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
