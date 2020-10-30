@@ -9,6 +9,9 @@
   },
   "license": "MIT",
   "main": "./src/eslintrc.json",
+  "files": [
+    "./src"
+  ],
   "scripts": {
     "build": "run pkg:build eslint-config",
     "clean": "run pkg:clean eslint-config",

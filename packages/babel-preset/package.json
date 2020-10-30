@@ -9,6 +9,9 @@
   },
   "license": "MIT",
   "main": "./src/index.js",
+  "files": [
+    "./src"
+  ],
   "scripts": {
     "build": "run pkg:build babel-preset",
     "clean": "run pkg:clean babel-preset",

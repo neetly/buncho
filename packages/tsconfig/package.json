@@ -9,6 +9,9 @@
   },
   "license": "MIT",
   "tsconfig": "./src/tsconfig.json",
+  "files": [
+    "./src"
+  ],
   "scripts": {
     "build": "run pkg:build tsconfig",
     "clean": "run pkg:clean tsconfig",

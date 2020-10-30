@@ -12,6 +12,9 @@
     "./app": "./lib/app/index.js",
     "./storybook": "./lib/storybook/index.js"
   },
+  "files": [
+    "./lib"
+  ],
   "scripts": {
     "build": "run pkg:build webpack-config",
     "clean": "run pkg:clean webpack-config",

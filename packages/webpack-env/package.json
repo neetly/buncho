@@ -9,6 +9,9 @@
   },
   "license": "MIT",
   "types": "./src/index.d.ts",
+  "files": [
+    "./src"
+  ],
   "scripts": {
     "build": "run pkg:build webpack-env",
     "clean": "run pkg:clean webpack-env",
