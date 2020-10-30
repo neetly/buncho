@@ -15,7 +15,7 @@
   "scripts": {
     "build": "run pkg:build webpack-config",
     "clean": "run pkg:clean webpack-config",
-    "prepack": "run clean && run build"
+    "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.2",

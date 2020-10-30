@@ -17,7 +17,7 @@ gen_enforced_field(WorkspaceCwd, 'scripts.build', FieldValue) :-
 gen_enforced_field(WorkspaceCwd, 'scripts.clean', FieldValue) :-
   package_name(WorkspaceCwd, PackageName),
   atom_concat('run pkg:clean ', PackageName, FieldValue).
-gen_enforced_field(WorkspaceCwd, 'scripts.prepack', 'run clean && run build') :-
+gen_enforced_field(WorkspaceCwd, 'scripts.prepack', 'run clean && run build && cp ../../LICENSE .') :-
   package_name(WorkspaceCwd, _).
 
 gen_enforced_dependency(WorkspaceCwd, DependencyIdent, DependencyRange2, DependencyType) :-
