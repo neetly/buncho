@@ -1,0 +1,15 @@
+{
+  "name": "@buncho/register",
+  "private": true,
+  "main": "./src/index.js",
+  "dependencies": {
+    "@babel/register": "^7.12.1",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "peerDependencies": {
+    "@babel/core": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3"
+  }
+}

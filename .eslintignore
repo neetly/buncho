@@ -1,0 +1,19 @@
+# Visual Studio Code
+
+/.vscode/
+
+# npm
+
+/node_modules/
+/packages/*/node_modules/
+
+# Yarn
+
+/.yarn/
+
+/.pnp.*
+
+# Artifacts
+
+/packages/*/tsconfig.tsbuildinfo
+/packages/*/lib/

@@ -1,0 +1,13 @@
+{
+  "name": "@buncho/webpack-env",
+  "private": true,
+  "types": "./src/index.d.ts",
+  "peerDependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9"
+  }
+}

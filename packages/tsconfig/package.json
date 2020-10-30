@@ -1,0 +1,8 @@
+{
+  "name": "@buncho/tsconfig",
+  "private": true,
+  "tsconfig": "./src/tsconfig.json",
+  "peerDependencies": {
+    "typescript": "*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@buncho/eslint-config",
+  "private": true,
+  "main": "./src/eslintrc.json",
+  "peerDependencies": {
+    "@babel/eslint-parser": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-react-hooks": "*"
+  }
+}
