@@ -8,7 +8,7 @@
     "directory": "packages/eslint-config"
   },
   "license": "MIT",
-  "main": "./src/eslintrc.json",
+  "main": "./src/index.js",
   "files": [
     "./src"
   ],
@@ -17,12 +17,16 @@
     "clean": "run pkg:clean eslint-config",
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.12.1",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint-config-prettier": "^6.15.0"
+  },
   "peerDependencies": {
-    "@babel/eslint-parser": "*",
+    "@babel/core": "*",
     "@typescript-eslint/eslint-plugin": "*",
-    "@typescript-eslint/parser": "*",
     "eslint": "*",
-    "eslint-config-prettier": "*",
-    "eslint-plugin-react-hooks": "*"
+    "eslint-plugin-react-hooks": "*",
+    "typescript": "*"
   }
 }

@@ -1392,13 +1392,16 @@ __metadata:
 "@buncho/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@buncho/eslint-config@workspace:packages/eslint-config"
+  dependencies:
+    "@babel/eslint-parser": ^7.12.1
+    "@typescript-eslint/parser": ^4.6.0
+    eslint-config-prettier: ^6.15.0
   peerDependencies:
-    "@babel/eslint-parser": "*"
+    "@babel/core": "*"
     "@typescript-eslint/eslint-plugin": "*"
-    "@typescript-eslint/parser": "*"
     eslint: "*"
-    eslint-config-prettier: "*"
     eslint-plugin-react-hooks: "*"
+    typescript: "*"
   languageName: unknown
   linkType: soft
 
@@ -1496,14 +1499,11 @@ __metadata:
   dependencies:
     "@babel/cli": ^7.12.1
     "@babel/core": ^7.12.3
-    "@babel/eslint-parser": ^7.12.1
     "@buncho/babel-preset": "workspace:packages/babel-preset"
     "@buncho/eslint-config": "workspace:packages/eslint-config"
     "@buncho/tsconfig": "workspace:packages/tsconfig"
     "@typescript-eslint/eslint-plugin": ^4.6.0
-    "@typescript-eslint/parser": ^4.6.0
     eslint: ^7.12.1
-    eslint-config-prettier: ^6.15.0
     eslint-plugin-react-hooks: ^4.2.0
     prettier: ^2.1.2
     typescript: ^4.0.5
