@@ -1,0 +1,28 @@
+{
+  "name": "@buncho/dotenv",
+  "version": "0.0.0",
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git",
+    "directory": "packages/dotenv"
+  },
+  "license": "MIT",
+  "exports": {
+    "./app": "./lib/app/index.js",
+    "./storybook": "./lib/storybook/index.js"
+  },
+  "files": [
+    "./lib"
+  ],
+  "scripts": {
+    "build": "run pkg:build dotenv",
+    "clean": "run pkg:clean dotenv",
+    "prepack": "run clean && run build && cp ../../LICENSE ."
+  },
+  "dependencies": {
+    "@types/node": "^14.14.6",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0"
+  }
+}
