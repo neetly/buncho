@@ -45,11 +45,11 @@ const config: Configuration = {
     new CaseSensitivePathsPlugin(),
 
     new CopyPlugin({
-      patterns: [path.resolve("./public")],
+      patterns: [{ from: path.resolve("./public") }],
     }),
 
     new HtmlPlugin({
-      template: "!!raw-loader!" + path.resolve("./index.html"),
+      template: "!!raw-loader!" + path.resolve("./public/index.html"),
     }),
 
     new MiniCssExtractPlugin({
