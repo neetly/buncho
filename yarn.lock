@@ -1487,6 +1487,9 @@ __metadata:
     "@babel/cli": ^7.12.1
     "@babel/core": ^7.12.3
     "@babel/eslint-parser": ^7.12.1
+    "@buncho/babel-preset": "workspace:packages/babel-preset"
+    "@buncho/eslint-config": "workspace:packages/eslint-config"
+    "@buncho/tsconfig": "workspace:packages/tsconfig"
     "@typescript-eslint/eslint-plugin": ^4.6.0
     "@typescript-eslint/parser": ^4.6.0
     eslint: ^7.12.1
