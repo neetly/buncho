@@ -50,7 +50,7 @@ const config: Configuration = {
           context: path.resolve("./public"),
           from: "**",
           globOptions: {
-            ignore: ["index.html"],
+            ignore: ["**/index.html"],
           },
         },
       ],
