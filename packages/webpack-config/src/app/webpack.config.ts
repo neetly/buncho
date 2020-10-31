@@ -47,8 +47,7 @@ const config: Configuration = {
     new CopyPlugin({
       patterns: [
         {
-          context: path.resolve("./public"),
-          from: "**",
+          from: path.resolve("./public"),
           globOptions: {
             ignore: ["**/index.html"],
           },
