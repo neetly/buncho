@@ -45,7 +45,15 @@ const config: Configuration = {
     new CaseSensitivePathsPlugin(),
 
     new CopyPlugin({
-      patterns: [{ from: path.resolve("./public") }],
+      patterns: [
+        {
+          context: path.resolve("./public"),
+          from: "**",
+          globOptions: {
+            ignore: ["index.html"],
+          },
+        },
+      ],
     }),
 
     new HtmlPlugin({
