@@ -8,10 +8,7 @@
     "directory": "packages/dotenv"
   },
   "license": "MIT",
-  "exports": {
-    "./app": "./lib/app/index.js",
-    "./storybook": "./lib/storybook/index.js"
-  },
+  "main": "./lib/index.js",
   "files": [
     "./lib"
   ],
