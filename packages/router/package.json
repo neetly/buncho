@@ -1,6 +1,6 @@
 {
   "name": "@buncho/router",
-  "private": true,
+  "version": "0.2.1",
   "homepage": "https://github.com/BunchoDev/buncho",
   "repository": {
     "type": "git",
