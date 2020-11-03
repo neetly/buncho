@@ -21,6 +21,7 @@ const getCssLoaders = ({ extract }: { extract: boolean }): RuleSetLoader[] => {
       options: {
         importLoaders: 1,
         modules: {
+          auto: true,
           localIdentName: production
             ? "[hash:base64]"
             : "[name]__[local]__[hash:base64:8]",
