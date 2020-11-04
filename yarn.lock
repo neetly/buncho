@@ -1450,14 +1450,11 @@ __metadata:
     react-dom: ^17.0.1
     react-router-dom: 6.0.0-beta.0
   peerDependencies:
-    "@buncho/webpack-env": "*"
     "@types/react": "*"
     "@types/react-dom": "*"
     react: "*"
     react-dom: "*"
   peerDependenciesMeta:
-    "@buncho/webpack-env":
-      optional: true
     "@types/react":
       optional: true
     "@types/react-dom":
@@ -1546,6 +1543,11 @@ __metadata:
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 

@@ -22,16 +22,12 @@
     "react-router-dom": "6.0.0-beta.0"
   },
   "peerDependencies": {
-    "@buncho/webpack-env": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
     "react": "*",
     "react-dom": "*"
   },
   "peerDependenciesMeta": {
-    "@buncho/webpack-env": {
-      "optional": true
-    },
     "@types/react": {
       "optional": true
     },
