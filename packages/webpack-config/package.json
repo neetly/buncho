@@ -53,12 +53,20 @@
   },
   "peerDependencies": {
     "@babel/core": "*",
+    "@buncho/babel-preset": "*",
+    "@types/babel__core": "*",
     "@types/webpack": "*",
     "@types/webpack-dev-server": "*",
     "webpack": "*",
     "webpack-dev-server": "*"
   },
   "peerDependenciesMeta": {
+    "@buncho/babel-preset": {
+      "optional": true
+    },
+    "@types/babel__core": {
+      "optional": true
+    },
     "@types/webpack": {
       "optional": true
     },
@@ -74,6 +82,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
+    "@buncho/babel-preset": "workspace:packages/babel-preset",
+    "@types/babel__core": "^7.1.12",
     "@types/webpack": "^4.41.24",
     "@types/webpack-dev-server": "^3.11.1",
     "webpack": "^4.44.2",

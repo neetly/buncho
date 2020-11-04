@@ -1,7 +1,7 @@
 import type { RuleSetRule, RuleSetLoader } from "webpack";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 
-import { production, useFastRefresh } from "./env";
+import { production, useFastRefresh, hasBabelConfig } from "./env";
 
 const getCssLoaders = ({ extract }: { extract: boolean }): RuleSetLoader[] => {
   return [
@@ -57,6 +57,9 @@ const createRules = ({
               loader: require.resolve("babel-loader"),
               options: {
                 rootMode: "upward",
+                presets: hasBabelConfig
+                  ? []
+                  : [require.resolve("@buncho/babel-preset")],
                 plugins:
                   !production && useFastRefresh
                     ? [require.resolve("react-refresh/babel")]
@@ -74,6 +77,9 @@ const createRules = ({
               loader: require.resolve("babel-loader"),
               options: {
                 rootMode: "upward",
+                presets: hasBabelConfig
+                  ? []
+                  : [require.resolve("@buncho/babel-preset")],
                 compact: true,
                 cacheDirectory: true,
               },
