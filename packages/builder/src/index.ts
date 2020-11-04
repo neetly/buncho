@@ -3,6 +3,7 @@ import "@buncho/dotenv";
 import { start } from "./tasks/start";
 import { build } from "./tasks/build";
 import { clean } from "./tasks/clean";
+import { storybook } from "./tasks/storybook";
 
 const main = async (): Promise<void> => {
   const task = process.argv[2];
@@ -15,6 +16,9 @@ const main = async (): Promise<void> => {
       break;
     case "clean":
       await clean();
+      break;
+    case "storybook":
+      await storybook();
       break;
   }
 };
