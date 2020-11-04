@@ -1,7 +1,7 @@
 import type { Configuration } from "webpack";
 
-import { applyConfig } from "@buncho/webpack-config/storybook";
+import { createStorybookConfig } from "@buncho/webpack-config";
 
 export default ({ config }: { config: Configuration }): Configuration => {
-  return applyConfig(config);
+  return createStorybookConfig(config);
 };
