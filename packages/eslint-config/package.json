@@ -18,6 +18,7 @@
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {
+    "@babel/core": "^7.12.3",
     "@babel/eslint-parser": "^7.12.1",
     "@rushstack/eslint-patch": "^1.0.6",
     "@typescript-eslint/eslint-plugin": "^4.6.0",
@@ -26,7 +27,6 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "peerDependencies": {
-    "@babel/core": "*",
     "eslint": "*",
     "typescript": "*"
   }

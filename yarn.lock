@@ -1413,6 +1413,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/eslint-config@workspace:packages/eslint-config"
   dependencies:
+    "@babel/core": ^7.12.3
     "@babel/eslint-parser": ^7.12.1
     "@rushstack/eslint-patch": ^1.0.6
     "@typescript-eslint/eslint-plugin": ^4.6.0
@@ -1420,7 +1421,6 @@ __metadata:
     eslint-config-prettier: ^6.15.0
     eslint-plugin-react-hooks: ^4.2.0
   peerDependencies:
-    "@babel/core": "*"
     eslint: "*"
     typescript: "*"
   languageName: unknown
