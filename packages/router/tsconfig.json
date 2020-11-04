@@ -11,5 +11,5 @@
     "types": ["@buncho/webpack-env"]
   },
 
-  "references": []
+  "references": [{ "path": "../webpack-env" }]
 }
