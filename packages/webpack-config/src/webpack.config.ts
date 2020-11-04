@@ -9,7 +9,7 @@ import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import TerserPlugin from "terser-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 
-import { production, useFastRefresh } from "./env";
+import { production, useFastRefresh, hasTsconfigPaths } from "./env";
 import { createRules } from "./createRules";
 
 const config: Configuration = {
@@ -34,7 +34,7 @@ const config: Configuration = {
   resolve: {
     extensions: [".js", ".mjs", ".cjs", ".ts", ".tsx"],
 
-    plugins: [new TsconfigPathsPlugin()],
+    plugins: hasTsconfigPaths ? [new TsconfigPathsPlugin()] : [],
   },
 
   module: {

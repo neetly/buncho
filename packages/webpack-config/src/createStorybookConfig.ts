@@ -7,14 +7,14 @@ import {
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 
-import { production, useFastRefresh } from "./env";
+import { production, useFastRefresh, hasTsconfigPaths } from "./env";
 import { createRules } from "./createRules";
 
 const config: Configuration = {
   resolve: {
     extensions: [".js", ".mjs", ".cjs", ".ts", ".tsx"],
 
-    plugins: [new TsconfigPathsPlugin()],
+    plugins: hasTsconfigPaths ? [new TsconfigPathsPlugin()] : [],
   },
 
   module: {
@@ -23,10 +23,7 @@ const config: Configuration = {
     }),
   },
 
-  plugins:
-    !production && useFastRefresh //
-      ? [new ReactRefreshPlugin()]
-      : [],
+  plugins: !production && useFastRefresh ? [new ReactRefreshPlugin()] : [],
 };
 
 const mergeConfig = mergeWithCustomize({
