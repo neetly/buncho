@@ -10,10 +10,11 @@
   "license": "MIT",
   "bin": "./bin/index.js",
   "main": "./lib/index.js",
-  "types": "@buncho/webpack-env",
+  "types": "./types/index.d.ts",
   "files": [
     "./bin",
-    "./lib"
+    "./lib",
+    "./types"
   ],
   "scripts": {
     "build": "run pkg:build builder",

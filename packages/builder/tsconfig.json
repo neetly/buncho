@@ -15,6 +15,7 @@
     { "path": "../webpack-env" },
     { "path": "../webpack-config" },
     { "path": "../babel-preset" },
-    { "path": "../dotenv" }
+    { "path": "../dotenv" },
+    { "path": "./types" }
   ]
 }
