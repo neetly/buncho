@@ -1,0 +1,25 @@
+{
+  "name": "@buncho/builder-template",
+  "private": true,
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git",
+    "directory": "packages/builder-template"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "run pkg:build builder-template",
+    "clean": "run pkg:clean builder-template",
+    "prepack": "run clean && run build && cp ../../LICENSE ."
+  },
+  "dependencies": {
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@buncho/builder": "workspace:packages/builder"
+  }
+}
