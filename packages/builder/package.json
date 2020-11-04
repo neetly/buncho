@@ -1,0 +1,52 @@
+{
+  "name": "@buncho/builder",
+  "private": true,
+  "homepage": "https://github.com/BunchoDev/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BunchoDev/buncho.git",
+    "directory": "packages/builder"
+  },
+  "license": "MIT",
+  "bin": "./bin/index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/webpack-env.d.ts",
+  "files": [
+    "./bin",
+    "./lib"
+  ],
+  "scripts": {
+    "build": "run pkg:build builder",
+    "clean": "run pkg:clean builder",
+    "prepack": "run clean && run build && cp ../../LICENSE ."
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@buncho/babel-preset": "workspace:packages/babel-preset",
+    "@buncho/webpack-config": "workspace:packages/webpack-config",
+    "@buncho/webpack-env": "workspace:packages/webpack-env",
+    "@types/babel__core": "^7.1.12",
+    "@types/webpack": "^4.41.24",
+    "@types/webpack-dev-server": "^3.11.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "peerDependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9"
+  }
+}

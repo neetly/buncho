@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+
+  "include": ["./src"],
+
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib",
+
+    "lib": ["ESNext"],
+    "types": ["node"]
+  },
+
+  "references": [
+    { "path": "../webpack-env" },
+    { "path": "../webpack-config" },
+    { "path": "../babel-preset" }
+  ]
+}
