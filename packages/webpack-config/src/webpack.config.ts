@@ -5,6 +5,7 @@ import CaseSensitivePathsPlugin from "case-sensitive-paths-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import ForkTsCheckerPlugin from "fork-ts-checker-webpack-plugin";
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import TerserPlugin from "terser-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
@@ -65,6 +66,8 @@ const config: Configuration = {
         ? "static/[name].[contenthash:8].css"
         : "static/[name].css",
     }),
+
+    new ForkTsCheckerPlugin(),
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
   ].filter(Boolean) as Plugin[],

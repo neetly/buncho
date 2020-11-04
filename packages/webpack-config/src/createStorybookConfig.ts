@@ -1,10 +1,11 @@
-import type { Configuration } from "webpack";
+import type { Configuration, Plugin } from "webpack";
 import {
   CustomizeRule,
   mergeWithCustomize,
   customizeArray,
 } from "webpack-merge";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
+import ForkTsCheckerPlugin from "fork-ts-checker-webpack-plugin";
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 
 import { production, useFastRefresh, hasTsconfigPaths } from "./env";
@@ -23,7 +24,11 @@ const config: Configuration = {
     }),
   },
 
-  plugins: !production && useFastRefresh ? [new ReactRefreshPlugin()] : [],
+  plugins: [
+    new ForkTsCheckerPlugin(),
+
+    !production && useFastRefresh && new ReactRefreshPlugin(),
+  ].filter(Boolean) as Plugin[],
 };
 
 const mergeConfig = mergeWithCustomize({
