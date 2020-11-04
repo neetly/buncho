@@ -387,21 +387,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.1.0":
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.10.4, @babel/parser@npm:^7.12.1, @babel/parser@npm:^7.12.3":
   version: 7.12.5
   resolution: "@babel/parser@npm:7.12.5"
   bin:
     parser: ./bin/babel-parser.js
   checksum: ff03d2389e32e3710c759d7bbcffc2d2e0637498e3a36aeaa0dbf961c48adb7027c393d0458247e54e24fed66ce0ea00e3e8d63089d22931e4175ee398727c15
-  languageName: node
-  linkType: hard
-
-"@babel/parser@npm:^7.10.4, @babel/parser@npm:^7.12.1, @babel/parser@npm:^7.12.3":
-  version: 7.12.3
-  resolution: "@babel/parser@npm:7.12.3"
-  bin:
-    parser: ./bin/babel-parser.js
-  checksum: 3605bcf97e956ef36506ccb7e0ca4432025d8992c7e1f5d5b03976750a1198a0b27f461ab9304dbc5319a154b5ea19c09e72f87bfc5c08dd2780428734e13339
   languageName: node
   linkType: hard
 
@@ -1364,7 +1355,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.0.0, @babel/types@npm:^7.3.0":
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.10.4, @babel/types@npm:^7.10.5, @babel/types@npm:^7.11.0, @babel/types@npm:^7.12.1, @babel/types@npm:^7.3.0, @babel/types@npm:^7.4.4, @babel/types@npm:^7.9.5":
   version: 7.12.5
   resolution: "@babel/types@npm:7.12.5"
   dependencies:
@@ -1372,17 +1363,6 @@ __metadata:
     lodash: ^4.17.19
     to-fast-properties: ^2.0.0
   checksum: ed8c7795b7b3f3e84ab8673a1f6ea8416f5e97e0accf526e714f994687e94a799819d412243fde73253ada214802ffbc73c8fe84eccb0fceaab1a6ae3f0de525
-  languageName: node
-  linkType: hard
-
-"@babel/types@npm:^7.10.4, @babel/types@npm:^7.10.5, @babel/types@npm:^7.11.0, @babel/types@npm:^7.12.1, @babel/types@npm:^7.4.4, @babel/types@npm:^7.9.5":
-  version: 7.12.1
-  resolution: "@babel/types@npm:7.12.1"
-  dependencies:
-    "@babel/helper-validator-identifier": ^7.10.4
-    lodash: ^4.17.19
-    to-fast-properties: ^2.0.0
-  checksum: 0747b064093126e3ceba410c78e8ea438ed84cd68ad8abb2f98ffe88e2b600406096553bb5ef28cd40b29e68122820fe98e31ddfd0318fbb0efc2f4080d3417a
   languageName: node
   linkType: hard
 
