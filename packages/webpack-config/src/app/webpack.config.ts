@@ -51,6 +51,7 @@ const config: Configuration = {
           globOptions: {
             ignore: ["**/index.html"],
           },
+          noErrorOnMissing: true,
         },
       ],
     }),
