@@ -8,5 +8,5 @@
     "outDir": "./lib"
   },
 
-  "references": []
+  "references": [{ "path": "./types" }]
 }

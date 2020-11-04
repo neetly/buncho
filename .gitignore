@@ -21,4 +21,5 @@
 /packages/*/package.tgz
 /packages/*/LICENSE
 /packages/*/tsconfig.tsbuildinfo
+/packages/*/types/tsconfig.tsbuildinfo
 /packages/*/lib/

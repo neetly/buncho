@@ -7,7 +7,11 @@ module.exports = {
 
       parser: require.resolve("@typescript-eslint/parser"),
       parserOptions: {
-        project: ["./tsconfig.json", "./packages/*/tsconfig.json"],
+        project: [
+          "./tsconfig.json",
+          "./packages/*/tsconfig.json",
+          "./packages/*/types/tsconfig.json",
+        ],
       },
 
       plugins: ["@typescript-eslint", "react-hooks"],
