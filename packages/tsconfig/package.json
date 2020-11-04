@@ -8,9 +8,9 @@
     "directory": "packages/tsconfig"
   },
   "license": "MIT",
-  "tsconfig": "./lib/tsconfig.json",
+  "tsconfig": "./src/tsconfig.json",
   "files": [
-    "./lib"
+    "./src"
   ],
   "scripts": {
     "build": "run pkg:build tsconfig",

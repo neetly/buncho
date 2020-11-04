@@ -6,7 +6,5 @@
     "paths": {
       "@buncho/webpack-config/*": ["./packages/webpack-config/lib/*"]
     }
-  },
-
-  "references": []
+  }
 }
