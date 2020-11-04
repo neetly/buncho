@@ -6,7 +6,7 @@ const getWorkspaceRoot = (): string => {
 
   while (root !== "/") {
     try {
-      fs.accessSync(path.join(root, ".git"));
+      fs.accessSync(path.join(root, ".env"));
       return root;
     } catch {} // eslint-disable-line no-empty
 
