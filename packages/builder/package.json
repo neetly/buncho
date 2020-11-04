@@ -10,7 +10,7 @@
   "license": "MIT",
   "bin": "./bin/index.js",
   "main": "./lib/index.js",
-  "types": "./lib/webpack-env.d.ts",
+  "types": "@buncho/webpack-env",
   "files": [
     "./bin",
     "./lib"
@@ -23,6 +23,7 @@
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@buncho/babel-preset": "workspace:packages/babel-preset",
+    "@buncho/dotenv": "workspace:packages/dotenv",
     "@buncho/webpack-config": "workspace:packages/webpack-config",
     "@buncho/webpack-env": "workspace:packages/webpack-env",
     "@types/babel__core": "^7.1.12",
