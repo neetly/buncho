@@ -56,7 +56,7 @@ const createRules = ({
             {
               loader: require.resolve("babel-loader"),
               options: {
-                rootMode: "upward",
+                rootMode: "upward-optional",
                 presets: hasBabelConfig
                   ? []
                   : [require.resolve("@buncho/babel-preset")],
@@ -76,7 +76,7 @@ const createRules = ({
             {
               loader: require.resolve("babel-loader"),
               options: {
-                rootMode: "upward",
+                rootMode: "upward-optional",
                 presets: hasBabelConfig
                   ? []
                   : [require.resolve("@buncho/babel-preset")],
