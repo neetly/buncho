@@ -20,3 +20,4 @@
 /packages/*/tsconfig.tsbuildinfo
 /packages/*/types/tsconfig.tsbuildinfo
 /packages/*/lib/
+/packages/*/build/
