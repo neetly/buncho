@@ -30,4 +30,4 @@ const createConfig = ({
   });
 };
 
-export { config, createConfig };
+export { createConfig };

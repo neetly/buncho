@@ -9,8 +9,8 @@ import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import TerserPlugin from "terser-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 
-import { production, useFastRefresh } from "../shared/env";
-import { createRules } from "../shared/createRules";
+import { production, useFastRefresh } from "./env";
+import { createRules } from "./createRules";
 
 const config: Configuration = {
   mode: production ? "production" : "development",

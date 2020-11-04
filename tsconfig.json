@@ -3,8 +3,6 @@
 
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "@buncho/webpack-config/*": ["./packages/webpack-config/lib/*"]
-    }
+    "paths": {}
   }
 }
