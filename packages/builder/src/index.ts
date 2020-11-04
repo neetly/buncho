@@ -2,6 +2,7 @@ import "@buncho/dotenv";
 
 import { start } from "./tasks/start";
 import { build } from "./tasks/build";
+import { clean } from "./tasks/clean";
 
 const main = async (): Promise<void> => {
   const task = process.argv[2];
@@ -11,6 +12,9 @@ const main = async (): Promise<void> => {
       break;
     case "build":
       await build();
+      break;
+    case "clean":
+      await clean();
       break;
   }
 };
