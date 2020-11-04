@@ -1424,6 +1424,8 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
+  bin:
+    builder: ./bin/index.js
   languageName: unknown
   linkType: soft
 
