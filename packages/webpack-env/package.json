@@ -8,9 +8,9 @@
     "directory": "packages/webpack-env"
   },
   "license": "MIT",
-  "types": "./src/index.d.ts",
+  "types": "./lib/index.d.ts",
   "files": [
-    "./src"
+    "./lib"
   ],
   "scripts": {
     "build": "run pkg:build webpack-env",

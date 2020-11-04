@@ -8,9 +8,9 @@
     "directory": "packages/eslint-config"
   },
   "license": "MIT",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "files": [
-    "./src"
+    "./lib"
   ],
   "scripts": {
     "build": "run pkg:build eslint-config",

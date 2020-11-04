@@ -8,9 +8,9 @@
     "directory": "packages/register"
   },
   "license": "MIT",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "files": [
-    "./src"
+    "./lib"
   ],
   "scripts": {
     "build": "run pkg:build register",
