@@ -2,7 +2,7 @@ const production = process.env.NODE_ENV === "production";
 
 module.exports = (api) => {
   const web = api.caller((caller) => caller && caller.target === "web");
-  const targets = web ? {} : { node: "current" };
+  const targets = web ? {} : { node: "12" };
 
   return {
     overrides: [
