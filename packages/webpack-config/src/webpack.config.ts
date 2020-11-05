@@ -67,7 +67,13 @@ const config: Configuration = {
         : "static/[name].css",
     }),
 
-    new ForkTsCheckerPlugin(),
+    new ForkTsCheckerPlugin({
+      typescript: {
+        configFile: path.resolve("./tsconfig.json"),
+        build: true,
+        mode: "write-references",
+      },
+    }),
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
   ].filter(Boolean) as Plugin[],

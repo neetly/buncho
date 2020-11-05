@@ -1,3 +1,4 @@
+import path from "path";
 import type { Configuration, Plugin } from "webpack";
 import {
   CustomizeRule,
@@ -25,7 +26,13 @@ const config: Configuration = {
   },
 
   plugins: [
-    new ForkTsCheckerPlugin(),
+    new ForkTsCheckerPlugin({
+      typescript: {
+        configFile: path.resolve("./tsconfig.json"),
+        build: true,
+        mode: "write-references",
+      },
+    }),
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
   ].filter(Boolean) as Plugin[],
