@@ -27,7 +27,7 @@
     "@buncho/dotenv": "workspace:packages/dotenv",
     "@buncho/webpack-config": "workspace:packages/webpack-config",
     "@buncho/webpack-env": "workspace:packages/webpack-env",
-    "@storybook/react": "^6.0.28",
+    "@storybook/react": "6.1.0-beta.3",
     "@types/babel__core": "^7.1.12",
     "@types/webpack": "^4.41.24",
     "@types/webpack-dev-server": "^3.11.1",
