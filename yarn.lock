@@ -1556,18 +1556,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/register@workspace:packages/register":
-  version: 0.0.0-use.local
-  resolution: "@buncho/register@workspace:packages/register"
-  dependencies:
-    "@babel/core": ^7.12.3
-    "@babel/register": ^7.12.1
-    tsconfig-paths: ^3.9.0
-  peerDependencies:
-    "@babel/core": "*"
-  languageName: unknown
-  linkType: soft
-
 "@buncho/router@workspace:packages/router":
   version: 0.0.0-use.local
   resolution: "@buncho/router@workspace:packages/router"
