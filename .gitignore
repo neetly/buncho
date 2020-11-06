@@ -24,3 +24,4 @@
 /packages/*/types/tsconfig.tsbuildinfo
 /packages/*/lib/
 /packages/*/build/
+/packages/*/storybook-static/
