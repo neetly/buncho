@@ -4,7 +4,7 @@ import type { Task } from "../../types/Task";
 import { execute } from "../../utils/execute";
 import { getPackageBin } from "../../utils/getPackageBin";
 
-const build: Task = async ([root = "."]) => {
+const build: Task = async () => {
   await execute({
     path: getPackageBin("@babel/cli", "babel"),
     args: [
@@ -13,14 +13,14 @@ const build: Task = async ([root = "."]) => {
       "--extensions",
       [".ts", ".tsx"].join(),
       "--copy-files",
-      path.resolve(root, "./src"),
+      path.resolve("./src"),
       "--out-dir",
-      path.resolve(root, "./lib"),
+      path.resolve("./lib"),
     ],
   });
   await execute({
     path: getPackageBin("typescript", "tsc"),
-    args: ["--build", path.resolve(root, "./tsconfig.json")],
+    args: ["--build", path.resolve("./tsconfig.json")],
   });
 };
 
