@@ -12,10 +12,10 @@
   },
 
   "references": [
-    { "path": "../webpack-env" },
-    { "path": "../webpack-config" },
-    { "path": "../babel-preset" },
+    { "path": "../register" },
     { "path": "../dotenv" },
+    { "path": "../babel-preset" },
+    { "path": "../webpack-config" },
     { "path": "./types" }
   ]
 }
