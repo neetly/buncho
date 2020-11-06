@@ -22,9 +22,16 @@
     "tsconfig-paths": "^3.9.0"
   },
   "peerDependencies": {
-    "@babel/core": "*"
+    "@babel/core": "*",
+    "@buncho/babel-preset": "*"
+  },
+  "peerDependenciesMeta": {
+    "@buncho/babel-preset": {
+      "optional": true
+    }
   },
   "devDependencies": {
-    "@babel/core": "^7.12.3"
+    "@babel/core": "^7.12.3",
+    "@buncho/babel-preset": "workspace:packages/babel-preset"
   }
 }

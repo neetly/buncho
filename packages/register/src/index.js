@@ -1,6 +1,18 @@
+const babel = require("@babel/core");
+const tsconfigPaths = require("tsconfig-paths");
+
+const hasBabelConfig = babel
+  .loadPartialConfig({ rootMode: "upward-optional" })
+  .hasFilesystemConfig();
+const hasTsconfigPaths = tsconfigPaths.loadConfig().resultType === "success";
+
 require("@babel/register")({
-  rootMode: "upward",
+  rootMode: "upward-optional",
   extensions: [".ts", ".tsx"],
   ignore: [],
+  presets: hasBabelConfig ? [] : [require.resolve("@buncho/babel-preset")],
 });
-require("tsconfig-paths/register");
+
+if (hasTsconfigPaths) {
+  require("tsconfig-paths/register");
+}
