@@ -8,7 +8,11 @@
     "directory": "packages/builder"
   },
   "license": "MIT",
-  "bin": "./bin/index.js",
+  "bin": {
+    "app": "./bin/app.js",
+    "builder": "./bin/index.js",
+    "storybook": "./bin/storybook.js"
+  },
   "main": "./lib/index.js",
   "types": "./types/index.d.ts",
   "files": [

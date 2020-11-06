@@ -1523,7 +1523,9 @@ __metadata:
     "@types/react-dom":
       optional: true
   bin:
+    app: ./bin/app.js
     builder: ./bin/index.js
+    storybook: ./bin/storybook.js
   languageName: unknown
   linkType: soft
 
