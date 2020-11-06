@@ -3,20 +3,20 @@ import path from "path";
 import type { Task } from "../../types/Task";
 import { execute } from "../../utils/execute";
 import { getPackageBin } from "../../utils/getPackageBin";
+import { hasBabelConfig } from "../../env";
 
 const build: Task = async () => {
   await execute({
     path: getPackageBin("@babel/cli", "babel"),
     args: [
-      "--root-mode",
-      "upward-optional",
-      "--extensions",
-      [".ts", ".tsx"].join(),
-      "--copy-files",
-      path.resolve("./src"),
-      "--out-dir",
-      path.resolve("./lib"),
-    ],
+      ["--root-mode", "upward-optional"],
+      ["--extensions", [".ts", ".tsx"].join()],
+      ["--copy-files"],
+      hasBabelConfig
+        ? []
+        : ["--presets", require.resolve("@buncho/babel-preset")],
+      [path.resolve("./src"), "--out-dir", path.resolve("./lib")],
+    ].flat(),
   });
   await execute({
     path: getPackageBin("typescript", "tsc"),
