@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-require("../lib").tasks(["storybook", ...process.argv.slice(2)]);
+require(".").tasks(["storybook", ...process.argv.slice(2)]);

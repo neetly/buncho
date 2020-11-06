@@ -10,7 +10,8 @@
   "license": "MIT",
   "bin": {
     "app": "./bin/app.js",
-    "builder": "./bin/index.js",
+    "builder": "./bin/builder.js",
+    "lib": "./bin/lib.js",
     "storybook": "./bin/storybook.js"
   },
   "main": "./lib/index.js",
@@ -26,9 +27,11 @@
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {
+    "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@buncho/babel-preset": "workspace:packages/babel-preset",
     "@buncho/dotenv": "workspace:packages/dotenv",
+    "@buncho/register": "workspace:packages/register",
     "@buncho/webpack-config": "workspace:packages/webpack-config",
     "@buncho/webpack-env": "workspace:packages/webpack-env",
     "@storybook/react": "6.1.0-beta.3",
