@@ -1,13 +1,12 @@
 import type { Task } from "../../types/Task";
 import { execute } from "../../utils/execute";
 import { getPackageBin } from "../../utils/getPackageBin";
-
-import { getConfigDir } from "./utils/getConfigDir";
+import * as paths from "../../paths";
 
 const start: Task = async () => {
   await execute({
     path: getPackageBin("@storybook/react", "start-storybook"),
-    args: ["--config-dir", await getConfigDir()],
+    args: ["--config-dir", paths.storybookConfigDir],
   });
 };
 
