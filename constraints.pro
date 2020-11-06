@@ -11,12 +11,10 @@ gen_enforced_field(WorkspaceCwd, 'repository.directory', FieldValue) :-
   atom_concat('packages/', PackageName, FieldValue).
 gen_enforced_field(WorkspaceCwd, 'license', 'MIT').
 
-gen_enforced_field(WorkspaceCwd, 'scripts.build', FieldValue) :-
-  package_name(WorkspaceCwd, PackageName),
-  atom_concat('run pkg:build ', PackageName, FieldValue).
-gen_enforced_field(WorkspaceCwd, 'scripts.clean', FieldValue) :-
-  package_name(WorkspaceCwd, PackageName),
-  atom_concat('run pkg:clean ', PackageName, FieldValue).
+gen_enforced_field(WorkspaceCwd, 'scripts.build', 'run --top-level lib build') :-
+  package_name(WorkspaceCwd, _).
+gen_enforced_field(WorkspaceCwd, 'scripts.clean', 'run --top-level lib clean') :-
+  package_name(WorkspaceCwd, _).
 gen_enforced_field(WorkspaceCwd, 'scripts.prepack', 'run clean && run build && cp ../../LICENSE .') :-
   package_name(WorkspaceCwd, _).
 

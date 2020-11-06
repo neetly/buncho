@@ -13,17 +13,11 @@
   "scripts": {
     "build": "yarn workspaces foreach run build",
     "clean": "yarn workspaces foreach run clean",
-    "pkg:build": "./scripts/build.sh",
-    "pkg:clean": "./scripts/clean.sh",
     "lint": "eslint --max-warnings 0 . && prettier --check .",
-    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write .",
-    "lint:scripts": "(find ./scripts -type f | xargs shellcheck) && shfmt -d ./scripts",
-    "lint:scripts:fix": "(find ./scripts -type f | xargs shellcheck) && shfmt -l -w ./scripts"
+    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3",
-    "@buncho/babel-preset": "workspace:packages/babel-preset",
+    "@buncho/builder": "workspace:packages/builder",
     "@buncho/eslint-config": "workspace:packages/eslint-config",
     "@buncho/tsconfig": "workspace:packages/tsconfig",
     "eslint": "^7.12.1",

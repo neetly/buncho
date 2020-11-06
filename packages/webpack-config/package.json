@@ -13,8 +13,8 @@
     "./lib"
   ],
   "scripts": {
-    "build": "run pkg:build webpack-config",
-    "clean": "run pkg:clean webpack-config",
+    "build": "run --top-level lib build",
+    "clean": "run --top-level lib clean",
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {

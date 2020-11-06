@@ -1695,9 +1695,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/workspace@workspace:."
   dependencies:
-    "@babel/cli": ^7.12.1
-    "@babel/core": ^7.12.3
-    "@buncho/babel-preset": "workspace:packages/babel-preset"
+    "@buncho/builder": "workspace:packages/builder"
     "@buncho/eslint-config": "workspace:packages/eslint-config"
     "@buncho/tsconfig": "workspace:packages/tsconfig"
     eslint: ^7.12.1
