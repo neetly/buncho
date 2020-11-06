@@ -1409,16 +1409,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
-  version: 7.12.1
-  resolution: "@babel/runtime@npm:7.12.1"
-  dependencies:
-    regenerator-runtime: ^0.13.4
-  checksum: 979d1c099c386031f96a952ee903e7bc3c60ae6e4eefe2bf49e4224014542d4ac2b1e2fb708031da36501a3842d4442dfdab38ab359ab3f46634b3c7cb5f6c6e
-  languageName: node
-  linkType: hard
-
-"@babel/runtime@npm:^7.12.5":
+"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.12.5
   resolution: "@babel/runtime@npm:7.12.5"
   dependencies:
@@ -1511,7 +1502,6 @@ __metadata:
     "@types/webpack-dev-server": ^3.11.1
     react: ^17.0.1
     react-dom: ^17.0.1
-    typescript: ^4.0.5
     webpack: ^4.44.2
     webpack-cli: ^4.1.0
     webpack-dev-server: ^3.11.0
@@ -1525,8 +1515,6 @@ __metadata:
     "@types/react":
       optional: true
     "@types/react-dom":
-      optional: true
-    typescript:
       optional: true
   bin:
     app: ./bin/app.js
@@ -1660,6 +1648,7 @@ __metadata:
     "@types/babel__core": "*"
     "@types/webpack": "*"
     "@types/webpack-dev-server": "*"
+    typescript: "*"
     webpack: "*"
     webpack-dev-server: "*"
   peerDependenciesMeta:
@@ -6255,7 +6244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dir-glob@npm:2.0.0, dir-glob@npm:^2.0.0":
+"dir-glob@npm:2.0.0":
   version: 2.0.0
   resolution: "dir-glob@npm:2.0.0"
   dependencies:
@@ -6265,7 +6254,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dir-glob@npm:^2.2.2":
+"dir-glob@npm:^2.0.0, dir-glob@npm:^2.2.2":
   version: 2.2.2
   resolution: "dir-glob@npm:2.2.2"
   dependencies:

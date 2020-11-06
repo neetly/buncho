@@ -55,6 +55,7 @@
     "@types/babel__core": "*",
     "@types/webpack": "*",
     "@types/webpack-dev-server": "*",
+    "typescript": "*",
     "webpack": "*",
     "webpack-dev-server": "*"
   },
