@@ -20,7 +20,7 @@
     "@buncho/builder": "workspace:packages/builder",
     "@buncho/eslint-config": "workspace:packages/eslint-config",
     "@buncho/tsconfig": "workspace:packages/tsconfig",
-    "eslint": "^7.12.1",
+    "eslint": "^7.13.0",
     "prettier": "^2.1.2",
     "typescript": "^4.0.5"
   }
