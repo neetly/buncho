@@ -3,7 +3,7 @@ let useRegister = false;
 try {
   require.resolve("../src/index.ts");
   useRegister = true;
-} catch {}
+} catch {} // eslint-disable-line no-empty
 
 if (useRegister) {
   require("@buncho/register");
