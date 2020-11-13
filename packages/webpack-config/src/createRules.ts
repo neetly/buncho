@@ -6,15 +6,8 @@ import { production, useFastRefresh, hasBabelConfig } from "./env";
 const getCssLoaders = ({ extract }: { extract: boolean }): RuleSetLoader[] => {
   return [
     extract
-      ? {
-          loader: MiniCssExtractPlugin.loader,
-          options: {
-            hmr: !production,
-          },
-        }
-      : {
-          loader: require.resolve("style-loader"),
-        },
+      ? { loader: MiniCssExtractPlugin.loader }
+      : { loader: require.resolve("style-loader") },
 
     {
       loader: require.resolve("css-loader"),
