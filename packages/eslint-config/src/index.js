@@ -14,12 +14,13 @@ module.exports = {
         ],
       },
 
-      plugins: ["@typescript-eslint", "react-hooks"],
+      plugins: ["@typescript-eslint", "react-hooks", "jsx-a11y"],
       extends: [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "plugin:react-hooks/recommended",
+        "plugin:jsx-a11y/recommended",
         require.resolve("eslint-config-prettier"),
         require.resolve("eslint-config-prettier/@typescript-eslint"),
       ],
