@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": "@buncho/eslint-config"
+  "extends": "@buncho"
 }
