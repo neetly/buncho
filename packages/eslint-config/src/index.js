@@ -36,6 +36,16 @@ module.exports = {
       parserOptions: {
         requireConfigFile: false,
       },
+
+      extends: [
+        "eslint:recommended",
+        require.resolve("eslint-config-prettier"),
+      ],
+
+      rules: {
+        "no-undef": "off",
+        eqeqeq: "error",
+      },
     },
   ],
 };
