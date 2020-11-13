@@ -73,7 +73,6 @@ const createRules = ({
                 presets: hasBabelConfig
                   ? []
                   : [require.resolve("@buncho/babel-preset")],
-                compact: true,
                 cacheDirectory: true,
               },
             },

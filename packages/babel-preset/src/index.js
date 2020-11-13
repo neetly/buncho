@@ -26,13 +26,17 @@ module.exports = (api) => {
 
       {
         test: /\.(js|mjs|cjs)$/,
-        sourceType: "unambiguous",
         presets: [
           [
             require.resolve("@babel/preset-env"),
             { targets, shippedProposals: true, bugfixes: true },
           ],
         ],
+      },
+
+      {
+        test: /node_modules/,
+        compact: true,
       },
     ],
   };
