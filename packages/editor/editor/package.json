@@ -17,6 +17,18 @@
     "clean": "run --top-level lib clean",
     "prepack": "run clean && run build && cp ../../../LICENSE ."
   },
+  "dependencies": {
+    "@types/orderedmap": "^1.0.0",
+    "@types/prosemirror-model": "^1.11.1",
+    "@types/prosemirror-state": "^1.2.5",
+    "@types/prosemirror-transform": "^1.1.1",
+    "@types/prosemirror-view": "^1.16.1",
+    "orderedmap": "^1.1.1",
+    "prosemirror-model": "^1.12.0",
+    "prosemirror-state": "^1.3.3",
+    "prosemirror-transform": "^1.2.8",
+    "prosemirror-view": "^1.16.1"
+  },
   "peerDependencies": {
     "@types/react": "*",
     "@types/react-dom": "*",
