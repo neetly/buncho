@@ -1583,7 +1583,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/router@workspace:packages/core/router"
   dependencies:
-    "@buncho/webpack-env": "workspace:packages/core/webpack-env"
+    "@buncho/builder": "workspace:packages/core/builder"
     "@types/react": ^16.9.56
     "@types/react-dom": ^16.9.9
     history: ^5.0.0

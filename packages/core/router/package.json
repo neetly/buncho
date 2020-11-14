@@ -36,7 +36,7 @@
     }
   },
   "devDependencies": {
-    "@buncho/webpack-env": "workspace:packages/core/webpack-env",
+    "@buncho/builder": "workspace:packages/core/builder",
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
     "react": "^17.0.1",

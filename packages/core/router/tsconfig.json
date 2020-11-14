@@ -8,7 +8,7 @@
     "outDir": "./lib",
 
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "types": ["@buncho/webpack-env"]
+    "types": ["@buncho/builder"]
   },
 
   "references": []
