@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../../tsconfig.json",
 
   "include": ["./src"],
 
@@ -11,11 +11,5 @@
     "types": ["node"]
   },
 
-  "references": [
-    { "path": "../register" },
-    { "path": "../dotenv" },
-    { "path": "../babel-preset" },
-    { "path": "../webpack-config" },
-    { "path": "./types" }
-  ]
+  "references": [{ "path": "./types" }, { "path": "../webpack-config" }]
 }

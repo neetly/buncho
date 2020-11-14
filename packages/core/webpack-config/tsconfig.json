@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../../tsconfig.json",
 
   "include": ["./src"],
 
@@ -11,5 +11,5 @@
     "types": ["node", "webpack", "webpack-dev-server"]
   },
 
-  "references": [{ "path": "../babel-preset" }]
+  "references": []
 }
