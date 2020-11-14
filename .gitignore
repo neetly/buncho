@@ -1,7 +1,7 @@
 # npm
 
 /node_modules/
-/packages/*/node_modules/
+/packages/*/*/node_modules/
 
 # Yarn
 
@@ -14,10 +14,10 @@
 
 # Artifacts
 
-/packages/*/package.tgz
-/packages/*/LICENSE
-/packages/*/tsconfig.tsbuildinfo
-/packages/*/types/tsconfig.tsbuildinfo
-/packages/*/lib/
-/packages/*/build/
-/packages/*/storybook-static/
+/packages/*/*/package.tgz
+/packages/*/*/LICENSE
+/packages/*/*/tsconfig.tsbuildinfo
+/packages/*/*/types/tsconfig.tsbuildinfo
+/packages/*/*/lib/
+/packages/*/*/build/
+/packages/*/*/storybook-static/
