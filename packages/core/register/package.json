@@ -32,6 +32,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
-    "@buncho/babel-preset": "workspace:packages/babel-preset"
+    "@buncho/babel-preset": "workspace:packages/core/babel-preset"
   }
 }
