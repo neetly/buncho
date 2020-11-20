@@ -16,8 +16,6 @@
     "isolatedModules": true,
     "useDefineForClassFields": true,
     "importsNotUsedAsValues": "error",
-    "noImplicitReturns": true,
-    "noUncheckedIndexedAccess": true,
 
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
