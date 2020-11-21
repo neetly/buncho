@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "@buncho/builder": "workspace:packages/core/builder",
-    "@types/react": "^16.9.56",
-    "@types/react-dom": "^16.9.9",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

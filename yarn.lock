@@ -1485,8 +1485,8 @@ __metadata:
   resolution: "@buncho/builder-template@workspace:packages/core/builder-template"
   dependencies:
     "@buncho/builder": "workspace:packages/core/builder"
-    "@types/react": ^16.9.56
-    "@types/react-dom": ^16.9.9
+    "@types/react": ^17.0.0
+    "@types/react-dom": ^17.0.0
     react: ^17.0.1
     react-dom: ^17.0.1
   languageName: unknown
@@ -1506,8 +1506,8 @@ __metadata:
     "@storybook/react": 6.1.0-rc.0
     "@types/babel__core": ^7.1.12
     "@types/node": ^14.14.7
-    "@types/react": ^16.9.56
-    "@types/react-dom": ^16.9.9
+    "@types/react": ^17.0.0
+    "@types/react-dom": ^17.0.0
     "@types/webpack": ^4.41.25
     "@types/webpack-dev-server": ^3.11.1
     react: ^17.0.1
@@ -1554,8 +1554,8 @@ __metadata:
     "@types/prosemirror-state": ^1.2.5
     "@types/prosemirror-transform": ^1.1.1
     "@types/prosemirror-view": ^1.16.1
-    "@types/react": ^16.9.56
-    "@types/react-dom": ^16.9.9
+    "@types/react": ^17.0.0
+    "@types/react-dom": ^17.0.0
     orderedmap: ^1.1.1
     prosemirror-model: ^1.12.0
     prosemirror-state: ^1.3.3
@@ -1616,8 +1616,8 @@ __metadata:
   resolution: "@buncho/router@workspace:packages/core/router"
   dependencies:
     "@buncho/builder": "workspace:packages/core/builder"
-    "@types/react": ^16.9.56
-    "@types/react-dom": ^16.9.9
+    "@types/react": ^17.0.0
+    "@types/react-dom": ^17.0.0
     history: ^5.0.0
     react: ^17.0.1
     react-dom: ^17.0.1
@@ -1714,8 +1714,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/webpack-env@workspace:packages/core/webpack-env"
   dependencies:
-    "@types/react": ^16.9.56
-    "@types/react-dom": ^16.9.9
+    "@types/react": ^17.0.0
+    "@types/react-dom": ^17.0.0
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -3007,12 +3007,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^16.9.9":
-  version: 16.9.9
-  resolution: "@types/react-dom@npm:16.9.9"
+"@types/react-dom@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@types/react-dom@npm:17.0.0"
   dependencies:
     "@types/react": "*"
-  checksum: d92c166f5bcd483f175311eec9c472893216d486106a5b5402eb293840c0b0d1aafb484a3fe3f0f4622ae1f6dff46c9fe970873d4dac7fdf70a50931d3cab4a0
+  checksum: 7ca9351b6c2523327cd7afe40082a37034898f65e9d86700236682efed910ba7c9cec10e9a3b829aa7b804b18791a28743ce468fcb42e9a788bfc33b84137e45
   languageName: node
   linkType: hard
 
@@ -3025,13 +3025,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^16.9.56":
-  version: 16.9.56
-  resolution: "@types/react@npm:16.9.56"
+"@types/react@npm:*, @types/react@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@types/react@npm:17.0.0"
   dependencies:
     "@types/prop-types": "*"
     csstype: ^3.0.2
-  checksum: 139867e2b3d577723b9361234f105d0cf1b143202f51fef207355332f972dd74030cfb3918037cb311eefd203ee06e0a370c37755204eefdd35734f0fde070a1
+  checksum: dcef2034b822a949c5528fa8fa3c64da654fdbb822bd8f0488c0084d84cadb8b90af68813a6c95153d4754079f50b1cab206552c7c20f6b67a26c3641383fe31
   languageName: node
   linkType: hard
 
