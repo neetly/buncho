@@ -1,4 +1,5 @@
 import { Configuration, DefinePlugin } from "webpack";
+import type { ProxyConfigMap, ProxyConfigArray } from "webpack-dev-server";
 import { merge } from "webpack-merge";
 
 import config from "./webpack.config";
@@ -6,10 +7,12 @@ import config from "./webpack.config";
 const createConfig = ({
   host,
   port,
+  proxy,
   env = {},
 }: {
   host?: string;
   port?: number;
+  proxy?: ProxyConfigMap | ProxyConfigArray;
   env?: Record<string, string | undefined>;
 } = {}): Configuration => {
   return merge(config, {
@@ -26,6 +29,7 @@ const createConfig = ({
     devServer: {
       host,
       port,
+      proxy,
     },
   });
 };

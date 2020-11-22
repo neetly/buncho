@@ -8,7 +8,7 @@
     "outDir": "./lib",
 
     "lib": ["ESNext"],
-    "types": ["node"]
+    "types": ["node", "webpack-dev-server"]
   },
 
   "references": [{ "path": "./types" }, { "path": "../webpack-config" }]
