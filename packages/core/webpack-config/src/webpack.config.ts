@@ -1,7 +1,6 @@
 import path from "path";
 import type { Configuration } from "webpack";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
-import CaseSensitivePathsPlugin from "case-sensitive-paths-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
@@ -43,8 +42,6 @@ const config: Configuration = {
   },
 
   plugins: [
-    new CaseSensitivePathsPlugin(),
-
     new CopyPlugin({
       patterns: [
         {

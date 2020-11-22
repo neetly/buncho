@@ -1548,7 +1548,6 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.12
-    "@types/case-sensitive-paths-webpack-plugin": ^2.1.4
     "@types/copy-webpack-plugin": ^6.3.0
     "@types/css-minimizer-webpack-plugin": ^1.1.1
     "@types/mini-css-extract-plugin": ^1.2.1
@@ -1558,7 +1557,6 @@ __metadata:
     "@types/webpack-dev-server": ^3.11.1
     autoprefixer: ^10.0.2
     babel-loader: ^8.2.1
-    case-sensitive-paths-webpack-plugin: ^2.3.0
     copy-webpack-plugin: ^6.3.2
     css-loader: ^5.0.1
     css-minimizer-webpack-plugin: ^1.1.5
@@ -1938,15 +1936,6 @@ __metadata:
     "@types/connect": "*"
     "@types/node": "*"
   checksum: 4576f3fde5980c1219cadbc7c523bdb1cefc3713300e18bf47ff37bb9b8176342a1dc7519008311fd8fc11413cf188a83931b9b59051aa1c2f095c1e10459369
-  languageName: node
-  linkType: hard
-
-"@types/case-sensitive-paths-webpack-plugin@npm:^2.1.4":
-  version: 2.1.4
-  resolution: "@types/case-sensitive-paths-webpack-plugin@npm:2.1.4"
-  dependencies:
-    "@types/webpack": "*"
-  checksum: 37f26b40f660c9a014ded31e07af14b464ad971b865984c7f99756263f4bd82ab3bd60ce15b00a6637c9775d8222c6e3aa134bc112beebc9d10a55720d517a89
   languageName: node
   linkType: hard
 
@@ -3403,13 +3392,6 @@ __metadata:
   version: 1.0.30001159
   resolution: "caniuse-lite@npm:1.0.30001159"
   checksum: d1fbf0a51c2130bc1c7fef5135ed2ab9560fbb18eaf6b86cf14c5ade8f54a1110da0d7ab7707e10479d44009ceaecb0cf9a005b25807c1914e84ad19f84db475
-  languageName: node
-  linkType: hard
-
-"case-sensitive-paths-webpack-plugin@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "case-sensitive-paths-webpack-plugin@npm:2.3.0"
-  checksum: 45d85caef4dfc3cacb1461912dee18cfcae74f35cdbeaf564484ed3c82266a5d9305883b86d9537bd57d07ba2a64fb716c2ff98a88a4bf97619ab7b130cbb68e
   languageName: node
   linkType: hard
 
