@@ -1435,6 +1435,7 @@ __metadata:
   resolution: "@buncho/dotenv@workspace:packages/core/dotenv"
   dependencies:
     "@types/node": ^14.14.9
+    cosmiconfig: ^7.0.0
     dotenv: ^8.2.0
     dotenv-expand: ^5.1.0
   languageName: unknown

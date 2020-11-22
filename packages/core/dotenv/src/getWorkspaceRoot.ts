@@ -1,19 +1,18 @@
 import path from "path";
-import fs from "fs";
+import { cosmiconfigSync } from "cosmiconfig";
+
+const explorer = cosmiconfigSync("dotenv", {
+  searchPlaces: [".env"],
+  loaders: { noExt: () => "" },
+});
 
 const getWorkspaceRoot = (): string => {
-  let root = path.resolve(".");
-
-  while (root !== "/") {
-    try {
-      fs.accessSync(path.join(root, ".env"));
-      return root;
-    } catch {} // eslint-disable-line no-empty
-
-    root = path.dirname(root);
+  const result = explorer.search();
+  if (result) {
+    return path.dirname(result.filepath);
+  } else {
+    return path.resolve(".");
   }
-
-  return path.resolve(".");
 };
 
 export { getWorkspaceRoot };
