@@ -40,7 +40,10 @@ const config: Configuration = {
   },
 
   module: {
-    rules: createRules({ extract: true }),
+    rules: createRules({
+      extract: true,
+      customRules: [{ test: /\.html$/ }],
+    }),
   },
 
   plugins: [
