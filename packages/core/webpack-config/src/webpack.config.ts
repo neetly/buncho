@@ -1,5 +1,5 @@
 import path from "path";
-import type { Configuration, Plugin } from "webpack";
+import type { Configuration } from "webpack";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 import CaseSensitivePathsPlugin from "case-sensitive-paths-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
@@ -76,7 +76,7 @@ const config: Configuration = {
     }),
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
-  ].filter(Boolean) as Plugin[],
+  ].filter(Boolean) as Configuration["plugins"],
 
   optimization: {
     minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
