@@ -8,7 +8,7 @@
     "outDir": "./lib",
 
     "lib": ["ESNext"],
-    "types": ["node", "webpack", "webpack-dev-server"]
+    "types": ["node"]
   },
 
   "references": []
