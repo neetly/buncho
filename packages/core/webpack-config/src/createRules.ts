@@ -112,14 +112,7 @@ const createRules = ({
 
         {
           exclude: /\.json$/,
-          use: [
-            {
-              loader: require.resolve("file-loader"),
-              options: {
-                name: "assets/[hash:8].[ext]",
-              },
-            },
-          ],
+          type: "asset/resource",
         },
       ],
     },

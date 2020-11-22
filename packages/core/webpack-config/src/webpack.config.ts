@@ -27,6 +27,7 @@ const config: Configuration = {
     filename: production
       ? "static/[name].[contenthash:8].js"
       : "static/[name].js",
+    assetModuleFilename: "assets/[contenthash][ext]",
     publicPath: "/",
   },
 
