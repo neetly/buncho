@@ -1,6 +1,5 @@
 import path from "path";
 import type { Configuration } from "webpack";
-import type {} from "webpack-dev-server";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";

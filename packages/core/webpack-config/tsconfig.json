@@ -8,7 +8,7 @@
     "outDir": "./lib",
 
     "lib": ["ESNext"],
-    "types": ["node"],
+    "types": ["node", "webpack-dev-server"],
 
     // FIXME: https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/issues/534
     "skipLibCheck": true
