@@ -10,9 +10,7 @@
   "license": "MIT",
   "bin": {
     "app": "./bin/app.js",
-    "builder": "./bin/builder.js",
-    "lib": "./bin/lib.js",
-    "storybook": "./bin/storybook.js"
+    "lib": "./bin/lib.js"
   },
   "types": "./types/index.d.ts",
   "files": [
@@ -33,7 +31,6 @@
     "@buncho/register": "workspace:packages/core/register",
     "@buncho/webpack-config": "workspace:packages/core/webpack-config",
     "@buncho/webpack-env": "workspace:packages/core/webpack-env",
-    "@storybook/react": "6.1.0-rc.0",
     "@types/babel__core": "^7.1.12",
     "@types/webpack": "^4.41.25",
     "@types/webpack-dev-server": "^3.11.1",
