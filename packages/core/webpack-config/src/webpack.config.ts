@@ -1,7 +1,6 @@
 import path from "path";
-import type { Configuration, Plugin } from "webpack";
+import type { Configuration } from "webpack";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
-import CaseSensitivePathsPlugin from "case-sensitive-paths-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
@@ -27,6 +26,7 @@ const config: Configuration = {
     filename: production
       ? "static/[name].[contenthash:8].js"
       : "static/[name].js",
+    assetModuleFilename: "assets/[contenthash][ext]",
     publicPath: "/",
   },
 
@@ -39,12 +39,13 @@ const config: Configuration = {
   },
 
   module: {
-    rules: createRules({ extract: true }),
+    rules: createRules({
+      extract: true,
+      customRules: [{ test: /\.html$/ }],
+    }),
   },
 
   plugins: [
-    new CaseSensitivePathsPlugin(),
-
     new CopyPlugin({
       patterns: [
         {
@@ -76,7 +77,7 @@ const config: Configuration = {
     }),
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
-  ].filter(Boolean) as Plugin[],
+  ].filter(Boolean) as Configuration["plugins"],
 
   optimization: {
     minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],

@@ -1,9 +1,9 @@
-import type { RuleSetRule, RuleSetLoader } from "webpack";
+import type { RuleSetRule, RuleSetUseItem } from "webpack";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 
 import { production, useFastRefresh, hasBabelConfig } from "./env";
 
-const getCssLoaders = ({ extract }: { extract: boolean }): RuleSetLoader[] => {
+const getCssLoaders = ({ extract }: { extract: boolean }): RuleSetUseItem[] => {
   return [
     extract
       ? { loader: MiniCssExtractPlugin.loader }
@@ -112,14 +112,7 @@ const createRules = ({
 
         {
           exclude: /\.json$/,
-          use: [
-            {
-              loader: require.resolve("file-loader"),
-              options: {
-                name: "assets/[hash:8].[ext]",
-              },
-            },
-          ],
+          type: "asset/resource",
         },
       ],
     },
