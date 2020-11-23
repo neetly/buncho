@@ -78,6 +78,9 @@ const config: Configuration = {
         build: true,
         mode: "write-references",
       },
+      logger: {
+        devServer: false,
+      },
     }),
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
