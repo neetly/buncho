@@ -17,6 +17,9 @@ const build: Task = async () => {
         : ["--presets", require.resolve("@buncho/babel-preset")],
       [path.resolve("./src"), "--out-dir", path.resolve("./lib")],
     ].flat(),
+    env: {
+      NODE_ENV: "production",
+    },
   });
   await execute({
     path: getPackageBin("typescript", "tsc"),
