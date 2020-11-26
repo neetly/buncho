@@ -1,5 +1,5 @@
 import { Configuration, DefinePlugin } from "webpack";
-import type { ProxyConfigMap, ProxyConfigArray } from "webpack-dev-server";
+import type { ProxyConfigArray, ProxyConfigMap } from "webpack-dev-server";
 import { merge } from "webpack-merge";
 
 import config from "./webpack.config";

@@ -1,5 +1,5 @@
-import path from "path";
 import { cosmiconfigSync } from "cosmiconfig";
+import path from "path";
 
 const explorer = cosmiconfigSync("dotenv", {
   searchPlaces: [".env"],

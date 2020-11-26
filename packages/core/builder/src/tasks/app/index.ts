@@ -1,8 +1,7 @@
 import { createTasks } from "../../utils/createTasks";
-
-import { start } from "./start";
 import { build } from "./build";
 import { clean } from "./clean";
+import { start } from "./start";
 
 const app = createTasks({
   start,

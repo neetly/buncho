@@ -1,7 +1,7 @@
+import * as paths from "../../paths";
 import type { Task } from "../../types/Task";
 import { execute } from "../../utils/execute";
 import { getPackageBin } from "../../utils/getPackageBin";
-import * as paths from "../../paths";
 
 const start: Task = async () => {
   await execute({

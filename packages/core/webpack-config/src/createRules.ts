@@ -1,7 +1,7 @@
-import type { RuleSetRule, RuleSetUseItem } from "webpack";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import type { RuleSetRule, RuleSetUseItem } from "webpack";
 
-import { production, useFastRefresh, hasBabelConfig } from "./env";
+import { hasBabelConfig, production, useFastRefresh } from "./env";
 
 const getCssLoaders = ({ extract }: { extract: boolean }): RuleSetUseItem[] => {
   return [

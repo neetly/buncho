@@ -1,9 +1,9 @@
 import "@buncho/dotenv";
 
-import type { Configuration } from "webpack";
-import type { ProxyConfigMap, ProxyConfigArray } from "webpack-dev-server";
 import { createConfig } from "@buncho/webpack-config";
 import { cosmiconfig } from "cosmiconfig";
+import type { Configuration } from "webpack";
+import type { ProxyConfigArray, ProxyConfigMap } from "webpack-dev-server";
 
 const explorer = cosmiconfig("proxy");
 

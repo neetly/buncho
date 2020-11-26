@@ -1,9 +1,9 @@
 import path from "path";
 
+import { hasBabelConfig } from "../../env";
 import type { Task } from "../../types/Task";
 import { execute } from "../../utils/execute";
 import { getPackageBin } from "../../utils/getPackageBin";
-import { hasBabelConfig } from "../../env";
 
 const build: Task = async () => {
   await execute({

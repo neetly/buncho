@@ -1,16 +1,16 @@
-import path from "path";
-import type { Configuration } from "webpack";
-import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
+import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
+import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
+import ForkTsCheckerPlugin from "fork-ts-checker-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
-import ForkTsCheckerPlugin from "fork-ts-checker-webpack-plugin";
-import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
+import path from "path";
 import TerserPlugin from "terser-webpack-plugin";
-import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
+import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
+import type { Configuration } from "webpack";
 
-import { production, useFastRefresh, hasTsconfigPaths } from "./env";
 import { createRules } from "./createRules";
+import { hasTsconfigPaths, production, useFastRefresh } from "./env";
 
 const config: Configuration = {
   mode: production ? "production" : "development",
