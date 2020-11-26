@@ -1486,6 +1486,7 @@ __metadata:
     eslint-config-prettier: ^6.15.0
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-react-hooks: ^4.2.0
+    eslint-plugin-simple-import-sort: ^6.0.1
   peerDependencies:
     eslint: "*"
     typescript: "*"
@@ -4770,6 +4771,15 @@ __metadata:
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
   checksum: 5378d16b5a56431a7a77b56d61464dbbfa343e8607da87b851a6caee44b96e08847147321f5f38de30d20668418691d859f69d9c5262dfb5308856382252096c
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-simple-import-sort@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "eslint-plugin-simple-import-sort@npm:6.0.1"
+  peerDependencies:
+    eslint: ">=5.0.0"
+  checksum: d43a4eb603ea97b92076453be40217e3808e3f1e7901a0307c206ecff19bd85072dddfec16ec88d98bf3058781e98f62d5e929c3b0794f71d094688042714c61
   languageName: node
   linkType: hard
 

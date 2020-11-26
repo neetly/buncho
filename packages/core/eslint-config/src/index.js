@@ -11,7 +11,12 @@ module.exports = {
         projectFolderIgnoreList: ["**/node_modules/**"],
       },
 
-      plugins: ["@typescript-eslint", "react-hooks", "jsx-a11y"],
+      plugins: [
+        "@typescript-eslint",
+        "simple-import-sort",
+        "react-hooks",
+        "jsx-a11y",
+      ],
       extends: [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
@@ -24,6 +29,8 @@ module.exports = {
 
       rules: {
         eqeqeq: "error",
+        "simple-import-sort/imports": "error",
+        "simple-import-sort/exports": "error",
       },
     },
 
