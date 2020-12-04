@@ -15,9 +15,6 @@ import { hasTsconfigPaths, production, useFastRefresh } from "./env";
 const config: Configuration = {
   mode: production ? "production" : "development",
 
-  // FIXME: https://github.com/webpack/webpack-dev-server/issues/2758
-  target: "web",
-
   context: path.resolve("./src"),
 
   entry: {
