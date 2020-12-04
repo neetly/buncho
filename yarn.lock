@@ -1524,6 +1524,7 @@ __metadata:
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
+    history: "*"
     react: "*"
     react-dom: "*"
   peerDependenciesMeta:
