@@ -24,8 +24,8 @@
     "prepack": "run clean && run build && cp ../../../LICENSE ."
   },
   "dependencies": {
-    "@babel/cli": "^7.12.7",
-    "@babel/core": "^7.12.7",
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
     "@buncho/babel-preset": "workspace:packages/core/babel-preset",
     "@buncho/dotenv": "workspace:packages/core/dotenv",
     "@buncho/register": "workspace:packages/core/register",
@@ -35,7 +35,7 @@
     "@types/webpack": "^4.41.25",
     "@types/webpack-dev-server": "^3.11.1",
     "cosmiconfig": "^7.0.0",
-    "webpack": "^5.6.0",
+    "webpack": "^5.9.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "4.0.0-beta.0"
   },
@@ -55,7 +55,7 @@
     }
   },
   "devDependencies": {
-    "@types/node": "^14.14.9",
+    "@types/node": "^14.14.10",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "react": "^17.0.1",
