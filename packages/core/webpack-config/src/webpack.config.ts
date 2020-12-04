@@ -86,14 +86,12 @@ const config: Configuration = {
     minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
   },
 
-  devServer: {
-    hot: true,
+  stats: production ? "normal" : "minimal",
 
+  devServer: {
     historyApiFallback: {
       disableDotRule: true,
     },
-
-    stats: "minimal",
   },
 };
 
