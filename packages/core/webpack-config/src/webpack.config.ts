@@ -59,8 +59,7 @@ const config: Configuration = {
     }),
 
     new HtmlPlugin({
-      // FIXME: https://github.com/webpack/webpack/issues/11909
-      template: /* "!!raw-loader!" + */ path.resolve("./public/index.html"),
+      template: path.resolve("./public/index.html"),
     }),
 
     new MiniCssExtractPlugin({
