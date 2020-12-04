@@ -34,7 +34,6 @@ const config: Configuration = {
 
   resolve: {
     extensions: [".js", ".mjs", ".cjs", ".ts", ".tsx"],
-
     plugins: hasTsconfigPaths ? [new TsconfigPathsPlugin()] : [],
   },
 
@@ -89,6 +88,7 @@ const config: Configuration = {
   stats: production ? "normal" : "minimal",
 
   devServer: {
+    liveReload: false,
     historyApiFallback: {
       disableDotRule: true,
     },
