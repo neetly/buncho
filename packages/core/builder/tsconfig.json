@@ -8,7 +8,10 @@
     "outDir": "./lib",
 
     "lib": ["ESNext"],
-    "types": ["node", "webpack-dev-server"]
+    "types": ["node", "webpack-dev-server"],
+
+    // FIXME: https://github.com/DefinitelyTyped/DefinitelyTyped/issues/45479
+    "skipLibCheck": true
   },
 
   "references": [{ "path": "./types" }, { "path": "../webpack-config" }]

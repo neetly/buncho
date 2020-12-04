@@ -10,6 +10,7 @@
     "lib": ["ESNext"],
     "types": ["node", "webpack-dev-server"],
 
+    // FIXME: https://github.com/DefinitelyTyped/DefinitelyTyped/issues/45479
     // FIXME: https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/issues/534
     "skipLibCheck": true
   },
