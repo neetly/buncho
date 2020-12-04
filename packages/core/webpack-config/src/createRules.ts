@@ -3,7 +3,13 @@ import type { RuleSetRule, RuleSetUseItem } from "webpack";
 
 import { hasBabelConfig, production, useFastRefresh } from "./env";
 
-const getCssLoaders = ({ extract }: { extract: boolean }): RuleSetUseItem[] => {
+const getCssLoaders = ({
+  extract,
+  use = [],
+}: {
+  extract: boolean;
+  use?: RuleSetUseItem[];
+}): RuleSetUseItem[] => {
   return [
     extract
       ? { loader: MiniCssExtractPlugin.loader }
@@ -12,7 +18,7 @@ const getCssLoaders = ({ extract }: { extract: boolean }): RuleSetUseItem[] => {
     {
       loader: require.resolve("css-loader"),
       options: {
-        importLoaders: 1,
+        importLoaders: 1 + use.length,
         modules: {
           auto: true,
           localIdentName: production
@@ -30,6 +36,8 @@ const getCssLoaders = ({ extract }: { extract: boolean }): RuleSetUseItem[] => {
         },
       },
     },
+
+    ...use,
   ];
 };
 
@@ -101,11 +109,13 @@ const createRules = ({
 
         {
           test: /\.scss$/,
-          use: [
-            ...getCssLoaders({ extract }),
-            require.resolve("resolve-url-loader"),
-            require.resolve("sass-loader"),
-          ],
+          use: getCssLoaders({
+            extract,
+            use: [
+              { loader: require.resolve("resolve-url-loader") },
+              { loader: require.resolve("sass-loader") },
+            ],
+          }),
         },
 
         ...customRules,
