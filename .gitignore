@@ -11,6 +11,11 @@
 
 /.pnp.*
 
+# dotenv
+
+/.env.local
+/.env.*.local
+
 # Artifacts
 
 /packages/*/*/package.tgz
