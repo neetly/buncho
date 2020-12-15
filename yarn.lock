@@ -1379,18 +1379,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/builder-template@workspace:packages/core/builder-template":
-  version: 0.0.0-use.local
-  resolution: "@buncho/builder-template@workspace:packages/core/builder-template"
-  dependencies:
-    "@buncho/builder": "workspace:packages/core/builder"
-    "@types/react": ^17.0.0
-    "@types/react-dom": ^17.0.0
-    react: ^17.0.1
-    react-dom: ^17.0.1
-  languageName: unknown
-  linkType: soft
-
 "@buncho/builder@workspace:packages/core/builder":
   version: 0.0.0-use.local
   resolution: "@buncho/builder@workspace:packages/core/builder"
