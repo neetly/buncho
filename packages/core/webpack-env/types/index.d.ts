@@ -3,6 +3,10 @@
 /// <reference types="react" />
 /// <reference types="react-dom" />
 
+declare interface ImportMeta {
+  url: string;
+}
+
 declare const process: {
   env: Record<string, string | undefined>;
 };
