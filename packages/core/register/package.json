@@ -18,7 +18,7 @@
     "prepack": "run clean && run build && cp ../../../LICENSE ."
   },
   "dependencies": {
-    "@babel/register": "^7.12.1",
+    "@babel/register": "^7.12.10",
     "tsconfig-paths": "^3.9.0"
   },
   "peerDependencies": {
@@ -31,7 +31,7 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.12.10",
     "@buncho/babel-preset": "workspace:packages/core/babel-preset"
   }
 }
