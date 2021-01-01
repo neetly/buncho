@@ -32,7 +32,6 @@
     "@buncho/webpack-config": "workspace:packages/core/webpack-config",
     "@buncho/webpack-env": "workspace:packages/core/webpack-env",
     "@types/babel__core": "^7.1.12",
-    "@types/webpack": "^4.41.25",
     "@types/webpack-dev-server": "^3.11.1",
     "cosmiconfig": "^7.0.0",
     "webpack": "^5.11.1",

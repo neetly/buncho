@@ -50,7 +50,6 @@
     "@babel/core": "*",
     "@buncho/babel-preset": "*",
     "@types/babel__core": "*",
-    "@types/webpack": "*",
     "@types/webpack-dev-server": "*",
     "typescript": "*",
     "webpack": "*",
@@ -61,9 +60,6 @@
       "optional": true
     },
     "@types/babel__core": {
-      "optional": true
-    },
-    "@types/webpack": {
       "optional": true
     },
     "@types/webpack-dev-server": {
@@ -81,7 +77,6 @@
     "@buncho/babel-preset": "workspace:packages/core/babel-preset",
     "@types/babel__core": "^7.1.12",
     "@types/node": "^14.14.19",
-    "@types/webpack": "^4.41.25",
     "@types/webpack-dev-server": "^3.11.1",
     "webpack": "^5.11.1",
     "webpack-dev-server": "4.0.0-beta.0"
