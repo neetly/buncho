@@ -89,6 +89,7 @@ const config: Configuration = {
   stats: production ? "normal" : "minimal",
 
   devServer: {
+    // FIXME: https://github.com/webpack/webpack-dev-server/issues/2893
     liveReload: false,
     historyApiFallback: {
       disableDotRule: true,
