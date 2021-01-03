@@ -75,6 +75,7 @@ const config: Configuration = {
         mode: "write-references",
       },
       logger: {
+        // https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/issues/495
         devServer: false,
       },
     }),
