@@ -1353,6 +1353,7 @@ __metadata:
     "@babel/core": ^7.12.10
     "@buncho/babel-preset": "workspace:packages/core/babel-preset"
     "@buncho/dotenv": "workspace:packages/core/dotenv"
+    "@buncho/register": "workspace:packages/core/register"
     "@buncho/webpack-config": "workspace:packages/core/webpack-config"
     "@buncho/webpack-env": "workspace:packages/core/webpack-env"
     "@types/babel__core": ^7.1.12
