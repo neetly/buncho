@@ -1284,7 +1284,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4":
   version: 7.12.5
   resolution: "@babel/runtime@npm:7.12.5"
   dependencies:
@@ -1340,6 +1340,7 @@ __metadata:
     "@babel/preset-env": ^7.12.11
     "@babel/preset-react": ^7.12.10
     "@babel/preset-typescript": ^7.12.7
+    babel-plugin-macros: ^3.0.1
   peerDependencies:
     "@babel/core": "*"
   languageName: unknown
@@ -2952,6 +2953,17 @@ __metadata:
   dependencies:
     object.assign: ^4.1.0
   checksum: 6745b8edca96f6c8bc34ab65935b5676358d2e55323e8e823b8de7aa353e3e6398a495ce434c9c36ad5fb1609467a1b1a0028946e1490bf7de8f97df3ae7f3b1
+  languageName: node
+  linkType: hard
+
+"babel-plugin-macros@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "babel-plugin-macros@npm:3.0.1"
+  dependencies:
+    "@babel/runtime": ^7.12.5
+    cosmiconfig: ^7.0.0
+    resolve: ^1.19.0
+  checksum: f1a523136365b5bfb23bfc05d3d0b91358adc854a3440d3ea6220b6427bf43d8ea25b7f01ade618af943005d82f449389d02446a4b097a87ccd7eeab14921e03
   languageName: node
   linkType: hard
 
@@ -8595,7 +8607,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.9.0":
+"resolve@npm:^1.19.0, resolve@npm:^1.9.0":
   version: 1.19.0
   resolution: "resolve@npm:1.19.0"
   dependencies:

@@ -22,6 +22,7 @@ module.exports = (api) => {
             { allowDeclareFields: true, onlyRemoveTypeImports: true },
           ],
         ],
+        plugins: [require.resolve("babel-plugin-macros")],
       },
 
       {
