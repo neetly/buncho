@@ -19,13 +19,17 @@
   },
   "peerDependencies": {
     "@babel/core": "*",
-    "tsconfig-paths": "*"
+    "tsconfig-paths": "*",
+    "typescript": "*"
   },
   "peerDependenciesMeta": {
     "@babel/core": {
       "optional": true
     },
     "tsconfig-paths": {
+      "optional": true
+    },
+    "typescript": {
       "optional": true
     }
   },

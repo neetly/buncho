@@ -1476,10 +1476,13 @@ __metadata:
   peerDependencies:
     "@babel/core": "*"
     tsconfig-paths: "*"
+    typescript: "*"
   peerDependenciesMeta:
     "@babel/core":
       optional: true
     tsconfig-paths:
+      optional: true
+    typescript:
       optional: true
   languageName: unknown
   linkType: soft
