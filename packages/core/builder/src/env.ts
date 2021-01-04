@@ -1,6 +1,3 @@
-import * as babel from "@babel/core";
+import * as utils from "@buncho/utils";
 
-// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-export const hasBabelConfig = babel
-  .loadPartialConfig({ rootMode: "upward-optional" })!
-  .hasFilesystemConfig();
+export const hasBabelConfig = utils.hasBabelConfig();

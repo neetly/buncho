@@ -1354,6 +1354,7 @@ __metadata:
     "@buncho/babel-preset": "workspace:packages/core/babel-preset"
     "@buncho/dotenv": "workspace:packages/core/dotenv"
     "@buncho/register": "workspace:packages/core/register"
+    "@buncho/utils": "workspace:packages/core/utils"
     "@buncho/webpack-config": "workspace:packages/core/webpack-config"
     "@buncho/webpack-env": "workspace:packages/core/webpack-env"
     "@types/babel__core": ^7.1.12
@@ -1421,6 +1422,7 @@ __metadata:
     "@babel/core": ^7.12.10
     "@babel/register": ^7.12.10
     "@buncho/babel-preset": "workspace:packages/core/babel-preset"
+    "@buncho/utils": "workspace:packages/core/utils"
     tsconfig-paths: ^3.9.0
   peerDependencies:
     "@babel/core": "*"
@@ -1464,12 +1466,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@buncho/utils@workspace:packages/core/utils":
+  version: 0.0.0-use.local
+  resolution: "@buncho/utils@workspace:packages/core/utils"
+  dependencies:
+    "@babel/core": ^7.12.10
+    tsconfig-paths: ^3.9.0
+  peerDependencies:
+    "@babel/core": "*"
+    tsconfig-paths: "*"
+  peerDependenciesMeta:
+    "@babel/core":
+      optional: true
+    tsconfig-paths:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@buncho/webpack-config@workspace:packages/core/webpack-config":
   version: 0.0.0-use.local
   resolution: "@buncho/webpack-config@workspace:packages/core/webpack-config"
   dependencies:
     "@babel/core": ^7.12.10
     "@buncho/babel-preset": "workspace:packages/core/babel-preset"
+    "@buncho/utils": "workspace:packages/core/utils"
     "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.12

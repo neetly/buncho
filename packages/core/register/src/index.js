@@ -1,10 +1,7 @@
-const babel = require("@babel/core");
-const tsconfigPaths = require("tsconfig-paths");
+const utils = require("@buncho/utils");
 
-const hasBabelConfig = babel
-  .loadPartialConfig({ rootMode: "upward-optional" })
-  .hasFilesystemConfig();
-const hasTsconfigPaths = tsconfigPaths.loadConfig().resultType === "success";
+const hasBabelConfig = utils.hasBabelConfig();
+const hasTsconfigPaths = utils.hasTsconfigPaths();
 
 require("@babel/register")({
   rootMode: "upward-optional",
