@@ -121,6 +121,7 @@ const createRules = ({
 
         {
           test: /\.svg$/,
+          issuer: /\.(ts|tsx)$/,
           dependency: { not: ["url"] },
           use: [
             {
