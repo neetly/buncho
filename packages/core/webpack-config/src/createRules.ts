@@ -104,21 +104,6 @@ const createRules = ({
         },
 
         {
-          test: /\.svg$/,
-          issuer: /\.(ts|tsx)$/,
-          use: [
-            {
-              loader: require.resolve("@svgr/webpack"),
-              options: {
-                svgProps: {
-                  "aria-hidden": "{true}",
-                },
-              },
-            },
-          ],
-        },
-
-        {
           test: /\.css$/,
           use: getCssLoaders({ extract }),
         },
@@ -132,6 +117,21 @@ const createRules = ({
               { loader: require.resolve("sass-loader") },
             ],
           }),
+        },
+
+        {
+          test: /\.svg$/,
+          issuer: /\.(ts|tsx)$/,
+          use: [
+            {
+              loader: require.resolve("@svgr/webpack"),
+              options: {
+                svgProps: {
+                  "aria-hidden": "{true}",
+                },
+              },
+            },
+          ],
         },
 
         ...customRules,
