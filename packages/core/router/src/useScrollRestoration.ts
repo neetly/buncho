@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 import { useAction } from "./useAction";
 
-const useScrollRestoration = (key: unknown): void => {
+const useScrollRestoration = <T = unknown>(key: T): void => {
   const prevKey = useRef(key);
   const action = useAction();
 
