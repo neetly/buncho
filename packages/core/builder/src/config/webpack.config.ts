@@ -13,7 +13,8 @@ const config = async (): Promise<Configuration> => {
     port: Number(process.env.PORT || 3000),
     proxy: (await explorer.search())?.config as
       | ProxyConfigMap
-      | ProxyConfigArray,
+      | ProxyConfigArray
+      | undefined,
     env: Object.fromEntries(
       Object.entries(process.env).filter(([key]) => {
         return key.startsWith("APP_");
