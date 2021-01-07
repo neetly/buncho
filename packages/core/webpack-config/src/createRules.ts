@@ -81,14 +81,6 @@ const createRules = ({
 
         {
           test: /\.(js|mjs|cjs)$/,
-          parser: {
-            worker: [
-              "...",
-              "CSS.paintWorklet.addModule()",
-              "CSS.layoutWorklet.addModule()",
-              "CSS.animationWorklet.addModule()",
-            ],
-          },
           use: [
             {
               loader: require.resolve("babel-loader"),
@@ -136,11 +128,6 @@ const createRules = ({
         },
 
         ...customRules,
-
-        {
-          exclude: /\.json$/,
-          type: "asset/resource",
-        },
       ],
     },
   ];

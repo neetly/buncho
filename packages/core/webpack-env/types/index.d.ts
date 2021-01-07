@@ -11,26 +11,6 @@ declare const process: {
   env: Record<string, string | undefined>;
 };
 
-declare module "*.avif" {
-  const asset: string;
-  export default asset;
-}
-
-declare module "*.webp" {
-  const asset: string;
-  export default asset;
-}
-
-declare module "*.png" {
-  const asset: string;
-  export default asset;
-}
-
-declare module "*.jpg" {
-  const asset: string;
-  export default asset;
-}
-
 declare module "*.svg" {
   import type { ComponentType, SVGProps } from "react";
   const Component: ComponentType<SVGProps<SVGSVGElement>>;
