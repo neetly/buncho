@@ -59,3 +59,47 @@ exports.getReferencedProjects = () => {
 
   return projects;
 };
+
+exports.getPaths = () => {
+  const projects = exports.getReferencedProjects();
+  if (!projects) return null;
+
+  const paths = new Map();
+
+  for (const [configFile, config] of projects) {
+    const projectDir = path.dirname(configFile);
+    const rootDir = path.resolve(
+      projectDir,
+      (config.compilerOptions || {}).rootDir || ".",
+    );
+    const outDir = path.resolve(
+      projectDir,
+      (config.compilerOptions || {}).outDir || ".",
+    );
+
+    if (fs.existsSync(path.join(projectDir, "package.json"))) {
+      const manifest = require(path.join(projectDir, "package.json"));
+
+      let exports;
+      if (manifest.exports) {
+        exports =
+          typeof manifest.exports === "string"
+            ? { ".": manifest.exports }
+            : manifest.exports;
+      } else {
+        exports = manifest.main ? { ".": manifest.main } : {};
+      }
+
+      for (const [key, value] of Object.entries(exports)) {
+        // TODO: Implement conditional exports.
+        if (typeof value !== "string") continue;
+        paths.set(
+          path.posix.join(manifest.name, key),
+          path.resolve(projectDir, value).replace(outDir, rootDir),
+        );
+      }
+    }
+  }
+
+  return paths;
+};
