@@ -77,6 +77,7 @@ exports.getPaths = () => {
       (config.compilerOptions || {}).outDir || ".",
     );
 
+    // TODO: Check package.json recursively.
     if (fs.existsSync(path.join(projectDir, "package.json"))) {
       const manifest = require(path.join(projectDir, "package.json"));
 
