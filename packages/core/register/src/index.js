@@ -10,6 +10,13 @@ require("@babel/register")({
   presets: hasBabelConfig ? [] : [require.resolve("@buncho/babel-preset")],
 });
 
+require("tsconfig-paths").register({
+  // FIXME: https://github.com/dividab/tsconfig-paths/issues/143
+  baseUrl: ".",
+  paths: utils.getPaths(),
+  addMatchAll: false,
+});
+
 if (hasTsconfigPaths) {
   require("tsconfig-paths/register");
 }
