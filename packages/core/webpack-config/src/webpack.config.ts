@@ -1,3 +1,4 @@
+import * as utils from "@buncho/utils";
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
@@ -34,6 +35,7 @@ const config: Configuration = {
 
   resolve: {
     extensions: [".js", ".mjs", ".cjs", ".ts", ".tsx"],
+    alias: utils.getWebpackAlias(),
     // @ts-expect-error https://github.com/dividab/tsconfig-paths-webpack-plugin/issues/61
     plugins: hasTsconfigPaths ? [new TsconfigPathsPlugin()] : [],
   },
