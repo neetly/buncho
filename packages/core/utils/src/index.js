@@ -103,3 +103,16 @@ exports.getPaths = () => {
 
   return paths;
 };
+
+exports.getWebpackAlias = () => {
+  const paths = exports.getPaths();
+  if (!paths) return {};
+
+  const aliases = new Map();
+
+  for (const [key, value] of paths) {
+    aliases.set(key + "$", value);
+  }
+
+  return Object.fromEntries(aliases);
+};
