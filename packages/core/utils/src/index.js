@@ -95,7 +95,10 @@ exports.getPaths = () => {
         if (typeof value !== "string") continue;
         paths.set(
           path.posix.join(manifest.name, key),
-          path.resolve(projectDir, value).replace(outDir, rootDir),
+          path
+            .resolve(projectDir, value)
+            .replace(outDir, rootDir)
+            .replace(/\.js$/, ""),
         );
       }
     }
