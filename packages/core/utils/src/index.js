@@ -87,7 +87,12 @@ exports.getPaths = () => {
             ? { ".": manifest.exports }
             : manifest.exports;
       } else {
+        const patterns = [path.posix.relative(projectDir, outDir), "."];
         exports = manifest.main ? { ".": manifest.main } : {};
+        for (const pattern of patterns) {
+          exports["./" + path.posix.join(pattern, "*")] =
+            "./" + path.posix.join(pattern, "*.js");
+        }
       }
 
       for (const [key, value] of Object.entries(exports)) {
@@ -114,7 +119,10 @@ exports.getWebpackAlias = () => {
   const aliases = new Map();
 
   for (const [key, value] of paths) {
-    aliases.set(key + "$", value);
+    aliases.set(
+      key.endsWith("*") ? key.slice(0, -2) : key + "$",
+      value.endsWith("*") ? value.slice(0, -2) : value,
+    );
   }
 
   return Object.fromEntries(aliases);
