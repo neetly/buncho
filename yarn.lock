@@ -1572,7 +1572,7 @@ __metadata:
     "@buncho/builder": "workspace:packages/core/builder"
     "@buncho/eslint-config": "workspace:packages/core/eslint-config"
     "@buncho/tsconfig": "workspace:packages/core/tsconfig"
-    "@prettier/plugin-xml": ^0.12.0
+    "@prettier/plugin-xml": ^0.13.0
     eslint: ^7.18.0
     prettier: ^2.2.1
     typescript: ^4.1.3
@@ -1695,13 +1695,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prettier/plugin-xml@npm:^0.12.0":
-  version: 0.12.0
-  resolution: "@prettier/plugin-xml@npm:0.12.0"
+"@prettier/plugin-xml@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "@prettier/plugin-xml@npm:0.13.0"
   dependencies:
     "@xml-tools/parser": ^1.0.2
     prettier: ">=1.10"
-  checksum: c011095d3d4b8e6a98cb17ab4b9e81a36ff1d9b9ed2dd126c8018028491c96b20e77070f2dc5420460493c16d48a03679ebd899a5c995af902a7abdd2f570ec3
+  checksum: fe762735863fc9c7822c54b825355a8a2faed86ec77c4e85efa73a91b141e0ab0c851a7b7e0a8453da5942345dfa762885b2644e631340685021c98e28d4235d
   languageName: node
   linkType: hard
 
