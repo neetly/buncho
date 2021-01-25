@@ -128,6 +128,11 @@ const createRules = ({
         },
 
         ...customRules,
+
+        {
+          exclude: /\.json$/,
+          type: "asset/resource",
+        },
       ],
     },
   ];
