@@ -22,7 +22,7 @@
     "@buncho/eslint-config": "workspace:packages/core/eslint-config",
     "@buncho/tsconfig": "workspace:packages/core/tsconfig",
     "@prettier/plugin-xml": "^0.13.0",
-    "eslint": "^7.18.0",
+    "eslint": "^7.19.0",
     "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   }
