@@ -34,7 +34,7 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
+    "@babel/core": "^7.12.13",
     "tsconfig-paths": "^3.9.0"
   }
 }
