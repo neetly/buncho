@@ -1491,7 +1491,7 @@ __metadata:
     raw-loader: ^4.0.2
     react-refresh: ^0.9.0
     resolve-url-loader: ^3.1.2
-    sass: ^1.32.6
+    sass: ^1.32.7
     sass-loader: ^11.0.1
     style-loader: ^2.0.0
     terser-webpack-plugin: ^5.1.1
@@ -8665,14 +8665,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.32.6":
-  version: 1.32.6
-  resolution: "sass@npm:1.32.6"
+"sass@npm:^1.32.7":
+  version: 1.32.7
+  resolution: "sass@npm:1.32.7"
   dependencies:
     chokidar: ">=2.0.0 <4.0.0"
   bin:
     sass: sass.js
-  checksum: 8311991ab5574fa18f31d01cbe9c46129a90c5d1d95ce3a28799515d135ad76e89670d81ab4a021d29bad0c8f20f7f643456f1a59dc22d1ca5c150d9ef998f25
+  checksum: 92c785120b1e9c4a6e7591ca323876bb40dbade8ebfafac0c353ea665bb3c421585788bc6233e9efe649a20c3a607b84ee95f81f7cadfadf3a8cc005ec9c9653
   languageName: node
   linkType: hard
 
