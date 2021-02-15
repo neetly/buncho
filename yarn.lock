@@ -1506,7 +1506,7 @@ __metadata:
     terser-webpack-plugin: ^5.1.1
     tsconfig-paths: ^3.9.0
     tsconfig-paths-webpack-plugin: ^3.3.0
-    type-fest: ^0.21.0
+    type-fest: ^0.21.1
     webpack: ^5.22.0
     webpack-dev-server: 4.0.0-beta.0
     webpack-merge: ^5.7.3
@@ -9587,10 +9587,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "type-fest@npm:0.21.0"
-  checksum: 5ac08ec32020db45481e8459aa564c0af425c61ae1fefd63557f35c1aa59bb3af38e30bf131565fa257d82479e3dc24855e8f41a1b948851094c963d7582a64e
+"type-fest@npm:^0.21.1":
+  version: 0.21.1
+  resolution: "type-fest@npm:0.21.1"
+  checksum: c5653b66e12ae5c7053c30ae8361d183a62954449ed2b0e5faea1202875fa5a21113802200ad0a94d97ad108b5795333d5f2d360394f45a5a43a44bec83128db
   languageName: node
   linkType: hard
 
