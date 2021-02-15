@@ -1494,7 +1494,7 @@ __metadata:
     css-minimizer-webpack-plugin: ^1.2.0
     fork-ts-checker-webpack-plugin: ^6.1.0
     html-webpack-plugin: ^5.1.0
-    mini-css-extract-plugin: ^1.3.6
+    mini-css-extract-plugin: ^1.3.7
     postcss: ^8.2.6
     postcss-loader: ^5.0.0
     raw-loader: ^4.0.2
@@ -6775,16 +6775,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:^1.3.6":
-  version: 1.3.6
-  resolution: "mini-css-extract-plugin@npm:1.3.6"
+"mini-css-extract-plugin@npm:^1.3.7":
+  version: 1.3.7
+  resolution: "mini-css-extract-plugin@npm:1.3.7"
   dependencies:
     loader-utils: ^2.0.0
     schema-utils: ^3.0.0
     webpack-sources: ^1.1.0
   peerDependencies:
     webpack: ^4.4.0 || ^5.0.0
-  checksum: b5ab207776e5b3babfe5cc0813eb349b5b77ed003d1070910d424869fc7bd24fc3cb7e84c32db4818847c8b1950fef8701ec60ea910c60e2761631823027ec5f
+  checksum: 5dd23f6181d55c47d2c56ec521d70ed0a860ad6938c947f9e7e4129864b055ef72f4cc5d9e1390cd50ac7bce17fa214b8f1b716398bbe0d1d0e0d4156bb27b04
   languageName: node
   linkType: hard
 
