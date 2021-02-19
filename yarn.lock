@@ -1493,7 +1493,7 @@ __metadata:
     css-loader: ^5.0.2
     css-minimizer-webpack-plugin: ^1.2.0
     fork-ts-checker-webpack-plugin: ^6.1.0
-    html-webpack-plugin: ^5.1.0
+    html-webpack-plugin: ^5.2.0
     mini-css-extract-plugin: ^1.3.8
     postcss: ^8.2.6
     postcss-loader: ^5.0.0
@@ -5530,9 +5530,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "html-webpack-plugin@npm:5.1.0"
+"html-webpack-plugin@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "html-webpack-plugin@npm:5.2.0"
   dependencies:
     "@types/html-minifier-terser": ^5.0.0
     html-minifier-terser: ^5.0.1
@@ -5542,7 +5542,7 @@ __metadata:
     tapable: ^2.0.0
   peerDependencies:
     webpack: ^5.20.0
-  checksum: ad67436ac7f4fa9450d2184538b42fb3ffb0801008b61d46b17efdb95a38d650d4ed025765945c355a97b2ff55a45af0b4832357405bf430343062204f354ea2
+  checksum: a7476f0fb75c6728754bd963f1f09abaebacf6a238bf75a852ec2b07afaa3c0c1872d74ea81175598dccd0b9375093034035a505454919a708be7c7453ca6df6
   languageName: node
   linkType: hard
 
