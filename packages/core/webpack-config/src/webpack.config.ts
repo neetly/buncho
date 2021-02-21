@@ -9,9 +9,16 @@ import path from "path";
 import TerserPlugin from "terser-webpack-plugin";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 import type { Configuration } from "webpack";
+import WorkboxWebpackPlugin from "workbox-webpack-plugin";
 
+import { EXTENSIONS } from "./constants";
 import { createRules } from "./createRules";
-import { hasTsconfigPaths, production, useFastRefresh } from "./env";
+import {
+  hasTsconfigPaths,
+  production,
+  serviceWorkerEntry,
+  useFastRefresh,
+} from "./env";
 
 const config: Configuration = {
   mode: production ? "production" : "development",
@@ -34,7 +41,7 @@ const config: Configuration = {
   devtool: production ? "source-map" : "cheap-module-source-map",
 
   resolve: {
-    extensions: [".js", ".mjs", ".cjs", ".ts", ".tsx"],
+    extensions: EXTENSIONS,
     alias: utils.getWebpackAlias(),
     // @ts-expect-error https://github.com/dividab/tsconfig-paths-webpack-plugin/issues/61
     plugins: hasTsconfigPaths ? [new TsconfigPathsPlugin()] : [],
@@ -81,6 +88,11 @@ const config: Configuration = {
         devServer: false,
       },
     }),
+
+    serviceWorkerEntry &&
+      new WorkboxWebpackPlugin.InjectManifest({
+        swSrc: serviceWorkerEntry,
+      }),
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
   ].filter(Boolean) as Configuration["plugins"],
