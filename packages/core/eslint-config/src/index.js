@@ -24,7 +24,6 @@ module.exports = {
         "plugin:react-hooks/recommended",
         "plugin:jsx-a11y/recommended",
         require.resolve("eslint-config-prettier"),
-        require.resolve("eslint-config-prettier/@typescript-eslint"),
       ],
 
       rules: {
