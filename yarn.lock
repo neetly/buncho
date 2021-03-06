@@ -1388,6 +1388,10 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
+    react:
+      optional: true
+    react-dom:
+      optional: true
   bin:
     app: ./bin/app.js
     lib: ./bin/lib.js
