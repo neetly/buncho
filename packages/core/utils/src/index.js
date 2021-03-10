@@ -35,7 +35,7 @@ exports.getReferencedProjects = () => {
   };
 
   const configFile = resolveConfigFile(path.resolve("."));
-  if (!fs.existsSync(configFile)) return null;
+  if (!fs.existsSync(configFile)) return {};
 
   const projects = new Map();
 
@@ -57,16 +57,14 @@ exports.getReferencedProjects = () => {
     }
   }
 
-  return projects;
+  return Object.fromEntries(projects);
 };
 
 exports.getPaths = () => {
   const projects = exports.getReferencedProjects();
-  if (!projects) return null;
-
   const paths = new Map();
 
-  for (const [configFile, config] of projects) {
+  for (const [configFile, config] of Object.entries(projects)) {
     const projectDir = path.dirname(configFile);
     const rootDir = path.resolve(
       projectDir,
@@ -98,27 +96,24 @@ exports.getPaths = () => {
       for (const [key, value] of Object.entries(exports)) {
         // TODO: Implement conditional exports.
         if (typeof value !== "string") continue;
-        paths.set(
-          path.posix.join(manifest.name, key),
+        paths.set(path.posix.join(manifest.name, key), [
           path
             .resolve(projectDir, value)
             .replace(outDir, rootDir)
             .replace(/\.js$/, ""),
-        );
+        ]);
       }
     }
   }
 
-  return paths;
+  return Object.fromEntries(paths);
 };
 
 exports.getWebpackAlias = () => {
   const paths = exports.getPaths();
-  if (!paths) return {};
-
   const aliases = new Map();
 
-  for (const [key, value] of paths) {
+  for (const [key, [value]] of Object.entries(paths)) {
     aliases.set(
       key.endsWith("*") ? key.slice(0, -2) : key + "$",
       value.endsWith("*") ? value.slice(0, -2) : value,
