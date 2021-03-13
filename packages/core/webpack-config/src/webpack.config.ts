@@ -43,7 +43,6 @@ const config: Configuration = {
   resolve: {
     extensions: EXTENSIONS,
     alias: utils.getWebpackAlias(),
-    // @ts-expect-error https://github.com/dividab/tsconfig-paths-webpack-plugin/issues/61
     plugins: hasTsconfigPaths ? [new TsconfigPathsPlugin()] : [],
   },
 
