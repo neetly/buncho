@@ -78,7 +78,7 @@
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@buncho/babel-preset": "workspace:packages/core/babel-preset",
-    "@types/babel__core": "^7.1.12",
+    "@types/babel__core": "^7.1.13",
     "@types/node": "^14.14.34",
     "@types/webpack-dev-server": "^3.11.2",
     "webpack": "^5.26.0",
