@@ -1366,7 +1366,7 @@ __metadata:
     "@buncho/utils": "workspace:packages/core/utils"
     "@buncho/webpack-config": "workspace:packages/core/webpack-config"
     "@buncho/webpack-env": "workspace:packages/core/webpack-env"
-    "@types/babel__core": ^7.1.13
+    "@types/babel__core": ^7.1.14
     "@types/node": ^14.14.35
     "@types/react": ^17.0.3
     "@types/react-dom": ^17.0.2
@@ -1508,7 +1508,7 @@ __metadata:
     "@buncho/utils": "workspace:packages/core/utils"
     "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
     "@svgr/webpack": ^5.5.0
-    "@types/babel__core": ^7.1.13
+    "@types/babel__core": ^7.1.14
     "@types/copy-webpack-plugin": ^6.4.0
     "@types/css-minimizer-webpack-plugin": ^1.1.1
     "@types/mini-css-extract-plugin": ^1.2.2
@@ -1981,16 +1981,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7.1.13":
-  version: 7.1.13
-  resolution: "@types/babel__core@npm:7.1.13"
+"@types/babel__core@npm:^7.1.14":
+  version: 7.1.14
+  resolution: "@types/babel__core@npm:7.1.14"
   dependencies:
     "@babel/parser": ^7.1.0
     "@babel/types": ^7.0.0
     "@types/babel__generator": "*"
     "@types/babel__template": "*"
     "@types/babel__traverse": "*"
-  checksum: c1ddd07afb1a0d7b6377e3605627c11152849d2d2086e026cfd8a7602dc005b9460a75f09f070ca073756fc0a045c22c880aa42f10a5508518bc713f32b9aa02
+  checksum: e0212770e1cd520b8ad241642e9f99ef20b5c609c157ffe154c42e136c85f3c3f598ad7bfd452fda8abb304c483d6bce92de0b8ed0612f9f1c57b6c4a18da7b3
   languageName: node
   linkType: hard
 
