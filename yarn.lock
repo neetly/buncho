@@ -1533,7 +1533,7 @@ __metadata:
     autoprefixer: ^10.2.5
     babel-loader: ^8.2.2
     copy-webpack-plugin: ^8.1.0
-    css-loader: ^5.1.4
+    css-loader: ^5.2.0
     css-minimizer-webpack-plugin: ^1.3.0
     fork-ts-checker-webpack-plugin: ^6.2.0
     html-webpack-plugin: ^5.3.1
@@ -3933,9 +3933,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:^5.1.4":
-  version: 5.1.4
-  resolution: "css-loader@npm:5.1.4"
+"css-loader@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "css-loader@npm:5.2.0"
   dependencies:
     camelcase: ^6.2.0
     cssesc: ^3.0.0
@@ -3951,7 +3951,7 @@ __metadata:
     semver: ^7.3.4
   peerDependencies:
     webpack: ^4.27.0 || ^5.0.0
-  checksum: cd30c027b7b61f0ccea1d68ef4b1186c489d44c4633ce2b557f27fbbfd7cec5fe444ae786ee5a0cc684159438ab6714581d2698ad39aefc2a33081c417e643c3
+  checksum: c3b2bb78531a56f6f6d5fa5dd6e2f992a89f136db3f4c150c3536daaa315b453d252c80f493099ead4edf0143b23357ff2d772148b61725c3dbca45b13446e67
   languageName: node
   linkType: hard
 
