@@ -1529,7 +1529,7 @@ __metadata:
     "@types/node": ^14.14.35
     "@types/terser-webpack-plugin": ^5.0.2
     "@types/webpack-dev-server": ^3.11.2
-    "@types/workbox-webpack-plugin": ^5.1.5
+    "@types/workbox-webpack-plugin": ^5.1.6
     autoprefixer: ^10.2.5
     babel-loader: ^8.2.2
     copy-webpack-plugin: ^8.1.0
@@ -2363,10 +2363,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/workbox-webpack-plugin@npm:^5.1.5":
-  version: 5.1.5
-  resolution: "@types/workbox-webpack-plugin@npm:5.1.5"
-  checksum: 5a8a98329dc140dcaf6ff6acc55598371ac55d78464b1c39063b31db44de5138ccd5f4eb7e4eebd2c04cf35f405d09f2d4a51bcc696d8bbf08fa58db4b4280d7
+"@types/workbox-webpack-plugin@npm:^5.1.6":
+  version: 5.1.6
+  resolution: "@types/workbox-webpack-plugin@npm:5.1.6"
+  checksum: 9002438f4a54184af2d945f7c83d752cb238d4b82f28addccaa32dec489a60cef1796e7ef249488be0256c63fcb2e942388423eecdfe58572861555d80992030
   languageName: node
   linkType: hard
 
