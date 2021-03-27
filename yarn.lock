@@ -1522,7 +1522,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.14
-    "@types/copy-webpack-plugin": ^6.4.0
+    "@types/copy-webpack-plugin": ^6.4.1
     "@types/css-minimizer-webpack-plugin": ^1.1.3
     "@types/mini-css-extract-plugin": ^1.2.2
     "@types/node": ^14.14.37
@@ -2064,12 +2064,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/copy-webpack-plugin@npm:^6.4.0":
-  version: 6.4.0
-  resolution: "@types/copy-webpack-plugin@npm:6.4.0"
+"@types/copy-webpack-plugin@npm:^6.4.1":
+  version: 6.4.1
+  resolution: "@types/copy-webpack-plugin@npm:6.4.1"
   dependencies:
-    "@types/webpack": "*"
-  checksum: 353676dbf410684c128294233ff5ee5c8ad38bead6bbcd19c25bbd3a387102bedf31a636ab91071ed8b53929f0b942798ba82bf9f13d85dc334cb78f6886d7d6
+    "@types/webpack": ^4
+  checksum: f7d01594fafe849f438a1b4510a48b0d4926f33b2a19cb3279fe23e8c84605b481be9adcbf4260e97cac56c3729b4725b168925129478cecac37649d04739c2e
   languageName: node
   linkType: hard
 
