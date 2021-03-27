@@ -2348,7 +2348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack@npm:*, @types/webpack@npm:^4":
+"@types/webpack@npm:^4":
   version: 4.41.27
   resolution: "@types/webpack@npm:4.41.27"
   dependencies:
