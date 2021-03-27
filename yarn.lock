@@ -1523,7 +1523,7 @@ __metadata:
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.14
     "@types/copy-webpack-plugin": ^6.4.0
-    "@types/css-minimizer-webpack-plugin": ^1.1.2
+    "@types/css-minimizer-webpack-plugin": ^1.1.3
     "@types/mini-css-extract-plugin": ^1.2.2
     "@types/node": ^14.14.37
     "@types/terser-webpack-plugin": ^5.0.2
@@ -2073,14 +2073,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/css-minimizer-webpack-plugin@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@types/css-minimizer-webpack-plugin@npm:1.1.2"
+"@types/css-minimizer-webpack-plugin@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@types/css-minimizer-webpack-plugin@npm:1.1.3"
   dependencies:
     "@types/cssnano": "*"
-    "@types/webpack": "*"
+    "@types/webpack": ^4
     postcss: ^7.0.32
-  checksum: 8534508c09431728cc485bc10aa2654093f7ecb8f211b31222ef4574c6706cc66304e5e3acd51a326368d0937c9d9b821bc4097dfad7de6abdd163fe4296b5da
+  checksum: 440f27bd29fc5f2e58b25ffe2b16b3a831fe601ed431ea5de3df2b9e5fc0da9a94f69fd3808e1a7f0bce63efaeb2271041fe99af20d247124a3fad1d6dba4545
   languageName: node
   linkType: hard
 
@@ -2298,10 +2298,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tapable@npm:*":
-  version: 1.0.6
-  resolution: "@types/tapable@npm:1.0.6"
-  checksum: 01709a2f8dbea665a39c008ba6995c76210fabb52434815e7632c7fff22ecad1dd49a1d75b8f5b2e9b365c6d7a6407127bed834587df4777b800110c2a74fc36
+"@types/tapable@npm:^1":
+  version: 1.0.7
+  resolution: "@types/tapable@npm:1.0.7"
+  checksum: af30bb7429d590c7df1f3f5b8ef55fcf2c5498cd2d972c40b0ee543a2e7c3df988b5ac29e231b22b09b712ea1df3dbf3eb145dcbbd43544534cbfb0f1cebdfac
   languageName: node
   linkType: hard
 
@@ -2348,17 +2348,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack@npm:*":
-  version: 4.41.25
-  resolution: "@types/webpack@npm:4.41.25"
+"@types/webpack@npm:*, @types/webpack@npm:^4":
+  version: 4.41.27
+  resolution: "@types/webpack@npm:4.41.27"
   dependencies:
     "@types/anymatch": "*"
     "@types/node": "*"
-    "@types/tapable": "*"
+    "@types/tapable": ^1
     "@types/uglify-js": "*"
     "@types/webpack-sources": "*"
     source-map: ^0.6.0
-  checksum: 3bf453406c6479efedfee3b847b4274f5e8e1533cda91828c0f90fe32c9e17c12c5bdbbd99b1ad983460c845776554c54c5548d3cdd5bc13d2cf47f5f85fe57a
+  checksum: 5e10ad206accc6a9ec3dbea1b79625d441dc2d93cad61daa8ba77eea0a7b659f7ca605078ec06189e9b7eb48fa244b6cfc617771e8fc579cdd9b26546e8c3120
   languageName: node
   linkType: hard
 
