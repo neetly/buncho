@@ -25,7 +25,7 @@ const config: Configuration = {
 
   module: {
     rules: createRules({
-      extract: true,
+      extract: false,
       customRules: [{ test: /\.ejs$/ }],
     }),
   },
