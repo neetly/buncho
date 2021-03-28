@@ -14,7 +14,8 @@ const getPackageBin = (
     return require.resolve(path.posix.join(name, manifest.bin));
   }
   if (typeof manifest.bin !== "string" && manifest.bin?.[bin]) {
-    return require.resolve(path.posix.join(name, manifest.bin[bin]));
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    return require.resolve(path.posix.join(name, manifest.bin[bin]!));
   }
   throw new Error(`Bin "${bin}" not found in package "${name}".`);
 };
