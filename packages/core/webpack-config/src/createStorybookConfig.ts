@@ -3,10 +3,11 @@ import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import ForkTsCheckerPlugin from "fork-ts-checker-webpack-plugin";
 import path from "path";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
-import type { Configuration } from "webpack";
+import { Configuration, DefinePlugin } from "webpack";
 import {
   customizeArray,
   CustomizeRule,
+  merge,
   mergeWithCustomize,
 } from "webpack-merge";
 
@@ -53,8 +54,25 @@ const mergeConfig = mergeWithCustomize({
   }),
 });
 
-const createStorybookConfig = (defaultConfig: Configuration): Configuration => {
-  return mergeConfig(defaultConfig, config);
+const createStorybookConfig = (
+  defaultConfig: Configuration,
+  {
+    env = {},
+  }: {
+    env?: Record<string, string | undefined>;
+  } = {},
+): Configuration => {
+  return merge(mergeConfig(defaultConfig, config), {
+    plugins: [
+      new DefinePlugin(
+        Object.fromEntries(
+          Object.entries(env).map(([key, value]) => {
+            return [`process.env.${key}`, JSON.stringify(value)];
+          }),
+        ),
+      ),
+    ],
+  });
 };
 
 export { createStorybookConfig };

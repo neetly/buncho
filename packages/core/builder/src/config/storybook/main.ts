@@ -11,6 +11,11 @@ export const core = {
 };
 
 export const webpackFinal = (defaultConfig: Configuration): Configuration => {
-  // TODO: dotenv
-  return createStorybookConfig(defaultConfig);
+  return createStorybookConfig(defaultConfig, {
+    env: Object.fromEntries(
+      Object.entries(process.env).filter(([key]) => {
+        return key.startsWith("APP_");
+      }),
+    ),
+  });
 };
