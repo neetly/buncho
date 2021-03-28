@@ -76,6 +76,11 @@ const config: Configuration = {
         : "static/[name].css",
     }),
 
+    serviceWorkerEntry &&
+      new WorkboxWebpackPlugin.InjectManifest({
+        swSrc: serviceWorkerEntry,
+      }),
+
     new ForkTsCheckerPlugin({
       typescript: {
         configFile: path.resolve("./tsconfig.json"),
@@ -87,11 +92,6 @@ const config: Configuration = {
         devServer: false,
       },
     }),
-
-    serviceWorkerEntry &&
-      new WorkboxWebpackPlugin.InjectManifest({
-        swSrc: serviceWorkerEntry,
-      }),
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
   ].filter(Boolean) as Configuration["plugins"],
