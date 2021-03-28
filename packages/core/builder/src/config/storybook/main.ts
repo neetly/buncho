@@ -6,6 +6,10 @@ import type { Configuration } from "webpack";
 
 export const stories = [path.resolve("./src/**/*.stories.{ts,tsx}")];
 
+export const core = {
+  builder: "webpack5",
+};
+
 export const webpackFinal = (defaultConfig: Configuration): Configuration => {
   // TODO: dotenv
   return createStorybookConfig(defaultConfig);
