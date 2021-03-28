@@ -1502,6 +1502,7 @@ __metadata:
   bin:
     app: ./bin/app.js
     lib: ./bin/lib.js
+    storybook: ./bin/storybook.js
   languageName: unknown
   linkType: soft
 

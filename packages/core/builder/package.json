@@ -10,7 +10,8 @@
   "license": "MIT",
   "bin": {
     "app": "./bin/app.js",
-    "lib": "./bin/lib.js"
+    "lib": "./bin/lib.js",
+    "storybook": "./bin/storybook.js"
   },
   "types": "./types/index.d.ts",
   "files": [
