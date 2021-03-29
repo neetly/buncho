@@ -1,10 +1,8 @@
-import dotenv from "dotenv";
-import dotenvExpand from "dotenv-expand";
-import path from "path";
+const path = require("path");
+const dotenv = require("dotenv");
+const dotenvExpand = require("dotenv-expand");
 
-import { getWorkspaceRoot } from "./getWorkspaceRoot";
-
-const root = getWorkspaceRoot();
+const root = path.resolve(".");
 
 const env = process.env.NODE_ENV || "development";
 const paths = [
@@ -12,7 +10,7 @@ const paths = [
   env !== "test" && path.join(root, `.env.local`),
   path.join(root, `.env.${env}`),
   path.join(root, `.env`),
-].filter(Boolean) as string[];
+].filter(Boolean);
 
 for (const path of paths) {
   dotenvExpand(dotenv.config({ path }));

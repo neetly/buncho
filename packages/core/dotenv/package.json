@@ -8,9 +8,9 @@
     "directory": "packages/core/dotenv"
   },
   "license": "MIT",
-  "main": "./lib/index.js",
+  "main": "./src/index.js",
   "files": [
-    "./lib"
+    "./src"
   ],
   "scripts": {
     "build": "run --top-level lib build",
