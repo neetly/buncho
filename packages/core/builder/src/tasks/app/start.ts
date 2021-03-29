@@ -1,3 +1,4 @@
+import { env } from "../../env";
 import * as paths from "../../paths";
 import type { Task } from "../../types/Task";
 import { execute } from "../../utils/execute";
@@ -9,8 +10,8 @@ const start: Task = async () => {
     args: [
       "serve",
       ["--config", paths.webpackConfig],
-      ["--host", process.env.HOST || "localhost"],
-      ["--port", process.env.PORT || "3000"],
+      ["--host", env.HOST || "localhost"],
+      ["--port", env.PORT || "3000"],
     ].flat(),
     env: {
       NODE_ENV: "development",

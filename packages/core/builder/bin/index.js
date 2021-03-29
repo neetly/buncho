@@ -1,5 +1,3 @@
-require("@buncho/dotenv");
-
 let useRegister = false;
 try {
   require.resolve("../src/index.ts");
