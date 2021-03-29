@@ -9,17 +9,15 @@ const explorer = cosmiconfig("proxy");
 
 const config = async (): Promise<Configuration> => {
   return createConfig({
-    host: process.env.HOST || "localhost",
-    port: Number(process.env.PORT || 3000),
-    proxy: (await explorer.search())?.config as
-      | ProxyConfigMap
-      | ProxyConfigArray
-      | undefined,
     env: Object.fromEntries(
       Object.entries(process.env).filter(([key]) => {
         return key.startsWith("APP_");
       }),
     ),
+    proxy: (await explorer.search())?.config as
+      | ProxyConfigMap
+      | ProxyConfigArray
+      | undefined,
   });
 };
 

@@ -6,7 +6,12 @@ import { getPackageBin } from "../../utils/getPackageBin";
 const start: Task = async () => {
   await execute({
     path: getPackageBin("webpack-cli"),
-    args: ["serve", "--config", paths.webpackConfig],
+    args: [
+      "serve",
+      ["--config", paths.webpackConfig],
+      ["--host", process.env.HOST || "localhost"],
+      ["--port", process.env.PORT || "3000"],
+    ].flat(),
     env: {
       NODE_ENV: "development",
     },

@@ -5,15 +5,11 @@ import { merge } from "webpack-merge";
 import config from "./webpack.config";
 
 const createConfig = ({
-  host,
-  port,
-  proxy,
   env = {},
+  proxy,
 }: {
-  host?: string;
-  port?: number;
-  proxy?: ProxyConfigMap | ProxyConfigArray;
   env?: Record<string, string | undefined>;
+  proxy?: ProxyConfigMap | ProxyConfigArray;
 } = {}): Configuration => {
   return merge(config, {
     plugins: [
@@ -27,8 +23,6 @@ const createConfig = ({
     ],
 
     devServer: {
-      host,
-      port,
       proxy,
     },
   });
