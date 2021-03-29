@@ -13,8 +13,8 @@
 
 # dotenv
 
-/.env.local
-/.env.*.local
+/packages/*/*/.env.local
+/packages/*/*/.env.*.local
 
 # Artifacts
 
