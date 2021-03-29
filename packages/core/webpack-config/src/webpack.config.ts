@@ -20,6 +20,12 @@ import {
   useFastRefresh,
 } from "./env";
 
+declare module "webpack-dev-server" {
+  interface Configuration {
+    static?: boolean | string | object[]; // eslint-disable-line @typescript-eslint/ban-types
+  }
+}
+
 const config: Configuration = {
   mode: production ? "production" : "development",
 
@@ -55,17 +61,18 @@ const config: Configuration = {
   },
 
   plugins: [
-    new CopyPlugin({
-      patterns: [
-        {
-          from: path.resolve("./public"),
-          globOptions: {
-            ignore: ["**/index.html"],
+    production &&
+      new CopyPlugin({
+        patterns: [
+          {
+            from: path.resolve("./public"),
+            globOptions: {
+              ignore: ["**/index.html"],
+            },
+            noErrorOnMissing: true,
           },
-          noErrorOnMissing: true,
-        },
-      ],
-    }),
+        ],
+      }),
 
     new HtmlPlugin({
       template: path.resolve("./public/index.html"),
@@ -104,6 +111,7 @@ const config: Configuration = {
   stats: production ? "normal" : "minimal",
 
   devServer: {
+    static: path.resolve("./public"),
     historyApiFallback: {
       disableDotRule: true,
     },
