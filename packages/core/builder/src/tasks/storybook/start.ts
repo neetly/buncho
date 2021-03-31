@@ -12,6 +12,9 @@ const start: Task = async () => {
       ["--host", env.STORYBOOK_HOST || "localhost"],
       ["--port", env.STORYBOOK_PORT || "9000"],
     ].flat(),
+    env: {
+      APP_STORYBOOK_CONFIG_DIR: paths.appStorybookConfigDir,
+    },
   });
 };
 
