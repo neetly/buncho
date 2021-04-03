@@ -33,6 +33,7 @@
     "@buncho/utils": "workspace:packages/core/utils",
     "@buncho/webpack-config": "workspace:packages/core/webpack-config",
     "@buncho/webpack-env": "workspace:packages/core/webpack-env",
+    "@storybook/addon-essentials": "~6.2.2",
     "@storybook/builder-webpack5": "~6.2.2",
     "@storybook/react": "~6.2.2",
     "@types/babel__core": "^7.1.14",
