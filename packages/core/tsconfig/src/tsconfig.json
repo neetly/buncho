@@ -22,6 +22,8 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
 
+    "skipLibCheck": true,
+
     "lib": ["ESNext"],
     "types": []
   },
