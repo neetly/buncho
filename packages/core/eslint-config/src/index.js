@@ -14,6 +14,7 @@ module.exports = {
       plugins: [
         "@typescript-eslint",
         "simple-import-sort",
+        "react",
         "react-hooks",
         "jsx-a11y",
       ],
@@ -30,6 +31,7 @@ module.exports = {
         eqeqeq: "error",
         "simple-import-sort/imports": "error",
         "simple-import-sort/exports": "error",
+        "react/jsx-key": "error",
       },
     },
 
