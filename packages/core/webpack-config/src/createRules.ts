@@ -23,7 +23,8 @@ const getCssLoaders = ({
           auto: true,
           localIdentName: production
             ? "[hash:base64]"
-            : "[name]__[local]__[hash:base64:8]",
+            : "[1]__[local]__[hash:base64:8]",
+          localIdentRegExp: /^(.+?)(?:\.module)?\.[^.]+$/,
         },
       },
     },
