@@ -49,7 +49,6 @@ const config: Configuration = {
   resolve: {
     extensions: EXTENSIONS,
     alias: utils.getWebpackAlias(),
-    // @ts-expect-error Webpack
     plugins: hasTsconfigPaths ? [new TsconfigPathsPlugin()] : [],
   },
 
