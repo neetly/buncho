@@ -13,10 +13,10 @@ module.exports = {
 
       plugins: [
         "@typescript-eslint",
-        "simple-import-sort",
         "react",
         "react-hooks",
         "jsx-a11y",
+        "simple-import-sort",
       ],
       extends: [
         "eslint:recommended",
@@ -29,9 +29,9 @@ module.exports = {
 
       rules: {
         eqeqeq: "error",
-        "simple-import-sort/imports": "error",
-        "simple-import-sort/exports": "error",
         "react/jsx-key": "error",
+        "simple-import-sort/imports": "warn",
+        "simple-import-sort/exports": "warn",
       },
     },
 
