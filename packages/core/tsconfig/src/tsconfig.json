@@ -15,7 +15,6 @@
     "strict": true,
     "isolatedModules": true,
     "noUncheckedIndexedAccess": true,
-    "noPropertyAccessFromIndexSignature": true,
     "useDefineForClassFields": true,
     "importsNotUsedAsValues": "error",
 
