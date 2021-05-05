@@ -1583,7 +1583,7 @@ __metadata:
     "@babel/preset-env": ^7.14.0
     "@babel/preset-react": ^7.13.13
     "@babel/preset-typescript": ^7.13.0
-    babel-plugin-macros: ^3.0.1
+    babel-plugin-macros: ^3.1.0
   peerDependencies:
     "@babel/core": "*"
   languageName: unknown
@@ -5234,14 +5234,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-macros@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "babel-plugin-macros@npm:3.0.1"
+"babel-plugin-macros@npm:^3.0.1, babel-plugin-macros@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "babel-plugin-macros@npm:3.1.0"
   dependencies:
     "@babel/runtime": ^7.12.5
     cosmiconfig: ^7.0.0
     resolve: ^1.19.0
-  checksum: f1a523136365b5bfb23bfc05d3d0b91358adc854a3440d3ea6220b6427bf43d8ea25b7f01ade618af943005d82f449389d02446a4b097a87ccd7eeab14921e03
+  checksum: 7d7a02fe055a4d9ec5af83d51d9cf96d6de430e51a0a31d513728e181211d2b5dcc148eb9763bed6437f374b5590d1f55515d4dbd21393637bf5713142d125a0
   languageName: node
   linkType: hard
 
