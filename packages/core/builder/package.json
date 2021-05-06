@@ -41,7 +41,7 @@
     "cosmiconfig": "^7.0.0",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "4.0.0-beta.2"
+    "webpack-dev-server": "4.0.0-beta.3"
   },
   "peerDependencies": {
     "@types/react": "*",

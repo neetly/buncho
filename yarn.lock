@@ -1614,7 +1614,7 @@ __metadata:
     react-dom: ^17.0.2
     webpack: ^5.36.2
     webpack-cli: ^4.7.0
-    webpack-dev-server: 4.0.0-beta.2
+    webpack-dev-server: 4.0.0-beta.3
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1778,7 +1778,7 @@ __metadata:
     tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^1.0.2
     webpack: ^5.36.2
-    webpack-dev-server: 4.0.0-beta.2
+    webpack-dev-server: 4.0.0-beta.3
     webpack-merge: ^5.7.3
     workbox-webpack-plugin: ^6.1.5
   peerDependencies:
@@ -9489,16 +9489,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http-proxy-middleware@npm:^1.0.0, http-proxy-middleware@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "http-proxy-middleware@npm:1.1.1"
+"http-proxy-middleware@npm:^1.0.0, http-proxy-middleware@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "http-proxy-middleware@npm:1.3.1"
   dependencies:
     "@types/http-proxy": ^1.17.5
     http-proxy: ^1.18.1
     is-glob: ^4.0.1
     is-plain-obj: ^3.0.0
     micromatch: ^4.0.2
-  checksum: 7fe1bf6406b62d681ce1eedbe6dfbb7d3814e4e5381cbee748f1cb3f30402a92689603d15dcdfcf79bbf53475b36fb8c390acfb46ea3b51d6c33c749731523fe
+  checksum: ab54b95277379dc794f81927036bdf4544c298878dcb6254b912eb39684f6f65a5d27dc4927efb7abc80f14d659d464be23ccb6305ba05d1cacf0b8cc6265276
   languageName: node
   linkType: hard
 
@@ -14314,12 +14314,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"selfsigned@npm:^1.10.8":
-  version: 1.10.8
-  resolution: "selfsigned@npm:1.10.8"
+"selfsigned@npm:^1.10.11":
+  version: 1.10.11
+  resolution: "selfsigned@npm:1.10.11"
   dependencies:
     node-forge: ^0.10.0
-  checksum: a382ec2af9798a93bc25f2d75778eed6d2c685fdf81e56deaac02d46aa896b0cc1b2770b2689891f8fe83d89cd3bb3e2042c6b15057e110f25a57769cb1a5fb3
+  checksum: d07a97842bf90bcafe3e212f83e226f86c19eab1ea9342b7cdeffb0607a62f114dd7e8722c8223e8868d2a5a4f15808d3df3718877c5d33823220a18263b220e
   languageName: node
   linkType: hard
 
@@ -16407,9 +16407,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:4.0.0-beta.2":
-  version: 4.0.0-beta.2
-  resolution: "webpack-dev-server@npm:4.0.0-beta.2"
+"webpack-dev-server@npm:4.0.0-beta.3":
+  version: 4.0.0-beta.3
+  resolution: "webpack-dev-server@npm:4.0.0-beta.3"
   dependencies:
     ansi-html: ^0.0.7
     bonjour: ^3.5.0
@@ -16421,7 +16421,7 @@ __metadata:
     find-cache-dir: ^3.3.1
     graceful-fs: ^4.2.6
     html-entities: ^2.3.2
-    http-proxy-middleware: ^1.1.0
+    http-proxy-middleware: ^1.3.1
     internal-ip: ^6.2.0
     ipaddr.js: ^2.0.0
     is-absolute-url: ^3.0.3
@@ -16430,14 +16430,14 @@ __metadata:
     p-retry: ^4.5.0
     portfinder: ^1.0.28
     schema-utils: ^3.0.0
-    selfsigned: ^1.10.8
+    selfsigned: ^1.10.11
     serve-index: ^1.9.1
     sockjs: ^0.3.21
     spdy: ^4.0.2
     strip-ansi: ^6.0.0
     url: ^0.11.0
     webpack-dev-middleware: ^4.1.0
-    ws: ^7.4.4
+    ws: ^7.4.5
   peerDependencies:
     webpack: ^4.0.0 || ^5.0.0
   peerDependenciesMeta:
@@ -16445,7 +16445,7 @@ __metadata:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: 7e213ea81bd94539bd59fc25ec29f53a1597e20724f7da609135847df21fbf799857764edb17821cce20119e32fe76d32862264d86dde81623ce9a624fcc5daf
+  checksum: 934f333214ac1c5e5f354e8a00fe553ecfc3b6ea7736346a7167ece20dafb83427706893b940a6f4bf806fa33647728ea32c0cb6e8fe2e392adfccc6b82b148d
   languageName: node
   linkType: hard
 
@@ -16936,9 +16936,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^7.4.4":
-  version: 7.4.4
-  resolution: "ws@npm:7.4.4"
+"ws@npm:^7.4.5":
+  version: 7.4.5
+  resolution: "ws@npm:7.4.5"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ^5.0.2
@@ -16947,7 +16947,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: ad08761ed753cdd3f7172e9a9efc7d74e7e196623cace2380e5f74ff0abd16196e03223bd4148a34278dcbc653ee3841994635419281cbf303b3f22c589e2ec4
+  checksum: 20731aa1075336b94677f6741b674469c3c7fce9b70115bb535827c7c108a9d714f0b38ce39289b63c652870f9801afaf096f8aab32da96be62d919e80e4ed32
   languageName: node
   linkType: hard
 
