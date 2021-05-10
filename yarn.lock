@@ -1769,7 +1769,7 @@ __metadata:
     raw-loader: ^4.0.2
     react-docgen-typescript-plugin: ^0.7.0
     react-refresh: ^0.10.0
-    resolve-url-loader: 4.0.0-beta.2
+    resolve-url-loader: 4.0.0
     sass: ^1.32.12
     sass-loader: ^11.0.1
     style-loader: ^2.0.0
@@ -13984,9 +13984,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve-url-loader@npm:4.0.0-beta.2":
-  version: 4.0.0-beta.2
-  resolution: "resolve-url-loader@npm:4.0.0-beta.2"
+"resolve-url-loader@npm:4.0.0":
+  version: 4.0.0
+  resolution: "resolve-url-loader@npm:4.0.0"
   dependencies:
     adjust-sourcemap-loader: ^4.0.0
     convert-source-map: ^1.7.0
@@ -14001,7 +14001,7 @@ __metadata:
       optional: true
     rework-visit:
       optional: true
-  checksum: 15cdf430cf632062cae5c8e51a5645459f0d913996e49c8100a469a588653d529ecb9a45bbe0f5347b1261bf1acc4fd6fe17b2a34d8ee801fd58050a3ac0e948
+  checksum: 04e9f91dc88224c3af070792eab9002bbda4ca9ff000808b0d2aec8a2cd2333939d74a93a2e72fd8b4f24fe477e69a7ee39f346f7b387d81d7f9a772342f223c
   languageName: node
   linkType: hard
 
