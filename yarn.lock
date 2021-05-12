@@ -1773,7 +1773,7 @@ __metadata:
     sass: ^1.32.12
     sass-loader: ^11.0.1
     style-loader: ^2.0.0
-    terser-webpack-plugin: ^5.1.1
+    terser-webpack-plugin: ^5.1.2
     tsconfig-paths: ^3.9.0
     tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^1.0.2
@@ -15376,19 +15376,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "terser-webpack-plugin@npm:5.1.1"
+"terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.1, terser-webpack-plugin@npm:^5.1.2":
+  version: 5.1.2
+  resolution: "terser-webpack-plugin@npm:5.1.2"
   dependencies:
     jest-worker: ^26.6.2
     p-limit: ^3.1.0
     schema-utils: ^3.0.0
     serialize-javascript: ^5.0.1
     source-map: ^0.6.1
-    terser: ^5.5.1
+    terser: ^5.7.0
   peerDependencies:
     webpack: ^5.1.0
-  checksum: 8364e53f34764f94aa5c7e74c506d36e130e63cbe91e84cc3f176d712cbc2d3127be8267c88395523e6e39dd45e759704335dc17efab27489a05d9fa148bf05d
+  checksum: f65229fc603a23b550283da3344adf23a81526e55c830ff437c8e8769fc64f4d48dbc6a7845b3aa85b5ce37eb00834829341d00cad9fa4a65186ebeda6ce61de
   languageName: node
   linkType: hard
 
@@ -15405,16 +15405,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.0.0, terser@npm:^5.3.8, terser@npm:^5.5.1":
-  version: 5.6.0
-  resolution: "terser@npm:5.6.0"
+"terser@npm:^5.0.0, terser@npm:^5.3.8, terser@npm:^5.7.0":
+  version: 5.7.0
+  resolution: "terser@npm:5.7.0"
   dependencies:
     commander: ^2.20.0
     source-map: ~0.7.2
     source-map-support: ~0.5.19
   bin:
     terser: bin/terser
-  checksum: dcf3fdf7cd3cb6a4d891d42a9177c28af514d6ba175c5d889e03f3bb1ef0a5291bf5320f7a6d6aafd62227b8986d54d1c3423e77e23b3497d2b6633386ced1ab
+  checksum: 9604fed5b093ee8000282cc69b07ff7a4e651aa13cb6e34055bf77592a4e1d0fed80c19ee80fe3a4e92f5485badcafb5aeed414fe8b5b7185599707236111900
   languageName: node
   linkType: hard
 
