@@ -1608,7 +1608,7 @@ __metadata:
     "@types/node": ^14.14.44
     "@types/react": ^17.0.5
     "@types/react-dom": ^17.0.5
-    "@types/webpack-dev-server": ^3.11.3
+    "@types/webpack-dev-server": ^3.11.4
     cosmiconfig: ^7.0.0
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -1754,7 +1754,7 @@ __metadata:
     "@types/mini-css-extract-plugin": ^1.4.3
     "@types/node": ^14.14.44
     "@types/terser-webpack-plugin": ^5.0.3
-    "@types/webpack-dev-server": ^3.11.3
+    "@types/webpack-dev-server": ^3.11.4
     "@types/workbox-webpack-plugin": ^5.1.6
     autoprefixer: ^10.2.5
     babel-loader: ^8.2.2
@@ -3999,16 +3999,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:^3.11.3":
-  version: 3.11.3
-  resolution: "@types/webpack-dev-server@npm:3.11.3"
+"@types/webpack-dev-server@npm:^3.11.4":
+  version: 3.11.4
+  resolution: "@types/webpack-dev-server@npm:3.11.4"
   dependencies:
     "@types/connect-history-api-fallback": "*"
     "@types/express": "*"
     "@types/serve-static": "*"
     "@types/webpack": ^4
     http-proxy-middleware: ^1.0.0
-  checksum: 5f6ac6b6c28703004ccd324d23e1cb2441f8fb91755b289e4fb83c8c5f82a4a23834d95a22ea8b63f318f62b03004312bd01ae9a38a320e71f09efb772b0aed2
+  checksum: 1c52117ff7b6c544fba970f98a99d31c7019acf05c9918157e49329d7bd5c76edb28d3398e1dbba26489b316df0fb9d947f1182d07730d837f0b23088e306f76
   languageName: node
   linkType: hard
 
