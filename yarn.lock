@@ -1767,7 +1767,7 @@ __metadata:
     postcss: ^8.2.14
     postcss-loader: ^5.3.0
     raw-loader: ^4.0.2
-    react-docgen-typescript-plugin: ^0.7.0
+    react-docgen-typescript-plugin: ^0.7.1
     react-refresh: ^0.10.0
     resolve-url-loader: 4.0.0-beta.2
     sass: ^1.32.12
@@ -13338,9 +13338,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-docgen-typescript-plugin@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "react-docgen-typescript-plugin@npm:0.7.0"
+"react-docgen-typescript-plugin@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "react-docgen-typescript-plugin@npm:0.7.1"
   dependencies:
     debug: ^4.1.1
     endent: ^2.0.1
@@ -13351,7 +13351,7 @@ __metadata:
     tslib: ^2.0.0
   peerDependencies:
     typescript: ">= 3.x"
-  checksum: ad45984b7af8670281f7397a2a75b8979a25a82b2fbf9b4b458dc255598c55149e9f4d87c0ec8ada1bebaea5d75963087c9950ae565bc095e5e9e038b5c4edb0
+  checksum: 8f0d006cca570af393cbc0722c7923a2c2040eb9677fe5909f427ebad4feeec74d501a5814ad112995ccc36aa2463fafa36028cb5d8bc23a1d6c528b1be72874
   languageName: node
   linkType: hard
 
