@@ -1771,7 +1771,7 @@ __metadata:
     react-refresh: ^0.10.0
     resolve-url-loader: 4.0.0-beta.2
     sass: ^1.32.12
-    sass-loader: ^11.0.1
+    sass-loader: ^11.1.1
     style-loader: ^2.0.0
     terser-webpack-plugin: ^5.1.1
     tsconfig-paths: ^3.9.0
@@ -14206,15 +14206,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^11.0.1":
-  version: 11.0.1
-  resolution: "sass-loader@npm:11.0.1"
+"sass-loader@npm:^11.1.1":
+  version: 11.1.1
+  resolution: "sass-loader@npm:11.1.1"
   dependencies:
     klona: ^2.0.4
     neo-async: ^2.6.2
   peerDependencies:
     fibers: ">= 3.1.0"
-    node-sass: ^4.0.0 || ^5.0.0
+    node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0
     sass: ^1.3.0
     webpack: ^5.0.0
   peerDependenciesMeta:
@@ -14224,7 +14224,7 @@ __metadata:
       optional: true
     sass:
       optional: true
-  checksum: fdd50c6c65b4c912564e799a1a21a235ece179531ddf705ebd4b2671990118ee768da73b60ac7fe5089e9e2d1d0a2ede9b87da2c153a8d1147c2144e605093de
+  checksum: 6d8ded8e2a0742f6b62dddc577324b74a7a0781f5405574d3af4ee34c9a6189debff1b90e3acd65a62ebbf6dc52c47a9a2be6c1786ac2435bd39c91c2ebe7367
   languageName: node
   linkType: hard
 
