@@ -1748,7 +1748,7 @@ __metadata:
     "@buncho/babel-preset": "workspace:packages/core/babel-preset"
     "@buncho/utils": "workspace:packages/core/utils"
     "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
-    "@storybook/react-docgen-typescript-plugin": 0.7.2-canary.375d65e.0
+    "@storybook/react-docgen-typescript-plugin": 0.7.2-canary.91cf050.0
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.14
     "@types/copy-webpack-plugin": ^8.0.0
@@ -3155,9 +3155,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-docgen-typescript-plugin@npm:0.7.2-canary.375d65e.0":
-  version: 0.7.2-canary.375d65e.0
-  resolution: "@storybook/react-docgen-typescript-plugin@npm:0.7.2-canary.375d65e.0"
+"@storybook/react-docgen-typescript-plugin@npm:0.7.2-canary.91cf050.0":
+  version: 0.7.2-canary.91cf050.0
+  resolution: "@storybook/react-docgen-typescript-plugin@npm:0.7.2-canary.91cf050.0"
   dependencies:
     debug: ^4.1.1
     endent: ^2.0.1
@@ -3170,7 +3170,7 @@ __metadata:
   peerDependencies:
     typescript: ">= 3.x"
     webpack: ">= 4"
-  checksum: 2d0a42331d8aaf2b330841d7818b5e62dde8b41980549c421b0022c6588d9e450785fa3033241a2affefc9dee749207ec1de4fe1dcb5042fb4360829636dbab6
+  checksum: 1deeade0a0cb62acf8fb7c76b12266e5688f5281f8d3ecbb5cf697b9e18fb7601278a16cc7167bb6627482e153711018b7c38520544f4ee4cd92d3ecb1412050
   languageName: node
   linkType: hard
 
