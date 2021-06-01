@@ -1774,7 +1774,7 @@ __metadata:
     sass: ^1.34.0
     sass-loader: ^12.0.0
     style-loader: ^2.0.0
-    terser-webpack-plugin: ^5.1.2
+    terser-webpack-plugin: ^5.1.3
     tsconfig-paths: ^3.9.0
     tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^1.2.0
@@ -10541,6 +10541,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-worker@npm:^27.0.2":
+  version: 27.0.2
+  resolution: "jest-worker@npm:27.0.2"
+  dependencies:
+    "@types/node": "*"
+    merge-stream: ^2.0.0
+    supports-color: ^8.0.0
+  checksum: ea1b72afc95218425e821693b70ac2e2729488ea928ec5d56215ec97a66148c6983e0fd356e049f301c465109d8cc9d02346e5647f6317feaad09b6455257aba
+  languageName: node
+  linkType: hard
+
 "js-string-escape@npm:^1.0.1":
   version: 1.0.1
   resolution: "js-string-escape@npm:1.0.1"
@@ -15291,6 +15302,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"supports-color@npm:^8.0.0":
+  version: 8.1.1
+  resolution: "supports-color@npm:8.1.1"
+  dependencies:
+    has-flag: ^4.0.0
+  checksum: c052193a7e43c6cdc741eb7f378df605636e01ad434badf7324f17fb60c69a880d8d8fcdcb562cf94c2350e57b937d7425ab5b8326c67c2adc48f7c87c1db406
+  languageName: node
+  linkType: hard
+
 "svg-parser@npm:^2.0.2":
   version: 2.0.4
   resolution: "svg-parser@npm:2.0.4"
@@ -15472,11 +15492,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.1, terser-webpack-plugin@npm:^5.1.2":
-  version: 5.1.2
-  resolution: "terser-webpack-plugin@npm:5.1.2"
+"terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.1, terser-webpack-plugin@npm:^5.1.3":
+  version: 5.1.3
+  resolution: "terser-webpack-plugin@npm:5.1.3"
   dependencies:
-    jest-worker: ^26.6.2
+    jest-worker: ^27.0.2
     p-limit: ^3.1.0
     schema-utils: ^3.0.0
     serialize-javascript: ^5.0.1
@@ -15484,7 +15504,7 @@ __metadata:
     terser: ^5.7.0
   peerDependencies:
     webpack: ^5.1.0
-  checksum: 0eb0e81f5294b38057daf706c799d61c4202ad9f6bfdd73c131853003a452c2b822619b84e1a88bf7aad025859beb4ebd38b85aa458d904bddf1daf34588938a
+  checksum: f042b0a600979eb1cd3dbfb50140ee38b01afc81c740759f258cc4cbae88aed23cdac4fdc43155902b8b5ae0f58d5e6111c87e2ac2bb31bdf00cffb4f040a17b
   languageName: node
   linkType: hard
 
