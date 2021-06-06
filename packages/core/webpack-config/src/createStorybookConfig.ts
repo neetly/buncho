@@ -35,6 +35,7 @@ const config: Configuration = {
       tsconfigPath: path.resolve("./tsconfig.json"),
       // https://github.com/storybookjs/storybook/blob/v6.2.2/app/react/src/server/framework-preset-react-docgen.ts#L48-L49
       savePropValueAsString: true,
+      shouldRemoveUndefinedFromOptional: true,
     }),
 
     new ForkTsCheckerPlugin({
