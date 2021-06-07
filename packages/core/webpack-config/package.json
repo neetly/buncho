@@ -47,7 +47,7 @@
     "tsconfig-paths": "^3.9.0",
     "tsconfig-paths-webpack-plugin": "^3.5.1",
     "type-fest": "^1.2.0",
-    "webpack-merge": "^5.7.3",
+    "webpack-merge": "^5.8.0",
     "workbox-webpack-plugin": "^6.1.5"
   },
   "peerDependencies": {
