@@ -1751,7 +1751,7 @@ __metadata:
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.14
     "@types/copy-webpack-plugin": ^8.0.0
-    "@types/css-minimizer-webpack-plugin": ^3.0.0
+    "@types/css-minimizer-webpack-plugin": ^3.0.1
     "@types/mini-css-extract-plugin": ^1.4.3
     "@types/node": ^14.17.3
     "@types/terser-webpack-plugin": ^5.0.3
@@ -3575,15 +3575,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/css-minimizer-webpack-plugin@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@types/css-minimizer-webpack-plugin@npm:3.0.0"
+"@types/css-minimizer-webpack-plugin@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@types/css-minimizer-webpack-plugin@npm:3.0.1"
   dependencies:
     "@types/cssnano": "*"
     postcss: ^8.2.9
     tapable: ^2.2.0
     webpack: ^5.37.0
-  checksum: 21fa69df38b98bbd4d00423bf3131b85597fe38aad75e29e257db1285c9db9fb1ad0ef05d4956e0713cef974ec2b3f6be1278f96835fb2353a93837b7b3b8690
+  checksum: f1cb5d392b79b572ff6e2bd11025e34fab53b07f301a6cd8b8e00de392005b98706e163e55b4e84cac7bca18112092b44230e25a36c73ed267020010c3de5125
   languageName: node
   linkType: hard
 
