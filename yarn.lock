@@ -1613,7 +1613,7 @@ __metadata:
     cosmiconfig: ^7.0.0
     react: ^17.0.2
     react-dom: ^17.0.2
-    webpack: ^5.38.1
+    webpack: ^5.39.1
     webpack-cli: ^4.7.2
     webpack-dev-server: 4.0.0-beta.3
   peerDependencies:
@@ -1778,7 +1778,7 @@ __metadata:
     tsconfig-paths: ^3.9.0
     tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^1.2.1
-    webpack: ^5.38.1
+    webpack: ^5.39.1
     webpack-dev-server: 4.0.0-beta.3
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.1.5
@@ -16670,9 +16670,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.38.1, webpack@npm:^5.9.0":
-  version: 5.38.1
-  resolution: "webpack@npm:5.38.1"
+"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.39.1, webpack@npm:^5.9.0":
+  version: 5.39.1
+  resolution: "webpack@npm:5.39.1"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.47
@@ -16702,7 +16702,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 631f0e838dd83f2f735f047a161daba2dd58b1550af5bcbe2df4ad25cfc3d836a48d038cf2ded3669ff2e1f6db58fa38866abe8c537b8fea32bda86e1223cb4f
+  checksum: 28a3fa8dd1094bc9d43efa15e101b73f7c3c6ee753354c38ef428756faf8014ddfb93425e2f54beafc45b1cfc00b24d7a0a39bd60016294b0b2801d9665999d5
   languageName: node
   linkType: hard
 
