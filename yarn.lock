@@ -1747,7 +1747,7 @@ __metadata:
     "@babel/core": ^7.14.6
     "@buncho/babel-preset": "workspace:packages/core/babel-preset"
     "@buncho/utils": "workspace:packages/core/utils"
-    "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
+    "@pmmmwh/react-refresh-webpack-plugin": 0.5.0-rc.0
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.14
     "@types/copy-webpack-plugin": ^8.0.0
@@ -2238,6 +2238,43 @@ __metadata:
   dependencies:
     mkdirp: ^1.0.4
   checksum: 878b39fc1f0b4c0b434ef0a97b80149fb74c5ec06246280238a2bc5f562a3c5e758e31f583c6431eb916537c1505697e4ac7b9f9e68cb28951bf7eb8150de5f0
+  languageName: node
+  linkType: hard
+
+"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.0":
+  version: 0.5.0-rc.0
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.0"
+  dependencies:
+    ansi-html: ^0.0.7
+    core-js-pure: ^3.8.1
+    error-stack-parser: ^2.0.6
+    html-entities: ^2.1.0
+    loader-utils: ^2.0.0
+    schema-utils: ^3.0.0
+    source-map: ^0.7.3
+  peerDependencies:
+    "@types/webpack": 4.x || 5.x
+    react-refresh: ^0.10.0
+    sockjs-client: ^1.4.0
+    type-fest: ^1.0.2
+    webpack: ">=4.43.0 <6.0.0"
+    webpack-dev-server: 3.x || >=4.0.0-beta.0
+    webpack-hot-middleware: 2.x
+    webpack-plugin-serve: 0.x || 1.x
+  peerDependenciesMeta:
+    "@types/webpack":
+      optional: true
+    sockjs-client:
+      optional: true
+    type-fest:
+      optional: true
+    webpack-dev-server:
+      optional: true
+    webpack-hot-middleware:
+      optional: true
+    webpack-plugin-serve:
+      optional: true
+  checksum: 25ab136763842bf879b8bfbe5e9664e1519a8f9061deb52aa1a4438131bab551243fc7a0f1ab1b27b45448202719bde427180145fd7a58853ebda68b83102c33
   languageName: node
   linkType: hard
 
@@ -6452,10 +6489,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-pure@npm:^3.0.0, core-js-pure@npm:^3.8.2":
-  version: 3.9.1
-  resolution: "core-js-pure@npm:3.9.1"
-  checksum: f4ec527da77d031a9f7c4b912c4b733d99506c85a227949993b8bdbe6cc4cebd1d160f483f91b5bfee41d2b8b54af43b4655cb2bd85d97645cf9c23ff130611f
+"core-js-pure@npm:^3.0.0, core-js-pure@npm:^3.8.1, core-js-pure@npm:^3.8.2":
+  version: 3.14.0
+  resolution: "core-js-pure@npm:3.14.0"
+  checksum: 800628e5366c884a87783bce2d589101b91bf880a67832533771f1e168c3c7f91f809f7c6fe5d4e13af76b7ec10023a4efc6da1493b31f4ea8452be3719dabc7
   languageName: node
   linkType: hard
 
@@ -9383,7 +9420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-entities@npm:^2.3.2":
+"html-entities@npm:^2.1.0, html-entities@npm:^2.3.2":
   version: 2.3.2
   resolution: "html-entities@npm:2.3.2"
   checksum: 522d8d202df301ff51b517a379e642023ed5c81ea9fb5674ffad88cff386165733d00b6089d5c2fcc644e44777d6072017b6216d8fa40f271d3610420d00a886
