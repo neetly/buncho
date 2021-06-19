@@ -1762,7 +1762,7 @@ __metadata:
     copy-webpack-plugin: ^9.0.0
     css-loader: ^5.2.6
     css-minimizer-webpack-plugin: ^3.0.1
-    fork-ts-checker-webpack-plugin: ^6.2.11
+    fork-ts-checker-webpack-plugin: ^6.2.12
     html-webpack-plugin: ^5.3.1
     mini-css-extract-plugin: ^1.6.0
     postcss: ^8.3.5
@@ -8542,9 +8542,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:^6.0.4, fork-ts-checker-webpack-plugin@npm:^6.2.11":
-  version: 6.2.11
-  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.11"
+"fork-ts-checker-webpack-plugin@npm:^6.0.4, fork-ts-checker-webpack-plugin@npm:^6.2.12":
+  version: 6.2.12
+  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.12"
   dependencies:
     "@babel/code-frame": ^7.8.3
     "@types/json-schema": ^7.0.5
@@ -8559,7 +8559,7 @@ __metadata:
     schema-utils: 2.7.0
     semver: ^7.3.2
     tapable: ^1.0.0
-  checksum: b43951bbfd34d78a565c1bf34b1652aa2297999877edce1b886d64814dc053bd0d0da862b92b53f8cbc004278a0d04dcd42954c2c28f011b199acf4e99b9d5fb
+  checksum: 0ba28ccafe28fffcca4fda7d68a31561785de2731f8d9b536fb2f5a76ea16c04751b091548a7b2d7dbc9a0a3184e88b41ef2718f6082e329ad1e1f2ab4ccc6d6
   languageName: node
   linkType: hard
 
