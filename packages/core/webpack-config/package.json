@@ -42,7 +42,7 @@
     "resolve-url-loader": "^4.0.0",
     "sass": "^1.35.1",
     "sass-loader": "^12.1.0",
-    "style-loader": "^2.0.0",
+    "style-loader": "^3.0.0",
     "terser-webpack-plugin": "^5.1.4",
     "tsconfig-paths": "^3.9.0",
     "tsconfig-paths-webpack-plugin": "^3.5.1",
