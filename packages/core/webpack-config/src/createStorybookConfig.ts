@@ -2,7 +2,6 @@ import * as utils from "@buncho/utils";
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import ForkTsCheckerPlugin from "fork-ts-checker-webpack-plugin";
 import path from "path";
-import ReactDocgenTypescriptPlugin from "react-docgen-typescript-plugin";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 import { Configuration, DefinePlugin } from "webpack";
 import {
@@ -31,13 +30,6 @@ const config: Configuration = {
   },
 
   plugins: [
-    new ReactDocgenTypescriptPlugin({
-      tsconfigPath: path.resolve("./tsconfig.json"),
-      // https://github.com/storybookjs/storybook/blob/v6.2.2/app/react/src/server/framework-preset-react-docgen.ts#L48-L49
-      savePropValueAsString: true,
-      shouldRemoveUndefinedFromOptional: true,
-    }),
-
     new ForkTsCheckerPlugin({
       typescript: {
         configFile: path.resolve("./tsconfig.json"),
