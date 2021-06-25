@@ -61,13 +61,6 @@ const createStorybookConfig = (
     env?: Record<string, string | undefined>;
   } = {},
 ): Configuration => {
-  // FIXME
-  defaultConfig.plugins = defaultConfig.plugins?.filter(
-    (plugin) =>
-      plugin.constructor.name !== "DefinePlugin" &&
-      plugin.constructor.name !== "Dotenv",
-  );
-
   return merge(mergeConfig(defaultConfig, config), {
     plugins: [
       new DefinePlugin(
