@@ -1604,6 +1604,7 @@ __metadata:
     "@buncho/webpack-env": "workspace:packages/core/webpack-env"
     "@storybook/addon-essentials": ~6.3.0
     "@storybook/builder-webpack5": ~6.3.0
+    "@storybook/manager-webpack5": ~6.3.0
     "@storybook/react": ~6.3.0
     "@types/babel__core": ^7.1.14
     "@types/node": ^14.17.4
@@ -3259,6 +3260,55 @@ __metadata:
     typescript:
       optional: true
   checksum: fa364fa06a1d344c9eeb109d94fada8ece4caae851c579c879d2013e96b6002a3d86fb8eadad7313f0bc4d4e7cb644dcc0befc2b1e89e33afeb5aba410505a79
+  languageName: node
+  linkType: hard
+
+"@storybook/manager-webpack5@npm:~6.3.0":
+  version: 6.3.0
+  resolution: "@storybook/manager-webpack5@npm:6.3.0"
+  dependencies:
+    "@babel/core": ^7.12.10
+    "@babel/plugin-transform-template-literals": ^7.12.1
+    "@babel/preset-react": ^7.12.10
+    "@storybook/addons": 6.3.0
+    "@storybook/core-client": 6.3.0
+    "@storybook/core-common": 6.3.0
+    "@storybook/node-logger": 6.3.0
+    "@storybook/theming": 6.3.0
+    "@storybook/ui": 6.3.0
+    "@types/node": ^14.0.10
+    babel-loader: ^8.2.2
+    case-sensitive-paths-webpack-plugin: ^2.3.0
+    chalk: ^4.1.0
+    core-js: ^3.8.2
+    css-loader: ^5.0.1
+    dotenv-webpack: ^6.0.0
+    express: ^4.17.1
+    file-loader: ^6.2.0
+    file-system-cache: ^1.0.5
+    find-up: ^5.0.0
+    fs-extra: ^9.0.1
+    html-webpack-plugin: ^5.0.0
+    node-fetch: ^2.6.1
+    read-pkg-up: ^7.0.1
+    regenerator-runtime: ^0.13.7
+    resolve-from: ^5.0.0
+    style-loader: ^2.0.0
+    telejson: ^5.3.2
+    terser-webpack-plugin: ^5.0.3
+    ts-dedent: ^2.0.0
+    url-loader: ^4.1.1
+    util-deprecate: ^1.0.2
+    webpack: ^5.9.0
+    webpack-dev-middleware: ^4.1.0
+    webpack-virtual-modules: ^0.4.1
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: b0a4d87891c4bd9f804f335df4474bf56bb4f5e1f710358a5f9aa8a0221b03cabf94e3bf5a004305e1fdf6ecadf7371e069e80533206adf11a10da8d1af1b8d8
   languageName: node
   linkType: hard
 
