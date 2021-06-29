@@ -1614,7 +1614,7 @@ __metadata:
     cosmiconfig: ^7.0.0
     react: ^17.0.2
     react-dom: ^17.0.2
-    webpack: ^5.40.0
+    webpack: ^5.41.0
     webpack-cli: ^4.7.2
     webpack-dev-server: 4.0.0-beta.3
   peerDependencies:
@@ -1778,7 +1778,7 @@ __metadata:
     tsconfig-paths: ^3.9.0
     tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^1.2.1
-    webpack: ^5.40.0
+    webpack: ^5.41.0
     webpack-dev-server: 4.0.0-beta.3
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.1.5
@@ -3812,10 +3812,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:*, @types/estree@npm:^0.0.47":
-  version: 0.0.47
-  resolution: "@types/estree@npm:0.0.47"
-  checksum: aed5c940436250c25c5e140aa19e7199ba3452e72e1aecc515621507df9e5ed5076ddba84a1684c36d62be841ff3e2bafce8793f16fe6f69d10884449d4461e7
+"@types/estree@npm:*, @types/estree@npm:^0.0.48":
+  version: 0.0.48
+  resolution: "@types/estree@npm:0.0.48"
+  checksum: 5062c9a65d3b4020df54741ec7e697ad516bb446a1f8823bd7990544cf6221ab6facf8dd7ad1c79753a5dde5ecb6a9bc4ffcaa1123dba1119566887732cc39fb
   languageName: node
   linkType: hard
 
@@ -16774,12 +16774,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.40.0, webpack@npm:^5.9.0":
-  version: 5.40.0
-  resolution: "webpack@npm:5.40.0"
+"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.41.0, webpack@npm:^5.9.0":
+  version: 5.41.0
+  resolution: "webpack@npm:5.41.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
-    "@types/estree": ^0.0.47
+    "@types/estree": ^0.0.48
     "@webassemblyjs/ast": 1.11.0
     "@webassemblyjs/wasm-edit": 1.11.0
     "@webassemblyjs/wasm-parser": 1.11.0
@@ -16806,7 +16806,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 19b8e0bfb9c6f16de1baa97aa820da1bbd2032c78bb6c76dcda37844ec422d3ac82bdd6d65934c853a99fa60a9af0a8ab255cefe51f4262395aff0d6a37c7ccf
+  checksum: e2edb5e0a7a93b0ab345f249ee032692d4c5bb4e6eefc27065ba1c78210de8f9b25077ef2e2f71eaff7187c14b51c44e7076257ce99124543bf284f31b51e2b7
   languageName: node
   linkType: hard
 
