@@ -1765,7 +1765,7 @@ __metadata:
     css-minimizer-webpack-plugin: ^3.0.2
     fork-ts-checker-webpack-plugin: ^6.2.12
     html-webpack-plugin: ^5.3.2
-    mini-css-extract-plugin: ^1.6.2
+    mini-css-extract-plugin: ^2.0.0
     postcss: ^8.3.5
     postcss-loader: ^6.1.0
     raw-loader: ^4.0.2
@@ -11487,16 +11487,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:^1.6.2":
-  version: 1.6.2
-  resolution: "mini-css-extract-plugin@npm:1.6.2"
+"mini-css-extract-plugin@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "mini-css-extract-plugin@npm:2.0.0"
   dependencies:
-    loader-utils: ^2.0.0
     schema-utils: ^3.0.0
-    webpack-sources: ^1.1.0
   peerDependencies:
-    webpack: ^4.4.0 || ^5.0.0
-  checksum: c2c1f3d7e5bc206b5bece0f37b65467ee58e0bb0b61d5e031bb818682b02db2552b296f5018af9058b18eb7127e00f6462fb718712a3d4432079dfa848b510cc
+    webpack: ^5.0.0
+  checksum: 5e83129e5885c5cd78f195acc524243adc61b5502b040446b87b1519132afd03106f263aaa376fe9127da4ff383b5adca861d317874925c3ed02d1c789bf95fd
   languageName: node
   linkType: hard
 
@@ -16700,7 +16698,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-sources@npm:^1.1.0, webpack-sources@npm:^1.4.0, webpack-sources@npm:^1.4.1, webpack-sources@npm:^1.4.3":
+"webpack-sources@npm:^1.4.0, webpack-sources@npm:^1.4.1, webpack-sources@npm:^1.4.3":
   version: 1.4.3
   resolution: "webpack-sources@npm:1.4.3"
   dependencies:
