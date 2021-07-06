@@ -43,7 +43,7 @@
     "sass-loader": "^12.1.0",
     "style-loader": "^3.0.0",
     "terser-webpack-plugin": "^5.1.4",
-    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths": "^3.10.1",
     "tsconfig-paths-webpack-plugin": "^3.5.1",
     "type-fest": "^1.2.1",
     "webpack-merge": "^5.8.0",
