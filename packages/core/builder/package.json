@@ -37,7 +37,7 @@
     "@storybook/builder-webpack5": "~6.3.2",
     "@storybook/manager-webpack5": "~6.3.2",
     "@storybook/react": "~6.3.2",
-    "@types/babel__core": "^7.1.14",
+    "@types/babel__core": "^7.1.15",
     "@types/webpack-dev-server": "^3.11.5",
     "cosmiconfig": "^7.0.0",
     "webpack": "^5.43.0",
