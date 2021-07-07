@@ -1753,7 +1753,7 @@ __metadata:
     "@types/babel__core": ^7.1.15
     "@types/copy-webpack-plugin": ^8.0.0
     "@types/css-minimizer-webpack-plugin": ^3.0.1
-    "@types/mini-css-extract-plugin": ^2.0.0
+    "@types/mini-css-extract-plugin": ^2.0.1
     "@types/node": ^14.17.4
     "@types/terser-webpack-plugin": ^5.0.4
     "@types/webpack-dev-server": ^3.11.5
@@ -1765,7 +1765,7 @@ __metadata:
     css-minimizer-webpack-plugin: ^3.0.2
     fork-ts-checker-webpack-plugin: ^6.2.12
     html-webpack-plugin: ^5.3.2
-    mini-css-extract-plugin: ^2.0.0
+    mini-css-extract-plugin: ^2.1.0
     postcss: ^8.3.5
     postcss-loader: ^6.1.1
     raw-loader: ^4.0.2
@@ -3991,14 +3991,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mini-css-extract-plugin@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@types/mini-css-extract-plugin@npm:2.0.0"
+"@types/mini-css-extract-plugin@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@types/mini-css-extract-plugin@npm:2.0.1"
   dependencies:
     "@types/node": "*"
     tapable: ^2.2.0
     webpack: ^5
-  checksum: 9806384005a280fa2fb4e63bab1b1a8f74dbe237ad5511e75ca90c10a31673ab848887520f4a5fd44f128055d49ca88517af94c4f055537114b30e1bdc74dfc9
+  checksum: afae2ceed5646f21396e22371c36ecb091e5ce271bb9533dfe18ae1855cbde6b0ded6185b84b3ec6bb70411190b545644bce9a356b787d9c1949ef6e12adb31d
   languageName: node
   linkType: hard
 
@@ -11499,14 +11499,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "mini-css-extract-plugin@npm:2.0.0"
+"mini-css-extract-plugin@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "mini-css-extract-plugin@npm:2.1.0"
   dependencies:
     schema-utils: ^3.0.0
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 5e83129e5885c5cd78f195acc524243adc61b5502b040446b87b1519132afd03106f263aaa376fe9127da4ff383b5adca861d317874925c3ed02d1c789bf95fd
+  checksum: d9d61c6bb40328806c8f4dd874a5e2e77ad7d452720fe1b48ad9fbdf84f2619f1063ce2370da48a4859318e5c865da128dc6ca1ea03fde556aea214576108cc5
   languageName: node
   linkType: hard
 
