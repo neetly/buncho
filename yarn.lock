@@ -1758,7 +1758,7 @@ __metadata:
     "@types/terser-webpack-plugin": ^5.0.4
     "@types/webpack-dev-server": ^3.11.5
     "@types/workbox-webpack-plugin": ^5.1.8
-    autoprefixer: ^10.2.6
+    autoprefixer: ^10.3.0
     babel-loader: ^8.2.2
     copy-webpack-plugin: ^9.0.1
     css-loader: ^5.2.6
@@ -5296,12 +5296,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.2.6":
-  version: 10.2.6
-  resolution: "autoprefixer@npm:10.2.6"
+"autoprefixer@npm:^10.3.0":
+  version: 10.3.0
+  resolution: "autoprefixer@npm:10.3.0"
   dependencies:
     browserslist: ^4.16.6
-    caniuse-lite: ^1.0.30001230
+    caniuse-lite: ^1.0.30001243
     colorette: ^1.2.2
     fraction.js: ^4.1.1
     normalize-range: ^0.1.2
@@ -5310,7 +5310,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: dedcc56739b3e5beda3927c13cd4dbb8e1eeb568418b28fb6b4a52697e951ec72ae3aca89e5d871c310e520a8bbbe24267b7401d21f96c07bf0ea6527977f9e8
+  checksum: afd7db17e3c598878880f8004a3b165f5d42a9f2d0eb76a8b3249d88d85d2dd221f10f6e4629f0d539ef7cdaecc2fbb117840cc347f2985f91482f839bcc70fc
   languageName: node
   linkType: hard
 
@@ -6060,10 +6060,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001125, caniuse-lite@npm:^1.0.30001219, caniuse-lite@npm:^1.0.30001230":
-  version: 1.0.30001230
-  resolution: "caniuse-lite@npm:1.0.30001230"
-  checksum: 7ad6bf592c272dc62e59eb05b7e8581f6e8e0b0f6cef8e687c82c8306d77dccacdbba86286a4d1e3defebdd358ddc0a236208f08ea8e7b899d7b519c1223399a
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001125, caniuse-lite@npm:^1.0.30001219, caniuse-lite@npm:^1.0.30001243":
+  version: 1.0.30001243
+  resolution: "caniuse-lite@npm:1.0.30001243"
+  checksum: 912cf885036847a8b6972cd65170d9f355a08b08cfd6b06bcaa8de965755ee5b35a4bbe4eb73844aac313a42e2038ae0971a5b4c9b94d631db2f073c906ce1d6
   languageName: node
   linkType: hard
 
