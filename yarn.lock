@@ -1761,7 +1761,7 @@ __metadata:
     autoprefixer: ^10.3.0
     babel-loader: ^8.2.2
     copy-webpack-plugin: ^9.0.1
-    css-loader: ^5.2.6
+    css-loader: ^6.0.0
     css-minimizer-webpack-plugin: ^3.0.2
     fork-ts-checker-webpack-plugin: ^6.2.12
     html-webpack-plugin: ^5.3.2
@@ -6869,7 +6869,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:^5.0.1, css-loader@npm:^5.2.6":
+"css-loader@npm:^5.0.1":
   version: 5.2.6
   resolution: "css-loader@npm:5.2.6"
   dependencies:
@@ -6886,6 +6886,24 @@ __metadata:
   peerDependencies:
     webpack: ^4.27.0 || ^5.0.0
   checksum: 993354a24887724712dc1320abba5c1c4f7a4fdc6cfd64d160a0706218d6eeb241dbf4cea0694cd2752f7c3626b543efdd9993d12f4bb5b75f33e9c4da155e10
+  languageName: node
+  linkType: hard
+
+"css-loader@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "css-loader@npm:6.0.0"
+  dependencies:
+    icss-utils: ^5.1.0
+    postcss: ^8.2.15
+    postcss-modules-extract-imports: ^3.0.0
+    postcss-modules-local-by-default: ^4.0.0
+    postcss-modules-scope: ^3.0.0
+    postcss-modules-values: ^4.0.0
+    postcss-value-parser: ^4.1.0
+    semver: ^7.3.5
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: d0d0ec6f13b0df5591d8d881297adf7756889b91defb6bb0ce3b5a407f69a8163695063a4f7ec644e14a274058c75b5ac1d21565c770f3d896d941c78662b34a
   languageName: node
   linkType: hard
 
