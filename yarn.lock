@@ -1828,7 +1828,7 @@ __metadata:
     "@buncho/builder": "workspace:packages/core/builder"
     "@buncho/eslint-config": "workspace:packages/core/eslint-config"
     "@buncho/tsconfig": "workspace:packages/core/tsconfig"
-    "@prettier/plugin-xml": ^0.13.1
+    "@prettier/plugin-xml": ^1.0.1
     eslint: ^7.30.0
     prettier: ^2.3.2
     typescript: ^4.3.5
@@ -2339,13 +2339,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prettier/plugin-xml@npm:^0.13.1":
-  version: 0.13.1
-  resolution: "@prettier/plugin-xml@npm:0.13.1"
+"@prettier/plugin-xml@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@prettier/plugin-xml@npm:1.0.1"
   dependencies:
-    "@xml-tools/parser": ^1.0.2
-    prettier: ">=1.10"
-  checksum: 216111b77f4c778426523c638d9b7e995c5f992e8fa2051ed145605d3a07da26ea767f9c95db20de4657a9ef8ee987f1dd2a7c336b1d01db6668b26b13826865
+    "@xml-tools/parser": ^1.0.11
+    prettier: ">=2.3"
+  checksum: a40dcc68e448be1b867077ffd4a85055d16860929540fc1723f97c93c590ef51f267a4951bf76161c35c738a2e5de3fb37577debf48ed25bc110d873d400c348
   languageName: node
   linkType: hard
 
@@ -4739,12 +4739,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xml-tools/parser@npm:^1.0.2":
-  version: 1.0.7
-  resolution: "@xml-tools/parser@npm:1.0.7"
+"@xml-tools/parser@npm:^1.0.11":
+  version: 1.0.11
+  resolution: "@xml-tools/parser@npm:1.0.11"
   dependencies:
-    chevrotain: 7.0.1
-  checksum: 6e835d8a44eeaddd3c5a6582673165f82bb21611466ce5164544f2871b967fd30285982fd235bc2cc2de4f86ff7e091f2530039f4371eb588e591449397431c3
+    chevrotain: 7.1.1
+  checksum: 79f32386ef935c1ba65d421e36b556fb14593c7b7e5ca99160ec8ec6dba912a00be6c32d0ab8bad35f82cb5640c05f1a8cfd1d227d563aed20ecc57d678ceab2
   languageName: node
   linkType: hard
 
@@ -6149,12 +6149,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chevrotain@npm:7.0.1":
-  version: 7.0.1
-  resolution: "chevrotain@npm:7.0.1"
+"chevrotain@npm:7.1.1":
+  version: 7.1.1
+  resolution: "chevrotain@npm:7.1.1"
   dependencies:
     regexp-to-ast: 0.5.0
-  checksum: 0db9016e3c24b0f548e3982a8d7c6bba68ebd6e8af6a59dd0f424c05a28e72514b210936a844e91784ff0ec1d9d19a3a83777b2be0fdb9838c90240e46c58319
+  checksum: 3ba268b745b89674712930f5d5b212f0bae6218309a05e1f89301384a9a2e8482429c83b9c52f38e536c38bb1940a53c2c0e6149e15277ea6bc6a1307528474d
   languageName: node
   linkType: hard
 
@@ -13151,7 +13151,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:>=1.10, prettier@npm:^2.3.2":
+"prettier@npm:>=2.3, prettier@npm:^2.3.2":
   version: 2.3.2
   resolution: "prettier@npm:2.3.2"
   bin:
