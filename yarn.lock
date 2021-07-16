@@ -1614,7 +1614,7 @@ __metadata:
     cosmiconfig: ^7.0.0
     react: ^17.0.2
     react-dom: ^17.0.2
-    webpack: ^5.45.0
+    webpack: ^5.45.1
     webpack-cli: ^4.7.2
     webpack-dev-server: 4.0.0-beta.3
   peerDependencies:
@@ -1778,7 +1778,7 @@ __metadata:
     tsconfig-paths: ^3.10.1
     tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^1.2.2
-    webpack: ^5.45.0
+    webpack: ^5.45.1
     webpack-dev-server: 4.0.0-beta.3
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.1.5
@@ -4776,15 +4776,6 @@ __metadata:
     mime-types: ~2.1.24
     negotiator: 0.6.2
   checksum: 27fc8060ffc69481ff6719cd3ee06387d2b88381cb0ce626f087781bbd02201a645a9febc8e7e7333558354b33b1d2f922ad13560be4ec1b7ba9e76fc1c1241d
-  languageName: node
-  linkType: hard
-
-"acorn-import-assertions@npm:1.7.1":
-  version: 1.7.1
-  resolution: "acorn-import-assertions@npm:1.7.1"
-  peerDependencies:
-    acorn: ^8
-  checksum: a4c0db43affda2f175b60009144752f1c62dd8db591dd6f0608970e3a35d9a20b94d079e7de03ead639a8797cbcc1e7e19fe6236db6d5113c21ca82f7059c522
   languageName: node
   linkType: hard
 
@@ -16810,9 +16801,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.45.0, webpack@npm:^5.9.0":
-  version: 5.45.0
-  resolution: "webpack@npm:5.45.0"
+"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.45.1, webpack@npm:^5.9.0":
+  version: 5.45.1
+  resolution: "webpack@npm:5.45.1"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -16820,7 +16811,6 @@ __metadata:
     "@webassemblyjs/wasm-edit": 1.11.1
     "@webassemblyjs/wasm-parser": 1.11.1
     acorn: ^8.4.1
-    acorn-import-assertions: 1.7.1
     browserslist: ^4.14.5
     chrome-trace-event: ^1.0.2
     enhanced-resolve: ^5.8.0
@@ -16843,7 +16833,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 3469d66d257e6058e26c737bedce9d423046c977b0f3b0c9e58198d5ff101a37a4002e464b35884ac1cc18d4fcdb8fa2bf19f4bab09d5645d19ee5aecaf0b58b
+  checksum: 7aca5a40bf95d83c89b30b7c58da70e6aba672fc97b8f8ddea18516ce026706982b3b6b5c9509a6295b87de889df64f9a08e125ba9a36a128cb84cbce742225c
   languageName: node
   linkType: hard
 
