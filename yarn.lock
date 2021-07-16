@@ -1758,7 +1758,7 @@ __metadata:
     "@types/terser-webpack-plugin": ^5.0.4
     "@types/webpack-dev-server": ^3.11.5
     "@types/workbox-webpack-plugin": ^5.1.8
-    autoprefixer: ^10.3.0
+    autoprefixer: ^10.3.1
     babel-loader: ^8.2.2
     copy-webpack-plugin: ^9.0.1
     css-loader: ^6.0.0
@@ -5296,9 +5296,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.3.0":
-  version: 10.3.0
-  resolution: "autoprefixer@npm:10.3.0"
+"autoprefixer@npm:^10.3.1":
+  version: 10.3.1
+  resolution: "autoprefixer@npm:10.3.1"
   dependencies:
     browserslist: ^4.16.6
     caniuse-lite: ^1.0.30001243
@@ -5310,7 +5310,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: afd7db17e3c598878880f8004a3b165f5d42a9f2d0eb76a8b3249d88d85d2dd221f10f6e4629f0d539ef7cdaecc2fbb117840cc347f2985f91482f839bcc70fc
+  checksum: 89397dfc17eb0116b0eafeac36f161e7ece58b11fd9f290cb27740d6d49a885c407c609547a05f8c8715d974d945f2647e25a6606919169d2567698c328fde7f
   languageName: node
   linkType: hard
 
