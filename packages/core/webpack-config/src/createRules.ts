@@ -132,7 +132,7 @@ const createRules = ({
 
         {
           exclude: /\.json$/,
-          type: "asset/resource",
+          type: "asset",
         },
       ],
     },
