@@ -18,7 +18,7 @@
     "prepack": "run clean && run build && cp ../../../LICENSE ."
   },
   "dependencies": {
-    "@babel/register": "^7.14.5",
+    "@babel/register": "^7.15.3",
     "@buncho/utils": "workspace:packages/core/utils",
     "tsconfig-paths": "^3.10.1"
   },
