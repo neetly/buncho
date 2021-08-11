@@ -1794,7 +1794,7 @@ __metadata:
     webpack: ^5.49.0
     webpack-dev-server: 4.0.0-rc.0
     webpack-merge: ^5.8.0
-    workbox-webpack-plugin: ^6.2.2
+    workbox-webpack-plugin: ^6.2.4
   peerDependencies:
     "@babel/core": "*"
     "@buncho/babel-preset": "*"
@@ -4151,6 +4151,13 @@ __metadata:
     terser: ^5.3.8
     webpack: ^5.1.0
   checksum: 7b3845526d4ed7b636f7b2f8f35b5d7e45211f7a55afc85e32a66655eaf65cd193e2fec195bcdb473c0d9a5b2828798b9c23196fdc86e9cd2e9420227012f438
+  languageName: node
+  linkType: hard
+
+"@types/trusted-types@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@types/trusted-types@npm:2.0.2"
+  checksum: 3371eef5f1c50e1c3c07a127c1207b262ba65b83dd167a1c460fc1b135a3fb0c97b9f508efebd383f239cc5dd5b7169093686a692a501fde9c3f7208657d9b0d
   languageName: node
   linkType: hard
 
@@ -16993,28 +17000,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-background-sync@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-background-sync@npm:6.2.2"
+"workbox-background-sync@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-background-sync@npm:6.2.4"
   dependencies:
     idb: ^6.0.0
-    workbox-core: 6.2.2
-  checksum: 207137c2b58c5742b3a5bebbce26abaaf72851557e49d1f967eb5adf718adb5617aef625b2c8fc0ef6719f4a995f712f91a54d19cb1140c554c121b5d1f4edf3
+    workbox-core: 6.2.4
+  checksum: 4aedaa3864cf9c8148c921a18aa57282bc85c99ab5d24d1f715317d7f113000f86c0000e8b0f73b31aed6762bd8e6d6bd309fc6515ba330984e9b876ac200963
   languageName: node
   linkType: hard
 
-"workbox-broadcast-update@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-broadcast-update@npm:6.2.2"
+"workbox-broadcast-update@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-broadcast-update@npm:6.2.4"
   dependencies:
-    workbox-core: 6.2.2
-  checksum: da23c99adddc6a328a9f46006d95e5c8da443f35fcda9eb58f1ed4f1c75aceabc97c442548a653dbecf0cf27b4ea0f7ee0998fb4e8b6657978b7a7e24cb5c3e9
+    workbox-core: 6.2.4
+  checksum: 86a9b8ff2435bf5e2e6752d32f64df966b5451e387db38280a766784c7ab7b38d06fef09623b46ff0e1f0a201f09350e14b218dc27fd396ce1c2e56933c687ab
   languageName: node
   linkType: hard
 
-"workbox-build@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-build@npm:6.2.2"
+"workbox-build@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-build@npm:6.2.4"
   dependencies:
     "@apideck/better-ajv-errors": ^0.2.4
     "@babel/core": ^7.11.1
@@ -17039,163 +17046,164 @@ __metadata:
     strip-comments: ^2.0.1
     tempy: ^0.6.0
     upath: ^1.2.0
-    workbox-background-sync: 6.2.2
-    workbox-broadcast-update: 6.2.2
-    workbox-cacheable-response: 6.2.2
-    workbox-core: 6.2.2
-    workbox-expiration: 6.2.2
-    workbox-google-analytics: 6.2.2
-    workbox-navigation-preload: 6.2.2
-    workbox-precaching: 6.2.2
-    workbox-range-requests: 6.2.2
-    workbox-recipes: 6.2.2
-    workbox-routing: 6.2.2
-    workbox-strategies: 6.2.2
-    workbox-streams: 6.2.2
-    workbox-sw: 6.2.2
-    workbox-window: 6.2.2
-  checksum: 09142cbaf9dceb614b51b4db4c2cac9537812bcee0340ee827ec9700285436872efb4bdc568d5c735b9bf68666b6554c765e09daf53423f9b6b24d31270d48bb
+    workbox-background-sync: 6.2.4
+    workbox-broadcast-update: 6.2.4
+    workbox-cacheable-response: 6.2.4
+    workbox-core: 6.2.4
+    workbox-expiration: 6.2.4
+    workbox-google-analytics: 6.2.4
+    workbox-navigation-preload: 6.2.4
+    workbox-precaching: 6.2.4
+    workbox-range-requests: 6.2.4
+    workbox-recipes: 6.2.4
+    workbox-routing: 6.2.4
+    workbox-strategies: 6.2.4
+    workbox-streams: 6.2.4
+    workbox-sw: 6.2.4
+    workbox-window: 6.2.4
+  checksum: 9b11ea472c527333f520374c69a1eaf94e47ba3be2b588497825646d98302c938788113161ab89eb2951fab6eef88d7644bcc0ffc6d6463ef7033ffe408c0267
   languageName: node
   linkType: hard
 
-"workbox-cacheable-response@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-cacheable-response@npm:6.2.2"
+"workbox-cacheable-response@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-cacheable-response@npm:6.2.4"
   dependencies:
-    workbox-core: 6.2.2
-  checksum: a84e3b1d8bf975df742d2711d4bdd48b9603165008f3b6787b7286b6a99810e734401dd651cff18584ad90afcdfc42e0ed281accc208f71c0b3ba778ef8016a6
+    workbox-core: 6.2.4
+  checksum: b293386f2ac02b57558c33de54621ebd123295f867e4613d923be2e70f5282c715ba9791f15d07e34ef6841344d92c584443b1bf19dbf6b5fdb8e2e4b5119654
   languageName: node
   linkType: hard
 
-"workbox-core@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-core@npm:6.2.2"
-  checksum: 8edea5c7cc481fe4306dc91783a77b39c081b61afe0521970cd59683494a15b24b8896d7b06444b209442c408f93bc2756385c1cb6a4232465fc91f7e4d02ffd
+"workbox-core@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-core@npm:6.2.4"
+  checksum: 22c8894f54e29e40e42e5d6e99c067fab09f88d2351e0402d26e210179db8b6d08130b29584b75cfd4472e6d6681a3951b5e4af85b7ac56a1fb4c0ec4d30088a
   languageName: node
   linkType: hard
 
-"workbox-expiration@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-expiration@npm:6.2.2"
+"workbox-expiration@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-expiration@npm:6.2.4"
   dependencies:
     idb: ^6.0.0
-    workbox-core: 6.2.2
-  checksum: af713e5e2ff1ebd0e70b5774d983962a4fa59fea4c1c87a17adeb3efd72e5c2f3447279f4884a61d43ca1986fb5e86af73c2631eedf70f4a8b7d77b641328707
+    workbox-core: 6.2.4
+  checksum: ffc0d5c285a2d5b22ffd19cc59154e08bb860d4d5bda66a97237a7367fe8635d0c02148e489314bd203ccd7093ff77b172af04c47dd4b3d109dca0d3f1cc5ca3
   languageName: node
   linkType: hard
 
-"workbox-google-analytics@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-google-analytics@npm:6.2.2"
+"workbox-google-analytics@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-google-analytics@npm:6.2.4"
   dependencies:
-    workbox-background-sync: 6.2.2
-    workbox-core: 6.2.2
-    workbox-routing: 6.2.2
-    workbox-strategies: 6.2.2
-  checksum: 7af4fef1db03d2be8549d0185a1ebff3aeab29b52b853e76da07efb17aa2b9e78300852837d7bfbcd0f4204dd84147b824d0c59c78f1e4dcfdb8e960df574bb5
+    workbox-background-sync: 6.2.4
+    workbox-core: 6.2.4
+    workbox-routing: 6.2.4
+    workbox-strategies: 6.2.4
+  checksum: d10cfb438f0065901c7969fc8595e975cfaf76575a90dd468965e24f90bddcbffa74f16a0dd3cc07872828833dd8661344d17c78953d5a2dc7e8def5898de7ec
   languageName: node
   linkType: hard
 
-"workbox-navigation-preload@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-navigation-preload@npm:6.2.2"
+"workbox-navigation-preload@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-navigation-preload@npm:6.2.4"
   dependencies:
-    workbox-core: 6.2.2
-  checksum: 17d3544a03ec05783015c0cc6e5e967a888b8c407c7e0ceaf56d63322f2ab6f643d5cf5ea16050334a32790c6beb346dfd828bb8c9b1628adc9507854d07db40
+    workbox-core: 6.2.4
+  checksum: 9841a2dee63215bcb17b8b03dc813b309326179c0363c664ed1e1684fd8afb909e7a7fea7993c94174ef4387dadab78c2eb14d4104b5d1ba3e827f26f9c98f8b
   languageName: node
   linkType: hard
 
-"workbox-precaching@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-precaching@npm:6.2.2"
+"workbox-precaching@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-precaching@npm:6.2.4"
   dependencies:
-    workbox-core: 6.2.2
-    workbox-routing: 6.2.2
-    workbox-strategies: 6.2.2
-  checksum: bbc40598d2c6a8f9cb156c921062b25b65e3a96ca17ae063808131885bfe77f084800c3c71ee1e4ce62cb42bdef9acef784715a769e5960322a152bf23b18488
+    workbox-core: 6.2.4
+    workbox-routing: 6.2.4
+    workbox-strategies: 6.2.4
+  checksum: 726cbbca153364a89fb618d9f69f1c1f28995886c2f8c49ca5a3edc16aaf4dc4ddd9fe04451f5454d728b8ab13b3be5f50c6974fae58adc89d09c23c69503349
   languageName: node
   linkType: hard
 
-"workbox-range-requests@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-range-requests@npm:6.2.2"
+"workbox-range-requests@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-range-requests@npm:6.2.4"
   dependencies:
-    workbox-core: 6.2.2
-  checksum: 8be2a66815ac2f625265bfbcf02fb727c0cba3a4ee8b94da052e64ac944ab8510b7d15a055e7b359aee43634e713914fd355332e9e034e971bd23515b705f67a
+    workbox-core: 6.2.4
+  checksum: de0636d4536b7a0d3e0e640d28a31a9ffc7d5180f176792a25324205da13445c12d550bb2c5f45c91d3ac99258f808cae65c85a7889cbb5034ec8105115cebec
   languageName: node
   linkType: hard
 
-"workbox-recipes@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-recipes@npm:6.2.2"
+"workbox-recipes@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-recipes@npm:6.2.4"
   dependencies:
-    workbox-cacheable-response: 6.2.2
-    workbox-core: 6.2.2
-    workbox-expiration: 6.2.2
-    workbox-precaching: 6.2.2
-    workbox-routing: 6.2.2
-    workbox-strategies: 6.2.2
-  checksum: 84bf76cbadd5f3d100cd44b016a5fcc04c09bc25b1271d3bf6846057c3b0f1cc4ec8f4e0bce0c6e2d4b138ad1b4bc6b5150f029d6f7aa3074688b33b87d4c63f
+    workbox-cacheable-response: 6.2.4
+    workbox-core: 6.2.4
+    workbox-expiration: 6.2.4
+    workbox-precaching: 6.2.4
+    workbox-routing: 6.2.4
+    workbox-strategies: 6.2.4
+  checksum: 54ffab20435b935cdfa433bece00f78773c456f7f86d5ab817aafdc6903eab0e99c9a8d0d7dae482c42b551893a953b3d04d1a81e0ab4f6f4ba76caa3a2cf15e
   languageName: node
   linkType: hard
 
-"workbox-routing@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-routing@npm:6.2.2"
+"workbox-routing@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-routing@npm:6.2.4"
   dependencies:
-    workbox-core: 6.2.2
-  checksum: 0ead28f9e87046d8c6788dd39849fbfa34aff128157aa28da807d61ebe220fb81b6e0aa782ab2ca4802d77d725769d740f7ab0f0cf26702104470d1275c2faff
+    workbox-core: 6.2.4
+  checksum: ae96637d4af14a8d2bffb595390459eb890f0f604f5572a175d6f8a91e91a0123511666d7691337628572d7aa7ec37add7951b657543910556d2ba2afda83f5a
   languageName: node
   linkType: hard
 
-"workbox-strategies@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-strategies@npm:6.2.2"
+"workbox-strategies@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-strategies@npm:6.2.4"
   dependencies:
-    workbox-core: 6.2.2
-  checksum: 2c005f91873c582450499b8474449682e61084fad4cd677255e485e24b5edc294d7637cdd104a1b194b5b2036876e80a688f7fb5c1f5c6facad1cc21ec38991c
+    workbox-core: 6.2.4
+  checksum: 8ae961a4d6ac42ce273ca755a10fe9cb7379d1760baaeb7d81698a20a6b55fb700940754381d81c6bbf58e1365ff9dc47c9652c48b4aa7067630715f2518b3bf
   languageName: node
   linkType: hard
 
-"workbox-streams@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-streams@npm:6.2.2"
+"workbox-streams@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-streams@npm:6.2.4"
   dependencies:
-    workbox-core: 6.2.2
-    workbox-routing: 6.2.2
-  checksum: b8e85097c8a6a34227aa65b692a5030b9f1e78fa50a27cf700bee4adf2db0451ddeb7ba2ff9f0400e22d3e51c9b10bbf662338faf7c0fabcb902ca1ff9a7a2fc
+    workbox-core: 6.2.4
+    workbox-routing: 6.2.4
+  checksum: a44664923104b484e14d8c72999bc447bfaaede7229a7c207c1566db9fdda9e601e6c3848b73343d8b810cee67fd2cd835ef519b4ef5fa20556817251f92c6cb
   languageName: node
   linkType: hard
 
-"workbox-sw@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-sw@npm:6.2.2"
-  checksum: c34f858f6d774ac47ed3e30a03f7b716d8bd24105cf861e9fad9b4c551b3d61e0d873b9f9d0b70a07c18920c6ed394f7e6b9c6033e6f867cb9df75cc35de4162
+"workbox-sw@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-sw@npm:6.2.4"
+  checksum: 2c3a8daa49aa5013d5dcbf78cc81fba6ff24b17d1331855530414fd2175d659656bfe3f3379f52340a362f2e6d4b75546d6dcd2a2907e63d6a20d0e0a49b2239
   languageName: node
   linkType: hard
 
-"workbox-webpack-plugin@npm:^6.2.2":
-  version: 6.2.2
-  resolution: "workbox-webpack-plugin@npm:6.2.2"
+"workbox-webpack-plugin@npm:^6.2.4":
+  version: 6.2.4
+  resolution: "workbox-webpack-plugin@npm:6.2.4"
   dependencies:
     fast-json-stable-stringify: ^2.1.0
     pretty-bytes: ^5.4.1
     source-map-url: ^0.4.0
     upath: ^1.2.0
     webpack-sources: ^1.4.3
-    workbox-build: 6.2.2
+    workbox-build: 6.2.4
   peerDependencies:
     webpack: ^4.4.0 || ^5.9.0
-  checksum: e8144e38cf499edd862176f2346a6c8afed6d516d85738f8f152058887d0a91164324b0d26e4755f823cc41c0d1f19fb018f9bd8a44c2ea84f8b2ae582b710d0
+  checksum: a925aa870ca15ffd3e8c9a00987f92dff77cacb5fe44fdc08311d6e0650619c41a78e5afdb9e9ae3ad8078e9980f74f9420a9f0b6ec3388e3405ff021ed4b242
   languageName: node
   linkType: hard
 
-"workbox-window@npm:6.2.2":
-  version: 6.2.2
-  resolution: "workbox-window@npm:6.2.2"
+"workbox-window@npm:6.2.4":
+  version: 6.2.4
+  resolution: "workbox-window@npm:6.2.4"
   dependencies:
-    workbox-core: 6.2.2
-  checksum: 59684e575a8ded5f93d30cc6601fad47b4a859ed259662c526a956abdcc0123b5f3ddf93b3b3e03a7f2e63072fbaf5376b0388cf0ab2af990fd92c5b1edc0f4d
+    "@types/trusted-types": ^2.0.2
+    workbox-core: 6.2.4
+  checksum: f5847b796c00072f0f01d9fb3ce3ea93826c5a3334f696d07d27739cf765a50e8c4be83fb513e878988e5198f2f8293b6c11b69af818ea7ce9b0fcdbcf963294
   languageName: node
   linkType: hard
 
