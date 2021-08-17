@@ -1629,7 +1629,7 @@ __metadata:
     react-dom: ^17.0.2
     webpack: ^5.50.0
     webpack-cli: ^4.8.0
-    webpack-dev-server: 4.0.0-rc.0
+    webpack-dev-server: 4.0.0-rc.1
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1792,7 +1792,7 @@ __metadata:
     tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^2.0.0
     webpack: ^5.50.0
-    webpack-dev-server: 4.0.0-rc.0
+    webpack-dev-server: 4.0.0-rc.1
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.2.4
   peerDependencies:
@@ -10888,13 +10888,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"killable@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "killable@npm:1.0.1"
-  checksum: 911a85c6e390c19d72c4e3149347cf44042cbd7d18c3c6c5e4f706fdde6e0ed532473392e282c7ef27f518407e6cb7d2a0e71a2ae8d8d8f8ffdb68891a29a68a
-  languageName: node
-  linkType: hard
-
 "kind-of@npm:^3.0.2, kind-of@npm:^3.0.3, kind-of@npm:^3.2.0":
   version: 3.2.2
   resolution: "kind-of@npm:3.2.2"
@@ -16711,13 +16704,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:4.0.0-rc.0":
-  version: 4.0.0-rc.0
-  resolution: "webpack-dev-server@npm:4.0.0-rc.0"
+"webpack-dev-server@npm:4.0.0-rc.1":
+  version: 4.0.0-rc.1
+  resolution: "webpack-dev-server@npm:4.0.0-rc.1"
   dependencies:
     ansi-html: ^0.0.7
     bonjour: ^3.5.0
     chokidar: ^3.5.1
+    colorette: ^1.2.2
     compression: ^1.7.4
     connect-history-api-fallback: ^1.6.0
     del: ^6.0.0
@@ -16727,8 +16721,6 @@ __metadata:
     http-proxy-middleware: ^2.0.0
     internal-ip: ^6.2.0
     ipaddr.js: ^2.0.1
-    is-absolute-url: ^3.0.3
-    killable: ^1.0.1
     open: ^8.0.9
     p-retry: ^4.5.0
     portfinder: ^1.0.28
@@ -16740,15 +16732,15 @@ __metadata:
     strip-ansi: ^7.0.0
     url: ^0.11.0
     webpack-dev-middleware: ^5.0.0
-    ws: ^7.5.3
+    ws: ^8.1.0
   peerDependencies:
-    webpack: ^4.0.0 || ^5.0.0
+    webpack: ^4.37.0 || ^5.0.0
   peerDependenciesMeta:
     webpack-cli:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: 9dc2e6f151199d050088b19f7b473e44c5cfb3e06c8572f92e71f6acf4fd6f483416a8c4bf53783bfd3093e05028394be984906b148d8e7dbb05bcbc345598be
+  checksum: 5510bf65d048fd4ccfbc129b1c0dffe0160ddaa23b458412bc481ed761cd0c73481639bc9b14c7bb6ad77e4d29645095c61aaf488cb3cd7a06f57deb7168655a
   languageName: node
   linkType: hard
 
@@ -17241,9 +17233,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^7.5.3":
-  version: 7.5.3
-  resolution: "ws@npm:7.5.3"
+"ws@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "ws@npm:8.1.0"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ^5.0.2
@@ -17252,7 +17244,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 423dc0d859fa74020f5555140905b862470a60ea1567bb9ad55a087263d7718b9c94f69678be1cee9868925c570f1e6fc79d09f90c39057bc63fa2edbb2c547b
+  checksum: ead344f11f2b9f01646e796a7c3bcf8090be91b9b880ed705a589bde842fd1fe951862012e2ecc60538ab29220fb6c8335537f027c089afb839fd1a2584d3040
   languageName: node
   linkType: hard
 
