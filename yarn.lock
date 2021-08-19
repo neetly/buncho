@@ -1629,7 +1629,7 @@ __metadata:
     react-dom: ^17.0.2
     webpack: ^5.50.0
     webpack-cli: ^4.8.0
-    webpack-dev-server: 4.0.0-rc.1
+    webpack-dev-server: 4.0.0
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1792,7 +1792,7 @@ __metadata:
     tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^2.0.0
     webpack: ^5.50.0
-    webpack-dev-server: 4.0.0-rc.1
+    webpack-dev-server: 4.0.0
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.2.4
   peerDependencies:
@@ -16704,9 +16704,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:4.0.0-rc.1":
-  version: 4.0.0-rc.1
-  resolution: "webpack-dev-server@npm:4.0.0-rc.1"
+"webpack-dev-server@npm:4.0.0":
+  version: 4.0.0
+  resolution: "webpack-dev-server@npm:4.0.0"
   dependencies:
     ansi-html: ^0.0.7
     bonjour: ^3.5.0
@@ -16740,7 +16740,7 @@ __metadata:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: 5510bf65d048fd4ccfbc129b1c0dffe0160ddaa23b458412bc481ed761cd0c73481639bc9b14c7bb6ad77e4d29645095c61aaf488cb3cd7a06f57deb7168655a
+  checksum: abf88fb940b8fcb3fc6bae6a218ecfc001c7da5b7df3db45f5ee684be1c9e05bd9e491b044f81b1e3df6d33796264b6aebce358a18522e407a62fd6cbcc9f705
   languageName: node
   linkType: hard
 
