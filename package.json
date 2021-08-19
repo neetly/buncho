@@ -1,5 +1,5 @@
 {
-  "name": "@buncho/workspace",
+  "name": "@buncho/repo",
   "private": true,
   "workspaces": [
     "./packages/*/*"
