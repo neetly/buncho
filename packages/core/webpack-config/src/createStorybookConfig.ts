@@ -2,7 +2,6 @@ import * as utils from "@buncho/utils";
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import ForkTsCheckerPlugin from "fork-ts-checker-webpack-plugin";
 import path from "path";
-import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 import { Configuration, DefinePlugin } from "webpack";
 import {
   customizeArray,
@@ -13,13 +12,12 @@ import {
 
 import { EXTENSIONS } from "./constants";
 import { createRules } from "./createRules";
-import { hasTsconfigPaths, production, useFastRefresh } from "./env";
+import { production, useFastRefresh } from "./env";
 
 const config: Configuration = {
   resolve: {
     extensions: EXTENSIONS,
     alias: utils.getWebpackAlias(),
-    plugins: hasTsconfigPaths ? [new TsconfigPathsPlugin()] : [],
   },
 
   module: {

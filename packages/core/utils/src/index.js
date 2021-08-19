@@ -7,10 +7,6 @@ exports.hasBabelConfig = () => {
     .hasFilesystemConfig();
 };
 
-exports.hasTsconfigPaths = () => {
-  return require("tsconfig-paths").loadConfig().resultType === "success";
-};
-
 exports.getReferencedProjects = () => {
   const ts = require("typescript");
 

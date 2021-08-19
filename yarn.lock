@@ -1739,15 +1739,11 @@ __metadata:
   resolution: "@buncho/utils@workspace:packages/core/utils"
   dependencies:
     "@babel/core": ^7.15.0
-    tsconfig-paths: ^3.10.1
   peerDependencies:
     "@babel/core": "*"
-    tsconfig-paths: "*"
     typescript: "*"
   peerDependenciesMeta:
     "@babel/core":
-      optional: true
-    tsconfig-paths:
       optional: true
     typescript:
       optional: true
@@ -1788,8 +1784,6 @@ __metadata:
     sass-loader: ^12.1.0
     style-loader: ^3.2.1
     terser-webpack-plugin: ^5.1.4
-    tsconfig-paths: ^3.10.1
-    tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^2.0.0
     webpack: ^5.51.1
     webpack-dev-server: ^4.0.0
@@ -7766,7 +7760,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.7.0, enhanced-resolve@npm:^5.8.0":
+"enhanced-resolve@npm:^5.8.0":
   version: 5.8.0
   resolution: "enhanced-resolve@npm:5.8.0"
   dependencies:
@@ -15911,18 +15905,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-paths-webpack-plugin@npm:^3.5.1":
-  version: 3.5.1
-  resolution: "tsconfig-paths-webpack-plugin@npm:3.5.1"
-  dependencies:
-    chalk: ^4.1.0
-    enhanced-resolve: ^5.7.0
-    tsconfig-paths: ^3.9.0
-  checksum: 86a58fc9ab373ac0ce0717a1147ed83b25ca05f2fa236f11ad8ae81a2577c9a33d7d6596d742d3d8b927c02e85300ef24d685ae7c767f4f964f22f78aa642647
-  languageName: node
-  linkType: hard
-
-"tsconfig-paths@npm:^3.10.1, tsconfig-paths@npm:^3.9.0":
+"tsconfig-paths@npm:^3.10.1":
   version: 3.10.1
   resolution: "tsconfig-paths@npm:3.10.1"
   dependencies:

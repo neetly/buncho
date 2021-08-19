@@ -7,18 +7,12 @@ import HtmlPlugin from "html-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import path from "path";
 import TerserPlugin from "terser-webpack-plugin";
-import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 import type { Configuration } from "webpack";
 import WorkboxWebpackPlugin from "workbox-webpack-plugin";
 
 import { EXTENSIONS } from "./constants";
 import { createRules } from "./createRules";
-import {
-  hasTsconfigPaths,
-  production,
-  serviceWorkerEntry,
-  useFastRefresh,
-} from "./env";
+import { production, serviceWorkerEntry, useFastRefresh } from "./env";
 
 declare module "webpack-dev-server" {
   interface Configuration {
@@ -49,7 +43,6 @@ const config: Configuration = {
   resolve: {
     extensions: EXTENSIONS,
     alias: utils.getWebpackAlias(),
-    plugins: hasTsconfigPaths ? [new TsconfigPathsPlugin()] : [],
   },
 
   module: {

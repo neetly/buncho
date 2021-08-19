@@ -2,7 +2,6 @@ const path = require("path");
 const utils = require("@buncho/utils");
 
 const hasBabelConfig = utils.hasBabelConfig();
-const hasTsconfigPaths = utils.hasTsconfigPaths();
 
 require("@babel/register")({
   rootMode: "upward-optional",
@@ -22,7 +21,3 @@ require("tsconfig-paths").register({
   ),
   addMatchAll: false,
 });
-
-if (hasTsconfigPaths) {
-  require("tsconfig-paths/register");
-}
