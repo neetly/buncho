@@ -1701,6 +1701,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@buncho/repo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@buncho/repo@workspace:."
+  dependencies:
+    "@buncho/builder": "workspace:packages/core/builder"
+    "@buncho/eslint-config": "workspace:packages/core/eslint-config"
+    "@buncho/tsconfig": "workspace:packages/core/tsconfig"
+    "@prettier/plugin-xml": ^1.0.2
+    eslint: ^7.32.0
+    prettier: ^2.3.2
+    typescript: ^4.3.5
+  languageName: unknown
+  linkType: soft
+
 "@buncho/router@workspace:packages/core/router":
   version: 0.0.0-use.local
   resolution: "@buncho/router@workspace:packages/core/router"
@@ -1825,20 +1839,6 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  languageName: unknown
-  linkType: soft
-
-"@buncho/workspace@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@buncho/workspace@workspace:."
-  dependencies:
-    "@buncho/builder": "workspace:packages/core/builder"
-    "@buncho/eslint-config": "workspace:packages/core/eslint-config"
-    "@buncho/tsconfig": "workspace:packages/core/tsconfig"
-    "@prettier/plugin-xml": ^1.0.2
-    eslint: ^7.32.0
-    prettier: ^2.3.2
-    typescript: ^4.3.5
   languageName: unknown
   linkType: soft
 
