@@ -1629,7 +1629,7 @@ __metadata:
     react-dom: ^17.0.2
     webpack: ^5.51.1
     webpack-cli: ^4.8.0
-    webpack-dev-server: 4.0.0
+    webpack-dev-server: ^4.0.0
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1792,7 +1792,7 @@ __metadata:
     tsconfig-paths-webpack-plugin: ^3.5.1
     type-fest: ^2.0.0
     webpack: ^5.51.1
-    webpack-dev-server: 4.0.0
+    webpack-dev-server: ^4.0.0
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.2.4
   peerDependencies:
@@ -16704,7 +16704,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:4.0.0":
+"webpack-dev-server@npm:^4.0.0":
   version: 4.0.0
   resolution: "webpack-dev-server@npm:4.0.0"
   dependencies:
