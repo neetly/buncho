@@ -4,10 +4,10 @@
   "workspaces": [
     "./packages/*/*"
   ],
-  "homepage": "https://github.com/BunchoDev/buncho",
+  "homepage": "https://github.com/neetly/buncho",
   "repository": {
     "type": "git",
-    "url": "git@github.com:BunchoDev/buncho.git"
+    "url": "git@github.com:neetly/buncho.git"
   },
   "license": "MIT",
   "scripts": {

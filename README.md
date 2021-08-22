@@ -1,3 +1,3 @@
 # Buncho
 
-![CI](https://github.com/BunchoDev/buncho/workflows/CI/badge.svg)
+![CI](https://github.com/neetly/buncho/workflows/CI/badge.svg)

@@ -1,6 +1,6 @@
-gen_enforced_field(WorkspaceCwd, 'homepage', 'https://github.com/BunchoDev/buncho').
+gen_enforced_field(WorkspaceCwd, 'homepage', 'https://github.com/neetly/buncho').
 gen_enforced_field(WorkspaceCwd, 'repository.type', 'git').
-gen_enforced_field(WorkspaceCwd, 'repository.url', 'git@github.com:BunchoDev/buncho.git').
+gen_enforced_field(WorkspaceCwd, 'repository.url', 'git@github.com:neetly/buncho.git').
 gen_enforced_field(WorkspaceCwd, 'repository.directory', WorkspaceCwd) :-
   WorkspaceCwd \= '.'.
 gen_enforced_field(WorkspaceCwd, 'license', 'MIT').
