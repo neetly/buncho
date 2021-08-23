@@ -1771,7 +1771,7 @@ __metadata:
     "@babel/core": ^7.15.0
     "@buncho/babel-preset": "workspace:packages/core/babel-preset"
     "@buncho/utils": "workspace:packages/core/utils"
-    "@pmmmwh/react-refresh-webpack-plugin": 0.5.0-rc.4
+    "@pmmmwh/react-refresh-webpack-plugin": 0.5.0-rc.5
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.15
     "@types/copy-webpack-plugin": ^8.0.1
@@ -2216,9 +2216,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.4":
-  version: 0.5.0-rc.4
-  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.4"
+"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.5":
+  version: 0.5.0-rc.5
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.5"
   dependencies:
     ansi-html: ^0.0.7
     core-js-pure: ^3.8.1
@@ -2249,7 +2249,7 @@ __metadata:
       optional: true
     webpack-plugin-serve:
       optional: true
-  checksum: 2cfdbb713f15ba5fc7d9596661884ea7564d69e3435cd05c88e20716373b2f5ad57c2f1ec3a9fb6e6986b0ac7b70b3288f86e5c82dcb5c548d276bb0b61b927a
+  checksum: 20ae9deb2c96bef1319feea972ecbe4fdd6e16823d9bfcc9581bd7957cd058739d553b123eef9df03c3f50309b9386c0d80e177a9211c2e3be787a2c42a2a385
   languageName: node
   linkType: hard
 
