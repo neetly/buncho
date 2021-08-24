@@ -14,12 +14,6 @@ import { EXTENSIONS } from "./constants";
 import { createRules } from "./createRules";
 import { production, serviceWorkerEntry, useFastRefresh } from "./env";
 
-declare module "webpack-dev-server" {
-  interface Configuration {
-    static?: boolean | string | object[]; // eslint-disable-line @typescript-eslint/ban-types
-  }
-}
-
 const config: Configuration = {
   mode: production ? "production" : "development",
 
