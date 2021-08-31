@@ -1771,7 +1771,7 @@ __metadata:
     "@babel/core": ^7.15.0
     "@buncho/babel-preset": "workspace:packages/core/babel-preset"
     "@buncho/utils": "workspace:packages/core/utils"
-    "@pmmmwh/react-refresh-webpack-plugin": 0.5.0-rc.5
+    "@pmmmwh/react-refresh-webpack-plugin": 0.5.0-rc.6
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.15
     "@types/copy-webpack-plugin": ^8.0.1
@@ -2216,13 +2216,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.5":
-  version: 0.5.0-rc.5
-  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.5"
+"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.6":
+  version: 0.5.0-rc.6
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.0-rc.6"
   dependencies:
     ansi-html: ^0.0.7
+    common-path-prefix: ^3.0.0
     core-js-pure: ^3.8.1
     error-stack-parser: ^2.0.6
+    find-up: ^5.0.0
     html-entities: ^2.1.0
     loader-utils: ^2.0.0
     schema-utils: ^3.0.0
@@ -2231,7 +2233,7 @@ __metadata:
     "@types/webpack": 4.x || 5.x
     react-refresh: ^0.10.0
     sockjs-client: ^1.4.0
-    type-fest: 1.x
+    type-fest: ">=0.17.0 <2.0.0"
     webpack: ">=4.43.0 <6.0.0"
     webpack-dev-server: 3.x || >=4.0.0-beta.0
     webpack-hot-middleware: 2.x
@@ -2249,7 +2251,7 @@ __metadata:
       optional: true
     webpack-plugin-serve:
       optional: true
-  checksum: 20ae9deb2c96bef1319feea972ecbe4fdd6e16823d9bfcc9581bd7957cd058739d553b123eef9df03c3f50309b9386c0d80e177a9211c2e3be787a2c42a2a385
+  checksum: c836fac45d2e46ce974f5dddb089ecf8b939c57ae6d749611f4927ceed291c4171b0dc24532fe0763a2fdaf831b1d01bd9c1fb7038dcbb86b6354150cea765fa
   languageName: node
   linkType: hard
 
@@ -6467,6 +6469,13 @@ __metadata:
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
   checksum: 53501cbeee61d5157546c0bef0fedb6cdfc763a882136284bed9a07225f09a14b82d2a84e7637edfd1a679fb35ed9502fd58ef1d091e6287f60d790147f68ddc
+  languageName: node
+  linkType: hard
+
+"common-path-prefix@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "common-path-prefix@npm:3.0.0"
+  checksum: fdb3c4f54e51e70d417ccd950c07f757582de800c0678ca388aedefefc84982039f346f9fd9a1252d08d2da9e9ef4019f580a1d1d3a10da031e4bb3c924c5818
   languageName: node
   linkType: hard
 
