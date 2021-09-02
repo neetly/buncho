@@ -1623,13 +1623,13 @@ __metadata:
     "@types/node": ^14.17.13
     "@types/react": ^17.0.19
     "@types/react-dom": ^17.0.9
-    "@types/webpack-dev-server": ^4.0.3
+    "@types/webpack-dev-server": ^4.1.0
     cosmiconfig: ^7.0.1
     react: ^17.0.2
     react-dom: ^17.0.2
     webpack: ^5.51.1
     webpack-cli: ^4.8.0
-    webpack-dev-server: ^4.0.0
+    webpack-dev-server: ^4.1.0
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1779,7 +1779,7 @@ __metadata:
     "@types/mini-css-extract-plugin": ^2.2.0
     "@types/node": ^14.17.13
     "@types/terser-webpack-plugin": ^5.0.4
-    "@types/webpack-dev-server": ^4.0.3
+    "@types/webpack-dev-server": ^4.1.0
     "@types/workbox-webpack-plugin": ^5.1.8
     autoprefixer: ^10.3.3
     babel-loader: ^8.2.2
@@ -1800,7 +1800,7 @@ __metadata:
     terser-webpack-plugin: ^5.1.4
     type-fest: ^2.1.0
     webpack: ^5.51.1
-    webpack-dev-server: ^4.0.0
+    webpack-dev-server: ^4.1.0
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.2.4
   peerDependencies:
@@ -4209,9 +4209,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "@types/webpack-dev-server@npm:4.0.3"
+"@types/webpack-dev-server@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "@types/webpack-dev-server@npm:4.1.0"
   dependencies:
     "@types/bonjour": "*"
     "@types/connect-history-api-fallback": "*"
@@ -4221,8 +4221,8 @@ __metadata:
     "@types/webpack": ^4
     "@types/webpack-dev-middleware": "*"
     chokidar: ^3.5.1
-    http-proxy-middleware: ^1.0.0
-  checksum: 34f2b95be05453c520dadf0d4f0b9bff4dc5968ffe583bb896c7ee06086cfefd6018eb0ebbdc2ae3a4420403e01975db6a58be9c79786d55fa38d128874eee09
+    http-proxy-middleware: ^2.0.0
+  checksum: fc64ec2b63ec58156b6778ea793c1cd1e2c997cbad9e9f346b231014e4f63865bef756e871cc625eaaf7f0301a9d087c2dd62ca5f971a3b60840ca6573da5d81
   languageName: node
   linkType: hard
 
@@ -9737,19 +9737,6 @@ __metadata:
   version: 0.5.2
   resolution: "http-parser-js@npm:0.5.2"
   checksum: f5e14597971c4dfb0cf616dbb2889e07e6d71ff1da51e6338791b553be7a6e2b5d27f2ee72b02788c0fde3e2cc6c19eb5948b5d2a4c493878f309563e3181f04
-  languageName: node
-  linkType: hard
-
-"http-proxy-middleware@npm:^1.0.0":
-  version: 1.3.1
-  resolution: "http-proxy-middleware@npm:1.3.1"
-  dependencies:
-    "@types/http-proxy": ^1.17.5
-    http-proxy: ^1.18.1
-    is-glob: ^4.0.1
-    is-plain-obj: ^3.0.0
-    micromatch: ^4.0.2
-  checksum: c6f0fe6d5aa58f3757084f1fad8109e7384fdea1b0a5c62f58ac767c42f367a18d3819bed8cbf8b5183f17e3e14fad04322f179c569629004da5fbec9b81a88a
   languageName: node
   linkType: hard
 
@@ -16738,9 +16725,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "webpack-dev-server@npm:4.0.0"
+"webpack-dev-server@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "webpack-dev-server@npm:4.1.0"
   dependencies:
     ansi-html: ^0.0.7
     bonjour: ^3.5.0
@@ -16774,7 +16761,7 @@ __metadata:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: abf88fb940b8fcb3fc6bae6a218ecfc001c7da5b7df3db45f5ee684be1c9e05bd9e491b044f81b1e3df6d33796264b6aebce358a18522e407a62fd6cbcc9f705
+  checksum: 5d26b8ef5eae2db597c9cbd14e64bd0dfe5a6fefa775fa22771b9d9e305e92155595a36329e8c996cbe0e457c3f0e87fc9bea9917b37cd94fdf0dfb52ad1d29f
   languageName: node
   linkType: hard
 
