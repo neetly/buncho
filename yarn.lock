@@ -1620,7 +1620,7 @@ __metadata:
     "@storybook/manager-webpack5": ~6.3.8
     "@storybook/react": ~6.3.8
     "@types/babel__core": ^7.1.15
-    "@types/node": ^14.17.13
+    "@types/node": ^14.17.14
     "@types/react": ^17.0.20
     "@types/react-dom": ^17.0.9
     "@types/webpack-dev-server": ^4.1.0
@@ -1656,7 +1656,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/dotenv@workspace:packages/core/dotenv"
   dependencies:
-    "@types/node": ^14.17.13
+    "@types/node": ^14.17.14
     cosmiconfig: ^7.0.1
     dotenv: ^10.0.0
     dotenv-expand: ^5.1.0
@@ -1777,7 +1777,7 @@ __metadata:
     "@types/copy-webpack-plugin": ^8.0.1
     "@types/css-minimizer-webpack-plugin": ^3.0.2
     "@types/mini-css-extract-plugin": ^2.2.0
-    "@types/node": ^14.17.13
+    "@types/node": ^14.17.14
     "@types/terser-webpack-plugin": ^5.0.4
     "@types/webpack-dev-server": ^4.1.0
     "@types/workbox-webpack-plugin": ^5.1.8
@@ -3995,10 +3995,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.10, @types/node@npm:^14.17.13":
-  version: 14.17.13
-  resolution: "@types/node@npm:14.17.13"
-  checksum: 4b85755aa99dfe61a0ae9aa1c449c35dfe61e21abe167865e8c926bab914180ae53b1c2556907f877282065265e8d41637e959c140c0ce1af6adbf54ecbbaf16
+"@types/node@npm:*, @types/node@npm:^14.0.10, @types/node@npm:^14.17.14":
+  version: 14.17.14
+  resolution: "@types/node@npm:14.17.14"
+  checksum: 66ed675a324fdddc4f693f1b240c0d81a9f53e1c68f7de8b84d02d65c0b447f9fa30d318481d04e1502f68dd37091b5cadc59633b57246582ad25e3fa835cd7d
   languageName: node
   linkType: hard
 
