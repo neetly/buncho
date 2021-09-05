@@ -1620,7 +1620,7 @@ __metadata:
     "@storybook/manager-webpack5": ~6.3.8
     "@storybook/react": ~6.3.8
     "@types/babel__core": ^7.1.15
-    "@types/node": ^14.17.14
+    "@types/node": ^16.7.10
     "@types/react": ^17.0.20
     "@types/react-dom": ^17.0.9
     "@types/webpack-dev-server": ^4.1.0
@@ -1656,7 +1656,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/dotenv@workspace:packages/core/dotenv"
   dependencies:
-    "@types/node": ^14.17.14
+    "@types/node": ^16.7.10
     cosmiconfig: ^7.0.1
     dotenv: ^10.0.0
     dotenv-expand: ^5.1.0
@@ -1777,8 +1777,8 @@ __metadata:
     "@types/copy-webpack-plugin": ^8.0.1
     "@types/css-minimizer-webpack-plugin": ^3.0.2
     "@types/mini-css-extract-plugin": ^2.2.0
-    "@types/node": ^14.17.14
-    "@types/terser-webpack-plugin": ^5.0.4
+    "@types/node": ^16.7.10
+    "@types/terser-webpack-plugin": ^5.2.0
     "@types/webpack-dev-server": ^4.1.0
     "@types/workbox-webpack-plugin": ^5.1.8
     autoprefixer: ^10.3.4
@@ -3995,7 +3995,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.0.10, @types/node@npm:^14.17.14":
+"@types/node@npm:*, @types/node@npm:^16.7.10":
+  version: 16.7.10
+  resolution: "@types/node@npm:16.7.10"
+  checksum: 0518803caa1a14f4070e770a280eda1c4b4581a425cbda481cdd54b1f34a7ea497ff067fd23b90e3d4f4fdcfba15c1316182875e9cf9f5b2e880de1e595de053
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.0.10":
   version: 14.17.14
   resolution: "@types/node@npm:14.17.14"
   checksum: 66ed675a324fdddc4f693f1b240c0d81a9f53e1c68f7de8b84d02d65c0b447f9fa30d318481d04e1502f68dd37091b5cadc59633b57246582ad25e3fa835cd7d
@@ -4166,13 +4173,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/terser-webpack-plugin@npm:^5.0.4":
-  version: 5.0.4
-  resolution: "@types/terser-webpack-plugin@npm:5.0.4"
+"@types/terser-webpack-plugin@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "@types/terser-webpack-plugin@npm:5.2.0"
   dependencies:
-    terser: ^5.3.8
-    webpack: ^5.1.0
-  checksum: 7b3845526d4ed7b636f7b2f8f35b5d7e45211f7a55afc85e32a66655eaf65cd193e2fec195bcdb473c0d9a5b2828798b9c23196fdc86e9cd2e9420227012f438
+    terser-webpack-plugin: "*"
+  checksum: 475b0f160c9f83641255f6516b69d7908b9e3e8e8ab653f3a257690249f9614f9386c0897eba6e4e35182ec0d83f57454d62fb94b38ae7c171891641350072ee
   languageName: node
   linkType: hard
 
@@ -15659,6 +15665,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"terser-webpack-plugin@npm:*, terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.3, terser-webpack-plugin@npm:^5.2.3":
+  version: 5.2.3
+  resolution: "terser-webpack-plugin@npm:5.2.3"
+  dependencies:
+    jest-worker: ^27.0.6
+    p-limit: ^3.1.0
+    schema-utils: ^3.1.1
+    serialize-javascript: ^6.0.0
+    source-map: ^0.6.1
+    terser: ^5.7.2
+  peerDependencies:
+    webpack: ^5.1.0
+  peerDependenciesMeta:
+    "@swc/core":
+      optional: true
+    esbuild:
+      optional: true
+    uglify-js:
+      optional: true
+  checksum: af93a5823ca4914760c210a75f9a32b32a48ffbb09d86a56ffac076fde750d536e1e65f7a919232f7c6baf39024ecc52cb478ca0da35af5f9540677d951b1f5a
+  languageName: node
+  linkType: hard
+
 "terser-webpack-plugin@npm:^1.4.3":
   version: 1.4.5
   resolution: "terser-webpack-plugin@npm:1.4.5"
@@ -15697,29 +15726,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.3, terser-webpack-plugin@npm:^5.2.3":
-  version: 5.2.3
-  resolution: "terser-webpack-plugin@npm:5.2.3"
-  dependencies:
-    jest-worker: ^27.0.6
-    p-limit: ^3.1.0
-    schema-utils: ^3.1.1
-    serialize-javascript: ^6.0.0
-    source-map: ^0.6.1
-    terser: ^5.7.2
-  peerDependencies:
-    webpack: ^5.1.0
-  peerDependenciesMeta:
-    "@swc/core":
-      optional: true
-    esbuild:
-      optional: true
-    uglify-js:
-      optional: true
-  checksum: af93a5823ca4914760c210a75f9a32b32a48ffbb09d86a56ffac076fde750d536e1e65f7a919232f7c6baf39024ecc52cb478ca0da35af5f9540677d951b1f5a
-  languageName: node
-  linkType: hard
-
 "terser@npm:^4.1.2, terser@npm:^4.6.3":
   version: 4.8.0
   resolution: "terser@npm:4.8.0"
@@ -15733,7 +15739,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.0.0, terser@npm:^5.3.4, terser@npm:^5.3.8, terser@npm:^5.7.2":
+"terser@npm:^5.0.0, terser@npm:^5.3.4, terser@npm:^5.7.2":
   version: 5.7.2
   resolution: "terser@npm:5.7.2"
   dependencies:
