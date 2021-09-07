@@ -1619,7 +1619,7 @@ __metadata:
     "@storybook/builder-webpack5": ~6.3.8
     "@storybook/manager-webpack5": ~6.3.8
     "@storybook/react": ~6.3.8
-    "@types/babel__core": ^7.1.15
+    "@types/babel__core": ^7.1.16
     "@types/node": ^16.7.10
     "@types/react": ^17.0.20
     "@types/react-dom": ^17.0.9
@@ -1773,7 +1773,7 @@ __metadata:
     "@buncho/utils": "workspace:packages/core/utils"
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.0-rc.6
     "@svgr/webpack": ^5.5.0
-    "@types/babel__core": ^7.1.15
+    "@types/babel__core": ^7.1.16
     "@types/copy-webpack-plugin": ^8.0.1
     "@types/css-minimizer-webpack-plugin": ^3.0.2
     "@types/mini-css-extract-plugin": ^2.2.0
@@ -3645,16 +3645,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7.1.15":
-  version: 7.1.15
-  resolution: "@types/babel__core@npm:7.1.15"
+"@types/babel__core@npm:^7.1.16":
+  version: 7.1.16
+  resolution: "@types/babel__core@npm:7.1.16"
   dependencies:
     "@babel/parser": ^7.1.0
     "@babel/types": ^7.0.0
     "@types/babel__generator": "*"
     "@types/babel__template": "*"
     "@types/babel__traverse": "*"
-  checksum: 3ea016369666a013564f8d3119ae987b3a3f1bdf31cc90e0d58714eea10d6b89a9fb1f6146290ee239ecc285800b246f18be930625c1d83e79d074842e43ab7d
+  checksum: d5aa154ce8c63e5fd47f5b9286a2689eea1e6dd3e1005b0c608bfe72363a44cb32be1e104f81d4b976e8a9f1f802d03184e64a055984fd43a359c5518a0f94cf
   languageName: node
   linkType: hard
 
