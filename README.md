@@ -4,19 +4,19 @@
 
 Opinionated front-end build system.
 
-# Getting Started
+## Getting Started
 
 ```sh
 $ npx degit neetly/app-template#main
 ```
 
-# Features
+## Features
 
 - Zero-configuration build system.
 - First-class TypeScript support.
 - Built-in monorepo & project references support.
 - Fully customizable without ejecting.
 
-# License
+## License
 
 MIT License.
