@@ -90,6 +90,12 @@ const createRules = ({
           ],
         },
 
+        {
+          test: /\.svg$/,
+          type: "asset",
+          use: [{ loader: require.resolve("svgo-loader") }],
+        },
+
         ...customRules,
 
         {

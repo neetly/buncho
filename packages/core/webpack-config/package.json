@@ -42,6 +42,7 @@
     "sass": "^1.41.1",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
+    "svgo-loader": "^3.0.0",
     "terser-webpack-plugin": "^5.2.4",
     "type-fest": "^2.3.3",
     "webpack-merge": "^5.8.0",
