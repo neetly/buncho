@@ -3,51 +3,12 @@ import type { RuleSetRule, RuleSetUseItem } from "webpack";
 
 import { hasBabelConfig, production, useFastRefresh } from "./env";
 
-const getCssLoaders = ({
-  extract,
-  use = [],
-}: {
-  extract: boolean;
-  use?: RuleSetUseItem[];
-}): RuleSetUseItem[] => {
-  return [
-    extract
-      ? { loader: MiniCssExtractPlugin.loader }
-      : { loader: require.resolve("style-loader") },
-
-    {
-      loader: require.resolve("css-loader"),
-      options: {
-        importLoaders: 1 + use.length,
-        modules: {
-          auto: true,
-          localIdentName: production
-            ? "[hash:base64]"
-            : "[1]__[local]__[hash:base64:8]",
-          localIdentRegExp: /[/\\]([^/\\]+?)(?:\.module)?\.[^./\\]+$/,
-        },
-      },
-    },
-
-    {
-      loader: require.resolve("postcss-loader"),
-      options: {
-        postcssOptions: {
-          plugins: [require("autoprefixer")],
-        },
-      },
-    },
-
-    ...use,
-  ];
-};
-
 const createRules = ({
   extract = false,
   customRules = [],
 }: {
   extract?: boolean;
-  customRules?: RuleSetRule[];
+  customRules?: readonly RuleSetRule[];
 } = {}): RuleSetRule[] => {
   return [
     {
@@ -55,6 +16,7 @@ const createRules = ({
         {
           test: /\.(ts|tsx)$/,
           parser: {
+            // https://github.com/webpack/webpack/issues/11543
             worker: [
               "...",
               "CSS.paintWorklet.addModule()",
@@ -136,6 +98,45 @@ const createRules = ({
         },
       ],
     },
+  ];
+};
+
+const getCssLoaders = ({
+  extract,
+  use = [],
+}: {
+  extract: boolean;
+  use?: readonly RuleSetUseItem[];
+}): RuleSetUseItem[] => {
+  return [
+    extract
+      ? { loader: MiniCssExtractPlugin.loader }
+      : { loader: require.resolve("style-loader") },
+
+    {
+      loader: require.resolve("css-loader"),
+      options: {
+        importLoaders: 1 + use.length,
+        modules: {
+          auto: true,
+          localIdentName: production
+            ? "[hash:base64]"
+            : "[1]__[local]__[hash:base64:8]",
+          localIdentRegExp: /[/\\]([^/\\]+?)(?:\.module)?\.[^./\\]+$/,
+        },
+      },
+    },
+
+    {
+      loader: require.resolve("postcss-loader"),
+      options: {
+        postcssOptions: {
+          plugins: [require("autoprefixer")],
+        },
+      },
+    },
+
+    ...use,
   ];
 };
 

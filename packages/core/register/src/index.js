@@ -11,9 +11,9 @@ require("@babel/register")({
 });
 
 require("tsconfig-paths").register({
-  // FIXME: https://github.com/dividab/tsconfig-paths/issues/143
+  // https://github.com/dividab/tsconfig-paths/issues/143
   baseUrl: ".",
-  // FIXME: https://github.com/dividab/tsconfig-paths/issues/101
+  // https://github.com/dividab/tsconfig-paths/issues/101
   paths: Object.fromEntries(
     Object.entries(utils.getPaths()).map(([key, [value]]) => {
       return [key, [path.relative(path.resolve("."), value)]];
