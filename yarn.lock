@@ -1669,7 +1669,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.15.5
     "@babel/eslint-parser": ^7.15.7
-    "@rushstack/eslint-patch": ^1.0.6
+    "@rushstack/eslint-patch": ^1.0.7
     "@typescript-eslint/eslint-plugin": ^4.31.2
     "@typescript-eslint/parser": ^4.31.2
     eslint-config-prettier: ^8.3.0
@@ -2370,10 +2370,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rushstack/eslint-patch@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "@rushstack/eslint-patch@npm:1.0.6"
-  checksum: fbecc15d7e95186622514d86f566082f1f6d04c30d93830bffe154fd699780f32120bbbce2efb919658696af01c58f0e02e580941ede8eee8cc9b007637b639c
+"@rushstack/eslint-patch@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "@rushstack/eslint-patch@npm:1.0.7"
+  checksum: 2b013723a2ea9c2f2ebbdef5f085d70ad5cf4a88c6d429f949fca05939c93b49a6d84c9582cd03b01e27956eedfa903ed7b92741f588cd043ab46ef134d6e719
   languageName: node
   linkType: hard
 
