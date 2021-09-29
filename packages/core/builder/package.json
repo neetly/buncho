@@ -40,7 +40,7 @@
     "@types/babel__core": "^7.1.16",
     "@types/webpack-dev-server": "^4.1.0",
     "cosmiconfig": "^7.0.1",
-    "webpack": "^5.55.0",
+    "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
   },
