@@ -13,9 +13,9 @@
   "scripts": {
     "build": "yarn workspaces foreach --verbose run build",
     "clean": "yarn workspaces foreach --verbose run clean",
-    "publish": "yarn workspaces foreach --verbose --no-private npm publish --tolerate-republish",
     "lint": "eslint --max-warnings 0 . && prettier --check .",
-    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
+    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write .",
+    "publish": "yarn workspaces foreach --verbose --no-private npm publish --tolerate-republish"
   },
   "devDependencies": {
     "@buncho/builder": "workspace:packages/core/builder",
