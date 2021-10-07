@@ -1793,7 +1793,7 @@ __metadata:
     fork-ts-checker-webpack-plugin: ^6.3.4
     html-webpack-plugin: ^5.3.2
     mini-css-extract-plugin: ^2.4.2
-    postcss: ^8.3.8
+    postcss: ^8.3.9
     postcss-loader: ^6.1.1
     raw-loader: ^4.0.2
     react-refresh: ^0.10.0
@@ -11806,19 +11806,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanocolors@npm:^0.2.2, nanocolors@npm:^0.2.8":
+"nanocolors@npm:^0.2.8":
   version: 0.2.8
   resolution: "nanocolors@npm:0.2.8"
   checksum: c921beed5dea0ec155688d6260fd59f0c8c3073ca3a1cb944489fcaea5f60e22f052db518bf985b230bb38f4fc7258a7b72902fc07522a1aecfb14d37f7ab08b
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.1.25":
-  version: 3.1.25
-  resolution: "nanoid@npm:3.1.25"
+"nanoid@npm:^3.1.28":
+  version: 3.1.29
+  resolution: "nanoid@npm:3.1.29"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: e2353828c7d8fde65265e9c981380102e2021f292038a93fd27288bad390339833286e8cbc7531abe1cb2c6b317e55f38b895dcb775151637bb487388558e0ff
+  checksum: 8837bc351ac6d26882d568ce3e1d5e2d5095b0c6ca99aa8f5710eff5153e0aea4c5273681c7642d9d7a6f6e20fb1d32e5eb1125c70b25bdead417f007d30f96f
   languageName: node
   linkType: hard
 
@@ -13270,14 +13270,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.15, postcss@npm:^8.2.9, postcss@npm:^8.3.5, postcss@npm:^8.3.8":
-  version: 8.3.8
-  resolution: "postcss@npm:8.3.8"
+"postcss@npm:^8.2.15, postcss@npm:^8.2.9, postcss@npm:^8.3.5, postcss@npm:^8.3.9":
+  version: 8.3.9
+  resolution: "postcss@npm:8.3.9"
   dependencies:
-    nanocolors: ^0.2.2
-    nanoid: ^3.1.25
+    nanoid: ^3.1.28
+    picocolors: ^0.2.1
     source-map-js: ^0.6.2
-  checksum: 20073f3f70487e9fa8d40e930d02595c4d96b7db8b2142ee4efe8e0c9a54c844c720370e178aef57c12d2d5bf65592cfdd1d020a74bf2840bc58650590713a35
+  checksum: b64d0e59bc027b2f09e5a84ca32b4f0620553812110e42295a79fd0e6ea664779e575c2d5e8d35a1b0804f0933ec878404c6e161e008b5bc51cba44eaef216ef
   languageName: node
   linkType: hard
 
