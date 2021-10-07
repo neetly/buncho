@@ -1623,13 +1623,13 @@ __metadata:
     "@types/node": ^16.7.10
     "@types/react": ^17.0.27
     "@types/react-dom": ^17.0.9
-    "@types/webpack-dev-server": ^4.1.0
+    "@types/webpack-dev-server": ^4.3.0
     cosmiconfig: ^7.0.1
     react: ^17.0.2
     react-dom: ^17.0.2
     webpack: ^5.57.1
     webpack-cli: ^4.9.0
-    webpack-dev-server: ^4.3.0
+    webpack-dev-server: ^4.3.1
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1783,7 +1783,7 @@ __metadata:
     "@types/mini-css-extract-plugin": ^2.3.0
     "@types/node": ^16.7.10
     "@types/terser-webpack-plugin": ^5.2.0
-    "@types/webpack-dev-server": ^4.1.0
+    "@types/webpack-dev-server": ^4.3.0
     "@types/workbox-webpack-plugin": ^5.1.8
     autoprefixer: ^10.3.6
     babel-loader: ^8.2.2
@@ -1805,7 +1805,7 @@ __metadata:
     terser-webpack-plugin: ^5.2.4
     type-fest: ^2.3.4
     webpack: ^5.57.1
-    webpack-dev-server: ^4.3.0
+    webpack-dev-server: ^4.3.1
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.3.0
   peerDependencies:
@@ -4209,9 +4209,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "@types/webpack-dev-server@npm:4.1.0"
+"@types/webpack-dev-server@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@types/webpack-dev-server@npm:4.3.0"
   dependencies:
     "@types/bonjour": "*"
     "@types/connect-history-api-fallback": "*"
@@ -4222,7 +4222,7 @@ __metadata:
     "@types/webpack-dev-middleware": "*"
     chokidar: ^3.5.1
     http-proxy-middleware: ^2.0.0
-  checksum: fc64ec2b63ec58156b6778ea793c1cd1e2c997cbad9e9f346b231014e4f63865bef756e871cc625eaaf7f0301a9d087c2dd62ca5f971a3b60840ca6573da5d81
+  checksum: 37eb068892d79d01e58da4005ea746373250309de24fead50b2fc0093156f5dff2a6ad62f8826cddd98c55aacdc56cfcc73fe13846445e6d717e312c43fe0cef
   languageName: node
   linkType: hard
 
@@ -16798,9 +16798,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "webpack-dev-server@npm:4.3.0"
+"webpack-dev-server@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "webpack-dev-server@npm:4.3.1"
   dependencies:
     ansi-html-community: ^0.0.8
     bonjour: ^3.5.0
@@ -16834,7 +16834,7 @@ __metadata:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: 7ee8ae969a1eff65caedc7dd935a3bf62f0ca21fdd5d169884cba525d9c970e551fa250f230bda0c57a76cd61411fae5bfcbc104bafff14c9cad7f4a6f9b0022
+  checksum: ce9d054c3de335df4cca4759aaff3a5291487c906b15bd3bb6e41de86e3784b307ae1e2cdd6403424567b0645a0dc6a9dd21b4839ba86176d5097664474d2b68
   languageName: node
   linkType: hard
 
