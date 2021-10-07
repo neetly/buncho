@@ -79,8 +79,8 @@
     "@buncho/babel-preset": "workspace:packages/core/babel-preset",
     "@types/babel__core": "^7.1.16",
     "@types/node": "^16.7.10",
-    "@types/webpack-dev-server": "^4.1.0",
+    "@types/webpack-dev-server": "^4.3.0",
     "webpack": "^5.57.1",
-    "webpack-dev-server": "^4.3.0"
+    "webpack-dev-server": "^4.3.1"
   }
 }
