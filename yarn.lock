@@ -1623,7 +1623,7 @@ __metadata:
     "@types/node": ^16.7.10
     "@types/react": ^17.0.27
     "@types/react-dom": ^17.0.9
-    "@types/webpack-dev-server": ^4.3.0
+    "@types/webpack-dev-server": ^4.3.1
     cosmiconfig: ^7.0.1
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -1783,7 +1783,7 @@ __metadata:
     "@types/mini-css-extract-plugin": ^2.3.0
     "@types/node": ^16.7.10
     "@types/terser-webpack-plugin": ^5.2.0
-    "@types/webpack-dev-server": ^4.3.0
+    "@types/webpack-dev-server": ^4.3.1
     "@types/workbox-webpack-plugin": ^5.1.8
     autoprefixer: ^10.3.7
     babel-loader: ^8.2.2
@@ -4209,20 +4209,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "@types/webpack-dev-server@npm:4.3.0"
+"@types/webpack-dev-server@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "@types/webpack-dev-server@npm:4.3.1"
   dependencies:
     "@types/bonjour": "*"
     "@types/connect-history-api-fallback": "*"
     "@types/express": "*"
     "@types/serve-index": "*"
     "@types/serve-static": "*"
-    "@types/webpack": ^4
     "@types/webpack-dev-middleware": "*"
     chokidar: ^3.5.1
     http-proxy-middleware: ^2.0.0
-  checksum: 37eb068892d79d01e58da4005ea746373250309de24fead50b2fc0093156f5dff2a6ad62f8826cddd98c55aacdc56cfcc73fe13846445e6d717e312c43fe0cef
+    webpack: "*"
+  checksum: d0f0eea78f6024b4eb591c7644fbb9f26211dbbd3dfb2dd380b59e4da131edbc2d8a478a2b718763a0ff484d631da4b932ac500b60af674c1da76a98edeae4ef
   languageName: node
   linkType: hard
 
@@ -4244,7 +4244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack@npm:^4, @types/webpack@npm:^4.41.26, @types/webpack@npm:^4.41.8":
+"@types/webpack@npm:^4.41.26, @types/webpack@npm:^4.41.8":
   version: 4.41.27
   resolution: "@types/webpack@npm:4.41.27"
   dependencies:
@@ -16905,6 +16905,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"webpack@npm:*, webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.38.1, webpack@npm:^5.58.1, webpack@npm:^5.9.0":
+  version: 5.58.1
+  resolution: "webpack@npm:5.58.1"
+  dependencies:
+    "@types/eslint-scope": ^3.7.0
+    "@types/estree": ^0.0.50
+    "@webassemblyjs/ast": 1.11.1
+    "@webassemblyjs/wasm-edit": 1.11.1
+    "@webassemblyjs/wasm-parser": 1.11.1
+    acorn: ^8.4.1
+    acorn-import-assertions: ^1.7.6
+    browserslist: ^4.14.5
+    chrome-trace-event: ^1.0.2
+    enhanced-resolve: ^5.8.3
+    es-module-lexer: ^0.9.0
+    eslint-scope: 5.1.1
+    events: ^3.2.0
+    glob-to-regexp: ^0.4.1
+    graceful-fs: ^4.2.4
+    json-parse-better-errors: ^1.0.2
+    loader-runner: ^4.2.0
+    mime-types: ^2.1.27
+    neo-async: ^2.6.2
+    schema-utils: ^3.1.0
+    tapable: ^2.1.1
+    terser-webpack-plugin: ^5.1.3
+    watchpack: ^2.2.0
+    webpack-sources: ^3.2.0
+  peerDependenciesMeta:
+    webpack-cli:
+      optional: true
+  bin:
+    webpack: bin/webpack.js
+  checksum: e05576c5c7410c9ef25dc3595a870f93b34e3b44778e7df5ccbc1d40a51edb755223959f938b6e8b9b4e2285eb938da2464a08c9103597ff3131cb98c19a1d86
+  languageName: node
+  linkType: hard
+
 "webpack@npm:4":
   version: 4.46.0
   resolution: "webpack@npm:4.46.0"
@@ -16940,43 +16977,6 @@ __metadata:
   bin:
     webpack: bin/webpack.js
   checksum: 013fa24c00d4261e16ebca60353fa6f848e417b5a44bdf28c16ebebd67fa61e960420bb314c8df05cfe2dad9b90efabcf38fd6875f2361922769a0384085ef1e
-  languageName: node
-  linkType: hard
-
-"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.38.1, webpack@npm:^5.58.1, webpack@npm:^5.9.0":
-  version: 5.58.1
-  resolution: "webpack@npm:5.58.1"
-  dependencies:
-    "@types/eslint-scope": ^3.7.0
-    "@types/estree": ^0.0.50
-    "@webassemblyjs/ast": 1.11.1
-    "@webassemblyjs/wasm-edit": 1.11.1
-    "@webassemblyjs/wasm-parser": 1.11.1
-    acorn: ^8.4.1
-    acorn-import-assertions: ^1.7.6
-    browserslist: ^4.14.5
-    chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.8.3
-    es-module-lexer: ^0.9.0
-    eslint-scope: 5.1.1
-    events: ^3.2.0
-    glob-to-regexp: ^0.4.1
-    graceful-fs: ^4.2.4
-    json-parse-better-errors: ^1.0.2
-    loader-runner: ^4.2.0
-    mime-types: ^2.1.27
-    neo-async: ^2.6.2
-    schema-utils: ^3.1.0
-    tapable: ^2.1.1
-    terser-webpack-plugin: ^5.1.3
-    watchpack: ^2.2.0
-    webpack-sources: ^3.2.0
-  peerDependenciesMeta:
-    webpack-cli:
-      optional: true
-  bin:
-    webpack: bin/webpack.js
-  checksum: e05576c5c7410c9ef25dc3595a870f93b34e3b44778e7df5ccbc1d40a51edb755223959f938b6e8b9b4e2285eb938da2464a08c9103597ff3131cb98c19a1d86
   languageName: node
   linkType: hard
 
