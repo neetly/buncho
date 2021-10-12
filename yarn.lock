@@ -1621,7 +1621,7 @@ __metadata:
     "@storybook/react": ~6.3.10
     "@types/babel__core": ^7.1.16
     "@types/node": ^16.7.10
-    "@types/react": ^17.0.28
+    "@types/react": ^17.0.29
     "@types/react-dom": ^17.0.9
     "@types/webpack-dev-server": ^4.3.1
     cosmiconfig: ^7.0.1
@@ -1724,7 +1724,7 @@ __metadata:
   resolution: "@buncho/router@workspace:packages/core/router"
   dependencies:
     "@buncho/builder": "workspace:packages/core/builder"
-    "@types/react": ^17.0.28
+    "@types/react": ^17.0.29
     "@types/react-dom": ^17.0.9
     history: ^5.0.1
     react: ^17.0.2
@@ -1834,7 +1834,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/webpack-env@workspace:packages/core/webpack-env"
   dependencies:
-    "@types/react": ^17.0.28
+    "@types/react": ^17.0.29
     "@types/react-dom": ^17.0.9
   peerDependencies:
     "@types/react": "*"
@@ -4099,14 +4099,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^17.0.28":
-  version: 17.0.28
-  resolution: "@types/react@npm:17.0.28"
+"@types/react@npm:*, @types/react@npm:^17.0.29":
+  version: 17.0.29
+  resolution: "@types/react@npm:17.0.29"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: c12a078c1a6e64fa1dd7a07048220f2f2b2e571bf70028d1fb952275274776905534464ea176c66303b442b338f3867d087459ee5ef5b8e08fef3cf3da689c61
+  checksum: 39280743f6fec1bbc5c8e705976c1738a5526aaa0e693052badf5cd2dd599b6536dd815b651017737a533bf1c03db6a5738498796ff44f806e55324dc7867723
   languageName: node
   linkType: hard
 
