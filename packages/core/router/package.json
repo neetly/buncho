@@ -18,7 +18,7 @@
     "prepack": "run clean && run build && cp ../../../LICENSE ."
   },
   "dependencies": {
-    "react-router-dom": "6.0.0-beta.6"
+    "react-router-dom": "6.0.0-beta.7"
   },
   "peerDependencies": {
     "@types/react": "*",
