@@ -1622,7 +1622,7 @@ __metadata:
     "@types/babel__core": ^7.1.16
     "@types/node": ^16.7.10
     "@types/react": ^17.0.31
-    "@types/react-dom": ^17.0.9
+    "@types/react-dom": ^17.0.10
     "@types/webpack-dev-server": ^4.3.1
     cosmiconfig: ^7.0.1
     react: ^17.0.2
@@ -1725,7 +1725,7 @@ __metadata:
   dependencies:
     "@buncho/builder": "workspace:packages/core/builder"
     "@types/react": ^17.0.31
-    "@types/react-dom": ^17.0.9
+    "@types/react-dom": ^17.0.10
     history: ^5.0.1
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -1835,7 +1835,7 @@ __metadata:
   resolution: "@buncho/webpack-env@workspace:packages/core/webpack-env"
   dependencies:
     "@types/react": ^17.0.31
-    "@types/react-dom": ^17.0.9
+    "@types/react-dom": ^17.0.10
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -4088,12 +4088,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^17.0.9":
-  version: 17.0.9
-  resolution: "@types/react-dom@npm:17.0.9"
+"@types/react-dom@npm:^17.0.10":
+  version: 17.0.10
+  resolution: "@types/react-dom@npm:17.0.10"
   dependencies:
     "@types/react": "*"
-  checksum: b7e898e1a22643a371f58e801a3d1d8cf13a82d77063c24be73e840ef8d877ca1d04adc5db168d0dac3167dc050a26b1d70efc5fe8566a7f46a3c488a8322989
+  checksum: cc7d8d5b77ee2f3b989c107abd8ec0f2460ba1b1ee6e6d637124e1939594b5619fa4166ef0ea7632a69b68358e0b71aa618de446ccc416dcc0017175549da601
   languageName: node
   linkType: hard
 
