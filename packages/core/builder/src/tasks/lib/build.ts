@@ -10,7 +10,8 @@ const build: Task = async () => {
     path: getPackageBin("@babel/cli", "babel"),
     args: [
       ["--root-mode", "upward-optional"],
-      ["--extensions", [".ts", ".tsx"].join()],
+      ["--extensions", [".js", ".mjs", ".cjs", ".ts", ".tsx"].join(",")],
+      ["--source-maps", "true"],
       ["--copy-files"],
       hasBabelConfig
         ? []
