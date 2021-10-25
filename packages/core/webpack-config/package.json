@@ -80,7 +80,7 @@
     "@types/babel__core": "^7.1.16",
     "@types/node": "^16.7.10",
     "@types/webpack-dev-server": "^4.3.1",
-    "webpack": "^5.59.1",
+    "webpack": "^5.60.0",
     "webpack-dev-server": "^4.3.1"
   }
 }
