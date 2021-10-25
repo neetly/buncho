@@ -1757,7 +1757,7 @@ __metadata:
     css-loader: ^6.4.0
     css-minimizer-webpack-plugin: ^3.1.1
     fork-ts-checker-webpack-plugin: ^6.4.0
-    html-webpack-plugin: ^5.4.0
+    html-webpack-plugin: ^5.5.0
     mini-css-extract-plugin: ^2.4.3
     postcss: ^8.3.11
     postcss-loader: ^6.2.0
@@ -4967,10 +4967,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-regex@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "ansi-regex@npm:5.0.0"
-  checksum: b1bb4e992a5d96327bb4f72eaba9f8047f1d808d273ad19d399e266bfcc7fb19a4d1a127a32f7bc61fe46f1a94a4d04ec4c424e3fbe184929aa866323d8ed4ce
+"ansi-regex@npm:^5.0.0, ansi-regex@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "ansi-regex@npm:5.0.1"
+  checksum: 2aa4bb54caf2d622f1afdad09441695af2a83aa3fe8b8afa581d205e57ed4261c183c4d3877cee25794443fde5876417d859c108078ab788d6af7e4fe52eb66b
   languageName: node
   linkType: hard
 
@@ -9688,18 +9688,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:^5.0.0, html-webpack-plugin@npm:^5.4.0":
-  version: 5.4.0
-  resolution: "html-webpack-plugin@npm:5.4.0"
+"html-webpack-plugin@npm:^5.0.0, html-webpack-plugin@npm:^5.5.0":
+  version: 5.5.0
+  resolution: "html-webpack-plugin@npm:5.5.0"
   dependencies:
     "@types/html-minifier-terser": ^6.0.0
     html-minifier-terser: ^6.0.2
     lodash: ^4.17.21
-    pretty-error: ^3.0.4
+    pretty-error: ^4.0.0
     tapable: ^2.0.0
   peerDependencies:
     webpack: ^5.20.0
-  checksum: 4963e1955df0d97021bc725700f2d24094506ea1b70d3a969edbd65127701523315993c5428ff8b36ab4bd5459a76e139d420d528ba76aade5565cb92361b89c
+  checksum: f3d84d0df71fe2f5bac533cc74dce41ab058558cdcc6ff767d166a2abf1cf6fb8491d54d60ddbb34e95c00394e379ba52e0468e0284d1d0cc6a42987056e8219
   languageName: node
   linkType: hard
 
@@ -13323,13 +13323,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-error@npm:^3.0.4":
-  version: 3.0.4
-  resolution: "pretty-error@npm:3.0.4"
+"pretty-error@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "pretty-error@npm:4.0.0"
   dependencies:
     lodash: ^4.17.20
-    renderkid: ^2.0.6
-  checksum: c985666a1f471fd8d5a7b6f1f2154f947aff0a2c60c5d5a4513ff152a91d3296e5849d2fa3914be1a22b57db7580a968c25ab720b0afd1cc8d64de670153dc61
+    renderkid: ^3.0.0
+  checksum: a5b9137365690104ded6947dca2e33360bf55e62a4acd91b1b0d7baa3970e43754c628cc9e16eafbdd4e8f8bcb260a5865475d4fc17c3106ff2d61db4e72cdf3
   languageName: node
   linkType: hard
 
@@ -14186,7 +14186,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renderkid@npm:^2.0.4, renderkid@npm:^2.0.6":
+"renderkid@npm:^2.0.4":
   version: 2.0.7
   resolution: "renderkid@npm:2.0.7"
   dependencies:
@@ -14196,6 +14196,19 @@ __metadata:
     lodash: ^4.17.21
     strip-ansi: ^3.0.1
   checksum: d3d7562531fb8104154d4aa6aa977707783616318014088378a6c5bbc36318ada9289543d380ede707e531b7f5b96229e87d1b8944f675e5ec3686e62692c7c7
+  languageName: node
+  linkType: hard
+
+"renderkid@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "renderkid@npm:3.0.0"
+  dependencies:
+    css-select: ^4.1.3
+    dom-converter: ^0.2.0
+    htmlparser2: ^6.1.0
+    lodash: ^4.17.21
+    strip-ansi: ^6.0.1
+  checksum: 77162b62d6f33ab81f337c39efce0439ff0d1f6d441e29c35183151f83041c7850774fb904da163d6c844264d440d10557714e6daa0b19e4561a5cd4ef305d41
   languageName: node
   linkType: hard
 
@@ -15361,7 +15374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strip-ansi@npm:6.0.0, strip-ansi@npm:^6.0.0":
+"strip-ansi@npm:6.0.0":
   version: 6.0.0
   resolution: "strip-ansi@npm:6.0.0"
   dependencies:
@@ -15385,6 +15398,15 @@ __metadata:
   dependencies:
     ansi-regex: ^4.1.0
   checksum: bdb5f76ade97062bd88e7723aa019adbfacdcba42223b19ccb528ffb9fb0b89a5be442c663c4a3fb25268eaa3f6ea19c7c3fbae830bd1562d55adccae1fcec46
+  languageName: node
+  linkType: hard
+
+"strip-ansi@npm:^6.0.0, strip-ansi@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "strip-ansi@npm:6.0.1"
+  dependencies:
+    ansi-regex: ^5.0.1
+  checksum: f3cd25890aef3ba6e1a74e20896c21a46f482e93df4a06567cebf2b57edabb15133f1f94e57434e0a958d61186087b1008e89c94875d019910a213181a14fc8c
   languageName: node
   linkType: hard
 
