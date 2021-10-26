@@ -1,3 +1,3 @@
-export { createConfig } from "./createConfig";
-export { createStorybookConfig } from "./createStorybookConfig";
-export { default } from "./webpack.config";
+export * from "./createConfig";
+export * from "./createStorybookConfig";
+export * from "./webpack.config";

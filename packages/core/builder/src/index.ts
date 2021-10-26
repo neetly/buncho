@@ -1,1 +1,2 @@
-export { cli } from "./cli";
+export * from "./cli";
+export * from "@buncho/webpack-config";
