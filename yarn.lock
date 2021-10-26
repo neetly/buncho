@@ -1648,7 +1648,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/dotenv@workspace:packages/core/dotenv"
   dependencies:
-    "@types/node": ^16.11.6
     cosmiconfig: ^7.0.1
     dotenv: ^10.0.0
     dotenv-expand: ^5.1.0

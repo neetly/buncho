@@ -1,5 +1,7 @@
 {
   "extends": "@buncho/tsconfig",
 
-  "include": ["."]
+  "include": ["."],
+
+  "references": []
 }
