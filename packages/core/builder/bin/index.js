@@ -5,7 +5,7 @@ try {
 } catch {} // eslint-disable-line no-empty
 
 if (useRegister) {
-  require("@buncho/register");
+  require("./register");
   module.exports = require("../src");
 } else {
   module.exports = require("../lib");
