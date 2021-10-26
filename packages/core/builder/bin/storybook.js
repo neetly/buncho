@@ -1,3 +1,8 @@
 #!/usr/bin/env node
 
-require(".").tasks(["storybook", ...process.argv.slice(2)]);
+const { Cli } = require("clipanion");
+
+require(".").cli.runExit(
+  ["storybook", ...process.argv.slice(2)],
+  Cli.defaultContext,
+);

@@ -1615,6 +1615,7 @@ __metadata:
     "@types/react": ^17.0.32
     "@types/react-dom": ^17.0.10
     "@types/webpack-dev-server": ^4.3.1
+    clipanion: ^3.1.0
     cosmiconfig: ^7.0.1
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -6307,6 +6308,17 @@ __metadata:
     colors:
       optional: true
   checksum: 98682a2d3eef5ad07d34a08f90398d0640004e28ecf8eb59006436f11ed7b4d453db09f46c2ea880618fbd61fee66321b3b3ee1b20276bc708b6baf6f9663d75
+  languageName: node
+  linkType: hard
+
+"clipanion@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "clipanion@npm:3.1.0"
+  dependencies:
+    typanion: ^3.3.1
+  peerDependencies:
+    typanion: "*"
+  checksum: bf350082e8953c697cfe35262845700012bdeb1cc490f81cd17de2fe985c8861750164509795ad95d3ee6a2b3742a1d5c6394cdf0f3ff4c4d24173a9fec3418e
   languageName: node
   linkType: hard
 
@@ -16040,6 +16052,13 @@ __metadata:
   version: 0.14.5
   resolution: "tweetnacl@npm:0.14.5"
   checksum: 6061daba1724f59473d99a7bb82e13f211cdf6e31315510ae9656fefd4779851cb927adad90f3b488c8ed77c106adc0421ea8055f6f976ff21b27c5c4e918487
+  languageName: node
+  linkType: hard
+
+"typanion@npm:^3.3.1":
+  version: 3.7.1
+  resolution: "typanion@npm:3.7.1"
+  checksum: 79f396a960167956999b585eb9f0baa61c79455c680778dd950261e73bf6465f5a38779cc176142099c7fbf440d578b44664632bb1e3e41769199278751d7d92
   languageName: node
   linkType: hard
 
