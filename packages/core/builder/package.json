@@ -13,6 +13,7 @@
     "lib": "./bin/lib.js",
     "storybook": "./bin/storybook.js"
   },
+  "main": "./lib/index.js",
   "types": "./types/index.d.ts",
   "files": [
     "./bin",

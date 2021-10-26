@@ -2,7 +2,7 @@ import { Configuration, DefinePlugin } from "webpack";
 import type { ProxyConfigArray, ProxyConfigMap } from "webpack-dev-server";
 import { merge } from "webpack-merge";
 
-import config from "./webpack.config";
+import { config } from "./config";
 
 const createConfig = ({
   env = {},
