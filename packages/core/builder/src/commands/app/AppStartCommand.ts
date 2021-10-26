@@ -10,6 +10,7 @@ class AppStartCommand extends Command {
 
   host = Option.String("--host");
   port = Option.String("--port");
+  args = Option.Proxy();
 
   async execute(): Promise<void> {
     await execute({
@@ -19,6 +20,7 @@ class AppStartCommand extends Command {
         ["--config", paths.webpackConfig],
         ["--host", this.host || env.HOST || "localhost"],
         ["--port", this.port || env.PORT || "3000"],
+        this.args,
       ].flat(),
       env: {
         NODE_ENV: "development",

@@ -10,6 +10,7 @@ class StorybookStartCommand extends Command {
 
   host = Option.String("--host");
   port = Option.String("--port");
+  args = Option.Proxy();
 
   async execute(): Promise<void> {
     await execute({
@@ -18,6 +19,7 @@ class StorybookStartCommand extends Command {
         ["--config-dir", paths.storybookConfigDir],
         ["--host", this.host || env.STORYBOOK_HOST || "localhost"],
         ["--port", this.port || env.STORYBOOK_PORT || "9000"],
+        this.args,
       ].flat(),
       env: {
         APP_STORYBOOK_CONFIG_DIR: paths.appStorybookConfigDir,
