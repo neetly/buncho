@@ -1,12 +1,6 @@
-let useRegister = false;
 try {
   require.resolve("../src/index.ts");
-  useRegister = true;
+  require("./register");
 } catch {} // eslint-disable-line no-empty
 
-if (useRegister) {
-  require("./register");
-  module.exports = require("../src");
-} else {
-  module.exports = require("../lib");
-}
+module.exports = require("@buncho/builder");
