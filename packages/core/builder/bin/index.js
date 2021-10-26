@@ -1,6 +1,6 @@
 try {
   require.resolve("../src/index.ts");
-  require("./register");
+  require("@buncho/register");
 } catch {} // eslint-disable-line no-empty
 
 module.exports = require("@buncho/builder");
