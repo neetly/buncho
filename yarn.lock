@@ -1621,7 +1621,7 @@ __metadata:
     react-dom: ^17.0.2
     webpack: ^5.60.0
     webpack-cli: ^4.9.1
-    webpack-dev-server: ^4.3.1
+    webpack-dev-server: ^4.4.0
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1771,7 +1771,7 @@ __metadata:
     terser-webpack-plugin: ^5.2.4
     type-fest: ^2.5.1
     webpack: ^5.60.0
-    webpack-dev-server: ^4.3.1
+    webpack-dev-server: ^4.4.0
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.3.0
   peerDependencies:
@@ -5020,13 +5020,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"anymatch@npm:^3.0.3, anymatch@npm:~3.1.1":
-  version: 3.1.1
-  resolution: "anymatch@npm:3.1.1"
+"anymatch@npm:^3.0.3, anymatch@npm:~3.1.2":
+  version: 3.1.2
+  resolution: "anymatch@npm:3.1.2"
   dependencies:
     normalize-path: ^3.0.0
     picomatch: ^2.0.4
-  checksum: c951385862bf114807d594bdffccb769bd7219ddc14f24fc135cde075ad2477a97991567b8bb5032d4f279f96897f0c2af6468a350a6c674ac0a5ee3b62a26d6
+  checksum: 985163db2292fac9e5a1e072bf99f1b5baccf196e4de25a0b0b81865ebddeb3b3eb4480734ef0a2ac8c002845396b91aa89121f5b84f93981a4658164a9ec6e9
   languageName: node
   linkType: hard
 
@@ -6163,22 +6163,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.4.0, chokidar@npm:^3.4.1, chokidar@npm:^3.4.2, chokidar@npm:^3.5.1":
-  version: 3.5.1
-  resolution: "chokidar@npm:3.5.1"
+"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.4.0, chokidar@npm:^3.4.1, chokidar@npm:^3.4.2, chokidar@npm:^3.5.1, chokidar@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "chokidar@npm:3.5.2"
   dependencies:
-    anymatch: ~3.1.1
+    anymatch: ~3.1.2
     braces: ~3.0.2
-    fsevents: ~2.3.1
-    glob-parent: ~5.1.0
+    fsevents: ~2.3.2
+    glob-parent: ~5.1.2
     is-binary-path: ~2.1.0
     is-glob: ~4.0.1
     normalize-path: ~3.0.0
-    readdirp: ~3.5.0
+    readdirp: ~3.6.0
   dependenciesMeta:
     fsevents:
       optional: true
-  checksum: b7774e6e3aeca084d39e8542041555a11452414c744122436101243f89580fad97154ae11525e46bfa816313ae32533e2a88e8587e4d50b14ea716a9e6538978
+  checksum: d1fda32fcd67d9f6170a8468ad2630a3c6194949c9db3f6a91b16478c328b2800f433fb5d2592511b6cb145a47c013ea1cce60b432b1a001ae3ee978a8bffc2d
   languageName: node
   linkType: hard
 
@@ -8941,7 +8941,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@npm:^2.1.2, fsevents@npm:~2.3.1":
+"fsevents@npm:^2.1.2, fsevents@npm:~2.3.1, fsevents@npm:~2.3.2":
   version: 2.3.2
   resolution: "fsevents@npm:2.3.2"
   dependencies:
@@ -9127,7 +9127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob-parent@npm:^5.1.0, glob-parent@npm:~5.1.0":
+"glob-parent@npm:^5.1.0, glob-parent@npm:~5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2"
   dependencies:
@@ -13960,12 +13960,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readdirp@npm:~3.5.0":
-  version: 3.5.0
-  resolution: "readdirp@npm:3.5.0"
+"readdirp@npm:~3.6.0":
+  version: 3.6.0
+  resolution: "readdirp@npm:3.6.0"
   dependencies:
     picomatch: ^2.2.1
-  checksum: 6b1a9341e295e15d4fb40c010216cbcb6266587cd0b3ce7defabd66fa1b4e35f9fba3d64c2187fd38fadd01ccbfc5f1b33fdfb1da63b3cbf66224b7c6d75ce5a
+  checksum: 1ced032e6e45670b6d7352d71d21ce7edf7b9b928494dcaba6f11fba63180d9da6cd7061ebc34175ffda6ff529f481818c962952004d273178acd70f7059b320
   languageName: node
   linkType: hard
 
@@ -16782,13 +16782,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "webpack-dev-server@npm:4.3.1"
+"webpack-dev-server@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "webpack-dev-server@npm:4.4.0"
   dependencies:
     ansi-html-community: ^0.0.8
     bonjour: ^3.5.0
-    chokidar: ^3.5.1
+    chokidar: ^3.5.2
     colorette: ^2.0.10
     compression: ^1.7.4
     connect-history-api-fallback: ^1.6.0
@@ -16818,7 +16818,7 @@ __metadata:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: ce9d054c3de335df4cca4759aaff3a5291487c906b15bd3bb6e41de86e3784b307ae1e2cdd6403424567b0645a0dc6a9dd21b4839ba86176d5097664474d2b68
+  checksum: c317b5029b6f8caad47a257edb68b2dad5cd7087f4481ebda3359701c981037ce387486bdf992fb6e23213685d8e25e306b25a62541a42d0154562b1999563a5
   languageName: node
   linkType: hard
 
