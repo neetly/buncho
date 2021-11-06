@@ -42,7 +42,7 @@
     "@types/webpack-dev-server": "^4.3.1",
     "clipanion": "^3.1.0",
     "cosmiconfig": "^7.0.1",
-    "webpack": "^5.61.0",
+    "webpack": "^5.62.1",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.4.0"
   },
