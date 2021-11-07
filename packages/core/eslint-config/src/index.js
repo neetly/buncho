@@ -29,6 +29,9 @@ module.exports = {
 
       rules: {
         eqeqeq: "error",
+        "@typescript-eslint/no-duplicate-imports": "error",
+        "@typescript-eslint/consistent-type-imports": "error",
+        "@typescript-eslint/consistent-type-exports": "error",
         "react/jsx-key": "error",
         "simple-import-sort/imports": "warn",
         "simple-import-sort/exports": "warn",
