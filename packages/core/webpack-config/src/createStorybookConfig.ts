@@ -2,7 +2,8 @@ import * as utils from "@buncho/utils";
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import ForkTsCheckerPlugin from "fork-ts-checker-webpack-plugin";
 import path from "path";
-import { Configuration, DefinePlugin } from "webpack";
+import type { Configuration } from "webpack";
+import { DefinePlugin } from "webpack";
 import {
   customizeArray,
   CustomizeRule,
