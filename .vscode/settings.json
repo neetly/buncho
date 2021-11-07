@@ -1,4 +1,3 @@
 {
-  "typescript.tsdk": "./node_modules/typescript/lib",
-  "typescript.preferences.importModuleSpecifier": "project-relative"
+  "typescript.tsdk": "./node_modules/typescript/lib"
 }
