@@ -80,7 +80,7 @@
     "@babel/core": "^7.16.0",
     "@buncho/babel-preset": "workspace:packages/core/babel-preset",
     "@types/babel__core": "^7.1.16",
-    "@types/node": "^16.11.6",
+    "@types/node": "^16.11.7",
     "@types/webpack-dev-server": "^4.3.1",
     "webpack": "^5.62.1",
     "webpack-dev-server": "^4.4.0"
