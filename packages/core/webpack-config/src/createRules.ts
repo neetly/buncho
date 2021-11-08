@@ -1,3 +1,4 @@
+import mimeTypes from "mime-types";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import type { RuleSetRule, RuleSetUseItem } from "webpack";
 
@@ -101,6 +102,18 @@ const createRules = ({
         {
           exclude: /\.json$/,
           type: "asset",
+          parser: {
+            dataUrlCondition: (
+              source: string | Buffer,
+              { filename }: { filename: string },
+            ) => {
+              const mimeType = mimeTypes.lookup(filename);
+              return (
+                typeof mimeType === "string" &&
+                Buffer.byteLength(source) <= 8192
+              );
+            },
+          },
         },
       ],
     },

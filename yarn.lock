@@ -1758,6 +1758,7 @@ __metadata:
     "@types/babel__core": ^7.1.16
     "@types/copy-webpack-plugin": ^8.0.1
     "@types/css-minimizer-webpack-plugin": ^3.0.2
+    "@types/mime-types": ^2.1.1
     "@types/mini-css-extract-plugin": ^2.4.0
     "@types/node": ^16.11.6
     "@types/terser-webpack-plugin": ^5.2.0
@@ -1770,6 +1771,7 @@ __metadata:
     css-minimizer-webpack-plugin: ^3.1.1
     fork-ts-checker-webpack-plugin: ^6.4.0
     html-webpack-plugin: ^5.5.0
+    mime-types: ^2.1.33
     mini-css-extract-plugin: ^2.4.4
     postcss: ^8.3.11
     postcss-loader: ^6.2.0
@@ -3935,6 +3937,13 @@ __metadata:
   dependencies:
     "@types/braces": "*"
   checksum: 4f9fea285778c579055c83fbb025f576c3adc9541ec89e12f1e192e53c0885a04d1a5863b44001606f01964f12b26f8b08b033c06de11ca9de78d58e7a672850
+  languageName: node
+  linkType: hard
+
+"@types/mime-types@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@types/mime-types@npm:2.1.1"
+  checksum: 106b5d556add46446a579ad25ff15d6b421851790d887edcad558c90c1e64b1defc72bfbaf4b08f208916e21d9cc45cdb951d77be51268b18221544cfe054a3c
   languageName: node
   linkType: hard
 
@@ -11567,12 +11576,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mime-db@npm:1.50.0":
+  version: 1.50.0
+  resolution: "mime-db@npm:1.50.0"
+  checksum: 95fcc19c3664ae72391c8a7e4015dde7fb6817c98c951493ca3a1d48050feb8ee08810a372ce7d9e16310042d26e5bda168916f600583a9a583655eeea8ff5f5
+  languageName: node
+  linkType: hard
+
 "mime-types@npm:^2.1.12, mime-types@npm:^2.1.27, mime-types@npm:^2.1.28, mime-types@npm:^2.1.31, mime-types@npm:~2.1.17, mime-types@npm:~2.1.19, mime-types@npm:~2.1.24":
   version: 2.1.31
   resolution: "mime-types@npm:2.1.31"
   dependencies:
     mime-db: 1.48.0
   checksum: eb1612aa96403823c7a2ccb1a39d58ce11477e685560186e7d369d8164260fd6fc1eeb56fa23acb6a4050583f417b2a685b69c23eb2bd8ed169fb0c6e323740a
+  languageName: node
+  linkType: hard
+
+"mime-types@npm:^2.1.33":
+  version: 2.1.33
+  resolution: "mime-types@npm:2.1.33"
+  dependencies:
+    mime-db: 1.50.0
+  checksum: 05f2a0b3f169fbc51d79bdc7674ceb379dd07dbeadb0143059a7def865224686ee9f9051aeb340e98b6c11dbc06794ce0122181db4312cb1ad054fd90b0d510e
   languageName: node
   linkType: hard
 
