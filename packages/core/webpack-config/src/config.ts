@@ -32,7 +32,7 @@ const config: Configuration = {
     publicPath: "/",
   },
 
-  devtool: production ? "source-map" : "cheap-module-source-map",
+  devtool: production ? "source-map" : "eval-source-map",
 
   resolve: {
     extensions: EXTENSIONS,
