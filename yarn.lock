@@ -1626,7 +1626,7 @@ __metadata:
     "@types/node": ^16.11.7
     "@types/react": ^17.0.35
     "@types/react-dom": ^17.0.11
-    "@types/webpack-dev-server": ^4.3.1
+    "@types/webpack-dev-server": ^4.5.0
     clipanion: ^3.1.0
     cosmiconfig: ^7.0.1
     react: ^17.0.2
@@ -1762,7 +1762,7 @@ __metadata:
     "@types/mini-css-extract-plugin": ^2.4.0
     "@types/node": ^16.11.7
     "@types/terser-webpack-plugin": ^5.2.0
-    "@types/webpack-dev-server": ^4.3.1
+    "@types/webpack-dev-server": ^4.5.0
     "@types/workbox-webpack-plugin": ^5.1.8
     autoprefixer: ^10.4.0
     babel-loader: ^8.2.3
@@ -4203,9 +4203,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "@types/webpack-dev-server@npm:4.3.1"
+"@types/webpack-dev-server@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "@types/webpack-dev-server@npm:4.5.0"
   dependencies:
     "@types/bonjour": "*"
     "@types/connect-history-api-fallback": "*"
@@ -4216,7 +4216,7 @@ __metadata:
     chokidar: ^3.5.1
     http-proxy-middleware: ^2.0.0
     webpack: "*"
-  checksum: d0f0eea78f6024b4eb591c7644fbb9f26211dbbd3dfb2dd380b59e4da131edbc2d8a478a2b718763a0ff484d631da4b932ac500b60af674c1da76a98edeae4ef
+  checksum: 3d4c4efba232f077d998811bc56fa90567f0832980ef694a0bca19d61dd0a3aa35071376cc9418c669ec6c844efa1e68cdb692e87da7bf3844192eda098912dd
   languageName: node
   linkType: hard
 
