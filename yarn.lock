@@ -1623,7 +1623,7 @@ __metadata:
     "@storybook/manager-webpack5": ~6.3.12
     "@storybook/react": ~6.3.12
     "@types/babel__core": ^7.1.16
-    "@types/node": ^16.11.7
+    "@types/node": ^16.11.8
     "@types/react": ^17.0.35
     "@types/react-dom": ^17.0.11
     "@types/webpack-dev-server": ^4.5.0
@@ -1760,7 +1760,7 @@ __metadata:
     "@types/css-minimizer-webpack-plugin": ^3.0.2
     "@types/mime-types": ^2.1.1
     "@types/mini-css-extract-plugin": ^2.4.0
-    "@types/node": ^16.11.7
+    "@types/node": ^16.11.8
     "@types/terser-webpack-plugin": ^5.2.0
     "@types/webpack-dev-server": ^4.5.0
     "@types/workbox-webpack-plugin": ^5.1.8
@@ -3984,10 +3984,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.11.7":
-  version: 16.11.7
-  resolution: "@types/node@npm:16.11.7"
-  checksum: 2706403e6efc4aa40fdce8f0b5d9884d5600c3c8610aedc7fa5e7e298d30366f7e8b7296028d52898dca3edef4c3e827b03bf20952c4780f13fa4e79864f7a86
+"@types/node@npm:*, @types/node@npm:^16.11.8":
+  version: 16.11.8
+  resolution: "@types/node@npm:16.11.8"
+  checksum: c60418498f0affd0fb69351fd04ec0d8c684d1892d6d548d95fc2288b157c4e2e3e0bd3b6da6802ba128cb34ea2144c08e8683469e08cf58c61d5fb6ab9db4b5
   languageName: node
   linkType: hard
 
