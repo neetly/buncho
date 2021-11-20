@@ -82,7 +82,7 @@
     "@types/babel__core": "^7.1.16",
     "@types/node": "^16.11.9",
     "@types/webpack-dev-server": "^4.5.0",
-    "webpack": "^5.64.1",
+    "webpack": "^5.64.2",
     "webpack-dev-server": "^4.5.0"
   }
 }
