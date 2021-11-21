@@ -1,7 +1,9 @@
 import * as utils from "@buncho/utils";
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
+import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 import ForkTsCheckerPlugin from "fork-ts-checker-webpack-plugin";
 import path from "path";
+import TerserPlugin from "terser-webpack-plugin";
 import type { Configuration } from "webpack";
 import { DefinePlugin } from "webpack";
 import {
@@ -16,6 +18,8 @@ import { createRules } from "./createRules";
 import { production, useFastRefresh } from "./env";
 
 const config: Configuration = {
+  devtool: production ? "source-map" : "eval-source-map",
+
   resolve: {
     extensions: EXTENSIONS,
     alias: utils.getWebpackAlias(),
@@ -43,12 +47,19 @@ const config: Configuration = {
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
   ].filter(Boolean) as Configuration["plugins"],
+
+  optimization: {
+    minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
+  },
+
+  stats: production ? "normal" : "minimal",
 };
 
 const mergeConfig = mergeWithCustomize({
   customizeArray: customizeArray({
     "resolve.extensions": CustomizeRule.Replace,
     "module.rules": CustomizeRule.Replace,
+    "optimization.minimizer": CustomizeRule.Replace,
   }),
 });
 
