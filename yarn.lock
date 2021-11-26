@@ -1757,7 +1757,7 @@ __metadata:
     "@svgr/webpack": ^5.5.0
     "@types/babel__core": ^7.1.16
     "@types/copy-webpack-plugin": ^8.0.1
-    "@types/css-minimizer-webpack-plugin": ^3.0.2
+    "@types/css-minimizer-webpack-plugin": ^3.2.0
     "@types/mime-types": ^2.1.1
     "@types/mini-css-extract-plugin": ^2.4.0
     "@types/node": ^16.11.10
@@ -3733,19 +3733,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/css-minimizer-webpack-plugin@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "@types/css-minimizer-webpack-plugin@npm:3.0.2"
+"@types/css-minimizer-webpack-plugin@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "@types/css-minimizer-webpack-plugin@npm:3.2.0"
   dependencies:
-    "@types/cssnano": "*"
-    postcss: ^8.2.9
-    tapable: ^2.2.0
-    webpack: ^5.37.0
-  checksum: 15072b0e604a9fd713288e0c071ef45ce18c6d41605c5a9c265a0c022e14a78eb027bea4a870d0b81758cdbd0f5972dff113a994e92b66ffff1b638e1cc87cfd
+    css-minimizer-webpack-plugin: "*"
+  checksum: 81524fa1ae0cb713118677e0dc9f7299c4d401ece00259a403c5d5112fe614726e31a14e3bcba3a36c2fe2174e193e4272de31dbcf164deb54ae6c84fd64c10a
   languageName: node
   linkType: hard
 
-"@types/cssnano@npm:*, @types/cssnano@npm:^4.0.1":
+"@types/cssnano@npm:^4.0.1":
   version: 4.0.1
   resolution: "@types/cssnano@npm:4.0.1"
   dependencies:
@@ -7013,7 +7010,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-minimizer-webpack-plugin@npm:^3.2.0":
+"css-minimizer-webpack-plugin@npm:*, css-minimizer-webpack-plugin@npm:^3.2.0":
   version: 3.2.0
   resolution: "css-minimizer-webpack-plugin@npm:3.2.0"
   dependencies:
@@ -13331,7 +13328,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.15, postcss@npm:^8.2.9, postcss@npm:^8.3.5, postcss@npm:^8.4.1":
+"postcss@npm:^8.2.15, postcss@npm:^8.3.5, postcss@npm:^8.4.1":
   version: 8.4.1
   resolution: "postcss@npm:8.4.1"
   dependencies:
@@ -16971,7 +16968,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:*, webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.38.1, webpack@npm:^5.64.4, webpack@npm:^5.9.0":
+"webpack@npm:*, webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.38.1, webpack@npm:^5.64.4, webpack@npm:^5.9.0":
   version: 5.64.4
   resolution: "webpack@npm:5.64.4"
   dependencies:
