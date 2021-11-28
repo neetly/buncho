@@ -1,6 +1,5 @@
 {
   "extends": ["config:base", ":disableDependencyDashboard"],
   "rangeStrategy": "bump",
-  "postUpdateOptions": ["yarnDedupeHighest"],
-  "ignoreDeps": ["eslint-plugin-react-hooks"]
+  "postUpdateOptions": ["yarnDedupeHighest"]
 }
