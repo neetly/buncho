@@ -5,6 +5,7 @@ import path from "path";
 import type { Configuration } from "webpack";
 
 export const stories = [path.resolve("./src")];
+export const staticDirs = [path.resolve("./public")];
 
 export const core = { builder: "webpack5" };
 export const addons = ["@storybook/addon-essentials"];
