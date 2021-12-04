@@ -13,10 +13,11 @@ module.exports = {
 
       plugins: [
         "@typescript-eslint",
+        "simple-import-sort",
         "react",
         "react-hooks",
         "jsx-a11y",
-        "simple-import-sort",
+        "storybook",
       ],
       extends: [
         "eslint:recommended",
@@ -24,6 +25,7 @@ module.exports = {
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "plugin:react-hooks/recommended",
         "plugin:jsx-a11y/recommended",
+        "plugin:storybook/recommended",
         require.resolve("eslint-config-prettier"),
       ],
 
@@ -32,9 +34,9 @@ module.exports = {
         "@typescript-eslint/no-duplicate-imports": "error",
         "@typescript-eslint/consistent-type-imports": "error",
         "@typescript-eslint/consistent-type-exports": "error",
-        "react/jsx-key": "error",
         "simple-import-sort/imports": "warn",
         "simple-import-sort/exports": "warn",
+        "react/jsx-key": "error",
       },
     },
 
