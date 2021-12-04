@@ -3,7 +3,7 @@ module.exports = {
 
   overrides: [
     {
-      files: ["*.{ts,tsx}"],
+      files: ["*.{ts,tsx,mts,cts}"],
 
       parserOptions: {
         EXPERIMENTAL_useSourceOfProjectReferenceRedirect: true,

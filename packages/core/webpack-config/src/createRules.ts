@@ -15,7 +15,7 @@ const createRules = ({
     {
       oneOf: [
         {
-          test: /\.(ts|tsx)$/,
+          test: /\.(ts|tsx|mts|cts)$/,
           parser: {
             // https://github.com/webpack/webpack/issues/11543
             worker: [
@@ -77,7 +77,7 @@ const createRules = ({
 
         {
           test: /\.svg$/,
-          issuer: /\.(ts|tsx)$/,
+          issuer: /\.(ts|tsx|mts|cts)$/,
           dependency: { not: ["url"] },
           use: [
             {

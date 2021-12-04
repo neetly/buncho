@@ -7,7 +7,7 @@ module.exports = (api) => {
   return {
     overrides: [
       {
-        test: /\.(ts|tsx)$/,
+        test: /\.(ts|tsx|mts|cts)$/,
         presets: [
           [
             require.resolve("@babel/preset-env"),

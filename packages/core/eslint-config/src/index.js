@@ -3,7 +3,7 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 module.exports = {
   overrides: [
     {
-      files: ["*.{ts,tsx}"],
+      files: ["*.{ts,tsx,mts,cts}"],
 
       parser: require.resolve("@typescript-eslint/parser"),
       parserOptions: {

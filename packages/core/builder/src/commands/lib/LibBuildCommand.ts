@@ -13,7 +13,10 @@ class LibBuildCommand extends Command {
       path: getPackageBin("@babel/cli", "babel"),
       args: [
         ["--root-mode", "upward-optional"],
-        ["--extensions", [".js", ".mjs", ".cjs", ".ts", ".tsx"].join(",")],
+        [
+          "--extensions",
+          [".js", ".mjs", ".cjs", ".ts", ".tsx", ".mts", ".cts"].join(","),
+        ],
         ["--source-maps", "true"],
         ["--copy-files"],
         hasBabelConfig
