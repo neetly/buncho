@@ -22,6 +22,7 @@ class StorybookStartCommand extends Command {
         this.args,
       ].flat(),
       env: {
+        FAST_REFRESH: env.FAST_REFRESH,
         STORYBOOK_STORE_V7: env.STORYBOOK_STORE_V7,
         APP_STORYBOOK_CONFIG_DIR: paths.appStorybookConfigDir,
       },

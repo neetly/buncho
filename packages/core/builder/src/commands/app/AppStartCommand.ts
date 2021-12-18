@@ -24,6 +24,7 @@ class AppStartCommand extends Command {
       ].flat(),
       env: {
         NODE_ENV: "development",
+        FAST_REFRESH: env.FAST_REFRESH,
       },
     });
   }
