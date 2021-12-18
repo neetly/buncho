@@ -46,6 +46,10 @@ const config: Configuration = {
     }),
   },
 
+  experiments: {
+    topLevelAwait: true,
+  },
+
   plugins: [
     production &&
       new CopyPlugin({

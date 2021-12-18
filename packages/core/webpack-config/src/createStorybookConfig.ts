@@ -32,6 +32,10 @@ const config: Configuration = {
     }),
   },
 
+  experiments: {
+    topLevelAwait: true,
+  },
+
   plugins: [
     new ForkTsCheckerPlugin({
       typescript: {
