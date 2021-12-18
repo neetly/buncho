@@ -13,6 +13,10 @@ export const staticDirs = fs.existsSync(path.resolve("./public"))
 export const core = { builder: "webpack5" };
 export const addons = ["@storybook/addon-essentials"];
 
+export const features = {
+  storyStoreV7: process.env.STORYBOOK_STORE_V7 === "true",
+};
+
 export const webpackFinal = (defaultConfig: Configuration): Configuration => {
   return createStorybookConfig(defaultConfig, {
     env: Object.fromEntries(
