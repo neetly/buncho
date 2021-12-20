@@ -1693,7 +1693,7 @@ __metadata:
     eslint-plugin-react: ^7.27.1
     eslint-plugin-react-hooks: ^4.3.0
     eslint-plugin-simple-import-sort: ^7.0.0
-    eslint-plugin-storybook: ^0.5.3
+    eslint-plugin-storybook: ^0.5.4
   peerDependencies:
     "@typescript-eslint/eslint-plugin": "*"
     "@typescript-eslint/parser": "*"
@@ -8118,16 +8118,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:^0.5.3":
-  version: 0.5.3
-  resolution: "eslint-plugin-storybook@npm:0.5.3"
+"eslint-plugin-storybook@npm:^0.5.4":
+  version: 0.5.4
+  resolution: "eslint-plugin-storybook@npm:0.5.4"
   dependencies:
     "@storybook/csf": ^0.0.1
     "@typescript-eslint/experimental-utils": ^5.3.0
     requireindex: ^1.1.0
   peerDependencies:
     eslint: ">=6"
-  checksum: 0a3095441d69d783aa29c234291886c50553b941575d61d751457fba0af57e62297014ca734b77395310c97dbc2d7d78911a73828da7b59483bab645efcce244
+  checksum: 7941434a5a8f81aabf071a34ef3d02175e140fbb95e46565cc98e8efb34df4b60d14db027b7df1ae97129e651640ea118cd0ddf06a30a5643cd199eecf3a3296
   languageName: node
   linkType: hard
 

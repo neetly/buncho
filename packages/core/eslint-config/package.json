@@ -30,7 +30,7 @@
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-storybook": "^0.5.3"
+    "eslint-plugin-storybook": "^0.5.4"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "*",
