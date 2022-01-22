@@ -18,7 +18,7 @@
     "prepack": "run clean && run build && cp ../../../LICENSE ."
   },
   "dependencies": {
-    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
     "babel-plugin-macros": "^3.1.0"
@@ -27,6 +27,6 @@
     "@babel/core": "*"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.7"
+    "@babel/core": "^7.16.12"
   }
 }
