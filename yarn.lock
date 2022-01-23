@@ -1765,7 +1765,7 @@ __metadata:
     "@types/copy-webpack-plugin": ^8.0.1
     "@types/css-minimizer-webpack-plugin": ^3.2.0
     "@types/mime-types": ^2.1.1
-    "@types/mini-css-extract-plugin": ^2.4.0
+    "@types/mini-css-extract-plugin": ^2.5.0
     "@types/node": ^16.11.21
     "@types/terser-webpack-plugin": ^5.2.0
     "@types/webpack-dev-server": ^4.7.1
@@ -1778,7 +1778,7 @@ __metadata:
     fork-ts-checker-webpack-plugin: ^6.5.0
     html-webpack-plugin: ^5.5.0
     mime-types: ^2.1.34
-    mini-css-extract-plugin: ^2.5.1
+    mini-css-extract-plugin: ^2.5.2
     postcss: ^8.4.5
     postcss-loader: ^6.2.1
     raw-loader: ^4.0.2
@@ -4021,14 +4021,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mini-css-extract-plugin@npm:^2.4.0":
-  version: 2.4.0
-  resolution: "@types/mini-css-extract-plugin@npm:2.4.0"
+"@types/mini-css-extract-plugin@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "@types/mini-css-extract-plugin@npm:2.5.0"
   dependencies:
-    "@types/node": "*"
-    tapable: ^2.2.0
-    webpack: ^5
-  checksum: 7f2be7cadb012078d4e3ba6fde8d09d586d1ec39f170f54ea5cc0654a8834b2c4c765a89710972638ebb6f97299fc9115ed5fd8ffe4db7f12332d5ad5ba3ee26
+    mini-css-extract-plugin: "*"
+  checksum: 8912e191195187e6ebf6b190cf9c636296504922472264bdec2d53e97efb261600d815d502041241326babeb56f2a8ab8ffd21f5445eb3bc065c179eb1b907b6
   languageName: node
   linkType: hard
 
@@ -11556,14 +11554,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:^2.5.1":
-  version: 2.5.1
-  resolution: "mini-css-extract-plugin@npm:2.5.1"
+"mini-css-extract-plugin@npm:*, mini-css-extract-plugin@npm:^2.5.2":
+  version: 2.5.2
+  resolution: "mini-css-extract-plugin@npm:2.5.2"
   dependencies:
     schema-utils: ^4.0.0
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 4a351c2405e184fd95d4c4b0b89c841638056e4cdf4e2a407aac8d782fe634fd730c74261e3ba601f3900a67cd9e114d6742dec258563b6e2edae147b690b5ae
+  checksum: 9d9ad48780cf1e14b1d778a18b2e8e98031ad948a174dd7bf283d4832fd206a54f3119def455caa7389749808cd13160481ce872d6314c54adc0db1c5280649e
   languageName: node
   linkType: hard
 
@@ -16781,7 +16779,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.66.0, webpack@npm:^5.9.0":
+"webpack@npm:^5.1.0, webpack@npm:^5.66.0, webpack@npm:^5.9.0":
   version: 5.66.0
   resolution: "webpack@npm:5.66.0"
   dependencies:
