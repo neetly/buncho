@@ -13,5 +13,5 @@ const paths = [
 ].filter(Boolean);
 
 for (const path of paths) {
-  dotenvExpand(dotenv.config({ path }));
+  dotenvExpand.expand(dotenv.config({ path }));
 }
