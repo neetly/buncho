@@ -43,10 +43,8 @@ const config: Configuration = {
         build: true,
         mode: "write-references",
       },
-      logger: {
-        // https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/issues/495
-        devServer: false,
-      },
+      // https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/issues/495
+      devServer: false,
     }),
 
     !production && useFastRefresh && new ReactRefreshPlugin(),
