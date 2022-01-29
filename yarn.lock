@@ -1628,10 +1628,10 @@ __metadata:
     "@storybook/manager-webpack5": ~6.4.16
     "@storybook/react": ~6.4.16
     "@types/babel__core": ^7.1.18
-    "@types/node": ^16.11.21
+    "@types/node": ^17.0.13
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
-    "@types/webpack-dev-server": ^4.7.1
+    "@types/webpack-dev-server": ^4.7.2
     clipanion: ^3.1.0
     cosmiconfig: ^7.0.1
     react: ^17.0.2
@@ -1762,13 +1762,13 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.4
     "@svgr/webpack": ^6.2.0
     "@types/babel__core": ^7.1.18
-    "@types/copy-webpack-plugin": ^8.0.1
-    "@types/css-minimizer-webpack-plugin": ^3.2.0
+    "@types/copy-webpack-plugin": ^10.1.0
+    "@types/css-minimizer-webpack-plugin": ^3.2.1
     "@types/mime-types": ^2.1.1
-    "@types/mini-css-extract-plugin": ^2.5.0
-    "@types/node": ^16.11.21
+    "@types/mini-css-extract-plugin": ^2.5.1
+    "@types/node": ^17.0.13
     "@types/terser-webpack-plugin": ^5.2.0
-    "@types/webpack-dev-server": ^4.7.1
+    "@types/webpack-dev-server": ^4.7.2
     "@types/workbox-webpack-plugin": ^5.1.8
     autoprefixer: ^10.4.2
     babel-loader: ^8.2.3
@@ -3826,23 +3826,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/copy-webpack-plugin@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "@types/copy-webpack-plugin@npm:8.0.1"
+"@types/copy-webpack-plugin@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "@types/copy-webpack-plugin@npm:10.1.0"
   dependencies:
-    "@types/node": "*"
-    tapable: ^2.0.0
-    webpack: ^5.1.0
-  checksum: e921a28fca72bf1708d51ffad06ee2a4b80b8de7e748639588681ea1912413b92dbd433627f3b7eb51c14b9254a1d9c13cf037f25ca08a718df005871454a696
+    copy-webpack-plugin: "*"
+  checksum: c5012e9725beb34bc07ca47f5861ee0770f0c76fe04e8878142ba5d12aa91c6d330ec777378eb65ff5fbb5f05863a2b1b935318db0f3f2e754c126b181645adf
   languageName: node
   linkType: hard
 
-"@types/css-minimizer-webpack-plugin@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "@types/css-minimizer-webpack-plugin@npm:3.2.0"
+"@types/css-minimizer-webpack-plugin@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "@types/css-minimizer-webpack-plugin@npm:3.2.1"
   dependencies:
     css-minimizer-webpack-plugin: "*"
-  checksum: 81524fa1ae0cb713118677e0dc9f7299c4d401ece00259a403c5d5112fe614726e31a14e3bcba3a36c2fe2174e193e4272de31dbcf164deb54ae6c84fd64c10a
+  checksum: e3ecdeb94a39e1dd97653210cf8f18052f7818adb95926ac8c50266668ff2f89fae515c27fa5f5035322aa7b6ae004d31711d000244c70b3d243e567321058d8
   languageName: node
   linkType: hard
 
@@ -4023,12 +4021,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mini-css-extract-plugin@npm:^2.5.0":
-  version: 2.5.0
-  resolution: "@types/mini-css-extract-plugin@npm:2.5.0"
+"@types/mini-css-extract-plugin@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "@types/mini-css-extract-plugin@npm:2.5.1"
   dependencies:
     mini-css-extract-plugin: "*"
-  checksum: 8912e191195187e6ebf6b190cf9c636296504922472264bdec2d53e97efb261600d815d502041241326babeb56f2a8ab8ffd21f5445eb3bc065c179eb1b907b6
+  checksum: 047a8600d49e765e793c009a03af6cb5dcf5c4aa9ee37826d5a37a46bc7d986fd236b7c5eb03089c23462b5c20ee8b97fdb9e126a82312090f33f1e2a22a505f
   languageName: node
   linkType: hard
 
@@ -4049,10 +4047,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.11.21":
-  version: 16.11.21
-  resolution: "@types/node@npm:16.11.21"
-  checksum: 75b679dc6375cf09bc14a2d1b344be6f3fd8ea50f212b0d60970dc9e175cef45e44c284c716eb9e766ffa52d0c83b689adb3d1911b6dd8649c560b8f77442a22
+"@types/node@npm:*, @types/node@npm:^17.0.13":
+  version: 17.0.13
+  resolution: "@types/node@npm:17.0.13"
+  checksum: 8b87c850c1604c65e3474bd03d122914464b7970caed20f65f4a7706ab429353b896a3916be4d2581164eccda9e3dd95c338fbccf686ff85a824c40d15e8f3fa
   languageName: node
   linkType: hard
 
@@ -4252,12 +4250,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:^4.7.1":
-  version: 4.7.1
-  resolution: "@types/webpack-dev-server@npm:4.7.1"
+"@types/webpack-dev-server@npm:^4.7.2":
+  version: 4.7.2
+  resolution: "@types/webpack-dev-server@npm:4.7.2"
   dependencies:
     webpack-dev-server: "*"
-  checksum: b5192c1f88e8f07e4604575dc69187f0efa146525e986b7e066e6547a385a9788f95ca1569ccbb6f54a2cdf90857bc0018991eb4ccd0c6de969cbdfaa98cdd1b
+  checksum: 81b0d368b85f33759a3859c23d09c8a2af47997621c6350120ff80e20e9124568e4a30e15abead36e7992abe4e18ce2137785aa677d2041adfcd7e8fff9b2312
   languageName: node
   linkType: hard
 
@@ -6832,7 +6830,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"copy-webpack-plugin@npm:^10.2.3":
+"copy-webpack-plugin@npm:*, copy-webpack-plugin@npm:^10.2.3":
   version: 10.2.3
   resolution: "copy-webpack-plugin@npm:10.2.3"
   dependencies:
@@ -16825,7 +16823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.1.0, webpack@npm:^5.67.0, webpack@npm:^5.9.0":
+"webpack@npm:^5.67.0, webpack@npm:^5.9.0":
   version: 5.67.0
   resolution: "webpack@npm:5.67.0"
   dependencies:
