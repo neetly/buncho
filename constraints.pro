@@ -6,7 +6,7 @@ gen_enforced_field(WorkspaceCwd, 'repository.directory', WorkspaceCwd) :-
 gen_enforced_field(WorkspaceCwd, 'license', 'MIT').
 
 gen_enforced_field(WorkspaceCwd, 'scripts.prepack', 'run clean && run build && cp ../../../LICENSE .') :-
-  WorkspaceCwd \= '.'.
+  \+ workspace_field(WorkspaceCwd, 'private', 'true').
 
 gen_enforced_dependency(WorkspaceCwd, DependencyIdent, DependencyRange2, DependencyType) :-
   workspace_has_dependency(WorkspaceCwd, DependencyIdent, DependencyRange, DependencyType),
