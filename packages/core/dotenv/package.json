@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "cosmiconfig": "^7.0.1",
-    "dotenv": "^15.0.1",
+    "dotenv": "^16.0.0",
     "dotenv-expand": "^7.0.0"
   }
 }
