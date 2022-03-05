@@ -1,14 +1,14 @@
 {
-  "name": "@buncho/tsconfig",
-  "version": "1.0.0",
+  "name": "@buncho/dotenv",
+  "version": "2.0.0",
   "homepage": "https://github.com/neetly/buncho",
   "repository": {
     "type": "git",
     "url": "git@github.com:neetly/buncho.git",
-    "directory": "packages/core/tsconfig"
+    "directory": "packages/dotenv"
   },
   "license": "MIT",
-  "tsconfig": "./src/tsconfig.json",
+  "main": "./src/index.js",
   "files": [
     "./src"
   ],
@@ -17,7 +17,9 @@
     "clean": "run --top-level lib clean",
     "prepack": "run clean && run build && cp ../../../LICENSE ."
   },
-  "peerDependencies": {
-    "typescript": "*"
+  "dependencies": {
+    "cosmiconfig": "^7.0.1",
+    "dotenv": "^16.0.0",
+    "dotenv-expand": "^8.0.1"
   }
 }

@@ -5,7 +5,7 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:neetly/buncho.git",
-    "directory": "packages/core/register"
+    "directory": "packages/register"
   },
   "license": "MIT",
   "main": "./src/index.js",
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@babel/register": "^7.17.0",
-    "@buncho/utils": "workspace:packages/core/utils",
+    "@buncho/utils": "workspace:packages/utils",
     "tsconfig-paths": "^3.13.0"
   },
   "peerDependencies": {
@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
-    "@buncho/babel-preset": "workspace:packages/core/babel-preset"
+    "@buncho/babel-preset": "workspace:packages/babel-preset"
   }
 }

@@ -2,7 +2,7 @@
   "name": "@buncho/repo",
   "private": true,
   "workspaces": [
-    "./packages/*/*"
+    "./packages/*"
   ],
   "homepage": "https://github.com/neetly/buncho",
   "repository": {
@@ -18,9 +18,9 @@
     "publish": "yarn workspaces foreach --verbose --no-private npm publish --tolerate-republish"
   },
   "devDependencies": {
-    "@buncho/builder": "workspace:packages/core/builder",
-    "@buncho/eslint-config": "workspace:packages/core/eslint-config",
-    "@buncho/tsconfig": "workspace:packages/core/tsconfig",
+    "@buncho/builder": "workspace:packages/builder",
+    "@buncho/eslint-config": "workspace:packages/eslint-config",
+    "@buncho/tsconfig": "workspace:packages/tsconfig",
     "@prettier/plugin-xml": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",

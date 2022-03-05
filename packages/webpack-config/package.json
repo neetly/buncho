@@ -5,7 +5,7 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:neetly/buncho.git",
-    "directory": "packages/core/webpack-config"
+    "directory": "packages/webpack-config"
   },
   "license": "MIT",
   "main": "./lib/index.js",
@@ -18,7 +18,7 @@
     "prepack": "run clean && run build && cp ../../../LICENSE ."
   },
   "dependencies": {
-    "@buncho/utils": "workspace:packages/core/utils",
+    "@buncho/utils": "workspace:packages/utils",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
     "@svgr/webpack": "^6.2.1",
     "@types/mime-types": "^2.1.1",
@@ -69,7 +69,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
-    "@buncho/babel-preset": "workspace:packages/core/babel-preset",
+    "@buncho/babel-preset": "workspace:packages/babel-preset",
     "@types/babel__core": "^7.1.18",
     "@types/node": "^17.0.13",
     "webpack": "^5.70.0",

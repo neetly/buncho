@@ -1614,9 +1614,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/babel-preset@workspace:packages/core/babel-preset":
+"@buncho/babel-preset@workspace:packages/babel-preset":
   version: 0.0.0-use.local
-  resolution: "@buncho/babel-preset@workspace:packages/core/babel-preset"
+  resolution: "@buncho/babel-preset@workspace:packages/babel-preset"
   dependencies:
     "@babel/core": ^7.17.5
     "@babel/preset-env": ^7.16.11
@@ -1628,18 +1628,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/builder@workspace:packages/core/builder":
+"@buncho/builder@workspace:packages/builder":
   version: 0.0.0-use.local
-  resolution: "@buncho/builder@workspace:packages/core/builder"
+  resolution: "@buncho/builder@workspace:packages/builder"
   dependencies:
     "@babel/cli": ^7.17.6
     "@babel/core": ^7.17.5
-    "@buncho/babel-preset": "workspace:packages/core/babel-preset"
-    "@buncho/dotenv": "workspace:packages/core/dotenv"
-    "@buncho/register": "workspace:packages/core/register"
-    "@buncho/utils": "workspace:packages/core/utils"
-    "@buncho/webpack-config": "workspace:packages/core/webpack-config"
-    "@buncho/webpack-env": "workspace:packages/core/webpack-env"
+    "@buncho/babel-preset": "workspace:packages/babel-preset"
+    "@buncho/dotenv": "workspace:packages/dotenv"
+    "@buncho/register": "workspace:packages/register"
+    "@buncho/utils": "workspace:packages/utils"
+    "@buncho/webpack-config": "workspace:packages/webpack-config"
+    "@buncho/webpack-env": "workspace:packages/webpack-env"
     "@storybook/addon-essentials": ~6.4.19
     "@storybook/builder-webpack5": ~6.4.19
     "@storybook/manager-webpack5": ~6.4.19
@@ -1677,9 +1677,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/dotenv@workspace:packages/core/dotenv":
+"@buncho/dotenv@workspace:packages/dotenv":
   version: 0.0.0-use.local
-  resolution: "@buncho/dotenv@workspace:packages/core/dotenv"
+  resolution: "@buncho/dotenv@workspace:packages/dotenv"
   dependencies:
     cosmiconfig: ^7.0.1
     dotenv: ^16.0.0
@@ -1687,9 +1687,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/eslint-config@workspace:packages/core/eslint-config":
+"@buncho/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
-  resolution: "@buncho/eslint-config@workspace:packages/core/eslint-config"
+  resolution: "@buncho/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@babel/core": ^7.17.5
     "@babel/eslint-parser": ^7.17.0
@@ -1710,14 +1710,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/register@workspace:packages/core/register":
+"@buncho/register@workspace:packages/register":
   version: 0.0.0-use.local
-  resolution: "@buncho/register@workspace:packages/core/register"
+  resolution: "@buncho/register@workspace:packages/register"
   dependencies:
     "@babel/core": ^7.17.5
     "@babel/register": ^7.17.0
-    "@buncho/babel-preset": "workspace:packages/core/babel-preset"
-    "@buncho/utils": "workspace:packages/core/utils"
+    "@buncho/babel-preset": "workspace:packages/babel-preset"
+    "@buncho/utils": "workspace:packages/utils"
     tsconfig-paths: ^3.13.0
   peerDependencies:
     "@babel/core": "*"
@@ -1732,9 +1732,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/repo@workspace:."
   dependencies:
-    "@buncho/builder": "workspace:packages/core/builder"
-    "@buncho/eslint-config": "workspace:packages/core/eslint-config"
-    "@buncho/tsconfig": "workspace:packages/core/tsconfig"
+    "@buncho/builder": "workspace:packages/builder"
+    "@buncho/eslint-config": "workspace:packages/eslint-config"
+    "@buncho/tsconfig": "workspace:packages/tsconfig"
     "@prettier/plugin-xml": ^1.2.0
     "@typescript-eslint/eslint-plugin": ^5.13.0
     "@typescript-eslint/parser": ^5.13.0
@@ -1744,17 +1744,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/tsconfig@workspace:packages/core/tsconfig":
+"@buncho/tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
-  resolution: "@buncho/tsconfig@workspace:packages/core/tsconfig"
+  resolution: "@buncho/tsconfig@workspace:packages/tsconfig"
   peerDependencies:
     typescript: "*"
   languageName: unknown
   linkType: soft
 
-"@buncho/utils@workspace:packages/core/utils":
+"@buncho/utils@workspace:packages/utils":
   version: 0.0.0-use.local
-  resolution: "@buncho/utils@workspace:packages/core/utils"
+  resolution: "@buncho/utils@workspace:packages/utils"
   dependencies:
     "@babel/core": ^7.17.5
   peerDependencies:
@@ -1768,13 +1768,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/webpack-config@workspace:packages/core/webpack-config":
+"@buncho/webpack-config@workspace:packages/webpack-config":
   version: 0.0.0-use.local
-  resolution: "@buncho/webpack-config@workspace:packages/core/webpack-config"
+  resolution: "@buncho/webpack-config@workspace:packages/webpack-config"
   dependencies:
     "@babel/core": ^7.17.5
-    "@buncho/babel-preset": "workspace:packages/core/babel-preset"
-    "@buncho/utils": "workspace:packages/core/utils"
+    "@buncho/babel-preset": "workspace:packages/babel-preset"
+    "@buncho/utils": "workspace:packages/utils"
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.4
     "@svgr/webpack": ^6.2.1
     "@types/babel__core": ^7.1.18
@@ -1823,9 +1823,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/webpack-env@workspace:packages/core/webpack-env":
+"@buncho/webpack-env@workspace:packages/webpack-env":
   version: 0.0.0-use.local
-  resolution: "@buncho/webpack-env@workspace:packages/core/webpack-env"
+  resolution: "@buncho/webpack-env@workspace:packages/webpack-env"
   dependencies:
     "@types/react": ^17.0.39
     "@types/react-dom": ^17.0.13
