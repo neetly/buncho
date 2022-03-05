@@ -53,7 +53,9 @@ const config: Configuration = {
 
   plugins: [
     new DefinePlugin({
-      "import.meta.env": "process.env",
+      "import.meta.env.NODE_ENV": JSON.stringify(
+        production ? "production" : "development",
+      ),
     }),
 
     production &&

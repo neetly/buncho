@@ -16,8 +16,11 @@ const createConfig = ({
     plugins: [
       new DefinePlugin(
         Object.fromEntries(
-          Object.entries(env).map(([key, value]) => {
-            return [`process.env.${key}`, JSON.stringify(value)];
+          Object.entries(env).flatMap(([key, value]) => {
+            return [
+              [`process.env.${key}`, JSON.stringify(value)],
+              [`import.meta.env.${key}`, JSON.stringify(value)],
+            ];
           }),
         ),
       ),
