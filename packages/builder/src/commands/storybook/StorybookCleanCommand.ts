@@ -6,7 +6,7 @@ import { getPackageBin } from "../../utils/getPackageBin";
 import { removeDirectory } from "../../utils/removeDirectory";
 
 class StorybookCleanCommand extends Command {
-  static paths = [["storybook", "clean"]];
+  static override paths = [["storybook", "clean"]];
 
   async execute(): Promise<void> {
     await execute({

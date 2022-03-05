@@ -6,7 +6,7 @@ import { getPackageBin } from "../../utils/getPackageBin";
 import { removeDirectory } from "../../utils/removeDirectory";
 
 class AppCleanCommand extends Command {
-  static paths = [["app", "clean"]];
+  static override paths = [["app", "clean"]];
 
   async execute(): Promise<void> {
     await execute({

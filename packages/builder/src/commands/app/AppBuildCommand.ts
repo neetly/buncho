@@ -6,7 +6,7 @@ import { execute } from "../../utils/execute";
 import { getPackageBin } from "../../utils/getPackageBin";
 
 class AppBuildCommand extends Command {
-  static paths = [["app", "build"]];
+  static override paths = [["app", "build"]];
 
   args = Option.Proxy();
 

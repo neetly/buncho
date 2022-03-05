@@ -6,7 +6,7 @@ import { execute } from "../../utils/execute";
 import { getPackageBin } from "../../utils/getPackageBin";
 
 class LibBuildCommand extends Command {
-  static paths = [["lib", "build"]];
+  static override paths = [["lib", "build"]];
 
   async execute(): Promise<void> {
     await execute({

@@ -6,7 +6,7 @@ import { execute } from "../../utils/execute";
 import { getPackageBin } from "../../utils/getPackageBin";
 
 class AppStartCommand extends Command {
-  static paths = [["app", "start"]];
+  static override paths = [["app", "start"]];
 
   host = Option.String("--host");
   port = Option.String("--port");

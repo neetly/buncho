@@ -6,7 +6,7 @@ import { execute } from "../../utils/execute";
 import { getPackageBin } from "../../utils/getPackageBin";
 
 class StorybookStartCommand extends Command {
-  static paths = [["storybook", "start"]];
+  static override paths = [["storybook", "start"]];
 
   host = Option.String("--host");
   port = Option.String("--port");
