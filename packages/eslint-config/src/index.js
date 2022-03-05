@@ -16,7 +16,6 @@ module.exports = {
         "simple-import-sort",
         "react",
         "react-hooks",
-        "jsx-a11y",
         "storybook",
       ],
       extends: [
@@ -24,7 +23,6 @@ module.exports = {
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "plugin:react-hooks/recommended",
-        "plugin:jsx-a11y/recommended",
         "plugin:storybook/recommended",
         require.resolve("eslint-config-prettier"),
       ],
