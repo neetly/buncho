@@ -5,12 +5,21 @@
 
 declare interface ImportMeta {
   url: string;
-  env: ImportMetaEnv;
 }
 
-declare interface ImportMetaEnv {
-  NODE_ENV: "production" | "development" | "test";
+declare namespace NodeJS {
+  interface Process {
+    env: ProcessEnv;
+  }
+
+  interface ProcessEnv {
+    readonly NODE_ENV: "production" | "development" | "test";
+    readonly [key: `APP_${string}`]: string;
+  }
 }
+
+// eslint-disable-next-line no-var
+declare var process: NodeJS.Process;
 
 declare module "*.svg" {
   import type { ComponentType, SVGProps } from "react";
