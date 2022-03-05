@@ -22,7 +22,14 @@ module.exports = (api) => {
             { allowDeclareFields: true, onlyRemoveTypeImports: true },
           ],
         ],
-        plugins: [require.resolve("babel-plugin-macros")],
+        plugins: [
+          require.resolve("babel-plugin-macros"),
+          require.resolve("babel-plugin-transform-typescript-metadata"),
+          [
+            require.resolve("@babel/plugin-proposal-decorators"),
+            { version: "legacy" },
+          ],
+        ],
       },
 
       {

@@ -12,6 +12,9 @@
     "module": "ESNext",
     "jsx": "preserve",
 
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
     "strict": true,
     "isolatedModules": true,
     "noUncheckedIndexedAccess": true,
