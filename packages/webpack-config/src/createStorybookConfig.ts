@@ -37,12 +37,6 @@ const config: Configuration = {
   },
 
   plugins: [
-    new DefinePlugin({
-      "import.meta.env.NODE_ENV": JSON.stringify(
-        production ? "production" : "development",
-      ),
-    }),
-
     new ForkTsCheckerPlugin({
       typescript: {
         configFile: path.resolve("./tsconfig.json"),
@@ -83,11 +77,8 @@ const createStorybookConfig = (
     plugins: [
       new DefinePlugin(
         Object.fromEntries(
-          Object.entries(env).flatMap(([key, value]) => {
-            return [
-              [`process.env.${key}`, JSON.stringify(value)],
-              [`import.meta.env.${key}`, JSON.stringify(value)],
-            ];
+          Object.entries(env).map(([key, value]) => {
+            return [`process.env.${key}`, JSON.stringify(value)];
           }),
         ),
       ),

@@ -8,7 +8,6 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import path from "path";
 import TerserPlugin from "terser-webpack-plugin";
 import type { Configuration } from "webpack";
-import { DefinePlugin } from "webpack";
 import WorkboxWebpackPlugin from "workbox-webpack-plugin";
 
 import { EXTENSIONS } from "./constants";
@@ -52,12 +51,6 @@ const config: Configuration = {
   },
 
   plugins: [
-    new DefinePlugin({
-      "import.meta.env.NODE_ENV": JSON.stringify(
-        production ? "production" : "development",
-      ),
-    }),
-
     production &&
       new CopyPlugin({
         patterns: [
