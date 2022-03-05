@@ -5,11 +5,12 @@
 
 declare interface ImportMeta {
   url: string;
+  env: ImportMetaEnv;
 }
 
-declare const process: {
-  env: Record<string, string | undefined>;
-};
+declare interface ImportMetaEnv {
+  NODE_ENV: "production" | "development" | "test";
+}
 
 declare module "*.svg" {
   import type { ComponentType, SVGProps } from "react";

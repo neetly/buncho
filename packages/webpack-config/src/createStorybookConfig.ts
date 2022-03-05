@@ -37,6 +37,10 @@ const config: Configuration = {
   },
 
   plugins: [
+    new DefinePlugin({
+      "import.meta.env": "process.env",
+    }),
+
     new ForkTsCheckerPlugin({
       typescript: {
         configFile: path.resolve("./tsconfig.json"),
