@@ -23,7 +23,6 @@ module.exports = (api) => {
           ],
         ],
         plugins: [
-          require.resolve("babel-plugin-macros"),
           require.resolve("babel-plugin-transform-typescript-metadata"),
           [
             require.resolve("@babel/plugin-proposal-decorators"),
