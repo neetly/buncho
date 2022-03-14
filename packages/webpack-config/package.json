@@ -68,7 +68,7 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.17.7",
     "@buncho/babel-preset": "workspace:packages/babel-preset",
     "@types/babel__core": "^7.1.18",
     "@types/node": "^17.0.13",
