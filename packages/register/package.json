@@ -20,7 +20,7 @@
   "dependencies": {
     "@babel/register": "^7.17.0",
     "@buncho/utils": "workspace:packages/utils",
-    "tsconfig-paths": "^3.13.0"
+    "tsconfig-paths": "^3.14.0"
   },
   "peerDependencies": {
     "@babel/core": "*",
