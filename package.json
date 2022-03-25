@@ -21,7 +21,7 @@
     "@buncho/builder": "workspace:packages/builder",
     "@buncho/eslint-config": "workspace:packages/eslint-config",
     "@buncho/tsconfig": "workspace:packages/tsconfig",
-    "@prettier/plugin-xml": "^1.2.0",
+    "@prettier/plugin-xml": "^2.0.1",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint": "^8.11.0",
