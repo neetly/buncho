@@ -22,7 +22,7 @@
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {
-    "@babel/core": "^7.17.7",
+    "@babel/core": "^7.17.8",
     "@babel/eslint-parser": "^7.17.0",
     "@rushstack/eslint-patch": "^1.1.1",
     "eslint-config-prettier": "^8.5.0",

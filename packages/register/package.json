@@ -32,7 +32,7 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.17.7",
+    "@babel/core": "^7.17.8",
     "@buncho/babel-preset": "workspace:packages/babel-preset"
   }
 }
