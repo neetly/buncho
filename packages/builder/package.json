@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.8",
+    "@babel/core": "^7.17.9",
     "@buncho/babel-preset": "workspace:packages/babel-preset",
     "@buncho/dotenv": "workspace:packages/dotenv",
     "@buncho/register": "workspace:packages/register",
