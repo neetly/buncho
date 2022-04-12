@@ -43,7 +43,7 @@
     "terser-webpack-plugin": "^5.3.1",
     "type-fest": "^2.12.2",
     "webpack-merge": "^5.8.0",
-    "workbox-webpack-plugin": "^6.5.2"
+    "workbox-webpack-plugin": "^6.5.3"
   },
   "peerDependencies": {
     "@babel/core": "*",
