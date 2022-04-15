@@ -22,8 +22,8 @@ declare namespace NodeJS {
 declare var process: NodeJS.Process;
 
 declare module "*.svg" {
-  import type { ComponentType, SVGProps } from "react";
-  const Component: ComponentType<SVGProps<SVGSVGElement>>;
+  import type { ComponentType, SVGAttributes } from "react";
+  const Component: ComponentType<SVGAttributes<SVGSVGElement>>;
   export default Component;
 }
 
