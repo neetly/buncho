@@ -1,3 +1,6 @@
+const utils = require("@buncho/utils");
+const { atomize } = require("@linaria/babel-preset");
+
 const production = process.env.NODE_ENV === "production";
 
 module.exports = (api) => {
@@ -20,6 +23,19 @@ module.exports = (api) => {
           [
             require.resolve("@babel/preset-typescript"),
             { allowDeclareFields: true, onlyRemoveTypeImports: true },
+          ],
+          [
+            require.resolve("@linaria/babel-preset"),
+            {
+              rules: [{ action: require.resolve("@linaria/shaker") }],
+              atomize,
+              babelOptions: {
+                rootMode: "upward-optional",
+                presets: utils.hasBabelConfig()
+                  ? []
+                  : [require.resolve("@buncho/babel-preset")],
+              },
+            },
           ],
         ],
         plugins: [

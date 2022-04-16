@@ -1,3 +1,4 @@
+import { atomize } from "@linaria/atomic";
 import mimeTypes from "mime-types";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import type { RuleSetRule, RuleSetUseItem } from "webpack";
@@ -38,6 +39,19 @@ const createRules = ({
                     ? [require.resolve("react-refresh/babel")]
                     : [],
                 cacheDirectory: true,
+              },
+            },
+            {
+              loader: require.resolve("@linaria/webpack-loader"),
+              options: {
+                rules: [{ action: require.resolve("@linaria/shaker") }],
+                atomize,
+                babelOptions: {
+                  rootMode: "upward-optional",
+                  presets: hasBabelConfig
+                    ? []
+                    : [require.resolve("@buncho/babel-preset")],
+                },
               },
             },
           ],
