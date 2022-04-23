@@ -69,7 +69,7 @@
   "devDependencies": {
     "@types/node": "^17.0.23",
     "@types/react": "^18.0.6",
-    "@types/react-dom": "^18.0.1",
+    "@types/react-dom": "^18.0.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   }
