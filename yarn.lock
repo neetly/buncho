@@ -1700,7 +1700,7 @@ __metadata:
     "@babel/register": "npm:^7.17.7"
     "@buncho/babel-preset": "workspace:packages/babel-preset"
     "@buncho/utils": "workspace:packages/utils"
-    tsconfig-paths: "npm:^3.14.1"
+    tsconfig-paths: "npm:^4.0.0"
   peerDependencies:
     "@babel/core": "*"
     "@buncho/babel-preset": "*"
@@ -4025,13 +4025,6 @@ __metadata:
   version: 7.0.9
   resolution: "@types/json-schema@npm:7.0.9"
   checksum: 495381a033f0549e9a1d58000d4999bc60e8a3892f80f0b8618c94275d910dfae72ffca3119b0151a8e8ddcdc705fb74625450e500a39dfb1af79ff7aa4b6ab4
-  languageName: node
-  linkType: hard
-
-"@types/json5@npm:^0.0.29":
-  version: 0.0.29
-  resolution: "@types/json5@npm:0.0.29"
-  checksum: 4f7f0667d7573ce2888e01e5e887c9661bb2a7e7fd79aae3c57391e812e87cc2fadc4dc1616530f33e63798a011fabe816f41730b511050aba702688466765fd
   languageName: node
   linkType: hard
 
@@ -15623,15 +15616,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-paths@npm:^3.14.1":
-  version: 3.14.1
-  resolution: "tsconfig-paths@npm:3.14.1"
+"tsconfig-paths@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "tsconfig-paths@npm:4.0.0"
   dependencies:
-    "@types/json5": "npm:^0.0.29"
-    json5: "npm:^1.0.1"
+    json5: "npm:^2.2.1"
     minimist: "npm:^1.2.6"
     strip-bom: "npm:^3.0.0"
-  checksum: 7f856252e523597e8fc3234b2f992d6d76a807793cb59bd2d924db9beb2594bfe7a18ee93898088733cb55b1cce4be306924a5da5f760eff137d4c2d7bf85fad
+  checksum: 2fcff3f94ad5116353e17a02bba243f0ebf1b8e90a8fb09d95df08d701abfa8a17e8d2a80472661bb2f8b1a8ef09ccaa63028deaac13da56f1c2b7314c0d4ba8
   languageName: node
   linkType: hard
 
