@@ -11,11 +11,8 @@ require("@babel/register")({
 });
 
 require("tsconfig-paths").register({
-  // https://github.com/dividab/tsconfig-paths/issues/101
-  paths: Object.fromEntries(
-    Object.entries(utils.getPaths()).map(([key, [value]]) => {
-      return [key, [path.relative(path.resolve("."), value)]];
-    }),
-  ),
+  // https://github.com/dividab/tsconfig-paths/issues/143
+  baseUrl: ".",
+  paths: utils.getPaths(),
   addMatchAll: false,
 });
