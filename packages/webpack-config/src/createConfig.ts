@@ -1,4 +1,3 @@
-import type { Configuration } from "webpack";
 import { DefinePlugin } from "webpack";
 import type { ProxyConfigArray, ProxyConfigMap } from "webpack-dev-server";
 import { merge } from "webpack-merge";
@@ -11,7 +10,7 @@ const createConfig = ({
 }: {
   env?: Record<string, string | undefined>;
   proxy?: ProxyConfigMap | ProxyConfigArray;
-} = {}): Configuration => {
+} = {}) => {
   return merge(config, {
     plugins: [
       new DefinePlugin(

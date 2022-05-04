@@ -8,7 +8,7 @@ import { getPackageBin } from "../../utils/getPackageBin";
 class LibBuildCommand extends Command {
   static override paths = [["lib", "build"]];
 
-  async execute(): Promise<void> {
+  async execute() {
     await execute({
       path: getPackageBin("@babel/cli", "babel"),
       args: [

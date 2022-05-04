@@ -8,7 +8,7 @@ import { removeDirectory } from "../../utils/removeDirectory";
 class AppCleanCommand extends Command {
   static override paths = [["app", "clean"]];
 
-  async execute(): Promise<void> {
+  async execute() {
     await execute({
       path: getPackageBin("typescript", "tsc"),
       args: ["--build", "--clean", path.resolve("./tsconfig.json")],

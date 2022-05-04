@@ -17,7 +17,7 @@ export const features = {
   storyStoreV7: process.env.STORYBOOK_STORE_V7 === "true",
 };
 
-export const webpackFinal = (defaultConfig: Configuration): Configuration => {
+export const webpackFinal = (defaultConfig: Configuration) => {
   return createStorybookConfig(defaultConfig, {
     env: Object.fromEntries(
       Object.entries(process.env).filter(([key]) => {

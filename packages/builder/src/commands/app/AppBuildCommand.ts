@@ -10,7 +10,7 @@ class AppBuildCommand extends Command {
 
   args = Option.Proxy();
 
-  async execute(): Promise<void> {
+  async execute() {
     await execute({
       path: getPackageBin("webpack-cli"),
       args: ["build", ["--config", paths.webpackConfig], this.args].flat(),

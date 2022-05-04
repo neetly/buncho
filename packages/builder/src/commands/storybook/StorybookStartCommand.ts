@@ -12,7 +12,7 @@ class StorybookStartCommand extends Command {
   port = Option.String("--port");
   args = Option.Proxy();
 
-  async execute(): Promise<void> {
+  async execute() {
     await execute({
       path: getPackageBin("@storybook/react", "start-storybook"),
       args: [

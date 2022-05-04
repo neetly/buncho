@@ -10,7 +10,7 @@ class StorybookBuildCommand extends Command {
 
   args = Option.Proxy();
 
-  async execute(): Promise<void> {
+  async execute() {
     await execute({
       path: getPackageBin("@storybook/react", "build-storybook"),
       args: [["--config-dir", paths.storybookConfigDir], this.args].flat(),

@@ -8,7 +8,7 @@ import { removeDirectory } from "../../utils/removeDirectory";
 class StorybookCleanCommand extends Command {
   static override paths = [["storybook", "clean"]];
 
-  async execute(): Promise<void> {
+  async execute() {
     await execute({
       path: getPackageBin("typescript", "tsc"),
       args: ["--build", "--clean", path.resolve("./tsconfig.json")],

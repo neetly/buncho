@@ -8,8 +8,8 @@ const execute = ({
   path: string;
   args: string[];
   env?: Record<string, string | undefined>;
-}): Promise<void> => {
-  return new Promise((resolve, reject) => {
+}) => {
+  return new Promise<void>((resolve, reject) => {
     const subprocess = fork(path, args, {
       stdio: "inherit",
       env: { ...process.env, ...env },

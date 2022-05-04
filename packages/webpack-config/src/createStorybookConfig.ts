@@ -72,7 +72,7 @@ const createStorybookConfig = (
   }: {
     env?: Record<string, string | undefined>;
   } = {},
-): Configuration => {
+) => {
   return merge(mergeConfig(defaultConfig, config), {
     plugins: [
       new DefinePlugin(

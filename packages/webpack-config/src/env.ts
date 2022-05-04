@@ -4,7 +4,7 @@ import path from "path";
 
 import { EXTENSIONS } from "./constants";
 
-const resolveEntry = (name: string): string | null => {
+const resolveEntry = (name: string) => {
   for (const extension of EXTENSIONS) {
     const file = path.resolve(`./src/${name}${extension}`);
     if (fs.existsSync(file)) return file;
