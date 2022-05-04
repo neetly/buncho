@@ -1,3 +1,4 @@
+const path = require("path");
 const utils = require("@buncho/utils");
 
 const hasBabelConfig = utils.hasBabelConfig();
@@ -10,6 +11,11 @@ require("@babel/register")({
 });
 
 require("tsconfig-paths").register({
-  paths: utils.getPaths(),
+  // https://github.com/dividab/tsconfig-paths/issues/101
+  paths: Object.fromEntries(
+    Object.entries(utils.getPaths()).map(([key, [value]]) => {
+      return [key, [path.relative(path.resolve("."), value)]];
+    }),
+  ),
   addMatchAll: false,
 });
