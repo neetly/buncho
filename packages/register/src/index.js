@@ -1,4 +1,3 @@
-const path = require("path");
 const utils = require("@buncho/utils");
 
 const hasBabelConfig = utils.hasBabelConfig();
