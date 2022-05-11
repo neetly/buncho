@@ -1757,7 +1757,7 @@ __metadata:
     "@babel/core": "npm:^7.17.10"
     "@buncho/babel-preset": "workspace:packages/babel-preset"
     "@buncho/utils": "workspace:packages/utils"
-    "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.5"
+    "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.6"
     "@svgr/webpack": "npm:^6.2.1"
     "@types/babel__core": "npm:^7.1.19"
     "@types/mime-types": "npm:^2.1.1"
@@ -2250,9 +2250,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.1, @pmmmwh/react-refresh-webpack-plugin@npm:^0.5.5":
-  version: 0.5.5
-  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.5"
+"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.1, @pmmmwh/react-refresh-webpack-plugin@npm:^0.5.6":
+  version: 0.5.6
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.6"
   dependencies:
     ansi-html-community: "npm:^0.0.8"
     common-path-prefix: "npm:^3.0.0"
@@ -2285,7 +2285,7 @@ __metadata:
       optional: true
     webpack-plugin-serve:
       optional: true
-  checksum: e3b7fb63ad5029816b391d294629a904671286ab3cf427a219ac4970d6efa0a4ed043893d0757d95b64390ac17d30b5903f8cff24fb0e68301540f222487b754
+  checksum: c9e2a78b505f50dd55016dfbaa03004692f2a37c96e9f927f4478dfd7fdb3e0889065424b005857b32766882668fa8e793026c951befe11f1a42d32bc584bd4a
   languageName: node
   linkType: hard
 

@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@buncho/utils": "workspace:packages/utils",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.6",
     "@svgr/webpack": "^6.2.1",
     "@types/mime-types": "^2.1.1",
     "@types/workbox-webpack-plugin": "^5.1.8",
