@@ -1795,7 +1795,7 @@ __metadata:
     style-loader: "npm:^3.3.1"
     svgo-loader: "npm:^3.0.0"
     terser-webpack-plugin: "npm:^5.3.1"
-    type-fest: "npm:^2.12.2"
+    type-fest: "npm:^2.13.0"
     webpack: "npm:^5.72.1"
     webpack-dev-server: "npm:^4.9.0"
     webpack-merge: "npm:^5.8.0"
@@ -15478,10 +15478,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^2.12.2":
-  version: 2.12.2
-  resolution: "type-fest@npm:2.12.2"
-  checksum: cacafa88cc3d65aae787da64458394f040b39350ddd6dc46505dfdaa30f0501620c396cbd2b00cfb1a71f7aeb8350b86907078df1646880235a08ebb13ffa965
+"type-fest@npm:^2.13.0":
+  version: 2.13.0
+  resolution: "type-fest@npm:2.13.0"
+  checksum: 3e31caf279c1f60d3d6ce7f5c2029b345c4ec817a5ed8b360e3f3764d288b1ef152dd1db0f4a9b842c1ba60b7c9a920d9dcf48cb0de2e81def77b89322645d3a
   languageName: node
   linkType: hard
 
