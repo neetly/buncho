@@ -1647,7 +1647,7 @@ __metadata:
     cosmiconfig: "npm:^7.0.1"
     react: "npm:^18.1.0"
     react-dom: "npm:^18.1.0"
-    webpack: "npm:^5.72.1"
+    webpack: "npm:^5.73.0"
     webpack-cli: "npm:^4.9.2"
     webpack-dev-server: "npm:^4.9.1"
   peerDependencies:
@@ -1794,7 +1794,7 @@ __metadata:
     svgo-loader: "npm:^3.0.0"
     terser-webpack-plugin: "npm:^5.3.1"
     type-fest: "npm:^2.13.0"
-    webpack: "npm:^5.72.1"
+    webpack: "npm:^5.73.0"
     webpack-dev-server: "npm:^4.9.1"
     webpack-merge: "npm:^5.8.0"
     workbox-webpack-plugin: "npm:^6.5.3"
@@ -16278,9 +16278,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:>=4.43.0 <6.0.0, webpack@npm:^5.72.1, webpack@npm:^5.9.0":
-  version: 5.72.1
-  resolution: "webpack@npm:5.72.1"
+"webpack@npm:>=4.43.0 <6.0.0, webpack@npm:^5.73.0, webpack@npm:^5.9.0":
+  version: 5.73.0
+  resolution: "webpack@npm:5.73.0"
   dependencies:
     "@types/eslint-scope": "npm:^3.7.3"
     "@types/estree": "npm:^0.0.51"
@@ -16311,7 +16311,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 82ea1fdc8ec9cf8c5576ea2e9589aa46fa7e0e15e24bceb934cd5da137af6304639b240c4772fc2e75952a392fc80ac2bf7fbc87537420da0985696ab71d1935
+  checksum: d661fc895bcf746fcfbf60674f2f96e13e5158ac663557d1f3d4c91f757d427888577de408d2f7fb73150e317e178c65f274fc892c1c0c20adeddec9920172a7
   languageName: node
   linkType: hard
 
