@@ -16,7 +16,3 @@ $ npx degit neetly/app-template#main
 - First-class TypeScript support.
 - Built-in monorepo & project references support.
 - Fully customizable without ejecting.
-
-## License
-
-MIT License.
