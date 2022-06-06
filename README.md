@@ -1,6 +1,6 @@
 # Buncho
 
-![CI](https://github.com/neetly/buncho/workflows/CI/badge.svg)
+[![CI](https://github.com/neetly/buncho/actions/workflows/ci.yml/badge.svg)](https://github.com/neetly/buncho/actions/workflows/ci.yml)
 
 Opinionated front-end build system.
 
