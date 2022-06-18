@@ -1783,7 +1783,7 @@ __metadata:
     fork-ts-checker-webpack-plugin: "npm:^7.2.11"
     html-webpack-plugin: "npm:^5.5.0"
     mime-types: "npm:^2.1.35"
-    mini-css-extract-plugin: "npm:^2.6.0"
+    mini-css-extract-plugin: "npm:^2.6.1"
     postcss: "npm:^8.4.14"
     postcss-loader: "npm:^7.0.0"
     react-refresh: "npm:^0.14.0"
@@ -11207,14 +11207,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:^2.6.0":
-  version: 2.6.0
-  resolution: "mini-css-extract-plugin@npm:2.6.0"
+"mini-css-extract-plugin@npm:^2.6.1":
+  version: 2.6.1
+  resolution: "mini-css-extract-plugin@npm:2.6.1"
   dependencies:
     schema-utils: "npm:^4.0.0"
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 52bc67784633ee0295df1d983429a92e93e6683183eec086daffa7aa7e13fe456d87b35f655e8725c4e2fb01711b0017db9864f11be870e8fb9cb9bcd64a99a9
+  checksum: 287625748e019d038e8c8fd1790a7d33d4827fd49e080b7c47c57076ff6149b3f279cdfc451c0a7491e9a879b04b7ed3eb42b0a64da133a11811ff8387d92c45
   languageName: node
   linkType: hard
 
