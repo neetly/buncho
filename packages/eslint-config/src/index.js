@@ -46,6 +46,7 @@ module.exports = {
         requireConfigFile: false,
       },
 
+      plugins: ["simple-import-sort"],
       extends: [
         "eslint:recommended",
         require.resolve("eslint-config-prettier"),
@@ -54,6 +55,8 @@ module.exports = {
       rules: {
         "no-undef": "off",
         eqeqeq: "error",
+        "simple-import-sort/imports": "warn",
+        "simple-import-sort/exports": "warn",
       },
     },
   ],
