@@ -1788,7 +1788,7 @@ __metadata:
     mime-types: "npm:^2.1.35"
     mini-css-extract-plugin: "npm:^2.6.1"
     postcss: "npm:^8.4.14"
-    postcss-loader: "npm:^7.0.0"
+    postcss-loader: "npm:^7.0.1"
     react-refresh: "npm:^0.14.0"
     resolve-url-loader: "npm:^5.0.0"
     sass: "npm:^1.53.0"
@@ -12518,9 +12518,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "postcss-loader@npm:7.0.0"
+"postcss-loader@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "postcss-loader@npm:7.0.1"
   dependencies:
     cosmiconfig: "npm:^7.0.0"
     klona: "npm:^2.0.5"
@@ -12528,7 +12528,7 @@ __metadata:
   peerDependencies:
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^5.0.0
-  checksum: 0ebc9df2a5f742157a94521301cede5954eb189bc4dcf201de341fcc377e141677fb362061d2bb135ecf43b0bd0e6903d5cd98cf62f78e37e079c58ce51d75f8
+  checksum: c04ff7d9fa78c11c763e08cff1e5087d8e066bd925aac1b61733646748a3a1be0803ec27c039aa0deee2de3b14aa4c2e45f55ef3da7fd55cda7c00e4ce16c971
   languageName: node
   linkType: hard
 
