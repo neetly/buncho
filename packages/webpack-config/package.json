@@ -28,7 +28,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
-    "fork-ts-checker-webpack-plugin": "^7.2.12",
+    "fork-ts-checker-webpack-plugin": "^7.2.13",
     "html-webpack-plugin": "^5.5.0",
     "mime-types": "^2.1.35",
     "mini-css-extract-plugin": "^2.6.1",
