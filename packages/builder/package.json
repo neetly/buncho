@@ -26,8 +26,8 @@
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {
-    "@babel/cli": "^7.18.6",
-    "@babel/core": "^7.18.6",
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
     "@buncho/babel-preset": "workspace:packages/babel-preset",
     "@buncho/dotenv": "workspace:packages/dotenv",
     "@buncho/register": "workspace:packages/register",
