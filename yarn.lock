@@ -1801,7 +1801,7 @@ __metadata:
     sass-loader: "npm:^13.0.2"
     style-loader: "npm:^3.3.1"
     svgo-loader: "npm:^3.0.1"
-    terser-webpack-plugin: "npm:^5.3.3"
+    terser-webpack-plugin: "npm:^5.3.4"
     type-fest: "npm:^2.18.0"
     webpack: "npm:^5.74.0"
     webpack-dev-server: "npm:^4.9.3"
@@ -1967,7 +1967,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/gen-mapping@npm:^0.3.2":
+"@jridgewell/gen-mapping@npm:^0.3.0, @jridgewell/gen-mapping@npm:^0.3.2":
   version: 0.3.2
   resolution: "@jridgewell/gen-mapping@npm:0.3.2"
   dependencies:
@@ -1992,6 +1992,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jridgewell/source-map@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@jridgewell/source-map@npm:0.3.2"
+  dependencies:
+    "@jridgewell/gen-mapping": "npm:^0.3.0"
+    "@jridgewell/trace-mapping": "npm:^0.3.9"
+  checksum: 66bb5d5cac95793717fea6cfe45c02c0e493f39c320cdaee030a39de033a961cfcb2f5bf105150eb8fada65b6654e72e33efae35349fbaca897414a17c984c34
+  languageName: node
+  linkType: hard
+
 "@jridgewell/sourcemap-codec@npm:^1.4.10":
   version: 1.4.11
   resolution: "@jridgewell/sourcemap-codec@npm:1.4.11"
@@ -1999,13 +2009,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.3.0, @jridgewell/trace-mapping@npm:^0.3.7, @jridgewell/trace-mapping@npm:^0.3.8, @jridgewell/trace-mapping@npm:^0.3.9":
-  version: 0.3.13
-  resolution: "@jridgewell/trace-mapping@npm:0.3.13"
+"@jridgewell/trace-mapping@npm:^0.3.0, @jridgewell/trace-mapping@npm:^0.3.14, @jridgewell/trace-mapping@npm:^0.3.8, @jridgewell/trace-mapping@npm:^0.3.9":
+  version: 0.3.15
+  resolution: "@jridgewell/trace-mapping@npm:0.3.15"
   dependencies:
     "@jridgewell/resolve-uri": "npm:^3.0.3"
     "@jridgewell/sourcemap-codec": "npm:^1.4.10"
-  checksum: 771b0ff7dc06d1e9cf2e74390f4a75f00cc6ad2e6dca46b78bcfec5768444e1ce1e195ceb9fdd3ea1ed4bbf881fcacbde8c55d690d4403a1774cbe0b88b4f3a2
+  checksum: a11b95f877537f116c1a2297ad712df69a8928f33076cfc95702cfbb53854e370a6e62447f12f9c495b40ba92b0c0eed6ab18eaf2e7cae7e62d30ffb7975d30b
   languageName: node
   linkType: hard
 
@@ -14476,7 +14486,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.7.3, source-map@npm:~0.7.2":
+"source-map@npm:^0.7.3":
   version: 0.7.3
   resolution: "source-map@npm:0.7.3"
   checksum: 5a00dce8ee0de43b5218608798422304d30f86ee551d8896b638606ceea90712323af12c52b6728e72214be8548c5c4bf230dca85bbbd03756b038b91c992d3e
@@ -15110,15 +15120,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.3, terser-webpack-plugin@npm:^5.3.3":
-  version: 5.3.3
-  resolution: "terser-webpack-plugin@npm:5.3.3"
+"terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.3, terser-webpack-plugin@npm:^5.3.4":
+  version: 5.3.4
+  resolution: "terser-webpack-plugin@npm:5.3.4"
   dependencies:
-    "@jridgewell/trace-mapping": "npm:^0.3.7"
+    "@jridgewell/trace-mapping": "npm:^0.3.14"
     jest-worker: "npm:^27.4.5"
     schema-utils: "npm:^3.1.1"
     serialize-javascript: "npm:^6.0.0"
-    terser: "npm:^5.7.2"
+    terser: "npm:^5.14.1"
   peerDependencies:
     webpack: ^5.1.0
   peerDependenciesMeta:
@@ -15128,7 +15138,7 @@ __metadata:
       optional: true
     uglify-js:
       optional: true
-  checksum: 375428be9fed4791cc920fe98301101bf6a1da57e6a6f15963dede94f9c250959e29da2f858e2a9ff54c4a3dd938bd4bc8842d5cb303f62ae2b61c8104a2507c
+  checksum: da5660244d17ca1e36dedebbe895f64170095ef11a3231c0638f3c79e0ea3986ee363d213da4580735ca129990492e965da566b8afa0618337c2d17e459b1768
   languageName: node
   linkType: hard
 
@@ -15145,21 +15155,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.0.0, terser@npm:^5.10.0, terser@npm:^5.3.4, terser@npm:^5.7.2":
-  version: 5.10.0
-  resolution: "terser@npm:5.10.0"
+"terser@npm:^5.0.0, terser@npm:^5.10.0, terser@npm:^5.14.1, terser@npm:^5.3.4":
+  version: 5.14.2
+  resolution: "terser@npm:5.14.2"
   dependencies:
+    "@jridgewell/source-map": "npm:^0.3.2"
+    acorn: "npm:^8.5.0"
     commander: "npm:^2.20.0"
-    source-map: "npm:~0.7.2"
     source-map-support: "npm:~0.5.20"
-  peerDependencies:
-    acorn: ^8.5.0
-  peerDependenciesMeta:
-    acorn:
-      optional: true
   bin:
     terser: bin/terser
-  checksum: 504725b86a3bef183e1db2268b68c88d56efa932c162bcc7e24a0c71fbcfec4bfc6ff8ad302488d30d610c8a01940d7590189c586103d8a5bd60a5509c9c36c3
+  checksum: d704a8df5e9a4b866e8416af4fd2dd060051ed8060d0b484658e10df470a9c0497f6e69126d56dd59655d247412fdd808611eac320c67301a2863766fb602167
   languageName: node
   linkType: hard
 
