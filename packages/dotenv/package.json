@@ -20,6 +20,6 @@
   "dependencies": {
     "cosmiconfig": "^7.0.1",
     "dotenv": "^16.0.2",
-    "dotenv-expand": "^8.0.3"
+    "dotenv-expand": "^9.0.0"
   }
 }
