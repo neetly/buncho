@@ -1687,7 +1687,7 @@ __metadata:
   dependencies:
     cosmiconfig: "npm:^7.0.1"
     dotenv: "npm:^16.0.2"
-    dotenv-expand: "npm:^8.0.3"
+    dotenv-expand: "npm:^9.0.0"
   languageName: unknown
   linkType: soft
 
@@ -7315,10 +7315,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-expand@npm:^8.0.3":
-  version: 8.0.3
-  resolution: "dotenv-expand@npm:8.0.3"
-  checksum: 8861e588d50a81f155ae67dde4b22caba01eb7b87c20d6eecb5d9d7de0682fddfbc4357de5345e2e1efd94909d978d6af33125f39dec6de609a5dc472f8dbb68
+"dotenv-expand@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "dotenv-expand@npm:9.0.0"
+  checksum: be5569f785d9eabe655beb947cce8bb39b45f7788cea09ad4f68157aea71addaf07f8e7f07cf1458d5504e76ffe65a4f7124f109a0315a766387d2039a499992
   languageName: node
   linkType: hard
 
