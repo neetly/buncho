@@ -1703,7 +1703,7 @@ __metadata:
     eslint-config-prettier: "npm:^8.5.0"
     eslint-plugin-react: "npm:^7.31.1"
     eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-simple-import-sort: "npm:^7.0.0"
+    eslint-plugin-simple-import-sort: "npm:^8.0.0"
     eslint-plugin-storybook: "npm:^0.6.4"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": "*"
@@ -7712,12 +7712,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-simple-import-sort@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "eslint-plugin-simple-import-sort@npm:7.0.0"
+"eslint-plugin-simple-import-sort@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "eslint-plugin-simple-import-sort@npm:8.0.0"
   peerDependencies:
     eslint: ">=5.0.0"
-  checksum: d21380bfe5456fccc607aa43d4ee3888ba948946c513ef1e66cbe670a783d1e38f3a28e4f87b5dd051939379cd80416ed59cae957f9ddd6704de5d91e2bee7a8
+  checksum: 0b0e4f8aa74199d54df26a9fa1d95fc6f7570dcce8327865d6d80ea7ca2ccb06cecab66b48f6b50f8051038b6d866e9edd5ee7e136cbe717ffc1c64a4631b44d
   languageName: node
   linkType: hard
 
