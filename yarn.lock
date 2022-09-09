@@ -1788,7 +1788,7 @@ __metadata:
     babel-loader: "npm:^8.2.5"
     copy-webpack-plugin: "npm:^11.0.0"
     css-loader: "npm:^6.7.1"
-    css-minimizer-webpack-plugin: "npm:^4.0.0"
+    css-minimizer-webpack-plugin: "npm:^4.1.0"
     fork-ts-checker-webpack-plugin: "npm:^7.2.13"
     html-webpack-plugin: "npm:^5.5.0"
     mime-types: "npm:^2.1.35"
@@ -6810,9 +6810,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-minimizer-webpack-plugin@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "css-minimizer-webpack-plugin@npm:4.0.0"
+"css-minimizer-webpack-plugin@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "css-minimizer-webpack-plugin@npm:4.1.0"
   dependencies:
     cssnano: "npm:^5.1.8"
     jest-worker: "npm:^27.5.1"
@@ -6831,7 +6831,9 @@ __metadata:
       optional: true
     esbuild:
       optional: true
-  checksum: d282910535f6a4125886fa45cdcec8eceba6fb2007707c80ddc8ded8fe0ffee135dfa8aea189aa6d7607348c76e89b93c05506f1471ac0fc4b90aaaf99c6e10c
+    lightningcss:
+      optional: true
+  checksum: adca253754814de37c0ed912f2a4decda6f011ce8f3e202decdcc9e12bfed75fbdf203afd03e73e6e7a4bbf624121e173bc6ae9c4bb98dc0322f7fcba2001bd3
   languageName: node
   linkType: hard
 
