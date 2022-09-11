@@ -3,5 +3,9 @@
   "extends": [
     "@neetly/eslint-config",
     "@neetly/eslint-config/experimental-project-references"
-  ]
+  ],
+
+  "env": {
+    "node": true
+  }
 }
