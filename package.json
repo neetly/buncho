@@ -1,0 +1,27 @@
+{
+  "name": "buncho",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
+  "homepage": "https://github.com/neetly/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:neetly/buncho.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --max-warnings 0 . && prettier --check .",
+    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
+  },
+  "devDependencies": {
+    "@neetly/eslint-config": "^0.1.1",
+    "@neetly/tsconfig": "^0.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "packageManager": "yarn@4.0.0-rc.22"
+}
