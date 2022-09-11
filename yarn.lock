@@ -1702,7 +1702,7 @@ __metadata:
   dependencies:
     "@buncho/builder": "workspace:^"
     "@neetly/eslint-config": "npm:^0.1.1"
-    "@neetly/tsconfig": "npm:^0.1.1"
+    "@neetly/tsconfig": "npm:^0.1.2"
     "@prettier/plugin-xml": "npm:^2.2.0"
     "@typescript-eslint/eslint-plugin": "npm:^5.36.2"
     "@typescript-eslint/parser": "npm:^5.36.2"
@@ -2060,12 +2060,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/tsconfig@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@neetly/tsconfig@npm:0.1.1"
+"@neetly/tsconfig@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@neetly/tsconfig@npm:0.1.2"
   peerDependencies:
     typescript: "*"
-  checksum: f92f29240fa97293f25060e8ee6b61688bc47632d004ac5c8d00076d35ad318dff94e872eabefb55d10098eb75d61f5bc3fef25674dd935aadbaa13748fbd488
+  checksum: 639d3f405cdde8f1fa3c4f7ebca79c63e3c7afcf187ce9084fd7e4e13378bf008a30c37f4ba0603f882365317f0bdc3e80f9bf436eaeb453851a44fdc99fd506
   languageName: node
   linkType: hard
 
