@@ -5,7 +5,12 @@
     "@neetly/eslint-config/experimental-project-references"
   ],
 
-  "env": {
-    "node": true
-  }
+  "overrides": [
+    {
+      "files": ["**/*.{js,mjs,cjs}"],
+      "env": {
+        "node": true
+      }
+    }
+  ]
 }

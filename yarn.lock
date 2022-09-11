@@ -1701,7 +1701,7 @@ __metadata:
   resolution: "@buncho/repo@workspace:."
   dependencies:
     "@buncho/builder": "workspace:^"
-    "@neetly/eslint-config": "npm:^0.1.0"
+    "@neetly/eslint-config": "npm:^0.1.1"
     "@neetly/tsconfig": "npm:^0.1.1"
     "@prettier/plugin-xml": "npm:^2.2.0"
     "@typescript-eslint/eslint-plugin": "npm:^5.36.2"
@@ -2043,12 +2043,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/eslint-config@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@neetly/eslint-config@npm:0.1.0"
+"@neetly/eslint-config@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@neetly/eslint-config@npm:0.1.1"
   dependencies:
     "@rushstack/eslint-patch": "npm:^1.1.4"
-    eslint-plugin-react: "npm:^7.31.4"
+    eslint-plugin-react: "npm:^7.31.8"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-simple-import-sort: "npm:^8.0.0"
   peerDependencies:
@@ -2056,7 +2056,7 @@ __metadata:
     "@typescript-eslint/parser": "*"
     eslint: "*"
     typescript: "*"
-  checksum: 7e23ef16dd95df14f28cd039ea84c0432dcbf3b7355911fd382828126ea864a479596266a9f3ce417f82371608684a27588b88c463e47d3d3c9ca2da16d38979
+  checksum: b58d05673a6c0175f33acd87b7e3328c7eccdb475d399197469126c848bc571f99eebfe0962a34e59637b26d67fe3a6d7b5534c39fb7b6c7a34afeac1d248464
   languageName: node
   linkType: hard
 
@@ -7581,7 +7581,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.31.4":
+"eslint-plugin-react@npm:^7.31.8":
   version: 7.31.8
   resolution: "eslint-plugin-react@npm:7.31.8"
   dependencies:
