@@ -18,9 +18,9 @@
     "publish": "yarn workspaces foreach --verbose --no-private npm publish --tolerate-republish"
   },
   "devDependencies": {
-    "@buncho/builder": "workspace:packages/builder",
-    "@buncho/eslint-config": "workspace:packages/eslint-config",
-    "@buncho/tsconfig": "workspace:packages/tsconfig",
+    "@buncho/builder": "workspace:^",
+    "@neetly/eslint-config": "^0.1.0",
+    "@neetly/tsconfig": "^0.1.1",
     "@prettier/plugin-xml": "^2.2.0",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",

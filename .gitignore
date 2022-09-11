@@ -1,27 +1,11 @@
-# npm
-
-/node_modules/
-/packages/*/node_modules/
-
 # Yarn
 
-/.yarn/*
-!/.yarn/releases/
-!/.yarn/plugins/
-
+**/node_modules/
+/.yarn/
 /.pnp.*
-
-# dotenv
-
-/packages/*/.env.local
-/packages/*/.env.*.local
 
 # Artifacts
 
-/packages/*/package.tgz
-/packages/*/LICENSE
-/packages/*/tsconfig.tsbuildinfo
-/packages/*/types/tsconfig.tsbuildinfo
+**/*.tsbuildinfo
 /packages/*/lib/
-/packages/*/build/
-/packages/*/storybook-static/
+/packages/*/LICENSE

@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@babel/register": "^7.18.9",
-    "@buncho/utils": "workspace:packages/utils",
+    "@buncho/utils": "workspace:^",
     "tsconfig-paths": "^4.1.0"
   },
   "peerDependencies": {
@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.0",
-    "@buncho/babel-preset": "workspace:packages/babel-preset"
+    "@buncho/babel-preset": "workspace:^"
   }
 }

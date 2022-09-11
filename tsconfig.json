@@ -1,3 +1,5 @@
 {
-  "extends": "@buncho/tsconfig"
+  "extends": "@neetly/tsconfig",
+
+  "references": []
 }
