@@ -1703,7 +1703,6 @@ __metadata:
     "@buncho/builder": "workspace:^"
     "@neetly/eslint-config": "npm:^0.1.1"
     "@neetly/tsconfig": "npm:^0.1.2"
-    "@prettier/plugin-xml": "npm:^2.2.0"
     "@typescript-eslint/eslint-plugin": "npm:^5.36.2"
     "@typescript-eslint/parser": "npm:^5.36.2"
     eslint: "npm:^8.23.0"
@@ -2166,16 +2165,6 @@ __metadata:
     webpack-plugin-serve:
       optional: true
   checksum: c92917d83f6350365ded4d5d43fd3b76723248c4ae295c833e6220556d82a1596b7c9f3f38ac8da304d2096042700e4d1f74561b9f3a8494151a6fcec0a4d9db
-  languageName: node
-  linkType: hard
-
-"@prettier/plugin-xml@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@prettier/plugin-xml@npm:2.2.0"
-  dependencies:
-    "@xml-tools/parser": "npm:^1.0.11"
-    prettier: "npm:>=2.4.0"
-  checksum: a8c63004dbc02d1aa98134a716940a0895a0acb0ae017daf33038043f1b0aed390fc705058baa1e6040945f8f0707361c21ba5a2687dc69266e28bd5923fcef4
   languageName: node
   linkType: hard
 
@@ -4607,15 +4596,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xml-tools/parser@npm:^1.0.11":
-  version: 1.0.11
-  resolution: "@xml-tools/parser@npm:1.0.11"
-  dependencies:
-    chevrotain: "npm:7.1.1"
-  checksum: 6b44f60f577246fc86712f5860199f8cae535d29c8c373df9afb1520a2f30c26f15e81edf35d8753453a5b26f8e9afc9fe397229ed2b5aee2f945e171c601678
-  languageName: node
-  linkType: hard
-
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"
@@ -5975,15 +5955,6 @@ __metadata:
   version: 1.1.4
   resolution: "character-reference-invalid@npm:1.1.4"
   checksum: 8bb53c9d93c05ad35789e7c261008f0265783dd7a53e8a347a285112335ede5ba6b1dc859ee1d5af79b5da7f2bb40ed487a5aa178c80f8ad141275a584667e11
-  languageName: node
-  linkType: hard
-
-"chevrotain@npm:7.1.1":
-  version: 7.1.1
-  resolution: "chevrotain@npm:7.1.1"
-  dependencies:
-    regexp-to-ast: "npm:0.5.0"
-  checksum: de637cc532d35da271a8b4cf95e2b176d53fbeb7782509ac68996a7c2f4dc4862c1b8309e966e35fc5d73267c8a0e7f53bbde88e6f63e83db0dc05c95d388971
   languageName: node
   linkType: hard
 
@@ -12795,7 +12766,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:>=2.4.0, prettier@npm:^2.7.1":
+"prettier@npm:^2.7.1":
   version: 2.7.1
   resolution: "prettier@npm:2.7.1"
   bin:
@@ -13368,13 +13339,6 @@ __metadata:
   version: 2.2.11
   resolution: "regex-parser@npm:2.2.11"
   checksum: 8dfe92f10e72dad3f283619f5a96c559e3efbed49e7613bb7be44840e70b6054a39e9a92d6ed891fee946ab6a7409244fb76fe6ba0bf2179985e10f174e4f832
-  languageName: node
-  linkType: hard
-
-"regexp-to-ast@npm:0.5.0":
-  version: 0.5.0
-  resolution: "regexp-to-ast@npm:0.5.0"
-  checksum: 7f03ab05187a8e2bece21ef75ea844cf280202fc011e91408d109ea02f324d1662757f5a746ab68716606bb582e9490af4bf9ebece5f3200737fb99ac3132efc
   languageName: node
   linkType: hard
 

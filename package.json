@@ -21,7 +21,6 @@
     "@buncho/builder": "workspace:^",
     "@neetly/eslint-config": "^0.1.1",
     "@neetly/tsconfig": "^0.1.2",
-    "@prettier/plugin-xml": "^2.2.0",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
     "eslint": "^8.23.0",
