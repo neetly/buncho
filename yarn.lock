@@ -1740,7 +1740,7 @@ __metadata:
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^17.0.23"
     "@types/workbox-webpack-plugin": "npm:^5.1.8"
-    autoprefixer: "npm:^10.4.9"
+    autoprefixer: "npm:^10.4.10"
     babel-loader: "npm:^8.2.5"
     copy-webpack-plugin: "npm:^11.0.0"
     css-loader: "npm:^6.7.1"
@@ -5156,12 +5156,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.9":
-  version: 10.4.9
-  resolution: "autoprefixer@npm:10.4.9"
+"autoprefixer@npm:^10.4.10":
+  version: 10.4.10
+  resolution: "autoprefixer@npm:10.4.10"
   dependencies:
     browserslist: "npm:^4.21.3"
-    caniuse-lite: "npm:^1.0.30001394"
+    caniuse-lite: "npm:^1.0.30001399"
     fraction.js: "npm:^4.2.0"
     normalize-range: "npm:^0.1.2"
     picocolors: "npm:^1.0.0"
@@ -5170,7 +5170,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 6ea4768a9761fb0defe0852f07d22836791758e4616eb1fa684fe2e700ff11d8d6d18d1dc60005e1373c0b427ec4f57d04a640bbd044e2ca7f794c711569356f
+  checksum: a2538cddfd836610b3037b316c1d8e643af525c7d8908ff0bddecbb88c8c2c3379a3f283d551cbad0ec5dcbc991a9ddb6de8608f57ae159050fae89e7f616c95
   languageName: node
   linkType: hard
 
@@ -5886,10 +5886,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001370, caniuse-lite@npm:^1.0.30001394":
-  version: 1.0.30001396
-  resolution: "caniuse-lite@npm:1.0.30001396"
-  checksum: cd00acc61bff3d7d450c2c132b153cbf250a711279ed20b4059d9af93d7f2df20f50edb590af34b9c994b999f27b9f832a807642b3d5b9f972737452deda8ff9
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001370, caniuse-lite@npm:^1.0.30001399":
+  version: 1.0.30001399
+  resolution: "caniuse-lite@npm:1.0.30001399"
+  checksum: 3bef74244edad4ceb75e4ed59b280185672667743e65306b5e00b42394e2d4beb2493085594553044232c8674ad9198cf9c6aa1956067a74ce0e47477d07ebf4
   languageName: node
   linkType: hard
 
