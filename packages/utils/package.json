@@ -30,6 +30,6 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.19.0"
+    "@babel/core": "^7.19.3"
   }
 }
