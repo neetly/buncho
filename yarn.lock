@@ -1740,7 +1740,7 @@ __metadata:
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^17.0.23"
     "@types/workbox-webpack-plugin": "npm:^5.1.8"
-    autoprefixer: "npm:^10.4.10"
+    autoprefixer: "npm:^10.4.12"
     babel-loader: "npm:^8.2.5"
     copy-webpack-plugin: "npm:^11.0.0"
     css-loader: "npm:^6.7.1"
@@ -5155,12 +5155,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.10":
-  version: 10.4.10
-  resolution: "autoprefixer@npm:10.4.10"
+"autoprefixer@npm:^10.4.12":
+  version: 10.4.12
+  resolution: "autoprefixer@npm:10.4.12"
   dependencies:
-    browserslist: "npm:^4.21.3"
-    caniuse-lite: "npm:^1.0.30001399"
+    browserslist: "npm:^4.21.4"
+    caniuse-lite: "npm:^1.0.30001407"
     fraction.js: "npm:^4.2.0"
     normalize-range: "npm:^0.1.2"
     picocolors: "npm:^1.0.0"
@@ -5169,7 +5169,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: a2538cddfd836610b3037b316c1d8e643af525c7d8908ff0bddecbb88c8c2c3379a3f283d551cbad0ec5dcbc991a9ddb6de8608f57ae159050fae89e7f616c95
+  checksum: a13c3666500092555c7ef370162868f6553035f7a7ec45dd101733665d84c7c2e510a6c87ac9be046be0f34dc51124dac59eefc891fd1068f62f2b77cc9ff12c
   languageName: node
   linkType: hard
 
@@ -5885,10 +5885,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001399, caniuse-lite@npm:^1.0.30001400":
-  version: 1.0.30001412
-  resolution: "caniuse-lite@npm:1.0.30001412"
-  checksum: 80fb00eee589df54f958ddc3fc00ded52e7025d093bb0a1d4d27c62b47117ed1cd87dd3fe58da966be1bf7d4f99378bec96fb1d1294705c8346d6e22e965aa39
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001407":
+  version: 1.0.30001414
+  resolution: "caniuse-lite@npm:1.0.30001414"
+  checksum: 74e0f3fb558b91d723ac17abf5871db9fcdcf36913faea157fce537aee4d8ee30f5f52f41e36af6658c5eb7aac22d34832a5c3eb6e15b147d8ccf68ca6045fdc
   languageName: node
   linkType: hard
 
