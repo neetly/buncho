@@ -1673,7 +1673,7 @@ __metadata:
   resolution: "@buncho/dotenv@workspace:packages/dotenv"
   dependencies:
     cosmiconfig: "npm:^7.0.1"
-    dotenv: "npm:^16.0.2"
+    dotenv: "npm:^16.0.3"
     dotenv-expand: "npm:^9.0.0"
   languageName: unknown
   linkType: soft
@@ -7196,10 +7196,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.0.2":
-  version: 16.0.2
-  resolution: "dotenv@npm:16.0.2"
-  checksum: 5d6641fbee9e169fdea93c4952c9559230418d9de58ce7c9cb49ae8bca5445686fd8222f952a0b916baa1119eaa4be76d096c3db795395bbf3c0bb1c85e33f8c
+"dotenv@npm:^16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: abce82d99b45e2ebbd42625a78cadbfafe03072c15e6538b6a3a7ed204b6e091c0de929dd09231edc61f78afbdcd5b8a2f21b9e933e8ab27d75bee865a0e58c9
   languageName: node
   linkType: hard
 
