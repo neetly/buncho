@@ -1744,7 +1744,7 @@ __metadata:
     babel-loader: "npm:^8.2.5"
     copy-webpack-plugin: "npm:^11.0.0"
     css-loader: "npm:^6.7.1"
-    css-minimizer-webpack-plugin: "npm:^4.1.0"
+    css-minimizer-webpack-plugin: "npm:^4.2.0"
     fork-ts-checker-webpack-plugin: "npm:^7.2.13"
     html-webpack-plugin: "npm:^5.5.0"
     mime-types: "npm:^2.1.35"
@@ -6681,12 +6681,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-minimizer-webpack-plugin@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "css-minimizer-webpack-plugin@npm:4.1.0"
+"css-minimizer-webpack-plugin@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "css-minimizer-webpack-plugin@npm:4.2.0"
   dependencies:
     cssnano: "npm:^5.1.8"
-    jest-worker: "npm:^27.5.1"
+    jest-worker: "npm:^29.0.3"
     postcss: "npm:^8.4.13"
     schema-utils: "npm:^4.0.0"
     serialize-javascript: "npm:^6.0.0"
@@ -6696,6 +6696,8 @@ __metadata:
   peerDependenciesMeta:
     "@parcel/css":
       optional: true
+    "@swc/css":
+      optional: true
     clean-css:
       optional: true
     csso:
@@ -6704,7 +6706,7 @@ __metadata:
       optional: true
     lightningcss:
       optional: true
-  checksum: adca253754814de37c0ed912f2a4decda6f011ce8f3e202decdcc9e12bfed75fbdf203afd03e73e6e7a4bbf624121e173bc6ae9c4bb98dc0322f7fcba2001bd3
+  checksum: 8f19adaf2f71d907108a10728779ee7ebf67db6a27ba63f75bf37d48eaf78a60c8f0bf7fb3f54598c5e40cdd4ca9d9e14b6f12f73bc0adf8f04990fba19d429d
   languageName: node
   linkType: hard
 
@@ -10199,7 +10201,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-worker@npm:^27.4.5, jest-worker@npm:^27.5.1":
+"jest-worker@npm:^27.4.5":
   version: 27.5.1
   resolution: "jest-worker@npm:27.5.1"
   dependencies:
@@ -10207,6 +10209,17 @@ __metadata:
     merge-stream: "npm:^2.0.0"
     supports-color: "npm:^8.0.0"
   checksum: dc5167cc25813211fd1920be69c32c71afcb7b8bff117b87669cc445fdfdb086d84b61e4cdd69bf310705ec453354753930b4f64cf40b9d4f6f1e1c28c86543e
+  languageName: node
+  linkType: hard
+
+"jest-worker@npm:^29.0.3":
+  version: 29.1.0
+  resolution: "jest-worker@npm:29.1.0"
+  dependencies:
+    "@types/node": "npm:*"
+    merge-stream: "npm:^2.0.0"
+    supports-color: "npm:^8.0.0"
+  checksum: a1b90c59440ff7ba3b56c1a9e8f215a1ea72149b0706795704476d0fd0678232beef2fd332735d90f04ac874b02fd8268b78917988383dba194398a39bca63b8
   languageName: node
   linkType: hard
 
