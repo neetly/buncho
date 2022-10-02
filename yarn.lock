@@ -1701,7 +1701,7 @@ __metadata:
   resolution: "@buncho/repo@workspace:."
   dependencies:
     "@buncho/builder": "workspace:^"
-    "@neetly/eslint-config": "npm:^0.1.1"
+    "@neetly/eslint-config": "npm:^0.1.2"
     "@neetly/tsconfig": "npm:^0.1.2"
     "@typescript-eslint/eslint-plugin": "npm:^5.38.1"
     "@typescript-eslint/parser": "npm:^5.38.1"
@@ -2042,11 +2042,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/eslint-config@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@neetly/eslint-config@npm:0.1.1"
+"@neetly/eslint-config@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@neetly/eslint-config@npm:0.1.2"
   dependencies:
-    "@rushstack/eslint-patch": "npm:^1.1.4"
+    "@rushstack/eslint-patch": "npm:^1.2.0"
     eslint-plugin-react: "npm:^7.31.8"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-simple-import-sort: "npm:^8.0.0"
@@ -2055,7 +2055,7 @@ __metadata:
     "@typescript-eslint/parser": "*"
     eslint: "*"
     typescript: "*"
-  checksum: b58d05673a6c0175f33acd87b7e3328c7eccdb475d399197469126c848bc571f99eebfe0962a34e59637b26d67fe3a6d7b5534c39fb7b6c7a34afeac1d248464
+  checksum: e33c3b7bbb1e2bc4e932fa82847338ccc122b41a11ad787dc5e2515c0a68659bc3ace5bc102bb8b3749b80c575a777b0401eae0aac96db81c8ce98427d97a280
   languageName: node
   linkType: hard
 
@@ -2226,10 +2226,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rushstack/eslint-patch@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "@rushstack/eslint-patch@npm:1.1.4"
-  checksum: aec1d4a5cb907c58be23160d59ffd7f6711ad6174f26f1aae964a732a4427aa5822bbc697b8610095c07b9caa3fbc86752d881520242b2eda457cc77668028f3
+"@rushstack/eslint-patch@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@rushstack/eslint-patch@npm:1.2.0"
+  checksum: f91904a54e780bf2bb7644fb6d9bfcbf49ec92910c9aa3a3c7ba33f975e8c102a191d2bd18e49b41abdb13f5e5f6d54756299145e87ee073a93d111b9519ba1b
   languageName: node
   linkType: hard
 
