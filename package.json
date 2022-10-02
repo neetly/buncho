@@ -1,5 +1,5 @@
 {
-  "name": "buncho",
+  "name": "@buncho/repo",
   "private": true,
   "workspaces": [
     "./packages/*"
@@ -11,8 +11,11 @@
   },
   "license": "MIT",
   "scripts": {
+    "build": "yarn workspaces foreach --verbose run build",
+    "clean": "yarn workspaces foreach --verbose run clean",
     "lint": "eslint --max-warnings 0 . && prettier --check .",
-    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
+    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write .",
+    "publish": "yarn workspaces foreach --verbose --no-private npm publish --tolerate-republish"
   },
   "devDependencies": {
     "@neetly/eslint-config": "^0.1.2",

@@ -7,3 +7,5 @@
 # Artifacts
 
 **/*.tsbuildinfo
+/packages/*/lib/
+/packages/*/LICENSE
