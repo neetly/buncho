@@ -1,8 +1,11 @@
 import { Builtins, Cli } from "clipanion";
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires, @typescript-eslint/no-unsafe-member-access
+const version = require("buncho/package.json").version as string;
+
 const cli = new Cli({
   binaryName: "buncho",
-  binaryVersion: require("buncho/package.json").version,
+  binaryVersion: version,
   enableCapture: true,
 });
 
