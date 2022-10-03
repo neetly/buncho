@@ -1,4 +1,4 @@
-const getRegExpFromExtensions = (extensions: readonly string[]) => {
+const getRegExpForExtensions = (extensions: readonly string[]) => {
   return new RegExp(
     `\\.(${extensions
       .map((extension) => extension.replace(/^\./, "").replace(/\./g, "\\."))
@@ -6,4 +6,4 @@ const getRegExpFromExtensions = (extensions: readonly string[]) => {
   );
 };
 
-export { getRegExpFromExtensions };
+export { getRegExpForExtensions };

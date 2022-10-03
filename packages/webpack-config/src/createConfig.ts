@@ -88,8 +88,6 @@ const createConfig = ({
       minimizer: ["...", new CssMinimizerPlugin()],
     },
 
-    stats: process.env.CI ? "normal" : "minimal",
-
     devServer: {
       host,
       port,

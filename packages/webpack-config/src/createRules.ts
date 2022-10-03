@@ -4,14 +4,14 @@ import type { RuleSetRule, RuleSetUseItem } from "webpack";
 
 import { EXTENSIONS } from "./constants";
 import { isDevServer, isProduction } from "./env";
-import { getRegExpFromExtensions } from "./utils/getRegExpFromExtensions";
+import { getRegExpForExtensions } from "./utils/getRegExpForExtensions";
 
 const createRules = (): RuleSetRule[] => {
   return [
     {
       oneOf: [
         {
-          test: getRegExpFromExtensions(EXTENSIONS),
+          test: getRegExpForExtensions(EXTENSIONS),
           use: [
             {
               loader: require.resolve("babel-loader"),
@@ -28,12 +28,12 @@ const createRules = (): RuleSetRule[] => {
         },
 
         {
-          test: getRegExpFromExtensions([".css"]),
+          test: getRegExpForExtensions([".css"]),
           use: getCssLoaders(),
         },
 
         {
-          test: getRegExpFromExtensions([".scss"]),
+          test: getRegExpForExtensions([".scss"]),
           use: getCssLoaders({
             use: [
               { loader: require.resolve("resolve-url-loader") },
