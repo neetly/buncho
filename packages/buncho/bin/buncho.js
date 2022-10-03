@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const { Cli } = require("clipanion");
+const { cli } = require("buncho");
 
-require("buncho").cli.runExit(process.argv.slice(2), Cli.defaultContext);
+cli.runExit(process.argv.slice(2));
