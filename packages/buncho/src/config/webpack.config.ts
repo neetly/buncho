@@ -1,10 +1,19 @@
-import { createConfig } from "@buncho/webpack-config";
+import { createWebpackConfig } from "@buncho/webpack-config";
 import type { Configuration } from "webpack";
 
-const config: Configuration = {
-  ...createConfig(),
+import { getConfig } from "../utils/getConfig";
 
-  stats: process.env.CI ? "normal" : "minimal",
+export default async (): Promise<Configuration> => {
+  const config = await getConfig();
+
+  return {
+    ...createWebpackConfig({
+      publicPath: config?.publicPath,
+      host: config?.devServer?.host,
+      port: config?.devServer?.port,
+      proxy: config?.devServer?.proxy,
+    }),
+
+    stats: process.env.CI ? "normal" : "minimal",
+  };
 };
-
-export default config;

@@ -11,7 +11,7 @@ import { EXTENSIONS } from "./constants";
 import { createRules } from "./createRules";
 import { isDevServer, isProduction } from "./env";
 
-const createConfig = ({
+const createWebpackConfig = ({
   publicPath = "/",
   host,
   port,
@@ -101,4 +101,4 @@ const createConfig = ({
   };
 };
 
-export { createConfig };
+export { createWebpackConfig };
