@@ -15,7 +15,11 @@ class BuildCommand extends Command {
     });
     await executeBinary({
       path: require.resolve("../../bin/webpack-cli.js"),
-      args: [...this.args],
+      args: [
+        "--config",
+        require.resolve("../config/webpack.config"),
+        ...this.args,
+      ],
     });
   }
 }

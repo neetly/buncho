@@ -15,7 +15,12 @@ class StartCommand extends Command {
     });
     await executeBinary({
       path: require.resolve("../../bin/webpack-cli.js"),
-      args: ["serve", ...this.args],
+      args: [
+        "serve",
+        "--config",
+        require.resolve("../config/webpack.config"),
+        ...this.args,
+      ],
     });
   }
 }
