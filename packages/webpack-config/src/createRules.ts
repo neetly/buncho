@@ -3,7 +3,7 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import type { RuleSetRule, RuleSetUseItem } from "webpack";
 
 import { EXTENSIONS } from "./constants";
-import { isDevServer } from "./env";
+import { isDevServer, isProduction } from "./env";
 import { getRegExpFromExtensions } from "./utils/getRegExpFromExtensions";
 
 const createRules = (): RuleSetRule[] => {
@@ -74,6 +74,13 @@ const getCssLoaders = ({
       loader: require.resolve("css-loader"),
       options: {
         importLoaders: 1 + use.length,
+        modules: {
+          auto: true,
+          localIdentName: isProduction
+            ? "[hash:base64]"
+            : "[1]__[local]__[hash:base64:8]",
+          localIdentRegExp: /([^/]+)\.module\.\w+$/,
+        },
       },
     },
 

@@ -11,10 +11,12 @@ import { createRules } from "./createRules";
 import { isDevServer, isProduction } from "./env";
 
 const createConfig = ({
+  publicPath = "/",
   host,
   port,
   proxy,
 }: {
+  publicPath?: string;
   host?: string;
   port?: number;
   proxy?: DevServerConfiguration["proxy"];
@@ -34,7 +36,7 @@ const createConfig = ({
         ? "static/[name]-[contenthash:8].js"
         : "static/[name].js",
       assetModuleFilename: "assets/[contenthash][ext]",
-      publicPath: "/",
+      publicPath,
     },
 
     devtool: isProduction ? "source-map" : "eval-source-map",
