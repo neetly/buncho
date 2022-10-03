@@ -17,6 +17,25 @@
     "clean": "../../scripts/clean.sh",
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
+  "dependencies": {
+    "@babel/core": "^7.19.3",
+    "@neetly/babel-preset": "^0.1.0",
+    "@types/mime-types": "^2.1.1",
+    "autoprefixer": "^10.4.12",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mime-types": "^2.1.35",
+    "mini-css-extract-plugin": "^2.6.1",
+    "postcss": "^8.4.17",
+    "postcss-loader": "^7.0.1",
+    "react-refresh": "^0.14.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2"
+  },
   "peerDependencies": {
     "webpack": "*",
     "webpack-dev-server": "*"
