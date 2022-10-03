@@ -5,7 +5,7 @@ import HtmlPlugin from "html-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import path from "path";
 import type { Configuration } from "webpack";
-import type { Configuration as DevServerConfiguration } from "webpack-dev-server";
+import type {} from "webpack-dev-server";
 
 import { EXTENSIONS } from "./constants";
 import { createRules } from "./createRules";
@@ -13,14 +13,8 @@ import { isDevServer, isProduction } from "./env";
 
 const createWebpackConfig = ({
   publicPath = "/",
-  host,
-  port,
-  proxy,
 }: {
   publicPath?: string;
-  host?: string;
-  port?: number;
-  proxy?: DevServerConfiguration["proxy"];
 } = {}): Configuration => {
   return {
     mode: isProduction ? "production" : "development",
@@ -89,14 +83,11 @@ const createWebpackConfig = ({
     },
 
     devServer: {
-      host,
-      port,
       hot: true,
-      static: path.resolve("./public"),
       historyApiFallback: {
         disableDotRule: true,
       },
-      proxy,
+      static: path.resolve("./public"),
     },
   };
 };
