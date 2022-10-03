@@ -3,8 +3,8 @@ import path from "path";
 
 import { executeBinary } from "../utils/executeBinary";
 
-class StartCommand extends Command {
-  static override readonly paths = [["start"]];
+class ServeCommand extends Command {
+  static override readonly paths = [Command.Default, ["serve"]];
 
   readonly args = Option.Proxy();
 
@@ -25,4 +25,4 @@ class StartCommand extends Command {
   }
 }
 
-export { StartCommand };
+export { ServeCommand };
