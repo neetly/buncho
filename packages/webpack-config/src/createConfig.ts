@@ -1,3 +1,4 @@
+import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";
@@ -60,6 +61,8 @@ const createConfig = ({
         template: path.resolve("./public/index.html"),
         xhtml: true,
       }),
+
+      isDevServer && new ReactRefreshPlugin(),
 
       !isDevServer &&
         new CopyPlugin({

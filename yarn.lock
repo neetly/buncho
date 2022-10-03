@@ -1342,6 +1342,7 @@ __metadata:
     "@babel/core": "npm:^7.19.3"
     "@neetly/babel-preset": "npm:^0.1.0"
     "@neetly/tsconfig": "npm:^0.2.0"
+    "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.7"
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^18.7.23"
     autoprefixer: "npm:^10.4.12"
@@ -1614,6 +1615,45 @@ __metadata:
     mkdirp: "npm:^1.0.4"
     rimraf: "npm:^3.0.2"
   checksum: 3557a12cd18dfb5bcd5d5cf910b783832af50ffba28fd5bb510c3c56b2df0481558b9ec6d3008e8eeefb9f2944bdc1d34832b1a8bbf6ad1cd2f256bf12c84ff0
+  languageName: node
+  linkType: hard
+
+"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.7":
+  version: 0.5.7
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.7"
+  dependencies:
+    ansi-html-community: "npm:^0.0.8"
+    common-path-prefix: "npm:^3.0.0"
+    core-js-pure: "npm:^3.8.1"
+    error-stack-parser: "npm:^2.0.6"
+    find-up: "npm:^5.0.0"
+    html-entities: "npm:^2.1.0"
+    loader-utils: "npm:^2.0.0"
+    schema-utils: "npm:^3.0.0"
+    source-map: "npm:^0.7.3"
+  peerDependencies:
+    "@types/webpack": 4.x || 5.x
+    react-refresh: ">=0.10.0 <1.0.0"
+    sockjs-client: ^1.4.0
+    type-fest: ">=0.17.0 <3.0.0"
+    webpack: ">=4.43.0 <6.0.0"
+    webpack-dev-server: 3.x || 4.x
+    webpack-hot-middleware: 2.x
+    webpack-plugin-serve: 0.x || 1.x
+  peerDependenciesMeta:
+    "@types/webpack":
+      optional: true
+    sockjs-client:
+      optional: true
+    type-fest:
+      optional: true
+    webpack-dev-server:
+      optional: true
+    webpack-hot-middleware:
+      optional: true
+    webpack-plugin-serve:
+      optional: true
+  checksum: c92917d83f6350365ded4d5d43fd3b76723248c4ae295c833e6220556d82a1596b7c9f3f38ac8da304d2096042700e4d1f74561b9f3a8494151a6fcec0a4d9db
   languageName: node
   linkType: hard
 
@@ -2940,6 +2980,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"common-path-prefix@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "common-path-prefix@npm:3.0.0"
+  checksum: 81d3f07d3a70fc2fffe6c1d3c1a207e84f176ea02ce045d80d08379ecb6cfcd4b285cf2f5dc97244e01fe11610295af3bfea26fae7c9cbc5f81bee3bd02e15ec
+  languageName: node
+  linkType: hard
+
 "commondir@npm:^1.0.1":
   version: 1.0.1
   resolution: "commondir@npm:1.0.1"
@@ -3053,6 +3100,13 @@ __metadata:
   dependencies:
     browserslist: "npm:^4.21.4"
   checksum: 298abe0280cf07c8028dabbf6ce2abf6d1a2626920b7defcd37f15daec1811568afa34b22476ef2dd69968c5843148fbaef9c4e23966366a424bbfd87fc40646
+  languageName: node
+  linkType: hard
+
+"core-js-pure@npm:^3.8.1":
+  version: 3.25.4
+  resolution: "core-js-pure@npm:3.25.4"
+  checksum: 1386ffaf123cbf8f955808c58e60b6cfe6a2b47086cf4379dec6c6d34824f51dfd5ab9cfe08edd9b20cb42ca31fb9dc1b340f12ea0e588066112cb4e920c8347
   languageName: node
   linkType: hard
 
@@ -3531,6 +3585,15 @@ __metadata:
   dependencies:
     is-arrayish: "npm:^0.2.1"
   checksum: 5073bf16fe13e68ffd676d0af3d4bab20e52d917af1cd7e47f61c3cc2b6ec52ec874dc45307a9db6e0b7f8cb47b9f6bb831ff468d2d696cb484a3f7caf2990da
+  languageName: node
+  linkType: hard
+
+"error-stack-parser@npm:^2.0.6":
+  version: 2.1.4
+  resolution: "error-stack-parser@npm:2.1.4"
+  dependencies:
+    stackframe: "npm:^1.3.4"
+  checksum: 032589b1e0d40cd3093d22d8b4f267b017725e1e9593bd50f5a223ffcb7958575da6d8d04657d0ac04b64f4d8f7199e0907b43059fa118b5c451aae6007e0959
   languageName: node
   linkType: hard
 
@@ -4379,7 +4442,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-entities@npm:^2.3.2":
+"html-entities@npm:^2.1.0, html-entities@npm:^2.3.2":
   version: 2.3.3
   resolution: "html-entities@npm:2.3.3"
   checksum: cad32c60fce7137f0b3aefc30ba3b0438d6881299230f5a40aec720829ff00d2277ac5f9be4701615d3484c5cfd8260681c6b8f7947021bda294650f38c65e9f
@@ -6819,7 +6882,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:^3.1.0, schema-utils@npm:^3.1.1":
+"schema-utils@npm:^3.0.0, schema-utils@npm:^3.1.0, schema-utils@npm:^3.1.1":
   version: 3.1.1
   resolution: "schema-utils@npm:3.1.1"
   dependencies:
@@ -7092,6 +7155,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"source-map@npm:^0.7.3":
+  version: 0.7.4
+  resolution: "source-map@npm:0.7.4"
+  checksum: 97353dd6ffe747221f810400254a2c0110d745758aa094d3efe697d15c7697bb9bf49fea7028e88e97f973af53ac98cf69522ced606a4b46428fdd3e0d759280
+  languageName: node
+  linkType: hard
+
 "spdy-transport@npm:^3.0.0":
   version: 3.0.0
   resolution: "spdy-transport@npm:3.0.0"
@@ -7132,6 +7202,13 @@ __metadata:
   version: 0.1.8
   resolution: "stable@npm:0.1.8"
   checksum: 1a41cb7ac77e687335090b00469a3c7f6e1cf9c8761278d0778a42290cd2b2ad71213793a4dff5b030e3e9fa0eaa87094fa277cb5df45ed2270136e3aafc6594
+  languageName: node
+  linkType: hard
+
+"stackframe@npm:^1.3.4":
+  version: 1.3.4
+  resolution: "stackframe@npm:1.3.4"
+  checksum: 18e235651352cdc7f0fbe799b92764fd8d28fc516aefd2ff61162233944d10cb37736a94637b431eeef397ec05471635e96555847f5ffe53e488f48e6d365187
   languageName: node
   linkType: hard
 
