@@ -20,6 +20,9 @@ class BuildCommand extends Command {
         require.resolve("../config/webpack.config"),
         ...this.args,
       ],
+      env: {
+        NODE_ENV: "production",
+      },
     });
   }
 }
