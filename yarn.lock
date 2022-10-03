@@ -1324,7 +1324,7 @@ __metadata:
   dependencies:
     "@babel/cli": "npm:^7.19.3"
     "@babel/core": "npm:^7.19.3"
-    "@neetly/babel-preset": "npm:^0.1.0"
+    "@neetly/babel-preset": "npm:^0.2.0"
     "@neetly/eslint-config": "npm:^0.1.2"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@typescript-eslint/eslint-plugin": "npm:^5.38.1"
@@ -1340,11 +1340,11 @@ __metadata:
   resolution: "@buncho/webpack-config@workspace:packages/webpack-config"
   dependencies:
     "@babel/core": "npm:^7.19.3"
-    "@neetly/babel-preset": "npm:^0.1.0"
+    "@neetly/babel-preset": "npm:^0.2.0"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.7"
     "@types/mime-types": "npm:^2.1.1"
-    "@types/node": "npm:^18.7.23"
+    "@types/node": "npm:^18.8.0"
     autoprefixer: "npm:^10.4.12"
     babel-loader: "npm:^8.2.5"
     copy-webpack-plugin: "npm:^11.0.0"
@@ -1526,15 +1526,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/babel-preset@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@neetly/babel-preset@npm:0.1.0"
+"@neetly/babel-preset@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@neetly/babel-preset@npm:0.2.0"
   dependencies:
     "@babel/preset-env": "npm:^7.19.3"
     "@babel/preset-typescript": "npm:^7.18.6"
   peerDependencies:
     "@babel/core": "*"
-  checksum: 0c1193b7afdd2e761893b01ef9f3e658ab3a358f4ecf33c99821d547ef2406a16b71972e4704c21f73a476110a7fc6f5430d0a2dd9db59332effa707351adbd2
+  checksum: 5b6072785f1f48ca9763eefe1bd7c1d87be850405109820932abe0c2ddb609c9621d357c1d9e3a0d7f13e4bcf8912f40293c5ff9ce9df32063b4ded8a931814f
   languageName: node
   linkType: hard
 
@@ -1842,10 +1842,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.7.23":
-  version: 18.7.23
-  resolution: "@types/node@npm:18.7.23"
-  checksum: 83f50561f3858e514d864cea3fbfc3142ec58a6acaf9c405609776b97b67a4692309feb1b9f928cca8ebdc964554a2e02480feb98f1774881ce440a9df722924
+"@types/node@npm:*, @types/node@npm:^18.8.0":
+  version: 18.8.0
+  resolution: "@types/node@npm:18.8.0"
+  checksum: c1975b388b51a1687918210cc54e70663c44fd22af25fb943653520444a47dc4a8ede70392a58a4f4b2c3062903b408b2105266af8c2c44548184ec7cdbc0439
   languageName: node
   linkType: hard
 
@@ -2701,7 +2701,7 @@ __metadata:
   dependencies:
     "@buncho/webpack-config": "workspace:^"
     "@neetly/tsconfig": "npm:^0.2.0"
-    "@types/node": "npm:^18.7.23"
+    "@types/node": "npm:^18.8.0"
     clipanion: "npm:3.2.0-rc.12"
     typescript: "npm:^4.8.4"
     webpack: "npm:^5.74.0"
