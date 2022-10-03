@@ -1335,6 +1335,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@buncho/webpack-config@workspace:^, @buncho/webpack-config@workspace:packages/webpack-config":
+  version: 0.0.0-use.local
+  resolution: "@buncho/webpack-config@workspace:packages/webpack-config"
+  dependencies:
+    "@neetly/tsconfig": "npm:^0.2.0"
+    "@types/node": "npm:^18.7.23"
+    typescript: "npm:^4.8.4"
+    webpack: "npm:^5.74.0"
+    webpack-dev-server: "npm:^4.11.1"
+  peerDependencies:
+    webpack: "*"
+    webpack-dev-server: "*"
+  peerDependenciesMeta:
+    webpack-dev-server:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@discoveryjs/json-ext@npm:^0.5.0":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -2468,6 +2486,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "buncho@workspace:packages/buncho"
   dependencies:
+    "@buncho/webpack-config": "workspace:^"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@types/node": "npm:^18.7.23"
     clipanion: "npm:3.2.0-rc.12"

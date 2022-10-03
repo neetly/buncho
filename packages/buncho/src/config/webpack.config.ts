@@ -1,5 +1,5 @@
-import type { Configuration } from "webpack";
+import { createConfig } from "@buncho/webpack-config";
 
-const config: Configuration = {};
+const config = createConfig();
 
 export default config;
