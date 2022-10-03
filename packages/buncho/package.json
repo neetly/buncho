@@ -18,8 +18,8 @@
     "./lib"
   ],
   "scripts": {
-    "build": "true",
-    "clean": "true",
+    "build": "../../scripts/build.sh",
+    "clean": "../../scripts/clean.sh",
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {

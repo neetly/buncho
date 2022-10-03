@@ -18,6 +18,9 @@
     "publish": "yarn workspaces foreach --verbose --no-private npm publish --tolerate-republish"
   },
   "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@neetly/babel-preset": "^0.1.0",
     "@neetly/eslint-config": "^0.1.2",
     "@neetly/tsconfig": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
