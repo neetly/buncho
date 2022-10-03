@@ -1,6 +1,8 @@
 import { Command, Option } from "clipanion";
+import path from "path";
 
-import { execute } from "../utils/execute";
+import { executeBinary } from "../utils/executeBinary";
+import { removeDirectory } from "../utils/removeDirectory";
 
 class CleanCommand extends Command {
   static override readonly paths = [["clean"]];
@@ -8,7 +10,12 @@ class CleanCommand extends Command {
   readonly args = Option.Proxy();
 
   async execute() {
-    await execute(require.resolve("../../bin/webpack-cli.js"), this.args);
+    await executeBinary({
+      path: require.resolve("../../bin/tsc"),
+      args: ["--build", "--clean", path.resolve(".")],
+    });
+    await removeDirectory(path.resolve("./lib"));
+    await removeDirectory(path.resolve("./build"));
   }
 }
 

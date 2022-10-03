@@ -1,10 +1,14 @@
 import { fork } from "child_process";
 
-const execute = (
-  path: string,
-  args?: readonly string[],
-  { env }: { env?: Readonly<Record<string, string>> } = {},
-) => {
+const executeBinary = ({
+  path,
+  args,
+  env,
+}: {
+  path: string;
+  args?: readonly string[];
+  env?: Record<string, string | undefined>;
+}) => {
   return new Promise<void>((resolve, reject) => {
     const subprocess = fork(path, args, {
       stdio: "inherit",
@@ -25,4 +29,4 @@ const execute = (
   });
 };
 
-export { execute };
+export { executeBinary };
