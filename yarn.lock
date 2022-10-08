@@ -1349,7 +1349,7 @@ __metadata:
     babel-loader: "npm:^8.2.5"
     copy-webpack-plugin: "npm:^11.0.0"
     css-loader: "npm:^6.7.1"
-    css-minimizer-webpack-plugin: "npm:^4.2.0"
+    css-minimizer-webpack-plugin: "npm:^4.2.1"
     html-webpack-plugin: "npm:^5.5.0"
     mime-types: "npm:^2.1.35"
     mini-css-extract-plugin: "npm:^2.6.1"
@@ -3162,13 +3162,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-minimizer-webpack-plugin@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "css-minimizer-webpack-plugin@npm:4.2.0"
+"css-minimizer-webpack-plugin@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "css-minimizer-webpack-plugin@npm:4.2.1"
   dependencies:
     cssnano: "npm:^5.1.8"
-    jest-worker: "npm:^29.0.3"
-    postcss: "npm:^8.4.13"
+    jest-worker: "npm:^29.1.2"
+    postcss: "npm:^8.4.17"
     schema-utils: "npm:^4.0.0"
     serialize-javascript: "npm:^6.0.0"
     source-map: "npm:^0.6.1"
@@ -3187,7 +3187,7 @@ __metadata:
       optional: true
     lightningcss:
       optional: true
-  checksum: 8f19adaf2f71d907108a10728779ee7ebf67db6a27ba63f75bf37d48eaf78a60c8f0bf7fb3f54598c5e40cdd4ca9d9e14b6f12f73bc0adf8f04990fba19d429d
+  checksum: dc4b39545df480a04df610ffb58eb0a2a523195fff917ac296932a8a01fd2a9eabf6bbb5b847593371d8119954e75c3de631b8b99214f7176616c3a8ad555eea
   languageName: node
   linkType: hard
 
@@ -4991,7 +4991,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-worker@npm:^29.0.3":
+"jest-worker@npm:^29.1.2":
   version: 29.1.2
   resolution: "jest-worker@npm:29.1.2"
   dependencies:
@@ -6362,7 +6362,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.14, postcss@npm:^8.4.13, postcss@npm:^8.4.17, postcss@npm:^8.4.7":
+"postcss@npm:^8.2.14, postcss@npm:^8.4.17, postcss@npm:^8.4.7":
   version: 8.4.17
   resolution: "postcss@npm:8.4.17"
   dependencies:
