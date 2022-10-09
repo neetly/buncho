@@ -6,7 +6,7 @@ import { executeBinary } from "../utils/executeBinary";
 class BuildCommand extends Command {
   static override readonly paths = [["build"]];
 
-  readonly args = Option.Proxy();
+  private readonly args = Option.Proxy();
 
   async execute() {
     await executeBinary({

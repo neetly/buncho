@@ -6,7 +6,7 @@ import { executeBinary } from "../utils/executeBinary";
 class ServeCommand extends Command {
   static override readonly paths = [Command.Default, ["serve"]];
 
-  readonly args = Option.Proxy();
+  private readonly args = Option.Proxy();
 
   async execute() {
     await executeBinary({

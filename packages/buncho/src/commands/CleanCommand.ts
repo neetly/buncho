@@ -1,4 +1,4 @@
-import { Command, Option } from "clipanion";
+import { Command } from "clipanion";
 import path from "path";
 
 import { executeBinary } from "../utils/executeBinary";
@@ -6,8 +6,6 @@ import { removeDirectory } from "../utils/removeDirectory";
 
 class CleanCommand extends Command {
   static override readonly paths = [["clean"]];
-
-  readonly args = Option.Proxy();
 
   async execute() {
     await executeBinary({
