@@ -12,6 +12,16 @@ gen_enforced_field(WorkspaceCwd, 'scripts.clean', '../../scripts/clean.sh') :-
 gen_enforced_field(WorkspaceCwd, 'scripts.prepack', 'run clean && run build && cp ../../LICENSE .') :-
   atom_concat('packages/', _, WorkspaceCwd).
 
+gen_enforced_field(WorkspaceCwd, 'scripts.start', 'buncho') :-
+  atom_concat('examples/', _, WorkspaceCwd).
+gen_enforced_field(WorkspaceCwd, 'scripts.build', 'buncho build') :-
+  atom_concat('examples/', _, WorkspaceCwd).
+gen_enforced_field(WorkspaceCwd, 'scripts.clean', 'buncho clean') :-
+  atom_concat('examples/', _, WorkspaceCwd).
+
+gen_enforced_dependency(WorkspaceCwd, 'buncho', 'workspace:^', 'devDependencies') :-
+  atom_concat('examples/', _, WorkspaceCwd).
+
 gen_enforced_dependency(WorkspaceCwd, DependencyIdent, 'workspace:^', DependencyType) :-
   workspace_has_dependency(WorkspaceCwd, DependencyIdent, _, DependencyType),
   workspace_ident(_, DependencyIdent).

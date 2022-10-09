@@ -9,3 +9,5 @@
 **/*.tsbuildinfo
 /packages/*/lib/
 /packages/*/LICENSE
+/examples/*/lib/
+/examples/*/build/
