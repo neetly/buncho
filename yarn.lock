@@ -1432,7 +1432,7 @@ __metadata:
     "@babel/core": "npm:^7.19.3"
     "@neetly/babel-preset": "npm:^0.2.1"
     "@neetly/tsconfig": "npm:^0.2.0"
-    "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.7"
+    "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.8"
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^18.8.0"
     autoprefixer: "npm:^10.4.12"
@@ -1702,13 +1702,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.7":
-  version: 0.5.7
-  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.7"
+"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.8":
+  version: 0.5.8
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.8"
   dependencies:
     ansi-html-community: "npm:^0.0.8"
     common-path-prefix: "npm:^3.0.0"
-    core-js-pure: "npm:^3.8.1"
+    core-js-pure: "npm:^3.23.3"
     error-stack-parser: "npm:^2.0.6"
     find-up: "npm:^5.0.0"
     html-entities: "npm:^2.1.0"
@@ -1719,7 +1719,7 @@ __metadata:
     "@types/webpack": 4.x || 5.x
     react-refresh: ">=0.10.0 <1.0.0"
     sockjs-client: ^1.4.0
-    type-fest: ">=0.17.0 <3.0.0"
+    type-fest: ">=0.17.0 <4.0.0"
     webpack: ">=4.43.0 <6.0.0"
     webpack-dev-server: 3.x || 4.x
     webpack-hot-middleware: 2.x
@@ -1737,7 +1737,7 @@ __metadata:
       optional: true
     webpack-plugin-serve:
       optional: true
-  checksum: c92917d83f6350365ded4d5d43fd3b76723248c4ae295c833e6220556d82a1596b7c9f3f38ac8da304d2096042700e4d1f74561b9f3a8494151a6fcec0a4d9db
+  checksum: 96fa16389fbfef0ec15be5efc56a7e799e663b95a630fc3e7eebf682a6b1987f027f1639362b67790a5dbdcc645af464f938ea4b0c2e481f1ca29aabfea4c586
   languageName: node
   linkType: hard
 
@@ -3222,10 +3222,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-pure@npm:^3.8.1":
-  version: 3.25.4
-  resolution: "core-js-pure@npm:3.25.4"
-  checksum: 1386ffaf123cbf8f955808c58e60b6cfe6a2b47086cf4379dec6c6d34824f51dfd5ab9cfe08edd9b20cb42ca31fb9dc1b340f12ea0e588066112cb4e920c8347
+"core-js-pure@npm:^3.23.3":
+  version: 3.25.5
+  resolution: "core-js-pure@npm:3.25.5"
+  checksum: 30876a52f3726c00d2edd9c15987b1f2808fa4c7ca58fd48b86b48f8e11de4564af7fde037e8ad1c7e6e768a90cc8097efe6ceb19ee804b663a18b76403fb7ed
   languageName: node
   linkType: hard
 
