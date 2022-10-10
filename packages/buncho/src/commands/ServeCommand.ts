@@ -14,7 +14,7 @@ class ServeCommand extends Command {
       args: ["--build", path.resolve(".")],
     });
     await executeBinary({
-      path: require.resolve("../../bin/webpack-cli.js"),
+      path: require.resolve("../../bin/webpack-cli"),
       args: [
         "serve",
         "--config",
