@@ -1401,7 +1401,7 @@ __metadata:
     "@neetly/tsconfig": "npm:^0.2.0"
     "@types/react": "npm:^18.0.21"
     "@types/react-dom": "npm:^18.0.6"
-    buncho: "workspace:^"
+    buncho: "workspace:*"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     typescript: "npm:^4.8.4"
@@ -1425,7 +1425,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/webpack-config@workspace:^, @buncho/webpack-config@workspace:packages/webpack-config":
+"@buncho/webpack-config@workspace:*, @buncho/webpack-config@workspace:packages/webpack-config":
   version: 0.0.0-use.local
   resolution: "@buncho/webpack-config@workspace:packages/webpack-config"
   dependencies:
@@ -1462,7 +1462,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@buncho/webpack-env@workspace:^, @buncho/webpack-env@workspace:packages/webpack-env":
+"@buncho/webpack-env@workspace:*, @buncho/webpack-env@workspace:packages/webpack-env":
   version: 0.0.0-use.local
   resolution: "@buncho/webpack-env@workspace:packages/webpack-env"
   dependencies:
@@ -2829,12 +2829,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"buncho@workspace:^, buncho@workspace:packages/buncho":
+"buncho@workspace:*, buncho@workspace:packages/buncho":
   version: 0.0.0-use.local
   resolution: "buncho@workspace:packages/buncho"
   dependencies:
-    "@buncho/webpack-config": "workspace:^"
-    "@buncho/webpack-env": "workspace:^"
+    "@buncho/webpack-config": "workspace:*"
+    "@buncho/webpack-env": "workspace:*"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@types/node": "npm:^18.8.0"
     "@types/react": "npm:^18.0.21"
