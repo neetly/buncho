@@ -82,6 +82,10 @@ const createWebpackConfig = ({
       minimizer: ["...", new CssMinimizerPlugin()],
     },
 
+    cache: {
+      type: "filesystem",
+    },
+
     devServer: {
       hot: true,
       historyApiFallback: {
