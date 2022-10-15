@@ -1,6 +1,7 @@
 import { Command, Option } from "clipanion";
 import path from "path";
 
+import { tscBinary, webpackBinary } from "../binaries";
 import { executeBinary } from "../utils/executeBinary";
 
 class ServeCommand extends Command {
@@ -10,11 +11,11 @@ class ServeCommand extends Command {
 
   async execute() {
     await executeBinary({
-      path: require.resolve("../../bin/tsc"),
+      path: tscBinary,
       args: ["--build", path.resolve(".")],
     });
     await executeBinary({
-      path: require.resolve("../../bin/webpack-cli"),
+      path: webpackBinary,
       args: [
         "serve",
         "--config",

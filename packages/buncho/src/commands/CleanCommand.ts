@@ -1,6 +1,7 @@
 import { Command } from "clipanion";
 import path from "path";
 
+import { tscBinary } from "../binaries";
 import { executeBinary } from "../utils/executeBinary";
 import { removeDirectory } from "../utils/removeDirectory";
 
@@ -9,7 +10,7 @@ class CleanCommand extends Command {
 
   async execute() {
     await executeBinary({
-      path: require.resolve("../../bin/tsc"),
+      path: tscBinary,
       args: ["--build", "--clean", path.resolve(".")],
     });
     await removeDirectory(path.resolve("./lib"));
