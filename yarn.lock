@@ -1462,6 +1462,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@buncho/webpack-env@workspace:^, @buncho/webpack-env@workspace:packages/webpack-env":
+  version: 0.0.0-use.local
+  resolution: "@buncho/webpack-env@workspace:packages/webpack-env"
+  dependencies:
+    "@neetly/tsconfig": "npm:^0.2.0"
+    "@types/react": "npm:^18.0.21"
+    "@types/react-dom": "npm:^18.0.6"
+    typescript: "npm:^4.8.4"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+  languageName: unknown
+  linkType: soft
+
 "@discoveryjs/json-ext@npm:^0.5.0":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -2820,14 +2834,24 @@ __metadata:
   resolution: "buncho@workspace:packages/buncho"
   dependencies:
     "@buncho/webpack-config": "workspace:^"
+    "@buncho/webpack-env": "workspace:^"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@types/node": "npm:^18.8.0"
+    "@types/react": "npm:^18.0.21"
+    "@types/react-dom": "npm:^18.0.6"
     clipanion: "npm:3.2.0-rc.12"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
     typescript: "npm:^4.8.4"
     webpack: "npm:^5.74.0"
     webpack-cli: "npm:^4.10.0"
     webpack-dev-server: "npm:^4.11.1"
     webpack-merge: "npm:^5.8.0"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: "*"
+    react-dom: "*"
   bin:
     buncho: ./bin/buncho.js
   languageName: unknown

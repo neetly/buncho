@@ -1,0 +1,30 @@
+{
+  "name": "@buncho/webpack-env",
+  "version": "0.0.0",
+  "homepage": "https://github.com/neetly/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:neetly/buncho.git",
+    "directory": "packages/webpack-env"
+  },
+  "license": "MIT",
+  "types": "./src/index.d.ts",
+  "files": [
+    "./src"
+  ],
+  "scripts": {
+    "build": "../../scripts/build.sh",
+    "clean": "../../scripts/clean.sh",
+    "prepack": "run clean && run build && cp ../../LICENSE ."
+  },
+  "peerDependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*"
+  },
+  "devDependencies": {
+    "@neetly/tsconfig": "^0.2.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.8.4"
+  }
+}

@@ -24,15 +24,26 @@
   },
   "dependencies": {
     "@buncho/webpack-config": "workspace:^",
+    "@buncho/webpack-env": "workspace:^",
     "clipanion": "3.2.0-rc.12",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
   },
+  "peerDependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
   "devDependencies": {
     "@neetly/tsconfig": "^0.2.0",
     "@types/node": "^18.8.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^4.8.4"
   }
 }
