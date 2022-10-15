@@ -2852,6 +2852,7 @@ __metadata:
     "@types/react-dom": "*"
     react: "*"
     react-dom: "*"
+    typescript: "*"
   bin:
     buncho: ./bin/buncho.js
   languageName: unknown
