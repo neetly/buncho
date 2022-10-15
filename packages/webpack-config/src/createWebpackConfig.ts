@@ -73,7 +73,6 @@ const createWebpackConfig = ({
     ].filter(Boolean) as Configuration["plugins"],
 
     experiments: {
-      outputModule: true,
       topLevelAwait: true,
       asyncWebAssembly: true,
     },
