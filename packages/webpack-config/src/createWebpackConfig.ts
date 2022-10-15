@@ -41,7 +41,7 @@ const createWebpackConfig = ({
     },
 
     module: {
-      rules: createRules(),
+      rules: createRules({ extractCss: true }),
     },
 
     plugins: [
