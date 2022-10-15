@@ -1,0 +1,11 @@
+{
+  "extends": "@neetly/tsconfig",
+
+  "include": ["."],
+
+  "compilerOptions": {
+    "skipLibCheck": false
+  },
+
+  "references": [{ "path": "../../webpack-env" }]
+}

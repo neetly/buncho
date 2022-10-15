@@ -11,11 +11,15 @@
   "bin": "./bin/buncho.js",
   "exports": {
     ".": "./lib/index.js",
+    "./env": {
+      "types": "./env/index.d.ts"
+    },
     "./package.json": "./package.json"
   },
   "files": [
     "./bin",
-    "./lib"
+    "./lib",
+    "./env"
   ],
   "scripts": {
     "build": "../../scripts/build.sh",

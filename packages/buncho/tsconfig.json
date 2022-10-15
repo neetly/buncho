@@ -10,5 +10,5 @@
     "types": ["node"]
   },
 
-  "references": [{ "path": "../webpack-config" }, { "path": "../webpack-env" }]
+  "references": [{ "path": "./env" }, { "path": "../webpack-config" }]
 }
