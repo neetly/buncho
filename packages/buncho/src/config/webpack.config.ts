@@ -12,6 +12,8 @@ export default async () => {
     }),
 
     {
+      name: "buncho",
+
       stats: process.env.CI ? "normal" : "minimal",
 
       devServer: {
