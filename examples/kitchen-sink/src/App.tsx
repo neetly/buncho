@@ -1,5 +1,7 @@
+import styles from "./App.module.scss";
+
 const App = () => {
-  return <div />;
+  return <h1 className={styles.title}>Kitchen Sink</h1>;
 };
 
 export { App };
