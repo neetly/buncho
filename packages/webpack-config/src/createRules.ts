@@ -72,21 +72,21 @@ const createRules = ({
             ],
           }),
         },
-
-        {
-          dependency: ["url"],
-          type: "asset",
-          parser: {
-            dataUrlCondition: (
-              source: string | Buffer,
-              { filename }: { filename: string },
-            ) => {
-              const mimeType = mimeTypes.lookup(filename);
-              return Boolean(mimeType) && Buffer.byteLength(source) <= 8192;
-            },
-          },
-        },
       ],
+    },
+
+    {
+      dependency: ["url"],
+      type: "asset",
+      parser: {
+        dataUrlCondition: (
+          source: string | Buffer,
+          { filename }: { filename: string },
+        ) => {
+          const mimeType = mimeTypes.lookup(filename);
+          return Boolean(mimeType) && Buffer.byteLength(source) <= 8192;
+        },
+      },
     },
   ];
 };
