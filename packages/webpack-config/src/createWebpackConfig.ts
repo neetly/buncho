@@ -2,6 +2,7 @@ import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";
+import mimeTypes from "mime-types";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import path from "path";
 import type { Configuration } from "webpack";
@@ -41,7 +42,18 @@ const createWebpackConfig = ({
     },
 
     module: {
-      rules: createRules({ extractCss: true }),
+      parser: {
+        asset: {
+          dataUrlCondition: (source, { filename }) => {
+            const mimeType = mimeTypes.lookup(filename);
+            return Boolean(mimeType) && Buffer.byteLength(source) <= 8192;
+          },
+        },
+      },
+
+      rules: createRules({
+        extractCss: true,
+      }),
     },
 
     plugins: [
