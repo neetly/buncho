@@ -87,8 +87,8 @@ const createWebpackConfig = ({
     node: false,
 
     experiments: {
-      futureDefaults: true,
-      css: false,
+      topLevelAwait: true,
+      asyncWebAssembly: true,
     },
 
     optimization: {
