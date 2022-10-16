@@ -1433,6 +1433,7 @@ __metadata:
     "@neetly/babel-preset": "npm:^0.2.1"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.8"
+    "@squoosh/lib": "npm:^0.4.0"
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^18.8.0"
     autoprefixer: "npm:^10.4.12"
@@ -1441,6 +1442,7 @@ __metadata:
     css-loader: "npm:^6.7.1"
     css-minimizer-webpack-plugin: "npm:^4.2.2"
     html-webpack-plugin: "npm:^5.5.0"
+    image-minimizer-webpack-plugin: "npm:^3.6.1"
     mime-types: "npm:^2.1.35"
     mini-css-extract-plugin: "npm:^2.6.1"
     postcss: "npm:^8.4.18"
@@ -1767,6 +1769,16 @@ __metadata:
   version: 0.24.44
   resolution: "@sinclair/typebox@npm:0.24.44"
   checksum: f37b9d28bfaf7cfae27392ab6ca216436ed717e36652bb7716cb5072a434e02d164bf2c7f1a6a725e1440214d1269a5059ef6471dc10453200ed03aae8daac2b
+  languageName: node
+  linkType: hard
+
+"@squoosh/lib@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@squoosh/lib@npm:0.4.0"
+  dependencies:
+    wasm-feature-detect: "npm:^1.2.11"
+    web-streams-polyfill: "npm:^3.0.3"
+  checksum: 36177e20a99853bf4e8eca66bbdac33c72e2ff80a07c3cc5c792d0c0e23fb4db280759d66e92d68b43cefafaf0866a63a78ccfee47441a6206b899fbdf044b1a
   languageName: node
   linkType: hard
 
@@ -4788,6 +4800,25 @@ __metadata:
   version: 5.2.0
   resolution: "ignore@npm:5.2.0"
   checksum: 0086b6992b2e2c9ec23f009e5939022323f1b4ad291607507045cc67b0a3b5d9724fc425f5300b3ba6d10ef74311bdf71cd26040227c30a182cf1b2a5971226b
+  languageName: node
+  linkType: hard
+
+"image-minimizer-webpack-plugin@npm:^3.6.1":
+  version: 3.6.1
+  resolution: "image-minimizer-webpack-plugin@npm:3.6.1"
+  dependencies:
+    schema-utils: "npm:^4.0.0"
+    serialize-javascript: "npm:^6.0.0"
+  peerDependencies:
+    webpack: ^5.1.0
+  peerDependenciesMeta:
+    "@squoosh/lib":
+      optional: true
+    imagemin:
+      optional: true
+    sharp:
+      optional: true
+  checksum: 59c95577e696f86804fd10c9899912b327a8a8c1bec5287873e816a20c244903523e2ff2b121fdb7dd099ef7fd4a542869cd0e23db3f97391ed88ab41141cb7e
   languageName: node
   linkType: hard
 
@@ -7870,6 +7901,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"wasm-feature-detect@npm:^1.2.11":
+  version: 1.3.0
+  resolution: "wasm-feature-detect@npm:1.3.0"
+  checksum: b2e5f856f9364e837f6c33d552375e1fb3d7659d2a5ee6df9e79afdc6df0aed69219d58dee1c8d9178607d935e3eded72289dd4f5d533c3f492e505a841b34f0
+  languageName: node
+  linkType: hard
+
 "watchpack@npm:^2.4.0":
   version: 2.4.0
   resolution: "watchpack@npm:2.4.0"
@@ -7886,6 +7924,13 @@ __metadata:
   dependencies:
     minimalistic-assert: "npm:^1.0.0"
   checksum: 0d80c7a04c8496c72bb83e4a80caac71dff2a0dabed94ba853c590ad4de204625aace39d9b3b548975672c687ebc33342d9362bc38839a19c2049ce6823b6623
+  languageName: node
+  linkType: hard
+
+"web-streams-polyfill@npm:^3.0.3":
+  version: 3.2.1
+  resolution: "web-streams-polyfill@npm:3.2.1"
+  checksum: d0b6246240d181d6e2d8de6ded04938581bc5807da33ccd6f6b4a431c1f3fa3c04ffe0dfb739c7172d1208141717b4c80e8df7b300998fa9287ddb69bbaa0c68
   languageName: node
   linkType: hard
 
