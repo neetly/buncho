@@ -74,8 +74,8 @@ const createWebpackConfig = ({
     ].filter(Boolean) as Configuration["plugins"],
 
     experiments: {
-      topLevelAwait: true,
-      asyncWebAssembly: true,
+      futureDefaults: true,
+      css: false,
     },
 
     optimization: {
