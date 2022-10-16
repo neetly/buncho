@@ -2,7 +2,6 @@ import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";
-import ImageMinimizerPlugin from "image-minimizer-webpack-plugin";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import path from "path";
 import type { Configuration } from "webpack";
@@ -79,15 +78,7 @@ const createWebpackConfig = ({
     },
 
     optimization: {
-      minimizer: [
-        "...",
-        new CssMinimizerPlugin(),
-        new ImageMinimizerPlugin({
-          minimizer: {
-            implementation: ImageMinimizerPlugin.squooshMinify,
-          },
-        }),
-      ],
+      minimizer: ["...", new CssMinimizerPlugin()],
     },
 
     cache: {
