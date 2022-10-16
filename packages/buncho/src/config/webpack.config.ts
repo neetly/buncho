@@ -14,7 +14,7 @@ export default async () => {
     {
       name: "buncho",
 
-      stats: process.env.CI ? "normal" : "minimal",
+      stats: process.stdout.isTTY ? "minimal" : "normal",
 
       devServer: {
         host: config?.devServer?.host ?? "localhost",
