@@ -72,6 +72,8 @@ const createWebpackConfig = ({
         }),
     ].filter(Boolean) as Configuration["plugins"],
 
+    node: false,
+
     experiments: {
       futureDefaults: true,
       css: false,
