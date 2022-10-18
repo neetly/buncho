@@ -43,6 +43,10 @@ const createWebpackConfig = ({
 
     module: {
       parser: {
+        javascript: {
+          exportsPresence: "error",
+        },
+
         asset: {
           dataUrlCondition: (source, { filename }) => {
             const mimeType = mimeTypes.lookup(filename);
