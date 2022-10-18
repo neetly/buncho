@@ -33,6 +33,8 @@ const createWebpackConfig = ({
         : "static/[name].js",
       assetModuleFilename: "assets/[contenthash][ext]",
       publicPath,
+      hashFunction: "xxhash64",
+      hashDigestLength: 16,
     },
 
     devtool: isProduction ? "source-map" : "eval-source-map",

@@ -105,6 +105,8 @@ const getCssLoaders = ({
             ? "[hash:base64]"
             : "[1]__[local]__[hash:base64:8]",
           localIdentRegExp: /([^/]+)\.module\.\w+$/,
+          localIdentHashFunction: "xxhash64",
+          localIdentHashDigestLength: 16,
         },
       },
     },
