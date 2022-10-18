@@ -29,7 +29,7 @@ const createWebpackConfig = ({
     output: {
       path: path.resolve("./build"),
       filename: isProduction
-        ? "static/[name]-[contenthash:8].js"
+        ? "static/[name].[contenthash:8].js"
         : "static/[name].js",
       assetModuleFilename: "assets/[contenthash][ext]",
       publicPath,
@@ -63,7 +63,7 @@ const createWebpackConfig = ({
     plugins: [
       new MiniCssExtractPlugin({
         filename: isProduction
-          ? "static/[name]-[contenthash:8].css"
+          ? "static/[name].[contenthash:8].css"
           : "static/[name].css",
       }),
 
