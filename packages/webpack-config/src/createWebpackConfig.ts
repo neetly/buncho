@@ -33,6 +33,8 @@ const createWebpackConfig = ({
         : "static/[name].js",
       assetModuleFilename: "assets/[contenthash][ext]",
       publicPath,
+
+      charset: false,
       hashFunction: "xxhash64",
       hashDigestLength: 16,
     },
