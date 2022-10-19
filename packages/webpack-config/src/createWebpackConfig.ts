@@ -63,15 +63,16 @@ const createWebpackConfig = ({
     },
 
     plugins: [
+      new HtmlPlugin({
+        template: path.resolve("./public/index.html"),
+        xhtml: true,
+      }),
+
       new MiniCssExtractPlugin({
         filename: isProduction
           ? "static/[name].[contenthash:8].css"
           : "static/[name].css",
-      }),
-
-      new HtmlPlugin({
-        template: path.resolve("./public/index.html"),
-        xhtml: true,
+        linkType: false,
       }),
 
       isDevServer && new ReactRefreshPlugin(),
