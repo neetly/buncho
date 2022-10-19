@@ -96,6 +96,7 @@ const createWebpackConfig = ({
     node: false,
 
     experiments: {
+      backCompat: false,
       topLevelAwait: true,
       asyncWebAssembly: true,
     },
