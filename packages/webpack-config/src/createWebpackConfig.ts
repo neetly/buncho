@@ -67,7 +67,6 @@ const createWebpackConfig = ({
     plugins: [
       new HtmlPlugin({
         template: path.resolve("./public/index.html"),
-        xhtml: true,
       }),
 
       new MiniCssExtractPlugin({
