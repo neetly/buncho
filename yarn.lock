@@ -1434,7 +1434,7 @@ __metadata:
     "@neetly/tsconfig": "npm:^0.2.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.8"
     "@types/mime-types": "npm:^2.1.1"
-    "@types/node": "npm:^18.11.5"
+    "@types/node": "npm:^18.11.7"
     autoprefixer: "npm:^10.4.12"
     babel-loader: "npm:^8.2.5"
     copy-webpack-plugin: "npm:^11.0.0"
@@ -1941,10 +1941,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.11.5":
-  version: 18.11.5
-  resolution: "@types/node@npm:18.11.5"
-  checksum: 6a2d877520bf66640365f507b8eab8039bf8edb46ca94c8fb01a20074837af7cb8042194bb8b89771f3c7dec254860bf421fa058fa2e2d239372056aa421c6ee
+"@types/node@npm:*, @types/node@npm:^18.11.7":
+  version: 18.11.7
+  resolution: "@types/node@npm:18.11.7"
+  checksum: 1756caf0177b764ca8153e7a5d58a2f70466105f5cd64933b40f0f390a0f53167f87898ef6e9e1da4b5ceb00468fca457fe174abd87b3b5b5a0ccc8aba38787a
   languageName: node
   linkType: hard
 
@@ -2844,7 +2844,7 @@ __metadata:
     "@buncho/webpack-config": "workspace:*"
     "@buncho/webpack-env": "workspace:*"
     "@neetly/tsconfig": "npm:^0.2.0"
-    "@types/node": "npm:^18.11.5"
+    "@types/node": "npm:^18.11.7"
     "@types/react": "npm:^18.0.21"
     "@types/react-dom": "npm:^18.0.6"
     clipanion: "npm:3.2.0-rc.13"
