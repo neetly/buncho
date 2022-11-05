@@ -1435,7 +1435,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.8"
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^18.11.9"
-    autoprefixer: "npm:^10.4.12"
+    autoprefixer: "npm:^10.4.13"
     babel-loader: "npm:^9.1.0"
     copy-webpack-plugin: "npm:^11.0.0"
     css-loader: "npm:^6.7.1"
@@ -2644,12 +2644,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.12":
-  version: 10.4.12
-  resolution: "autoprefixer@npm:10.4.12"
+"autoprefixer@npm:^10.4.13":
+  version: 10.4.13
+  resolution: "autoprefixer@npm:10.4.13"
   dependencies:
     browserslist: "npm:^4.21.4"
-    caniuse-lite: "npm:^1.0.30001407"
+    caniuse-lite: "npm:^1.0.30001426"
     fraction.js: "npm:^4.2.0"
     normalize-range: "npm:^0.1.2"
     picocolors: "npm:^1.0.0"
@@ -2658,7 +2658,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: a13c3666500092555c7ef370162868f6553035f7a7ec45dd101733665d84c7c2e510a6c87ac9be046be0f34dc51124dac59eefc891fd1068f62f2b77cc9ff12c
+  checksum: ff6ad06d8312eccf7da2d82ad00489ea83fb10895fd7053245722e0125cf8010256450499a1265ba17b2f5e970ebdc7d87a6db8c9993a1181935ef61308df348
   languageName: node
   linkType: hard
 
@@ -2944,10 +2944,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001407":
-  version: 1.0.30001414
-  resolution: "caniuse-lite@npm:1.0.30001414"
-  checksum: 74e0f3fb558b91d723ac17abf5871db9fcdcf36913faea157fce537aee4d8ee30f5f52f41e36af6658c5eb7aac22d34832a5c3eb6e15b147d8ccf68ca6045fdc
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001426":
+  version: 1.0.30001430
+  resolution: "caniuse-lite@npm:1.0.30001430"
+  checksum: 500fe9d8c40f9184b9f83f93186f956dd3a1befce5b0ea672f973eb7be1c7347342183ec007edc173e3d6d0b71b88c9f180ebe82ef4dcb789c7070e307962075
   languageName: node
   linkType: hard
 
