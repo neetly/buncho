@@ -1399,7 +1399,7 @@ __metadata:
   resolution: "@buncho/example-kitchen-sink@workspace:examples/kitchen-sink"
   dependencies:
     "@neetly/tsconfig": "npm:^0.2.0"
-    "@types/react": "npm:^18.0.23"
+    "@types/react": "npm:^18.0.25"
     "@types/react-dom": "npm:^18.0.7"
     buncho: "workspace:*"
     react: "npm:^18.2.0"
@@ -1467,7 +1467,7 @@ __metadata:
   resolution: "@buncho/webpack-env@workspace:packages/webpack-env"
   dependencies:
     "@neetly/tsconfig": "npm:^0.2.0"
-    "@types/react": "npm:^18.0.23"
+    "@types/react": "npm:^18.0.25"
     "@types/react-dom": "npm:^18.0.7"
     typescript: "npm:^4.8.4"
   peerDependencies:
@@ -1985,14 +1985,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.23":
-  version: 18.0.23
-  resolution: "@types/react@npm:18.0.23"
+"@types/react@npm:*, @types/react@npm:^18.0.25":
+  version: 18.0.25
+  resolution: "@types/react@npm:18.0.25"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 46367c34a7ae3531eb23b30e1878e24bbf477e9f8fa71d38d18310a37ac57fc2b04977eff76ce22edd5db1ce2b407b63161eb2edd730104270563835de06d3b8
+  checksum: af960f03dd2ab8cf51789d09c13c440fcc505a6e22101d9c58a4f4ad562cd81122ff345cc9bf8d131d68c185ee1a48411d62e90d3dbaa9623abd0b2564f7b5fe
   languageName: node
   linkType: hard
 
@@ -2846,7 +2846,7 @@ __metadata:
     "@buncho/webpack-env": "workspace:*"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@types/node": "npm:^18.11.9"
-    "@types/react": "npm:^18.0.23"
+    "@types/react": "npm:^18.0.25"
     "@types/react-dom": "npm:^18.0.7"
     clipanion: "npm:3.2.0-rc.13"
     react: "npm:^18.2.0"
