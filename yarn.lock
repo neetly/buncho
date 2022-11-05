@@ -1436,7 +1436,7 @@ __metadata:
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^18.11.9"
     autoprefixer: "npm:^10.4.12"
-    babel-loader: "npm:^8.2.5"
+    babel-loader: "npm:^9.1.0"
     copy-webpack-plugin: "npm:^11.0.0"
     css-loader: "npm:^6.7.1"
     css-minimizer-webpack-plugin: "npm:^4.2.2"
@@ -1920,7 +1920,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.5, @types/json-schema@npm:^7.0.8, @types/json-schema@npm:^7.0.9":
+"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.8, @types/json-schema@npm:^7.0.9":
   version: 7.0.11
   resolution: "@types/json-schema@npm:7.0.11"
   checksum: 8e5c6dd393411418e3d803ab0a09862b4ed47f73e7ed990f3b907dd41cc4d2f2b4f7aed9a39c7fd2acaa80314ac1397a5e2e5e6c25a338f01bbfba708cc70d8e
@@ -2662,18 +2662,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:^8.2.5":
-  version: 8.2.5
-  resolution: "babel-loader@npm:8.2.5"
+"babel-loader@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "babel-loader@npm:9.1.0"
   dependencies:
-    find-cache-dir: "npm:^3.3.1"
-    loader-utils: "npm:^2.0.0"
-    make-dir: "npm:^3.1.0"
-    schema-utils: "npm:^2.6.5"
+    find-cache-dir: "npm:^3.3.2"
+    schema-utils: "npm:^4.0.0"
   peerDependencies:
-    "@babel/core": ^7.0.0
-    webpack: ">=2"
-  checksum: 32dc3fafa9aec9f25dd6a19f314aa1cb5b60d331161ed2c7e552cbfba52831d39c4659c82a454095e6cc32ff3914b59f49049e56a7a8fdbfc502c5a926cd767a
+    "@babel/core": ^7.12.0
+    webpack: ">=5"
+  checksum: 6e5cd3c28c76fad44ece15f4379e9903e6fb9a5c93b0a4bbdce051c40fbc41c5e834fedc106dd222e50c1fc03448ccd50cc62870b0955bc99ba12fa0083b9256
   languageName: node
   linkType: hard
 
@@ -4200,7 +4198,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-cache-dir@npm:^3.3.1":
+"find-cache-dir@npm:^3.3.2":
   version: 3.3.2
   resolution: "find-cache-dir@npm:3.3.2"
   dependencies:
@@ -5424,7 +5422,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"make-dir@npm:^3.0.2, make-dir@npm:^3.1.0":
+"make-dir@npm:^3.0.2":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
   dependencies:
@@ -7074,17 +7072,6 @@ __metadata:
   dependencies:
     loose-envify: "npm:^1.1.0"
   checksum: f4022b95cdc282668643da4850f55fe70c899aa956d11819f196e2ca892271bdb253613e53997852094f9351f7c72d057eea8b28d9b4bcb93bcb1c6d09985c82
-  languageName: node
-  linkType: hard
-
-"schema-utils@npm:^2.6.5":
-  version: 2.7.1
-  resolution: "schema-utils@npm:2.7.1"
-  dependencies:
-    "@types/json-schema": "npm:^7.0.5"
-    ajv: "npm:^6.12.4"
-    ajv-keywords: "npm:^3.5.2"
-  checksum: 80a77b8fe8793a81a37fb4915a1c7c93b9f43029a3f6d8e1971574ae1dd8808114ead54bd1f6c50c66988050e85126238cd61c0151b4894187e92bea8c661130
   languageName: node
   linkType: hard
 
