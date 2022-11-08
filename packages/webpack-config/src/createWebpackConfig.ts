@@ -43,6 +43,11 @@ const createWebpackConfig = ({
 
     resolve: {
       extensions: EXTENSIONS,
+      extensionAlias: {
+        ".js": [".js", ".ts", ".tsx"],
+        ".mjs": [".mjs", ".mts"],
+        ".cjs": [".cjs", ".cts"],
+      },
     },
 
     module: {
