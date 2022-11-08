@@ -8,7 +8,6 @@ import path from "path";
 import type { Configuration } from "webpack";
 import type {} from "webpack-dev-server";
 
-import { EXTENSIONS } from "./constants";
 import { createRules } from "./createRules";
 import { isDevServer, isProduction } from "./env";
 
@@ -42,11 +41,11 @@ const createWebpackConfig = ({
     devtool: isProduction ? "source-map" : "eval-source-map",
 
     resolve: {
-      extensions: EXTENSIONS,
+      extensions: [".ts", ".tsx", ".js"],
       extensionAlias: {
-        ".js": [".js", ".ts", ".tsx"],
-        ".mjs": [".mjs", ".mts"],
-        ".cjs": [".cjs", ".cts"],
+        ".js": [".ts", ".tsx", ".js"],
+        ".mjs": [".mts", ".mjs"],
+        ".cjs": [".cts", ".cjs"],
       },
     },
 
