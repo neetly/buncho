@@ -1432,7 +1432,7 @@ __metadata:
     "@babel/core": "npm:^7.20.2"
     "@neetly/babel-preset": "npm:^0.2.1"
     "@neetly/tsconfig": "npm:^0.2.0"
-    "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.8"
+    "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.9"
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^18.11.9"
     autoprefixer: "npm:^10.4.13"
@@ -1717,9 +1717,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.8":
-  version: 0.5.8
-  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.8"
+"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.9":
+  version: 0.5.9
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.9"
   dependencies:
     ansi-html-community: "npm:^0.0.8"
     common-path-prefix: "npm:^3.0.0"
@@ -1727,7 +1727,7 @@ __metadata:
     error-stack-parser: "npm:^2.0.6"
     find-up: "npm:^5.0.0"
     html-entities: "npm:^2.1.0"
-    loader-utils: "npm:^2.0.0"
+    loader-utils: "npm:^2.0.3"
     schema-utils: "npm:^3.0.0"
     source-map: "npm:^0.7.3"
   peerDependencies:
@@ -1752,7 +1752,7 @@ __metadata:
       optional: true
     webpack-plugin-serve:
       optional: true
-  checksum: 96fa16389fbfef0ec15be5efc56a7e799e663b95a630fc3e7eebf682a6b1987f027f1639362b67790a5dbdcc645af464f938ea4b0c2e481f1ca29aabfea4c586
+  checksum: 7f058dd8058e89ca87eee9606afec0304fbb19d438743dc36ef7e63726a2b73153c0106428671fab7d4959727c331dd8bcb383a7f86353f319f0ce6d3298d499
   languageName: node
   linkType: hard
 
@@ -5312,7 +5312,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loader-utils@npm:^2.0.0":
+"loader-utils@npm:^2.0.0, loader-utils@npm:^2.0.3":
   version: 2.0.3
   resolution: "loader-utils@npm:2.0.3"
   dependencies:
