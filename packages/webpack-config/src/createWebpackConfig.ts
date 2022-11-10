@@ -5,7 +5,7 @@ import HtmlPlugin from "html-webpack-plugin";
 import mimeTypes from "mime-types";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import path from "path";
-import { type Configuration } from "webpack";
+import type { Configuration } from "webpack";
 import type {} from "webpack-dev-server";
 
 import { createRules } from "./createRules";
