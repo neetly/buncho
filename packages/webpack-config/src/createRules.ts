@@ -1,9 +1,7 @@
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import type { RuleSetRule, RuleSetUseItem } from "webpack";
 
-import { EXTENSIONS } from "./constants";
 import { isDevServer, isProduction } from "./env";
-import { getRegExpForExtensions } from "./utils/getRegExpForExtensions";
 
 const createRules = ({
   extractCss = false,
@@ -14,7 +12,7 @@ const createRules = ({
     {
       oneOf: [
         {
-          test: getRegExpForExtensions(EXTENSIONS),
+          test: /\.(js|mjs|cjs|ts|tsx|mts|cts)$/,
           use: [
             {
               loader: require.resolve("babel-loader"),
@@ -31,8 +29,8 @@ const createRules = ({
         },
 
         {
-          test: getRegExpForExtensions([".css"]),
-          exclude: getRegExpForExtensions([".module.css"]),
+          test: /\.css$/,
+          exclude: /\.module\.css$/,
           use: getCssLoaders({
             extract: extractCss,
             modules: { mode: "icss" },
@@ -40,7 +38,7 @@ const createRules = ({
         },
 
         {
-          test: getRegExpForExtensions([".module.css"]),
+          test: /\.module\.css$/,
           use: getCssLoaders({
             extract: extractCss,
             modules: { mode: "pure" },
@@ -48,8 +46,8 @@ const createRules = ({
         },
 
         {
-          test: getRegExpForExtensions([".scss"]),
-          exclude: getRegExpForExtensions([".module.scss"]),
+          test: /\.scss$/,
+          exclude: /\.module\.scss$/,
           use: getCssLoaders({
             extract: extractCss,
             modules: { mode: "icss" },
@@ -61,7 +59,7 @@ const createRules = ({
         },
 
         {
-          test: getRegExpForExtensions([".module.scss"]),
+          test: /\.module\.scss$/,
           use: getCssLoaders({
             extract: extractCss,
             modules: { mode: "pure" },
