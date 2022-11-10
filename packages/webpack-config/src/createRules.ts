@@ -1,5 +1,5 @@
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
-import type { RuleSetRule, RuleSetUseItem } from "webpack";
+import { type RuleSetRule, type RuleSetUseItem } from "webpack";
 
 import { EXTENSIONS } from "./constants";
 import { isDevServer, isProduction } from "./env";

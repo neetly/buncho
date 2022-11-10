@@ -1,4 +1,4 @@
-import type { Configuration as DevServerConfiguration } from "webpack-dev-server";
+import { type Configuration as DevServerConfiguration } from "webpack-dev-server";
 
 type Config = {
   publicPath?: string;
