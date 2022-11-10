@@ -20,7 +20,7 @@
   "dependencies": {
     "@babel/core": "^7.20.2",
     "@neetly/babel-preset": "^0.2.1",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.8",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.9",
     "@types/mime-types": "^2.1.1",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^9.1.0",
