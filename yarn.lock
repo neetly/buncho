@@ -1436,7 +1436,7 @@ __metadata:
     autoprefixer: "npm:^10.4.13"
     babel-loader: "npm:^9.1.0"
     copy-webpack-plugin: "npm:^11.0.0"
-    css-loader: "npm:^6.7.1"
+    css-loader: "npm:^6.7.2"
     css-minimizer-webpack-plugin: "npm:^4.2.2"
     html-webpack-plugin: "npm:^5.5.0"
     mime-types: "npm:^2.1.35"
@@ -3336,21 +3336,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:^6.7.1":
-  version: 6.7.1
-  resolution: "css-loader@npm:6.7.1"
+"css-loader@npm:^6.7.2":
+  version: 6.7.2
+  resolution: "css-loader@npm:6.7.2"
   dependencies:
     icss-utils: "npm:^5.1.0"
-    postcss: "npm:^8.4.7"
+    postcss: "npm:^8.4.18"
     postcss-modules-extract-imports: "npm:^3.0.0"
     postcss-modules-local-by-default: "npm:^4.0.0"
     postcss-modules-scope: "npm:^3.0.0"
     postcss-modules-values: "npm:^4.0.0"
     postcss-value-parser: "npm:^4.2.0"
-    semver: "npm:^7.3.5"
+    semver: "npm:^7.3.8"
   peerDependencies:
     webpack: ^5.0.0
-  checksum: f29305f4b25c3ee99328409c0e2f5940323cb55e498248f07ac12dfa341b49cb48b8ef92bd1e92ac702814218b56f44d18a68768024495c32bf2c1f310b36451
+  checksum: 0ea1131f10f37590235eb6c7ceb21cd88babee744476647809e15c1a7931e5697d64d0f1d6abc4c7c55c82371ad5f2df2e7022ae1c91084c2cbd46882dc3108b
   languageName: node
   linkType: hard
 
@@ -6688,7 +6688,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.14, postcss@npm:^8.4.17, postcss@npm:^8.4.19, postcss@npm:^8.4.7":
+"postcss@npm:^8.2.14, postcss@npm:^8.4.17, postcss@npm:^8.4.18, postcss@npm:^8.4.19":
   version: 8.4.19
   resolution: "postcss@npm:8.4.19"
   dependencies:
@@ -7288,14 +7288,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.3.7":
-  version: 7.3.7
-  resolution: "semver@npm:7.3.7"
+"semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.3.8":
+  version: 7.3.8
+  resolution: "semver@npm:7.3.8"
   dependencies:
     lru-cache: "npm:^6.0.0"
   bin:
     semver: bin/semver.js
-  checksum: 67bcf24790dcba9c20b2cd4c8ade19eebbcb10c8868453570749b47b77bd5c7da503478997a7a3f663d5b2976ac39c545f38d2d9e7dfcc693cb87f4068f93f8e
+  checksum: 94ad80ee14889020cb4a14d809fb99d16cbf4ff3dc7f4c564fc72efe2c5763a60090a1c16a9fd18ceeb1e993a1303a4d870c0a22f26adaf435b368b46a7d8462
   languageName: node
   linkType: hard
 
