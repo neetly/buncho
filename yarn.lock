@@ -1440,7 +1440,7 @@ __metadata:
     css-minimizer-webpack-plugin: "npm:^4.2.2"
     html-webpack-plugin: "npm:^5.5.0"
     mime-types: "npm:^2.1.35"
-    mini-css-extract-plugin: "npm:^2.6.1"
+    mini-css-extract-plugin: "npm:^2.7.0"
     postcss: "npm:^8.4.19"
     postcss-loader: "npm:^7.0.1"
     react-refresh: "npm:^0.14.0"
@@ -5686,14 +5686,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:^2.6.1":
-  version: 2.6.1
-  resolution: "mini-css-extract-plugin@npm:2.6.1"
+"mini-css-extract-plugin@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "mini-css-extract-plugin@npm:2.7.0"
   dependencies:
     schema-utils: "npm:^4.0.0"
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 287625748e019d038e8c8fd1790a7d33d4827fd49e080b7c47c57076ff6149b3f279cdfc451c0a7491e9a879b04b7ed3eb42b0a64da133a11811ff8387d92c45
+  checksum: e41d0229a396be67220448a9d4f3f4c7987895c9f64303c712978e9d40518dbabe07ef4f50e8a548d5a67cfbb3ad700e0c14c8817a366fc11db76de713fe1d1c
   languageName: node
   linkType: hard
 
