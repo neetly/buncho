@@ -2879,7 +2879,7 @@ __metadata:
     "@types/node": "npm:^18.11.9"
     "@types/react": "npm:^18.0.25"
     "@types/react-dom": "npm:^18.0.9"
-    clipanion: "npm:3.2.0-rc.13"
+    clipanion: "npm:3.2.0-rc.14"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     typescript: "npm:^4.9.3"
@@ -3061,14 +3061,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clipanion@npm:3.2.0-rc.13":
-  version: 3.2.0-rc.13
-  resolution: "clipanion@npm:3.2.0-rc.13"
+"clipanion@npm:3.2.0-rc.14":
+  version: 3.2.0-rc.14
+  resolution: "clipanion@npm:3.2.0-rc.14"
   dependencies:
     typanion: "npm:^3.8.0"
   peerDependencies:
     typanion: "*"
-  checksum: 46660d2fc75b5b2ecc642fb4ca5371c95984c6e0730b6df9a42cf9a5f0066653cde33014a488296c106aa66c7387e18d1c578d61daa6ca29646aacd41965d219
+  checksum: 4f496c432613a126dfac077c784e08fdd1610cf83151854a2796b617040ea20a4f6e81e72964332f178a8293a643e99f3edc0a11eb71c2afcc53eb87f4224b58
   languageName: node
   linkType: hard
 
