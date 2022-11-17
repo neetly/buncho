@@ -29,7 +29,7 @@
   "dependencies": {
     "@buncho/webpack-config": "workspace:*",
     "@buncho/webpack-env": "workspace:*",
-    "clipanion": "3.2.0-rc.13",
+    "clipanion": "3.2.0-rc.14",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0",
     "webpack-dev-server": "^4.11.1",
