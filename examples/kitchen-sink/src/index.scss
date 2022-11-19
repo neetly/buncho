@@ -1,8 +1,3 @@
-html {
-  font-family: sans-serif;
-  overflow-wrap: break-word;
-}
+@use "@buncho/example-library" as *;
 
-body {
-  margin: 0;
-}
+@include preflight();

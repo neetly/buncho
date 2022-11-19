@@ -1,0 +1,10 @@
+@mixin preflight() {
+  html {
+    font-family: sans-serif;
+    overflow-wrap: break-word;
+  }
+
+  body {
+    margin: 0;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@buncho/example-library",
+  "private": true,
+  "homepage": "https://github.com/neetly/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:neetly/buncho.git",
+    "directory": "examples/library"
+  },
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "style": "./lib/index.scss",
+  "devDependencies": {
+    "@neetly/tsconfig": "^0.2.0",
+    "buncho": "workspace:*",
+    "typescript": "^4.9.3"
+  }
+}
