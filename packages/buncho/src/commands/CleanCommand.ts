@@ -1,5 +1,6 @@
+import path from "node:path";
+
 import { Command } from "clipanion";
-import path from "path";
 
 import { tscBinary } from "../binaries";
 import { executeBinary } from "../utils/executeBinary";

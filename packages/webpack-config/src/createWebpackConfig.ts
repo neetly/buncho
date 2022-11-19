@@ -1,10 +1,11 @@
+import path from "node:path";
+
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";
 import mimeTypes from "mime-types";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
-import path from "path";
 import { ProjectReferencesPlugin } from "project-references-webpack-plugin";
 import type { Configuration } from "webpack";
 import type {} from "webpack-dev-server";
