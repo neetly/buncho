@@ -1,3 +1,5 @@
+import "../dotenv";
+
 import { createWebpackConfig } from "@buncho/webpack-config";
 import { merge } from "webpack-merge";
 
