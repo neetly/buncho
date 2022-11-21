@@ -1,6 +1,7 @@
 import "../dotenv";
 
 import { createWebpackConfig } from "@buncho/webpack-config";
+import { DefinePlugin } from "webpack";
 import { merge } from "webpack-merge";
 
 import { getConfig } from "../utils/getConfig";
@@ -15,6 +16,19 @@ export default async () => {
 
     {
       name: "buncho",
+
+      plugins: [
+        new DefinePlugin(
+          Object.fromEntries(
+            Object.entries(process.env)
+              .filter(([key]) => key.startsWith("APP_"))
+              .map(([key, value]) => [
+                `process.env.${key}`,
+                JSON.stringify(value),
+              ]),
+          ),
+        ),
+      ],
 
       stats: process.stdout.isTTY ? "minimal" : "normal",
 
