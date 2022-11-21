@@ -1,0 +1,14 @@
+{
+  "extends": "@neetly/tsconfig",
+
+  "include": ["./src"],
+
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib",
+
+    "types": ["node"]
+  },
+
+  "references": [{ "path": "../buncho" }, { "path": "../webpack-config" }]
+}

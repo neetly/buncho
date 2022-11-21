@@ -1431,6 +1431,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@buncho/storybook-preset@workspace:packages/storybook-preset":
+  version: 0.0.0-use.local
+  resolution: "@buncho/storybook-preset@workspace:packages/storybook-preset"
+  dependencies:
+    "@buncho/webpack-config": "workspace:*"
+    "@neetly/tsconfig": "npm:^0.2.0"
+    "@types/node": "npm:^18.11.9"
+    buncho: "workspace:*"
+    typescript: "npm:^4.9.3"
+    webpack: "npm:^5.75.0"
+    webpack-merge: "npm:^5.8.0"
+  peerDependencies:
+    buncho: "workspace:*"
+  languageName: unknown
+  linkType: soft
+
 "@buncho/webpack-config@workspace:*, @buncho/webpack-config@workspace:packages/webpack-config":
   version: 0.0.0-use.local
   resolution: "@buncho/webpack-config@workspace:packages/webpack-config"

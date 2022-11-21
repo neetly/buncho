@@ -1,0 +1,34 @@
+{
+  "name": "@buncho/storybook-preset",
+  "version": "6.0.0-rc.4",
+  "homepage": "https://github.com/neetly/buncho",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:neetly/buncho.git",
+    "directory": "packages/storybook-preset"
+  },
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "files": [
+    "./lib"
+  ],
+  "scripts": {
+    "build": "../../scripts/build.sh",
+    "clean": "../../scripts/clean.sh",
+    "prepack": "run clean && run build && cp ../../LICENSE ."
+  },
+  "dependencies": {
+    "@buncho/webpack-config": "workspace:*",
+    "webpack": "^5.75.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "peerDependencies": {
+    "buncho": "workspace:*"
+  },
+  "devDependencies": {
+    "@neetly/tsconfig": "^0.2.0",
+    "@types/node": "^18.11.9",
+    "buncho": "workspace:*",
+    "typescript": "^4.9.3"
+  }
+}
