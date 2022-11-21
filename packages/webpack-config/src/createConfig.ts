@@ -13,7 +13,7 @@ import type {} from "webpack-dev-server";
 import { createRules } from "./createRules";
 import { isDevServer, isProduction } from "./env";
 
-const createWebpackConfig = ({
+const createConfig = ({
   publicPath = "/",
 }: {
   publicPath?: string;
@@ -125,4 +125,4 @@ const createWebpackConfig = ({
   };
 };
 
-export { createWebpackConfig };
+export { createConfig };

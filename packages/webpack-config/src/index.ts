@@ -1,1 +1,1 @@
-export * from "./createWebpackConfig";
+export * from "./createConfig";

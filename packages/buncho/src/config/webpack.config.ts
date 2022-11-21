@@ -1,6 +1,6 @@
 import "../dotenv";
 
-import { createWebpackConfig } from "@buncho/webpack-config";
+import { createConfig } from "@buncho/webpack-config";
 import { DefinePlugin } from "webpack";
 import { merge } from "webpack-merge";
 
@@ -10,7 +10,7 @@ export default async () => {
   const config = await getConfig();
 
   return merge(
-    createWebpackConfig({
+    createConfig({
       publicPath: config?.publicPath,
     }),
 
