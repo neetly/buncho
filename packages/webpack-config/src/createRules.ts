@@ -1,13 +1,15 @@
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import type { RuleSetRule, RuleSetUseItem } from "webpack";
 
-import { isDevServer, isProduction } from "./env";
-
 const createRules = ({
-  extractCss = false,
+  mode,
+  isDevServer,
+  useReactRefresh,
 }: {
-  extractCss?: boolean;
-} = {}): RuleSetRule[] => {
+  mode: "production" | "development";
+  isDevServer: boolean;
+  useReactRefresh: boolean;
+}): RuleSetRule[] => {
   return [
     {
       oneOf: [
@@ -19,9 +21,10 @@ const createRules = ({
               options: {
                 configFile: false,
                 presets: [require.resolve("@neetly/babel-preset/react")],
-                plugins: isDevServer
-                  ? [require.resolve("react-refresh/babel")]
-                  : [],
+                plugins:
+                  isDevServer && useReactRefresh
+                    ? [require.resolve("react-refresh/babel")]
+                    : [],
                 cacheDirectory: true,
               },
             },
@@ -32,7 +35,7 @@ const createRules = ({
           test: /\.css$/,
           exclude: /\.module\.css$/,
           use: getCssLoaders({
-            extract: extractCss,
+            mode,
             modules: { mode: "icss" },
           }),
         },
@@ -40,7 +43,7 @@ const createRules = ({
         {
           test: /\.module\.css$/,
           use: getCssLoaders({
-            extract: extractCss,
+            mode,
             modules: { mode: "pure" },
           }),
         },
@@ -49,7 +52,7 @@ const createRules = ({
           test: /\.scss$/,
           exclude: /\.module\.scss$/,
           use: getCssLoaders({
-            extract: extractCss,
+            mode,
             modules: { mode: "icss" },
             use: [
               { loader: require.resolve("resolve-url-loader") },
@@ -61,7 +64,7 @@ const createRules = ({
         {
           test: /\.module\.scss$/,
           use: getCssLoaders({
-            extract: extractCss,
+            mode,
             modules: { mode: "pure" },
             use: [
               { loader: require.resolve("resolve-url-loader") },
@@ -80,18 +83,20 @@ const createRules = ({
 };
 
 const getCssLoaders = ({
-  extract = false,
-  modules = { auto: true, mode: "pure" },
+  mode,
+  modules,
   use = [],
 }: {
-  extract?: boolean;
-  modules?: { auto?: boolean; mode?: "pure" | "icss" };
+  mode: "production" | "development";
+  modules: { mode: "pure" | "icss" };
   use?: readonly RuleSetUseItem[];
-} = {}): RuleSetUseItem[] => {
+}): RuleSetUseItem[] => {
+  const isProduction = mode === "production";
+
   return [
-    extract
-      ? { loader: MiniCssExtractPlugin.loader }
-      : { loader: require.resolve("style-loader") },
+    {
+      loader: MiniCssExtractPlugin.loader,
+    },
 
     {
       loader: require.resolve("css-loader"),
@@ -103,8 +108,11 @@ const getCssLoaders = ({
             ? "[hash:base64]"
             : "[1]__[local]__[hash:base64:8]",
           localIdentRegExp: /([^/]+)\.module\.[^/.]+$/,
+
+          // #region futureDefaults
           localIdentHashFunction: "xxhash64",
           localIdentHashDigestLength: 16,
+          // #endregion
         },
       },
     },

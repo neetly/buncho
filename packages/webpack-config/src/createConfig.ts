@@ -1,9 +1,5 @@
-import path from "node:path";
-
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
-import CopyPlugin from "copy-webpack-plugin";
 import CssMinimizerPlugin from "css-minimizer-webpack-plugin";
-import HtmlPlugin from "html-webpack-plugin";
 import mimeTypes from "mime-types";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import { ProjectReferencesPlugin } from "project-references-webpack-plugin";
@@ -11,33 +7,32 @@ import type { Configuration } from "webpack";
 import type {} from "webpack-dev-server";
 
 import { createRules } from "./createRules";
-import { isDevServer, isProduction } from "./env";
 
 const createConfig = ({
-  publicPath = "/",
+  mode = "production",
+  isDevServer = false,
+  useReactRefresh = true,
 }: {
-  publicPath?: string;
+  mode?: "production" | "development";
+  isDevServer?: boolean;
+  useReactRefresh?: boolean;
 } = {}): Configuration => {
+  const isProduction = mode === "production";
+
   return {
-    mode: isProduction ? "production" : "development",
-
-    context: path.resolve("./src"),
-
-    entry: {
-      app: ".",
-    },
+    mode,
 
     output: {
-      path: path.resolve("./build"),
       filename: isProduction
         ? "static/[name].[contenthash:8].js"
         : "static/[name].js",
       assetModuleFilename: "assets/[contenthash][ext]",
-      publicPath,
 
+      // #region futureDefaults
       charset: false,
       hashFunction: "xxhash64",
       hashDigestLength: 16,
+      // #endregion
     },
 
     devtool: isProduction ? "source-map" : "eval-source-map",
@@ -67,15 +62,13 @@ const createConfig = ({
       },
 
       rules: createRules({
-        extractCss: true,
+        mode,
+        isDevServer,
+        useReactRefresh,
       }),
     },
 
     plugins: [
-      new HtmlPlugin({
-        template: path.resolve("./public/index.html"),
-      }),
-
       new MiniCssExtractPlugin({
         filename: isProduction
           ? "static/[name].[contenthash:8].css"
@@ -83,20 +76,7 @@ const createConfig = ({
         linkType: false,
       }),
 
-      isDevServer && new ReactRefreshPlugin(),
-
-      !isDevServer &&
-        new CopyPlugin({
-          patterns: [
-            {
-              from: path.resolve("./public"),
-              globOptions: {
-                ignore: ["**/index.html"],
-              },
-              noErrorOnMissing: true,
-            },
-          ],
-        }),
+      isDevServer && useReactRefresh && new ReactRefreshPlugin(),
     ].filter(Boolean) as Configuration["plugins"],
 
     node: false,
@@ -120,7 +100,6 @@ const createConfig = ({
       historyApiFallback: {
         disableDotRule: true,
       },
-      static: path.resolve("./public"),
     },
   };
 };
