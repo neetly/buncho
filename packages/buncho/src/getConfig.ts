@@ -5,8 +5,8 @@ import type { Config } from "./types/Config";
 
 const getConfig = async () => {
   try {
-    const content = await fs.readFile(path.resolve("./buncho.json"), "utf-8");
-    return JSON.parse(content) as Config;
+    const content = await fs.readFile(path.resolve("./buncho.json"));
+    return JSON.parse(content.toString()) as Config;
   } catch {
     return null;
   }
