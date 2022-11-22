@@ -8,7 +8,8 @@ yarn add --dev buncho
 yarn start
 ```
 
-```json
+```jsonc
+// <root>/package.json
 {
   "scripts": {
     "start": "buncho start",
@@ -20,7 +21,8 @@ yarn start
 
 ## Config
 
-```json
+```jsonc
+// <root>/buncho.json
 {
   "publicPath": "/",
   "useReactRefresh": true,
@@ -41,6 +43,7 @@ yarn storybook dev
 ```
 
 ```ts
+// <root>/.storybook/main.ts
 export const framework = "@storybook/react-webpack5";
 export const addons = ["@buncho/storybook-preset"];
 ```
