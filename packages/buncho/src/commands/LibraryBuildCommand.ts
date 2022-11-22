@@ -21,7 +21,7 @@ class LibraryBuildCommand extends Command {
         ["--ignore", "**/*.d.ts,**/*.d.mts,**/*.d.cts"],
         ["--source-maps", "true"],
         ["--copy-files"],
-        ["./src", "--out-dir", "./lib"],
+        [path.resolve("./src"), "--out-dir", path.resolve("./lib")],
       ].flat(),
     });
   }

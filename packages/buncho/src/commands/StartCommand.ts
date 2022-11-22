@@ -6,7 +6,7 @@ import { tscBinary, webpackBinary } from "../binaries";
 import { executeBinary } from "../utils/executeBinary";
 
 class StartCommand extends Command {
-  static override readonly paths = [Command.Default, ["serve"]];
+  static override readonly paths = [["start"]];
 
   private readonly args = Option.Proxy();
 
