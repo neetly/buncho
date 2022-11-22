@@ -4,7 +4,7 @@ import { BuildCommand } from "./commands/BuildCommand";
 import { CleanCommand } from "./commands/CleanCommand";
 import { LibraryBuildCommand } from "./commands/LibraryBuildCommand";
 import { LibraryCleanCommand } from "./commands/LibraryCleanCommand";
-import { ServeCommand } from "./commands/ServeCommand";
+import { StartCommand } from "./commands/StartCommand";
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires, @typescript-eslint/no-unsafe-member-access
 const version = require("buncho/package.json").version as string;
@@ -18,7 +18,7 @@ const cli = new Cli({
 cli.register(Builtins.VersionCommand);
 cli.register(Builtins.HelpCommand);
 
-cli.register(ServeCommand);
+cli.register(StartCommand);
 cli.register(BuildCommand);
 cli.register(CleanCommand);
 

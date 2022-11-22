@@ -5,7 +5,7 @@ import { Command, Option } from "clipanion";
 import { tscBinary, webpackBinary } from "../binaries";
 import { executeBinary } from "../utils/executeBinary";
 
-class ServeCommand extends Command {
+class StartCommand extends Command {
   static override readonly paths = [Command.Default, ["serve"]];
 
   private readonly args = Option.Proxy();
@@ -30,4 +30,4 @@ class ServeCommand extends Command {
   }
 }
 
-export { ServeCommand };
+export { StartCommand };
