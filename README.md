@@ -5,18 +5,7 @@
 
 ```sh
 yarn add --dev buncho
-yarn start
-```
-
-```jsonc
-// <root>/package.json
-{
-  "scripts": {
-    "start": "buncho start",
-    "build": "buncho build",
-    "clean": "buncho clean"
-  }
-}
+yarn buncho start
 ```
 
 ## Config
