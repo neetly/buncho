@@ -14,7 +14,7 @@ class ServeCommand extends Command {
     await executeBinary({
       path: tscBinary,
       args: ["--build", path.resolve(".")],
-    });
+    }).catch(() => {}); // eslint-disable-line @typescript-eslint/no-empty-function
     await executeBinary({
       path: webpackBinary,
       args: [
