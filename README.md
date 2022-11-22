@@ -8,17 +8,29 @@ yarn add --dev buncho
 yarn buncho
 ```
 
+## Config
+
+```json
+{
+  "publicPath": "/",
+  "useReactRefresh": true,
+
+  "devServer": {
+    "host": "localhost",
+    "port": 3000,
+    "proxy": {}
+  }
+}
+```
+
 ## Storybook
 
 ```sh
 yarn add --dev storybook @storybook/react-webpack5 @buncho/storybook-preset
+yarn storybook dev
 ```
 
 ```ts
 export const framework = "@storybook/react-webpack5";
 export const addons = ["@buncho/storybook-preset"];
-```
-
-```sh
-yarn storybook dev
 ```
