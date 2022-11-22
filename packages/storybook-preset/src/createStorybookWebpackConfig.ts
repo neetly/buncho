@@ -37,6 +37,13 @@ const createStorybookWebpackConfig = (
       isDevServer,
       useReactRefresh,
     }),
+
+    {
+      resolve: {
+        alias: config.resolve?.alias,
+        fallback: config.resolve?.fallback,
+      },
+    },
   );
 };
 

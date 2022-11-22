@@ -20,6 +20,17 @@ export const webpackFinal = async (webpackConfig: Configuration) => {
     }),
 
     {
+      module: {
+        rules: [
+          {
+            test: /\.(js|mjs)$/,
+            resolve: {
+              fullySpecified: false,
+            },
+          },
+        ],
+      },
+
       plugins: [
         new DefinePlugin(
           Object.fromEntries(
