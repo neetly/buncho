@@ -2,6 +2,8 @@ import { Builtins, Cli } from "clipanion";
 
 import { BuildCommand } from "./commands/BuildCommand";
 import { CleanCommand } from "./commands/CleanCommand";
+import { LibraryBuildCommand } from "./commands/LibraryBuildCommand";
+import { LibraryCleanCommand } from "./commands/LibraryCleanCommand";
 import { ServeCommand } from "./commands/ServeCommand";
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires, @typescript-eslint/no-unsafe-member-access
@@ -19,5 +21,8 @@ cli.register(Builtins.HelpCommand);
 cli.register(ServeCommand);
 cli.register(BuildCommand);
 cli.register(CleanCommand);
+
+cli.register(LibraryBuildCommand);
+cli.register(LibraryCleanCommand);
 
 export { cli };

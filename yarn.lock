@@ -4600,8 +4600,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "buncho@workspace:packages/buncho"
   dependencies:
+    "@babel/cli": "npm:^7.19.3"
+    "@babel/core": "npm:^7.20.2"
     "@buncho/webpack-config": "workspace:*"
     "@buncho/webpack-env": "workspace:*"
+    "@neetly/babel-preset": "npm:^0.2.2"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@types/node": "npm:^18.11.9"
     "@types/react": "npm:^18.0.25"
