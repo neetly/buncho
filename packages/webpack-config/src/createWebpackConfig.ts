@@ -8,7 +8,7 @@ import type {} from "webpack-dev-server";
 
 import { createRules } from "./createRules";
 
-const createConfig = ({
+const createWebpackConfig = ({
   mode = "production",
   isDevServer = false,
   useReactRefresh = true,
@@ -104,4 +104,4 @@ const createConfig = ({
   };
 };
 
-export { createConfig };
+export { createWebpackConfig };

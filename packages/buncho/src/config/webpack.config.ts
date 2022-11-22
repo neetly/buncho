@@ -1,6 +1,6 @@
 import path from "node:path";
 
-import { createConfig } from "@buncho/webpack-config";
+import { createWebpackConfig } from "@buncho/webpack-config";
 import CopyPlugin from "copy-webpack-plugin";
 import HtmlPlugin from "html-webpack-plugin";
 import { type Configuration, DefinePlugin } from "webpack";
@@ -18,7 +18,7 @@ export default async () => {
   const config = await getConfig();
 
   return merge(
-    createConfig({
+    createWebpackConfig({
       mode: isProduction ? "production" : "development",
       isDevServer,
       useReactRefresh: config?.useReactRefresh,
