@@ -1,5 +1,3 @@
-import "../dotenv";
-
 import path from "node:path";
 
 import { createConfig } from "@buncho/webpack-config";
@@ -8,7 +6,10 @@ import HtmlPlugin from "html-webpack-plugin";
 import { type Configuration, DefinePlugin } from "webpack";
 import { merge } from "webpack-merge";
 
-import { getConfig } from "../utils/getConfig";
+import { getConfig } from "../getConfig";
+import { setupDotenv } from "../setupDotenv";
+
+setupDotenv(process.env.NODE_ENV);
 
 const isProduction = process.env.NODE_ENV === "production";
 const isDevServer = Boolean(process.env.WEBPACK_SERVE);

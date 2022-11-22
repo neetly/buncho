@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-import type { Config } from "../types/Config";
+import type { Config } from "./types/Config";
 
 const getConfig = async () => {
   try {
