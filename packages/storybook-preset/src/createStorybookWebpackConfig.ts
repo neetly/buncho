@@ -4,10 +4,11 @@ import {
   customizeArray,
   customizeObject,
   CustomizeRule,
+  merge,
   mergeWithCustomize,
 } from "webpack-merge";
 
-const merge = mergeWithCustomize({
+const override = mergeWithCustomize({
   customizeObject: customizeObject({
     resolve: CustomizeRule.Replace,
     module: CustomizeRule.Replace,
@@ -30,13 +31,15 @@ const createStorybookWebpackConfig = (
   } = {},
 ) => {
   return merge(
-    config,
+    override(
+      config,
 
-    createWebpackConfig({
-      mode,
-      isDevServer,
-      useReactRefresh,
-    }),
+      createWebpackConfig({
+        mode,
+        isDevServer,
+        useReactRefresh,
+      }),
+    ),
 
     {
       resolve: {
