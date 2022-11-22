@@ -5,7 +5,17 @@
 
 ```sh
 yarn add --dev buncho
-yarn buncho
+yarn start
+```
+
+```json
+{
+  "scripts": {
+    "start": "buncho start",
+    "build": "buncho build",
+    "clean": "buncho clean"
+  }
+}
 ```
 
 ## Config
