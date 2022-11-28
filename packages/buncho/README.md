@@ -39,5 +39,4 @@ export const addons = ["@buncho/storybook-preset"];
 
 ## Credit
 
-This project was inspired by
-[create-react-app](https://github.com/facebook/create-react-app).
+This project was inspired by [Create React App](https://create-react-app.dev/).
