@@ -36,3 +36,8 @@ yarn storybook dev
 export const framework = "@storybook/react-webpack5";
 export const addons = ["@buncho/storybook-preset"];
 ```
+
+## Credit
+
+This project was inspired by
+[create-react-app](https://github.com/facebook/create-react-app).
