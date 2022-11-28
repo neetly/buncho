@@ -7,6 +7,6 @@ export default {
   args: {
     children: "Button",
   },
-} satisfies Meta<typeof Button>;
+} as Meta<typeof Button>;
 
 export const Default: StoryObj<typeof Button> = {};
