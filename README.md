@@ -11,7 +11,7 @@ yarn buncho start
 ## Config
 
 ```jsonc
-// <root>/buncho.json
+// buncho.json
 {
   "publicPath": "/",
   "useReactRefresh": true,
@@ -27,12 +27,12 @@ yarn buncho start
 ## Storybook
 
 ```sh
-yarn add --dev storybook @storybook/react-webpack5 @buncho/storybook-preset
+yarn add --dev storybook@next @storybook/react-webpack5@next @buncho/storybook-preset
 yarn storybook dev
 ```
 
 ```ts
-// <root>/.storybook/main.ts
+// .storybook/main.ts
 export const framework = "@storybook/react-webpack5";
 export const addons = ["@buncho/storybook-preset"];
 ```
