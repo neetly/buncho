@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@neetly/tsconfig": "^0.2.0",
-    "@types/node": "^18.11.9",
+    "@types/node": "^18.11.10",
     "buncho": "workspace:*",
     "typescript": "^4.9.3"
   }
