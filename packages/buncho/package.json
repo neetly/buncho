@@ -43,6 +43,20 @@
     "react-dom": "*",
     "typescript": "*"
   },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "@neetly/tsconfig": "^0.2.0",
     "@types/node": "^18.11.9",

@@ -1574,6 +1574,11 @@ __metadata:
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -4600,6 +4605,15 @@ __metadata:
     react: "*"
     react-dom: "*"
     typescript: "*"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+    react:
+      optional: true
+    react-dom:
+      optional: true
   bin:
     buncho: ./bin/buncho.js
   languageName: unknown
