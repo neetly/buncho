@@ -1546,7 +1546,7 @@ __metadata:
     mini-css-extract-plugin: "npm:^2.7.1"
     postcss: "npm:^8.4.19"
     postcss-loader: "npm:^7.0.2"
-    project-references-webpack-plugin: "npm:^0.1.2"
+    project-references-webpack-plugin: "npm:^0.1.4"
     react-refresh: "npm:^0.14.0"
     resolve-url-loader: "npm:^5.0.0"
     sass: "npm:^1.56.1"
@@ -10684,12 +10684,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"project-references-webpack-plugin@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "project-references-webpack-plugin@npm:0.1.2"
+"project-references-webpack-plugin@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "project-references-webpack-plugin@npm:0.1.4"
   dependencies:
     jsonc-parser: "npm:^3.2.0"
-  checksum: 337deefbb46f21ec7794b234132802457ba05593f38c93ad094fdca48a50273f2663792edaacc1a7f9f4dd74502d02b46d87212ce19165be058bcb583f51582a
+  checksum: ca790be198990ca988b27bfbbf49c08fcc0940bd3befc965f5c93f168dca602511e7419ade85087532bca202e499fe70ea417619f06e955613430268dd34869c
   languageName: node
   linkType: hard
 
