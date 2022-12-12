@@ -2,7 +2,7 @@ import path from "node:path";
 
 import { createWebpackConfig } from "@buncho/webpack-config";
 import CopyPlugin from "copy-webpack-plugin";
-import HtmlPlugin from "html-webpack-plugin";
+import HTMLPlugin from "html-webpack-plugin";
 import { type Configuration, DefinePlugin } from "webpack";
 import { merge } from "webpack-merge";
 
@@ -50,7 +50,7 @@ export default async () => {
           ),
         ),
 
-        new HtmlPlugin({
+        new HTMLPlugin({
           template: path.resolve("./public/index.html"),
         }),
 
