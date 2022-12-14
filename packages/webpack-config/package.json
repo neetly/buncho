@@ -24,7 +24,7 @@
     "@types/mime-types": "^2.1.1",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^9.1.0",
-    "css-loader": "^6.7.2",
+    "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
     "mime-types": "^2.1.35",
     "mini-css-extract-plugin": "^2.7.2",
