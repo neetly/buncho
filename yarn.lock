@@ -4712,7 +4712,7 @@ __metadata:
     clipanion: "npm:3.2.0-rc.14"
     copy-webpack-plugin: "npm:^11.0.0"
     dotenv: "npm:^16.0.3"
-    dotenv-expand: "npm:^9.0.0"
+    dotenv-expand: "npm:^10.0.0"
     html-webpack-plugin: "npm:^5.5.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
@@ -5946,17 +5946,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv-expand@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "dotenv-expand@npm:10.0.0"
+  checksum: bbe61cc154763b3fc2ef5ec6422b357c8fea706932e4be585c6a8f3af2a1508f87f2badc4beb24af2913520580e754763c58769ddf667312476eb16a7c1bed34
+  languageName: node
+  linkType: hard
+
 "dotenv-expand@npm:^5.1.0":
   version: 5.1.0
   resolution: "dotenv-expand@npm:5.1.0"
   checksum: 45ac32cdf6e194ed587ffc87745d3bacc8a831b73d70fef5c4d86294b4eb2e441b745df8fc031df38f5772276ec0f4af74999f4ff5d4e48b1f98cab3b720f394
-  languageName: node
-  linkType: hard
-
-"dotenv-expand@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "dotenv-expand@npm:9.0.0"
-  checksum: be5569f785d9eabe655beb947cce8bb39b45f7788cea09ad4f68157aea71addaf07f8e7f07cf1458d5504e76ffe65a4f7124f109a0315a766387d2039a499992
   languageName: node
   linkType: hard
 
