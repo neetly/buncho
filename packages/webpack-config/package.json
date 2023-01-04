@@ -23,7 +23,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
     "@types/mime-types": "^2.1.1",
     "autoprefixer": "^10.4.13",
-    "babel-loader": "^9.1.0",
+    "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
     "mime-types": "^2.1.35",
