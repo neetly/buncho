@@ -1,4 +1,4 @@
-import path from "node:path";
+import * as path from "node:path";
 
 import { createWebpackConfig } from "@buncho/webpack-config";
 import CopyPlugin from "copy-webpack-plugin";

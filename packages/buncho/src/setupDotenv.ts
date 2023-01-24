@@ -1,4 +1,4 @@
-import path from "node:path";
+import * as path from "node:path";
 
 import dotenv from "dotenv";
 import dotenvExpand from "dotenv-expand";

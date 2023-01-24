@@ -1,4 +1,4 @@
-import path from "node:path";
+import * as path from "node:path";
 
 import { Command, Option } from "clipanion";
 
