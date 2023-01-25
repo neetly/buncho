@@ -1,3 +1,5 @@
+import * as path from "node:path";
+
 import { getConfig, setupDotenv } from "buncho";
 import { type Configuration, DefinePlugin } from "webpack";
 import { merge } from "webpack-merge";
@@ -8,6 +10,8 @@ setupDotenv(process.env.NODE_ENV);
 
 const isProduction = process.env.NODE_ENV === "production";
 const isDevServer = !isProduction;
+
+export const staticDirs = [path.resolve("./public")];
 
 export const webpackFinal = async (webpackConfig: Configuration) => {
   const config = await getConfig();
