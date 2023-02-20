@@ -4755,7 +4755,7 @@ __metadata:
     "@types/node": "npm:^18.14.0"
     "@types/react": "npm:^18.0.28"
     "@types/react-dom": "npm:^18.0.11"
-    clipanion: "npm:3.2.0"
+    clipanion: "npm:^3.2.0"
     copy-webpack-plugin: "npm:^11.0.0"
     dotenv: "npm:^16.0.3"
     dotenv-expand: "npm:^10.0.0"
@@ -5044,7 +5044,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clipanion@npm:3.2.0":
+"clipanion@npm:^3.2.0":
   version: 3.2.0
   resolution: "clipanion@npm:3.2.0"
   dependencies:
