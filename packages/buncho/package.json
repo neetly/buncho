@@ -26,7 +26,7 @@
     "@buncho/webpack-config": "workspace:*",
     "@buncho/webpack-env": "workspace:*",
     "@neetly/babel-preset": "^0.2.2",
-    "clipanion": "3.2.0-rc.16",
+    "clipanion": "3.2.0",
     "copy-webpack-plugin": "^11.0.0",
     "dotenv": "^16.0.3",
     "dotenv-expand": "^10.0.0",
