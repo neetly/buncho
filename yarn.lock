@@ -1585,7 +1585,7 @@ __metadata:
     mime-types: "npm:^2.1.35"
     mini-css-extract-plugin: "npm:^2.7.3"
     postcss: "npm:^8.4.21"
-    postcss-loader: "npm:^7.0.2"
+    postcss-loader: "npm:^7.1.0"
     project-references-webpack-plugin: "npm:^0.1.4"
     react-refresh: "npm:^0.14.0"
     resolve-url-loader: "npm:^5.0.0"
@@ -5361,7 +5361,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^7.0.0, cosmiconfig@npm:^7.0.1":
+"cosmiconfig@npm:^7.0.1":
   version: 7.1.0
   resolution: "cosmiconfig@npm:7.1.0"
   dependencies:
@@ -5371,6 +5371,18 @@ __metadata:
     path-type: "npm:^4.0.0"
     yaml: "npm:^1.10.0"
   checksum: 8add352f0abd55fc5eaef0823937c33992e5ae670831418c8ff98bb301952260467533b09b8e9257dc360baa270610a7a92b288d94eb25d6f577a0d7e507801b
+  languageName: node
+  linkType: hard
+
+"cosmiconfig@npm:^8.0.0":
+  version: 8.1.0
+  resolution: "cosmiconfig@npm:8.1.0"
+  dependencies:
+    import-fresh: "npm:^3.2.1"
+    js-yaml: "npm:^4.1.0"
+    parse-json: "npm:^5.0.0"
+    path-type: "npm:^4.0.0"
+  checksum: afc737bbfdd6e963183336d016f37dbdae4ba41b412187e3be35eaf2d095b5a6fb0bb08f9d9a0f0f7cc893ab363aaff4ebe9f28fd99064adb0a754667b170026
   languageName: node
   linkType: hard
 
@@ -8451,10 +8463,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"klona@npm:^2.0.4, klona@npm:^2.0.5":
-  version: 2.0.5
-  resolution: "klona@npm:2.0.5"
-  checksum: a4dcd9c0ea136553a0343f57e8da6b9d4cc0275e54711061c46ef12b2b890e88e830ff67e853d738cb1b3e7049426cda203592abb39fcb2ef724526fb5fa139f
+"klona@npm:^2.0.4, klona@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "klona@npm:2.0.6"
+  checksum: 1e6259d52cde4ac1053374c5a1e256d7b1f8605623d2318dbaa1207dd518ac05b3335ecb427a439dbb6afbc2f17ef0d9a22f3d1700775c48af0b2ee84291ca65
   languageName: node
   linkType: hard
 
@@ -9797,17 +9809,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "postcss-loader@npm:7.0.2"
+"postcss-loader@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "postcss-loader@npm:7.1.0"
   dependencies:
-    cosmiconfig: "npm:^7.0.0"
-    klona: "npm:^2.0.5"
+    cosmiconfig: "npm:^8.0.0"
+    klona: "npm:^2.0.6"
     semver: "npm:^7.3.8"
   peerDependencies:
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^5.0.0
-  checksum: 6a8fbb68160e6b7ef071003b4067035fd967ec6e1856addcb82919b0a374be7823d790665af49336d0cd016d20ad8e04ee7763b416dffe8c63666fb6df807cab
+  checksum: 80eddbf9c6bbf5fb0fc2f3f3abd5e23b2092ba779649114bb9e0e9d27cf5bc248ad6478921d31a93a7f588be6be6f1f12ac9edff91b96eeecafa6f58a1c1276e
   languageName: node
   linkType: hard
 
