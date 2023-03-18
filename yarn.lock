@@ -1513,7 +1513,7 @@ __metadata:
   dependencies:
     "@buncho/example-library": "workspace:*"
     "@buncho/storybook-preset": "workspace:*"
-    "@neetly/tsconfig": "npm:^0.2.0"
+    "@neetly/tsconfig": "npm:^0.3.0"
     "@storybook/addon-essentials": "npm:7.0.0-rc.4"
     "@storybook/react": "npm:7.0.0-rc.4"
     "@storybook/react-webpack5": "npm:7.0.0-rc.4"
@@ -1531,7 +1531,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/example-library@workspace:examples/library"
   dependencies:
-    "@neetly/tsconfig": "npm:^0.2.0"
+    "@neetly/tsconfig": "npm:^0.3.0"
     buncho: "workspace:*"
     typescript: "npm:^4.9.5"
   languageName: unknown
@@ -1545,7 +1545,7 @@ __metadata:
     "@babel/core": "npm:^7.21.3"
     "@neetly/babel-preset": "npm:^0.3.0"
     "@neetly/eslint-config": "npm:^0.4.0"
-    "@neetly/tsconfig": "npm:^0.2.0"
+    "@neetly/tsconfig": "npm:^0.3.0"
     eslint: "npm:^8.36.0"
     prettier: "npm:^2.8.4"
     typescript: "npm:^4.9.5"
@@ -1557,7 +1557,7 @@ __metadata:
   resolution: "@buncho/storybook-preset@workspace:packages/storybook-preset"
   dependencies:
     "@buncho/webpack-config": "workspace:*"
-    "@neetly/tsconfig": "npm:^0.2.0"
+    "@neetly/tsconfig": "npm:^0.3.0"
     "@types/node": "npm:^18.15.3"
     buncho: "workspace:*"
     typescript: "npm:^4.9.5"
@@ -1574,7 +1574,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.21.3"
     "@neetly/babel-preset": "npm:^0.3.0"
-    "@neetly/tsconfig": "npm:^0.2.0"
+    "@neetly/tsconfig": "npm:^0.3.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.10"
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^18.15.3"
@@ -1607,7 +1607,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buncho/webpack-env@workspace:packages/webpack-env"
   dependencies:
-    "@neetly/tsconfig": "npm:^0.2.0"
+    "@neetly/tsconfig": "npm:^0.3.0"
     "@types/react": "npm:^18.0.28"
     "@types/react-dom": "npm:^18.0.11"
     typescript: "npm:^4.9.5"
@@ -2080,12 +2080,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/tsconfig@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "@neetly/tsconfig@npm:0.2.0"
+"@neetly/tsconfig@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@neetly/tsconfig@npm:0.3.0"
   peerDependencies:
     typescript: "*"
-  checksum: f8dce4d10376eeaf9ecfa5e9856dd59d62a964c43173edc097ae582e3955326b9409a58749bef336bf3e85dba49874cd04a94467a4e49cfd17e245c8cf4d50c7
+  checksum: 93e2484fefcfde281b12eca401bd51e5eb8de5afc164f26c5ae3c3e53581b1b88ad5b7f9b282e167285764efb8cbf1d80b7027da7e29e8887a2fe3c7e74da88d
   languageName: node
   linkType: hard
 
@@ -4790,7 +4790,7 @@ __metadata:
     "@buncho/webpack-config": "workspace:*"
     "@buncho/webpack-env": "workspace:*"
     "@neetly/babel-preset": "npm:^0.3.0"
-    "@neetly/tsconfig": "npm:^0.2.0"
+    "@neetly/tsconfig": "npm:^0.3.0"
     "@types/node": "npm:^18.15.3"
     "@types/react": "npm:^18.0.28"
     "@types/react-dom": "npm:^18.0.11"
