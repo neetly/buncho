@@ -26,7 +26,7 @@
     "buncho": "workspace:*"
   },
   "devDependencies": {
-    "@neetly/tsconfig": "^0.2.0",
+    "@neetly/tsconfig": "^0.3.0",
     "@types/node": "^18.15.3",
     "buncho": "workspace:*",
     "typescript": "^5.0.2"
