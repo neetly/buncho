@@ -29,6 +29,6 @@
     "@neetly/tsconfig": "^0.2.0",
     "@types/node": "^18.15.3",
     "buncho": "workspace:*",
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.2"
   }
 }
