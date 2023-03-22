@@ -1561,7 +1561,7 @@ __metadata:
     "@types/node": "npm:^18.15.5"
     buncho: "workspace:*"
     typescript: "npm:^5.0.2"
-    webpack: "npm:^5.76.2"
+    webpack: "npm:^5.76.3"
     webpack-merge: "npm:^5.8.0"
   peerDependencies:
     buncho: "workspace:*"
@@ -1592,7 +1592,7 @@ __metadata:
     sass: "npm:^1.59.3"
     sass-loader: "npm:^13.2.1"
     typescript: "npm:^5.0.2"
-    webpack: "npm:^5.76.2"
+    webpack: "npm:^5.76.3"
     webpack-dev-server: "npm:^4.13.1"
   peerDependencies:
     webpack: "*"
@@ -4802,7 +4802,7 @@ __metadata:
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     typescript: "npm:^5.0.2"
-    webpack: "npm:^5.76.2"
+    webpack: "npm:^5.76.3"
     webpack-cli: "npm:^5.0.1"
     webpack-dev-server: "npm:^4.13.1"
     webpack-merge: "npm:^5.8.0"
@@ -12417,9 +12417,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5, webpack@npm:^5.76.2":
-  version: 5.76.2
-  resolution: "webpack@npm:5.76.2"
+"webpack@npm:5, webpack@npm:^5.76.3":
+  version: 5.76.3
+  resolution: "webpack@npm:5.76.3"
   dependencies:
     "@types/eslint-scope": "npm:^3.7.3"
     "@types/estree": "npm:^0.0.51"
@@ -12450,7 +12450,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: d5a95c226f9252b0e6db00efce035ef7db30634f2ad22c91268c3010bf9d7c3648ea214d0032730103efe86787875ade86885a8d8c8fef89485449098083f261
+  checksum: 2bb8f52f031bb5f485429eb842fcfbc56be1c9af6dcb58e6b04482b9d94677e8eb4d2605efc597d8f78b30ca2dc39d775e428a00904f85315df3d2f0a3fcf137
   languageName: node
   linkType: hard
 
