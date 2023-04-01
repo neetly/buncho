@@ -24,7 +24,7 @@
     "@neetly/babel-preset": "^0.3.0",
     "@neetly/eslint-config": "^0.4.0",
     "@neetly/tsconfig": "^0.3.0",
-    "eslint": "^8.36.0",
+    "eslint": "^8.37.0",
     "prettier": "^2.8.7",
     "typescript": "^5.0.3"
   },
