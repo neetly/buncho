@@ -27,7 +27,7 @@ yarn buncho start
 ## Storybook
 
 ```sh
-yarn add --dev storybook@next @storybook/react-webpack5@next @buncho/storybook-preset
+yarn add --dev storybook @storybook/react-webpack5 @buncho/storybook-preset
 yarn storybook dev
 ```
 
