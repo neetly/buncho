@@ -48,7 +48,7 @@
   "devDependencies": {
     "@neetly/tsconfig": "^0.3.0",
     "@types/node": "^18.15.10",
-    "typescript": "^5.0.2",
+    "typescript": "^5.0.3",
     "webpack": "^5.76.3",
     "webpack-dev-server": "^4.13.1"
   }
