@@ -50,6 +50,6 @@
     "@types/node": "^18.15.10",
     "typescript": "^5.0.3",
     "webpack": "^5.77.0",
-    "webpack-dev-server": "^4.13.1"
+    "webpack-dev-server": "^4.13.2"
   }
 }
