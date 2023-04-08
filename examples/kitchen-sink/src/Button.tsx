@@ -6,4 +6,4 @@ const Button = (props: ButtonProps) => {
   return <button {...props} />;
 };
 
-export { type ButtonProps, Button };
+export { Button, type ButtonProps };
