@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@buncho/webpack-config": "workspace:*",
-    "webpack": "^5.82.0",
+    "webpack": "^5.83.1",
     "webpack-merge": "^5.8.0"
   },
   "peerDependencies": {
