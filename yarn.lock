@@ -1556,7 +1556,7 @@ __metadata:
   dependencies:
     "@buncho/webpack-config": "workspace:*"
     "@neetly/tsconfig": "npm:^0.3.0"
-    "@types/node": "npm:^20.1.0"
+    "@types/node": "npm:^20.2.1"
     buncho: "workspace:*"
     typescript: "npm:^5.0.4"
     webpack: "npm:^5.82.0"
@@ -1575,7 +1575,7 @@ __metadata:
     "@neetly/tsconfig": "npm:^0.3.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.10"
     "@types/mime-types": "npm:^2.1.1"
-    "@types/node": "npm:^20.1.0"
+    "@types/node": "npm:^20.2.1"
     autoprefixer: "npm:^10.4.14"
     babel-loader: "npm:^9.1.2"
     css-loader: "npm:^6.7.3"
@@ -3491,10 +3491,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.1.0":
-  version: 20.1.0
-  resolution: "@types/node@npm:20.1.0"
-  checksum: 299fe2b03230b10367862b2b7f4b618671377e20846276f5f435262080d7b01231d45a2b3a08c5de31495fac2eda8048e977aebf06b3c1e26502f74fc021da63
+"@types/node@npm:*, @types/node@npm:^20.2.1":
+  version: 20.2.1
+  resolution: "@types/node@npm:20.2.1"
+  checksum: d8431e663a93580f9b8f87c5f3db3cdaa32d3ffbe806820975d90f8d2c571928b67e35314dc3abe9a6cd590329fd8030ba7295e824262d5604d922bce6750348
   languageName: node
   linkType: hard
 
@@ -4778,7 +4778,7 @@ __metadata:
     "@buncho/webpack-env": "workspace:*"
     "@neetly/babel-preset": "npm:^0.3.0"
     "@neetly/tsconfig": "npm:^0.3.0"
-    "@types/node": "npm:^20.1.0"
+    "@types/node": "npm:^20.2.1"
     "@types/react": "npm:^18.2.6"
     "@types/react-dom": "npm:^18.2.4"
     clipanion: "npm:^3.2.0"
