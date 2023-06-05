@@ -4855,7 +4855,7 @@ __metadata:
     "@types/node": "npm:^20.2.5"
     "@types/react": "npm:^18.2.8"
     "@types/react-dom": "npm:^18.2.4"
-    clipanion: "npm:^3.2.0"
+    clipanion: "npm:^3.2.1"
     copy-webpack-plugin: "npm:^11.0.0"
     dotenv: "npm:^16.1.3"
     dotenv-expand: "npm:^10.0.0"
@@ -5145,14 +5145,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clipanion@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "clipanion@npm:3.2.0"
+"clipanion@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "clipanion@npm:3.2.1"
   dependencies:
     typanion: "npm:^3.8.0"
   peerDependencies:
     typanion: "*"
-  checksum: fb3428b74549ff4a8fdb767c704b2dcf203467edb59eac9b9b1b7f7a118444b3ca90b622f91c4ae92e0f5c21aec95855bbada9cce1a62c5deb7629f5a3963fb6
+  checksum: 6f757bde93155c9dadc7e8381813dd2013431cba21511cf5dc3b825306d2d781dcfe997a52602a71d7e8665c9edeb4508ab86cf7257b035c9f4860e4cfbc92cc
   languageName: node
   linkType: hard
 
