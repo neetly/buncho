@@ -1664,7 +1664,7 @@ __metadata:
     sass-loader: "npm:^13.3.1"
     typescript: "npm:^5.1.3"
     webpack: "npm:^5.83.1"
-    webpack-dev-server: "npm:^4.15.0"
+    webpack-dev-server: "npm:^4.15.1"
   peerDependencies:
     webpack: "*"
     webpack-dev-server: "*"
@@ -3704,12 +3704,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ws@npm:^8.5.1":
-  version: 8.5.3
-  resolution: "@types/ws@npm:8.5.3"
+"@types/ws@npm:^8.5.5":
+  version: 8.5.5
+  resolution: "@types/ws@npm:8.5.5"
   dependencies:
     "@types/node": "npm:*"
-  checksum: 079fdee163d7cb86d59e5379d2ea6511ba6a46210af420320a4bd52b04b06f86d2c3acc89289f5eae16c8815a562faada8c717fd55a4888c8a5a5f8ce1420112
+  checksum: 4bc2ec6ec83006a5fa74cc3d990e7ab6fd3c0d80f7124508bd45caa8c4226760e9eaf9bcf40c5b7068187d56cc2aa8c2c201dc20de0efb71ba13f83d0e47074a
   languageName: node
   linkType: hard
 
@@ -4865,7 +4865,7 @@ __metadata:
     typescript: "npm:^5.1.3"
     webpack: "npm:^5.83.1"
     webpack-cli: "npm:^5.1.4"
-    webpack-dev-server: "npm:^4.15.0"
+    webpack-dev-server: "npm:^4.15.1"
     webpack-merge: "npm:^5.9.0"
   peerDependencies:
     "@types/react": "*"
@@ -12618,9 +12618,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.15.0":
-  version: 4.15.0
-  resolution: "webpack-dev-server@npm:4.15.0"
+"webpack-dev-server@npm:^4.15.1":
+  version: 4.15.1
+  resolution: "webpack-dev-server@npm:4.15.1"
   dependencies:
     "@types/bonjour": "npm:^3.5.9"
     "@types/connect-history-api-fallback": "npm:^1.3.5"
@@ -12628,7 +12628,7 @@ __metadata:
     "@types/serve-index": "npm:^1.9.1"
     "@types/serve-static": "npm:^1.13.10"
     "@types/sockjs": "npm:^0.3.33"
-    "@types/ws": "npm:^8.5.1"
+    "@types/ws": "npm:^8.5.5"
     ansi-html-community: "npm:^0.0.8"
     bonjour-service: "npm:^1.0.11"
     chokidar: "npm:^3.5.3"
@@ -12661,7 +12661,7 @@ __metadata:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: ea32e8ea112ff4a1f9ea12a306be9007c51ea53e1004a538be6401f21e64cd327f2604fd929245c2c49908c96e7995dd7d48146a07c907c7a0ca10e12df151cf
+  checksum: eb96ecfa5bc32c2f49324a7830c881582a46d9d0e987b79bbc149120a0f0f548fa4eeb2d4f4966565c635627ee98a4b1ee36e2ef1c935bfe30f7f762016b6580
   languageName: node
   linkType: hard
 
