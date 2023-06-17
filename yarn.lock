@@ -4857,7 +4857,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.4"
     clipanion: "npm:^3.2.1"
     copy-webpack-plugin: "npm:^11.0.0"
-    dotenv: "npm:^16.1.4"
+    dotenv: "npm:^16.3.1"
     dotenv-expand: "npm:^10.0.0"
     html-webpack-plugin: "npm:^5.5.3"
     react: "npm:^18.2.0"
@@ -6049,10 +6049,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.0.0, dotenv@npm:^16.1.4":
-  version: 16.1.4
-  resolution: "dotenv@npm:16.1.4"
-  checksum: c8eb9665ee670f2d3aa36b6f3dc43a9108a02da9efaa86cb9890d6873cbc025b047e30ce23f852195be8e4a2601b7684c23173d937d754443c4fbc957e1da512
+"dotenv@npm:^16.0.0, dotenv@npm:^16.3.1":
+  version: 16.3.1
+  resolution: "dotenv@npm:16.3.1"
+  checksum: 10accb903da092a279d5a952c54290c0980c1c3ab0767b0dbc3013526593ebc98944e26352c9bef1d0fe93589a7c78e4810daae1bd53c7432c69997b17de0b3d
   languageName: node
   linkType: hard
 
