@@ -1660,7 +1660,7 @@ __metadata:
     project-references-webpack-plugin: "npm:^0.1.4"
     react-refresh: "npm:^0.14.0"
     resolve-url-loader: "npm:^5.0.0"
-    sass: "npm:^1.63.3"
+    sass: "npm:^1.63.6"
     sass-loader: "npm:^13.3.2"
     typescript: "npm:^5.1.3"
     webpack: "npm:^5.83.1"
@@ -11219,16 +11219,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.63.3":
-  version: 1.63.3
-  resolution: "sass@npm:1.63.3"
+"sass@npm:^1.63.6":
+  version: 1.63.6
+  resolution: "sass@npm:1.63.6"
   dependencies:
     chokidar: "npm:>=3.0.0 <4.0.0"
     immutable: "npm:^4.0.0"
     source-map-js: "npm:>=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 27bb50f2e00d238d66f0d3b1c139db3a2c9f1050b7c5aeba917046040a9ad059dbfd3963522e3ec1b21b66e47ef5767a4d937eaf9785115f5041f3ea131ec076
+  checksum: f634ca5cd895d5cd74ba62ee327d336e1f37e9e7e4dc4da25dc564ff060717f294552a9118b2bc8504cfd287afc456447d339aca0956d73c04dc3c11f0a81c00
   languageName: node
   linkType: hard
 
