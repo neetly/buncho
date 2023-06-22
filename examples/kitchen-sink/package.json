@@ -16,7 +16,7 @@
   "dependencies": {
     "@buncho/example-library": "workspace:*",
     "@types/react": "^18.2.13",
-    "@types/react-dom": "^18.2.4",
+    "@types/react-dom": "^18.2.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
