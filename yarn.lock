@@ -1676,7 +1676,7 @@ __metadata:
     "@babel/core": "npm:^7.22.9"
     "@neetly/babel-preset": "npm:^0.3.0"
     "@neetly/tsconfig": "npm:^0.3.0"
-    "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.10"
+    "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.11"
     "@types/mime-types": "npm:^2.1.1"
     "@types/node": "npm:^20.5.1"
     autoprefixer: "npm:^10.4.15"
@@ -2317,9 +2317,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.10, @pmmmwh/react-refresh-webpack-plugin@npm:^0.5.5":
-  version: 0.5.10
-  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.10"
+"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.11, @pmmmwh/react-refresh-webpack-plugin@npm:^0.5.5":
+  version: 0.5.11
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.11"
   dependencies:
     ansi-html-community: "npm:^0.0.8"
     common-path-prefix: "npm:^3.0.0"
@@ -2334,7 +2334,7 @@ __metadata:
     "@types/webpack": 4.x || 5.x
     react-refresh: ">=0.10.0 <1.0.0"
     sockjs-client: ^1.4.0
-    type-fest: ">=0.17.0 <4.0.0"
+    type-fest: ">=0.17.0 <5.0.0"
     webpack: ">=4.43.0 <6.0.0"
     webpack-dev-server: 3.x || 4.x
     webpack-hot-middleware: 2.x
@@ -2352,7 +2352,7 @@ __metadata:
       optional: true
     webpack-plugin-serve:
       optional: true
-  checksum: 6e3c033a12969cbe2c4a2dafd327b1660c052c285f21d515107124970ea864c1a6b15ac6495ee5d0fe6dc7aacaeffbc6a9ecf768333dc1c315b6afe480347ffd
+  checksum: 10c0/a9c8468417a14a23339e313cff6ddb8029e0637748973070e61d83a2534620b3492b9a42ecf9eb9d63cb709f53c17fe814bc7dd68d64c300db338e9fd7287bc4
   languageName: node
   linkType: hard
 
