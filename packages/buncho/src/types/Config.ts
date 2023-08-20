@@ -1,6 +1,6 @@
 import type { Configuration as DevServerConfiguration } from "webpack-dev-server";
 
-type Config = {
+interface Config {
   publicPath?: string;
   useReactRefresh?: boolean;
 
@@ -9,6 +9,6 @@ type Config = {
     port?: number;
     proxy?: DevServerConfiguration["proxy"];
   };
-};
+}
 
 export type { Config };

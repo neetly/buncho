@@ -1,6 +1,6 @@
 import { fork } from "node:child_process";
 
-const executeBinary = ({
+const executeBinary = async ({
   path,
   args,
   env,
@@ -9,7 +9,7 @@ const executeBinary = ({
   args?: readonly string[];
   env?: Record<string, string | undefined>;
 }) => {
-  return new Promise<void>((resolve, reject) => {
+  await new Promise<void>((resolve, reject) => {
     const subprocess = fork(path, args, {
       stdio: "inherit",
       env: { ...process.env, ...env },

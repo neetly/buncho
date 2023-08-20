@@ -107,7 +107,7 @@ const getCssLoaders = ({
           localIdentName: isProduction
             ? "[hash:base64]"
             : "[1]__[local]__[hash:base64:8]",
-          localIdentRegExp: /([^/]+)\.module\.[^/.]+$/,
+          localIdentRegExp: /([^/]+)\.module\.[^./]+$/,
 
           // #region futureDefaults
           localIdentHashFunction: "xxhash64",
