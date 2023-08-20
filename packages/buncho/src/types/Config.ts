@@ -11,4 +11,4 @@ interface Config {
   };
 }
 
-export type { Config };
+export { type Config };
