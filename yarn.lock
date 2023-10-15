@@ -1676,7 +1676,7 @@ __metadata:
     "@neetly/babel-preset": "npm:^0.3.0"
     "@neetly/tsconfig": "npm:^0.3.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.11"
-    "@types/mime-types": "npm:^2.1.1"
+    "@types/mime-types": "npm:^2.1.2"
     "@types/node": "npm:^20.8.6"
     autoprefixer: "npm:^10.4.16"
     babel-loader: "npm:^9.1.3"
@@ -4266,10 +4266,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mime-types@npm:^2.1.0, @types/mime-types@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "@types/mime-types@npm:2.1.1"
-  checksum: 131b33bfd89481f6a791996db9198c6c5ffccbb310e990d1dd9fab7a2287b5a0fd642bdd959a19281397c86f721498e09956e3892e5db17f93f38e726ca05008
+"@types/mime-types@npm:^2.1.0, @types/mime-types@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "@types/mime-types@npm:2.1.2"
+  checksum: aab18eefbcd759908968958eeee6483d8559178d0a3510ca8da692b43f0d98afc8956270623586c6301165a3bd2dcbd9847a8c4d1ea1711de25bb5395686d2a3
   languageName: node
   linkType: hard
 
