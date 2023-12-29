@@ -29,7 +29,7 @@
     "mime-types": "^2.1.35",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss": "^8.4.32",
-    "postcss-loader": "^7.3.3",
+    "postcss-loader": "^7.3.4",
     "project-references-webpack-plugin": "^0.1.6",
     "react-refresh": "^0.14.0",
     "resolve-url-loader": "^5.0.0",
