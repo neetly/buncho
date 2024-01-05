@@ -26,7 +26,7 @@
     "@neetly/tsconfig": "^0.3.0",
     "eslint": "^8.56.0",
     "prettier": "^3.1.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.3"
   },
   "packageManager": "yarn@4.0.2"
 }
