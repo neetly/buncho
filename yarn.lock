@@ -1617,7 +1617,7 @@ __metadata:
     "@storybook/addon-essentials": "npm:^7.4.6"
     "@storybook/react": "npm:^7.4.6"
     "@storybook/react-webpack5": "npm:^7.4.6"
-    "@types/react": "npm:^18.2.28"
+    "@types/react": "npm:^18.2.46"
     "@types/react-dom": "npm:^18.2.13"
     buncho: "workspace:*"
     react: "npm:^18.2.0"
@@ -1708,7 +1708,7 @@ __metadata:
   resolution: "@buncho/webpack-env@workspace:packages/webpack-env"
   dependencies:
     "@neetly/tsconfig": "npm:^0.3.0"
-    "@types/react": "npm:^18.2.28"
+    "@types/react": "npm:^18.2.46"
     "@types/react-dom": "npm:^18.2.13"
     typescript: "npm:^5.3.3"
   peerDependencies:
@@ -4357,14 +4357,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16, @types/react@npm:^18.2.28":
-  version: 18.2.28
-  resolution: "@types/react@npm:18.2.28"
+"@types/react@npm:*, @types/react@npm:>=16, @types/react@npm:^18.2.46":
+  version: 18.2.46
+  resolution: "@types/react@npm:18.2.46"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 7bde71a9f5ba1feef7762b3a9280f3fc9dfba6ea905cbcb73f7e9cd55adcf69148d77e53da328c892767dc218dfb7319bf00a94f6550c1b58019b756cb27207d
+  checksum: 814cc67107e5e69501d65bfc371cc2c716665d2a3608d395a2f81e24c3a2875db28e2cad717dfb17017eabcffd1d68ee2c9e09ecaba3f7108d5b7fbb9888ebab
   languageName: node
   linkType: hard
 
@@ -5644,7 +5644,7 @@ __metadata:
     "@neetly/babel-preset": "npm:^0.3.0"
     "@neetly/tsconfig": "npm:^0.3.0"
     "@types/node": "npm:^20.10.6"
-    "@types/react": "npm:^18.2.28"
+    "@types/react": "npm:^18.2.46"
     "@types/react-dom": "npm:^18.2.13"
     clipanion: "npm:^3.2.1"
     copy-webpack-plugin: "npm:^11.0.0"
