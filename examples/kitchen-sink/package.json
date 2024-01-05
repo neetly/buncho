@@ -28,6 +28,6 @@
     "@storybook/react-webpack5": "^7.4.6",
     "buncho": "workspace:*",
     "storybook": "^7.4.6",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.3"
   }
 }
