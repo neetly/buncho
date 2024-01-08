@@ -11,8 +11,8 @@
   "main": "./lib/index.js",
   "style": "./lib/index.scss",
   "devDependencies": {
-    "@neetly/tsconfig": "^0.3.0",
+    "@neetly/tsconfig": "0.3.0",
     "buncho": "workspace:*",
-    "typescript": "^5.3.3"
+    "typescript": "5.3.3"
   }
 }

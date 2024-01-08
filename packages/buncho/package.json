@@ -21,20 +21,20 @@
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {
-    "@babel/cli": "^7.23.4",
-    "@babel/core": "^7.23.7",
+    "@babel/cli": "7.23.4",
+    "@babel/core": "7.23.7",
     "@buncho/webpack-config": "workspace:*",
     "@buncho/webpack-env": "workspace:*",
-    "@neetly/babel-preset": "^0.3.0",
-    "clipanion": "^3.2.1",
-    "copy-webpack-plugin": "^11.0.0",
-    "dotenv": "^16.3.1",
-    "dotenv-expand": "^10.0.0",
-    "html-webpack-plugin": "^5.6.0",
-    "webpack": "^5.83.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1",
-    "webpack-merge": "^5.10.0"
+    "@neetly/babel-preset": "0.3.0",
+    "clipanion": "3.2.1",
+    "copy-webpack-plugin": "11.0.0",
+    "dotenv": "16.3.1",
+    "dotenv-expand": "10.0.0",
+    "html-webpack-plugin": "5.6.0",
+    "webpack": "5.83.1",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1",
+    "webpack-merge": "5.10.0"
   },
   "peerDependencies": {
     "@types/react": "*",
@@ -58,12 +58,12 @@
     }
   },
   "devDependencies": {
-    "@neetly/tsconfig": "^0.3.0",
-    "@types/node": "^20.10.7",
-    "@types/react": "^18.2.47",
-    "@types/react-dom": "^18.2.18",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.3.3"
+    "@neetly/tsconfig": "0.3.0",
+    "@types/node": "20.10.7",
+    "@types/react": "18.2.47",
+    "@types/react-dom": "18.2.18",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.3.3"
   }
 }

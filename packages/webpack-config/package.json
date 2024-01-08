@@ -18,23 +18,23 @@
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {
-    "@babel/core": "^7.23.7",
-    "@neetly/babel-preset": "^0.3.0",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
-    "@types/mime-types": "^2.1.4",
-    "autoprefixer": "^10.4.16",
-    "babel-loader": "^9.1.3",
-    "css-loader": "^6.8.1",
-    "css-minimizer-webpack-plugin": "^5.0.1",
-    "mime-types": "^2.1.35",
-    "mini-css-extract-plugin": "^2.7.6",
-    "postcss": "^8.4.33",
-    "postcss-loader": "^7.3.4",
-    "project-references-webpack-plugin": "^0.1.6",
-    "react-refresh": "^0.14.0",
-    "resolve-url-loader": "^5.0.0",
-    "sass": "^1.69.7",
-    "sass-loader": "^13.3.3"
+    "@babel/core": "7.23.7",
+    "@neetly/babel-preset": "0.3.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.11",
+    "@types/mime-types": "2.1.4",
+    "autoprefixer": "10.4.16",
+    "babel-loader": "9.1.3",
+    "css-loader": "6.8.1",
+    "css-minimizer-webpack-plugin": "5.0.1",
+    "mime-types": "2.1.35",
+    "mini-css-extract-plugin": "2.7.6",
+    "postcss": "8.4.33",
+    "postcss-loader": "7.3.4",
+    "project-references-webpack-plugin": "0.1.6",
+    "react-refresh": "0.14.0",
+    "resolve-url-loader": "5.0.0",
+    "sass": "1.69.7",
+    "sass-loader": "13.3.3"
   },
   "peerDependencies": {
     "webpack": "*",
@@ -46,10 +46,10 @@
     }
   },
   "devDependencies": {
-    "@neetly/tsconfig": "^0.3.0",
-    "@types/node": "^20.10.7",
-    "typescript": "^5.3.3",
-    "webpack": "^5.83.1",
-    "webpack-dev-server": "^4.15.1"
+    "@neetly/tsconfig": "0.3.0",
+    "@types/node": "20.10.7",
+    "typescript": "5.3.3",
+    "webpack": "5.83.1",
+    "webpack-dev-server": "4.15.1"
   }
 }

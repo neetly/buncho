@@ -19,14 +19,14 @@
     "publish": "yarn workspaces foreach --all --no-private npm publish --tolerate-republish"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.4",
-    "@babel/core": "^7.23.7",
-    "@neetly/babel-preset": "^0.3.0",
-    "@neetly/eslint-config": "^0.7.0",
-    "@neetly/tsconfig": "^0.3.0",
-    "eslint": "^8.56.0",
-    "prettier": "^3.1.1",
-    "typescript": "^5.3.3"
+    "@babel/cli": "7.23.4",
+    "@babel/core": "7.23.7",
+    "@neetly/babel-preset": "0.3.0",
+    "@neetly/eslint-config": "0.7.0",
+    "@neetly/tsconfig": "0.3.0",
+    "eslint": "8.56.0",
+    "prettier": "3.1.1",
+    "typescript": "5.3.3"
   },
   "packageManager": "yarn@4.0.2"
 }
