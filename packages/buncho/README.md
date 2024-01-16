@@ -19,8 +19,8 @@ yarn buncho start
   "devServer": {
     "host": "localhost",
     "port": 3000,
-    "proxy": {}
-  }
+    "proxy": {},
+  },
 }
 ```
 
