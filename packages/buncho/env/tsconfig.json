@@ -4,8 +4,8 @@
   "include": ["."],
 
   "compilerOptions": {
-    "skipLibCheck": false
+    "skipLibCheck": false,
   },
 
-  "references": [{ "path": "../../webpack-env" }]
+  "references": [{ "path": "../../webpack-env" }],
 }
