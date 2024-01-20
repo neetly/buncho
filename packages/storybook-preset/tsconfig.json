@@ -7,8 +7,8 @@
     "rootDir": "./src",
     "outDir": "./lib",
 
-    "types": ["node"]
+    "types": ["node"],
   },
 
-  "references": [{ "path": "../buncho" }, { "path": "../webpack-config" }]
+  "references": [{ "path": "../buncho" }, { "path": "../webpack-config" }],
 }

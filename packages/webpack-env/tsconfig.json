@@ -7,6 +7,6 @@
     "rootDir": "./src",
     "outDir": "./lib",
 
-    "skipLibCheck": false
-  }
+    "skipLibCheck": false,
+  },
 }
