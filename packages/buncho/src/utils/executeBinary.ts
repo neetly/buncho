@@ -19,12 +19,12 @@ const executeBinary = async ({
       if (code === 0) {
         resolve();
       } else {
-        reject();
+        reject(subprocess);
       }
     });
 
     subprocess.on("error", () => {
-      reject();
+      reject(subprocess);
     });
   });
 };
