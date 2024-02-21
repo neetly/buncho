@@ -28,7 +28,7 @@
     "css-minimizer-webpack-plugin": "6.0.0",
     "mime-types": "2.1.35",
     "mini-css-extract-plugin": "2.7.7",
-    "postcss": "8.4.33",
+    "postcss": "8.4.35",
     "postcss-loader": "8.0.0",
     "project-references-webpack-plugin": "0.1.6",
     "react-refresh": "0.14.0",
