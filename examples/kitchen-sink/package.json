@@ -23,11 +23,11 @@
   "devDependencies": {
     "@buncho/storybook-preset": "workspace:*",
     "@neetly/tsconfig": "0.3.0",
-    "@storybook/addon-essentials": "7.6.10",
-    "@storybook/react": "7.6.10",
-    "@storybook/react-webpack5": "7.6.10",
+    "@storybook/addon-essentials": "7.6.17",
+    "@storybook/react": "7.6.17",
+    "@storybook/react-webpack5": "7.6.17",
     "buncho": "workspace:*",
-    "storybook": "7.6.10",
+    "storybook": "7.6.17",
     "typescript": "5.3.3"
   }
 }
