@@ -5459,7 +5459,7 @@ __metadata:
     clipanion: "npm:3.2.1"
     copy-webpack-plugin: "npm:12.0.2"
     dotenv: "npm:16.4.5"
-    dotenv-expand: "npm:10.0.0"
+    dotenv-expand: "npm:11.0.6"
     html-webpack-plugin: "npm:5.6.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -6628,14 +6628,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-expand@npm:10.0.0, dotenv-expand@npm:^10.0.0":
+"dotenv-expand@npm:11.0.6":
+  version: 11.0.6
+  resolution: "dotenv-expand@npm:11.0.6"
+  dependencies:
+    dotenv: "npm:^16.4.4"
+  checksum: 10c0/e22891ec72cb926d46d9a26290ef77f9cc9ddcba92d2f83d5e6f3a803d1590887be68e25b559415d080053000441b6f63f5b36093a565bb8c5c994b992ae49f2
+  languageName: node
+  linkType: hard
+
+"dotenv-expand@npm:^10.0.0":
   version: 10.0.0
   resolution: "dotenv-expand@npm:10.0.0"
   checksum: 10c0/298f5018e29cfdcb0b5f463ba8e8627749103fbcf6cf81c561119115754ed582deee37b49dfc7253028aaba875ab7aea5fa90e5dac88e511d009ab0e6677924e
   languageName: node
   linkType: hard
 
-"dotenv@npm:16.4.5, dotenv@npm:^16.0.0":
+"dotenv@npm:16.4.5, dotenv@npm:^16.0.0, dotenv@npm:^16.4.4":
   version: 16.4.5
   resolution: "dotenv@npm:16.4.5"
   checksum: 10c0/48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
