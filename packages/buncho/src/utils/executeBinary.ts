@@ -19,12 +19,14 @@ const executeBinary = async ({
       if (code === 0) {
         resolve();
       } else {
-        reject();
+        // eslint-disable-next-line @typescript-eslint/prefer-promise-reject-errors
+        reject(subprocess);
       }
     });
 
     subprocess.on("error", () => {
-      reject();
+      // eslint-disable-next-line @typescript-eslint/prefer-promise-reject-errors
+      reject(subprocess);
     });
   });
 };
