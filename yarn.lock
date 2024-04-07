@@ -1572,7 +1572,7 @@ __metadata:
     "@storybook/addon-essentials": "npm:7.6.17"
     "@storybook/react": "npm:7.6.17"
     "@storybook/react-webpack5": "npm:7.6.17"
-    "@types/react": "npm:18.2.61"
+    "@types/react": "npm:18.2.74"
     "@types/react-dom": "npm:18.2.19"
     buncho: "workspace:*"
     react: "npm:18.2.0"
@@ -1663,7 +1663,7 @@ __metadata:
   resolution: "@buncho/webpack-env@workspace:packages/webpack-env"
   dependencies:
     "@neetly/tsconfig": "npm:0.3.0"
-    "@types/react": "npm:18.2.61"
+    "@types/react": "npm:18.2.74"
     "@types/react-dom": "npm:18.2.19"
     typescript: "npm:5.4.4"
   peerDependencies:
@@ -4187,14 +4187,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.61, @types/react@npm:>=16":
-  version: 18.2.61
-  resolution: "@types/react@npm:18.2.61"
+"@types/react@npm:*, @types/react@npm:18.2.74, @types/react@npm:>=16":
+  version: 18.2.74
+  resolution: "@types/react@npm:18.2.74"
   dependencies:
     "@types/prop-types": "npm:*"
-    "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/a03fbb6ca8108bbccf12ac616e77e1457ae9324040c4a5d1293caaa62c187300b4eb38ec78c4724fb43d40d4c6fb909803db057c8b69ae441e2aab7b2acdc29a
+  checksum: 10c0/347e38b4c5dc20d50ff71bf04b7caaef490e5ff695e74a0088a13fbb2a0c5d125a5ecfd142adfa30f0176da0e2734942c91ba61d95ce269c43b3265bd7379361
   languageName: node
   linkType: hard
 
@@ -4209,13 +4208,6 @@ __metadata:
   version: 0.12.2
   resolution: "@types/retry@npm:0.12.2"
   checksum: 10c0/07481551a988cc90b423351919928b9ddcd14e3f5591cac3ab950851bb20646e55a10e89141b38bc3093d2056d4df73700b22ff2612976ac86a6367862381884
-  languageName: node
-  linkType: hard
-
-"@types/scheduler@npm:*":
-  version: 0.16.8
-  resolution: "@types/scheduler@npm:0.16.8"
-  checksum: 10c0/f86de504945b8fc41b1f391f847444d542e2e4067cf7e5d9bfeb5d2d2393d3203b1161bc0ef3b1e104d828dabfb60baf06e8d2c27e27ff7e8258e6e618d8c4ec
   languageName: node
   linkType: hard
 
@@ -5445,7 +5437,7 @@ __metadata:
     "@neetly/babel-preset": "npm:0.3.0"
     "@neetly/tsconfig": "npm:0.3.0"
     "@types/node": "npm:20.11.24"
-    "@types/react": "npm:18.2.61"
+    "@types/react": "npm:18.2.74"
     "@types/react-dom": "npm:18.2.19"
     clipanion: "npm:3.2.1"
     copy-webpack-plugin: "npm:12.0.2"
