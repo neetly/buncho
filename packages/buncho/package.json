@@ -21,8 +21,8 @@
     "prepack": "run clean && run build && cp ../../LICENSE ."
   },
   "dependencies": {
-    "@babel/cli": "7.23.9",
-    "@babel/core": "7.24.0",
+    "@babel/cli": "7.24.1",
+    "@babel/core": "7.24.4",
     "@buncho/webpack-config": "workspace:*",
     "@buncho/webpack-env": "workspace:*",
     "@neetly/babel-preset": "0.3.0",
