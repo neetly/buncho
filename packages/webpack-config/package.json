@@ -50,6 +50,6 @@
     "@types/node": "20.12.5",
     "typescript": "5.4.4",
     "webpack": "5.91.0",
-    "webpack-dev-server": "5.0.2"
+    "webpack-dev-server": "5.0.4"
   }
 }
