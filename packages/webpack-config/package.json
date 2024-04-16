@@ -34,7 +34,7 @@
     "react-refresh": "0.14.0",
     "resolve-url-loader": "5.0.0",
     "sass": "1.74.1",
-    "sass-loader": "14.1.1"
+    "sass-loader": "14.2.1"
   },
   "peerDependencies": {
     "webpack": "*",
