@@ -27,7 +27,7 @@
     "@storybook/react": "7.6.17",
     "@storybook/react-webpack5": "7.6.17",
     "buncho": "workspace:*",
-    "storybook": "7.6.17",
+    "storybook": "7.6.21",
     "typescript": "5.4.4"
   }
 }
