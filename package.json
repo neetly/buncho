@@ -19,7 +19,7 @@
     "publish": "yarn workspaces foreach --all --no-private npm publish --tolerate-republish"
   },
   "devDependencies": {
-    "@babel/cli": "7.24.1",
+    "@babel/cli": "7.29.7",
     "@babel/core": "7.24.4",
     "@neetly/babel-preset": "0.3.0",
     "@neetly/eslint-config": "0.7.0",
