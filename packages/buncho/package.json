@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@babel/cli": "7.24.1",
-    "@babel/core": "7.24.4",
+    "@babel/core": "7.29.6",
     "@buncho/webpack-config": "workspace:*",
     "@buncho/webpack-env": "workspace:*",
     "@neetly/babel-preset": "0.3.0",
